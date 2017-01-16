@@ -43,7 +43,7 @@ namespace Geta.Epi.FontThumbnail.Controllers
 	        return new ImageResult() {Image = image, ImageFormat = ImageFormat.Png};
 	    }
 
-        protected static bool CheckValidFormatHtmlColor(string inputColor)
+        protected virtual bool CheckValidFormatHtmlColor(string inputColor)
         {
             if (Regex.Match(inputColor, "^#(?:[0-9a-fA-F]{3}){1,2}$").Success)
                 return true;

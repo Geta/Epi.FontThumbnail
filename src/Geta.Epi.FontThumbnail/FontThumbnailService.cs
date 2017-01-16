@@ -17,7 +17,7 @@ namespace Geta.Epi.FontThumbnail
     [ServiceConfiguration(typeof(IFontThumbnailService))]
     public class FontThumbnailService : IFontThumbnailService
     {
-        public Image LoadThumbnailImage(ThumbnailSettings settings)
+        public virtual Image LoadThumbnailImage(ThumbnailSettings settings)
         {
             string fileName = settings.GetFileName(".png");
 
@@ -35,7 +35,7 @@ namespace Geta.Epi.FontThumbnail
             return Image.FromFile(GetFileFullPath(fileName));
         }
 
-        public MemoryStream GenerateImage(ThumbnailSettings settings)
+        protected virtual MemoryStream GenerateImage(ThumbnailSettings settings)
         {
             PrivateFontCollection fonts;
             FontFamily family = LoadFontFamily(HttpContext.Current.Server.MapPath("~/fontawesome-webfont.ttf"), out fonts);
@@ -74,19 +74,19 @@ namespace Geta.Epi.FontThumbnail
             return stream;
         }
 
-        public FontFamily LoadFontFamily(string fileName, out PrivateFontCollection fontCollection)
+        protected virtual FontFamily LoadFontFamily(string fileName, out PrivateFontCollection fontCollection)
         {
             fontCollection = new PrivateFontCollection();
             fontCollection.AddFontFile(fileName);
             return fontCollection.Families[0];
         }
 
-        private bool CachedImageExists(string fileName)
+        protected virtual bool CachedImageExists(string fileName)
         {
             return File.Exists(GetFileFullPath(fileName));
         }
 
-        private string GetFileFullPath(string fileName)
+        protected virtual string GetFileFullPath(string fileName)
         {
             string rootPath = ConfigurationManager.AppSettings["FontThumbnail.CachePath"] ?? Constants.DefaultCachePath;
             
