@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Geta.Epi.ContentReferenceSelector")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("desc")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Geta")]
 [assembly: AssemblyProduct("Geta.Epi.ContentReferenceSelector")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]

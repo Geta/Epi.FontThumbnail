@@ -8,9 +8,9 @@
     <owners>Geta</owners>
     <projectUrl>https://github.com/Geta/Epi.MediaReferenceSelector</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>s</description>
-    <releaseNotes></releaseNotes>
-    <copyright></copyright>
+    <description>desc</description>
+    <releaseNotes>Release</releaseNotes>
+    <copyright>Copy</copyright>
     <tags>EPiServer</tags>
     <dependencies>
       <dependency id="EPiServer.CMS.Core" version="9.0.0" />
