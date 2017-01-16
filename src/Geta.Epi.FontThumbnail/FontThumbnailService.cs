@@ -1,13 +1,9 @@
-﻿using System;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.IO;
 using System.Web;
-using System.Web.Hosting;
-using EPiServer.Framework.Configuration;
 using EPiServer.ServiceLocation;
 using EPiServer.Web;
 using Geta.Epi.FontThumbnail.Settings;
@@ -50,7 +46,7 @@ namespace Geta.Epi.FontThumbnail
             using (var bitmap = new Bitmap(settings.Width, settings.Height, PixelFormat.Format24bppRgb))
             using (var g = Graphics.FromImage(bitmap))
             {
-                g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
+                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
                 g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBilinear;
                 g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
                 g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;

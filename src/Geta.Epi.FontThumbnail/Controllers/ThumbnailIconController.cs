@@ -1,19 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
 using System.Drawing.Imaging;
-using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using System.Web.Hosting;
 using System.Web.Mvc;
-using EPiServer;
-using EPiServer.Core;
-using EPiServer.Framework.Configuration;
-using EPiServer.Framework.DataAnnotations;
 using EPiServer.Logging.Compatibility;
-using EPiServer.Web.Mvc;
 using Geta.Epi.FontThumbnail.Mvc;
 using Geta.Epi.FontThumbnail.Settings;
 
@@ -51,7 +41,5 @@ namespace Geta.Epi.FontThumbnail.Controllers
             var result = System.Drawing.Color.FromName(inputColor);
             return result.IsKnownColor;
         }
-
-	   
 	}
 }

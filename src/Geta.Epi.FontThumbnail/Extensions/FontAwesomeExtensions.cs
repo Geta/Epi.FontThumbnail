@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Linq;
 using System.Web;
-using EPiServer.Web;
 using Geta.Epi.FontThumbnail.Settings;
 
 namespace Geta.Epi.FontThumbnail.Extensions
@@ -12,9 +9,7 @@ namespace Geta.Epi.FontThumbnail.Extensions
 	{
 		public static string GetUrl(this FontAwesome icon, string backgroundColor, string foregroundColor, int fontSize)
 		{
-            var settings = new ThumbnailSettings();
-
-			settings.Icon = icon;
+			var settings = new ThumbnailSettings {Icon = icon};
 
 			// backgroundcolor
 			if (!string.IsNullOrEmpty(backgroundColor))
@@ -23,7 +18,7 @@ namespace Geta.Epi.FontThumbnail.Extensions
 			}
 			else
 			{
-				string cfg = ConfigurationManager.AppSettings["FontThumbnail.BackgroundColor"] as string ?? string.Empty;
+				var cfg = ConfigurationManager.AppSettings["FontThumbnail.BackgroundColor"] ?? string.Empty;
 				settings.BackgroundColor = (string.IsNullOrEmpty(cfg)) ? Constants.DefaultBackgroundColor : cfg;
 			}
 
@@ -34,7 +29,7 @@ namespace Geta.Epi.FontThumbnail.Extensions
 			}
 			else
 			{
-				string cfg = ConfigurationManager.AppSettings["FontThumbnail.ForegroundColor"] as string ?? string.Empty;
+				var cfg = ConfigurationManager.AppSettings["FontThumbnail.ForegroundColor"] ?? string.Empty;
 				settings.ForegroundColor = (string.IsNullOrEmpty(cfg)) ? Constants.DefaultForegroundColor : cfg;
 
 			}
