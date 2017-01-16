@@ -189,7 +189,9 @@
   <ItemGroup>
     <Content Include="ClientResources\templates\AssetsDropZone.html" />
     <Content Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.svg" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Geta.Epi.FontThumbnail.nuspec" />
     <Content Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.eot" />
     <Content Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" />
