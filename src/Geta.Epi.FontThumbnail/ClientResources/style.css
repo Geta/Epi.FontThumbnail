@@ -1,0 +1,21 @@
+﻿.custom-dropzone {
+	margin: 3px 0 10px 0;
+	padding: 0 5px 0 0;
+}
+
+.custom-dropzone .epi-assetsDropZone {
+	
+    border: 3px solid #C0C0C0;
+	border-style: dashed;
+	height: 80px;
+    padding: 5px;
+	display: table;
+	position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.custom-dropzone .epi-assetsDropZone.epi-dragOver {
+	border-color: #9FC733;
+}

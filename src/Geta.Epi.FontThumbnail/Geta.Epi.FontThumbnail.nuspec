@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Geta.Epi.FontThumbnail</id>
+    <version>$version$</version>
+    <title>Enhanced Episerver media reference selector</title>
+    <authors>Geta</authors>
+    <owners>Geta</owners>
+    <projectUrl>https://github.com/Geta/Epi.MediaReferenceSelector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>s</description>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <tags>EPiServer</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.Core" version="9.0.0" />
+      <dependency id="EPiServer.CMS.UI.Core" version="9.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Geta.Epi.FontThumbnail.dll" target="lib\net45\" />
+    <file src="bin\Geta.Epi.FontThumbnail.zip" target="content\modules\_protected\Geta.Epi.FontThumbnail\" />
+    <file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
+  </files>
+</package>
