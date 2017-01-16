@@ -30,8 +30,7 @@ namespace Geta.Epi.FontThumbnail.Controllers
 	        _thumbnailService = thumbnailService;
 	    }
 
-        //[Authorize(Roles = "CmsEditors")]
-        //public ActionResult GenerateThumbnail(FontAwesome icon, string backgroundColor = "#dddddd", string foregroundColor = "#ffffff")
+        [Authorize(Roles = "Administrators, CmsAdmins, CmsEditors, WebAdmins, WebEditors")]
         public ActionResult GenerateThumbnail(ThumbnailSettings settings)
 	    {
             if (!CheckValidFormatHtmlColor(settings.BackgroundColor) || !CheckValidFormatHtmlColor(settings.ForegroundColor))
