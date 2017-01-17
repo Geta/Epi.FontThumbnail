@@ -22,6 +22,14 @@ The defaults if nothing else is specified is of course the Geta colors as seen i
 
 The images that gets generated is cached in [appDataPath]\thumb_cache\
 
+Using the following configuration you can change the default colors:
+```xml
+<appSettings>
+    <add key="FontThumbnail.BackgroundColor" value="#000000" />
+    <add key="FontThumbnail.ForegroundColor" value="#ffffff" />
+    <add key="FontThumbnail.FontSize" value="40" />
+</appSettings>
+```
 ## How to install
 
 Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
