@@ -3,10 +3,10 @@
   <metadata>
     <id>Geta.Epi.FontThumbnail</id>
     <version>$version$</version>
-    <title>Enhanced Episerver media reference selector</title>
+    <title></title>
     <authors>Geta</authors>
     <owners>Geta</owners>
-    <projectUrl>https://github.com/Geta/Epi.MediaReferenceSelector</projectUrl>
+    <projectUrl>https://github.com/Geta/Epi.FontThumbnail</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>desc</description>
     <releaseNotes>Release</releaseNotes>
