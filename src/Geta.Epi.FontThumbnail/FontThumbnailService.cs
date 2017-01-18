@@ -3,8 +3,11 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.IO;
+using System.Linq;
 using System.Web;
+using System.Web.Hosting;
 using EPiServer.ServiceLocation;
+using EPiServer.Shell.Modules;
 using EPiServer.Web;
 using Geta.Epi.FontThumbnail.Settings;
 
@@ -13,6 +16,13 @@ namespace Geta.Epi.FontThumbnail
     [ServiceConfiguration(typeof(IFontThumbnailService))]
     public class FontThumbnailService : IFontThumbnailService
     {
+	    private readonly ModuleTable _moduleTable;
+
+	    public FontThumbnailService(ModuleTable moduleTable)
+	    {
+		    _moduleTable = moduleTable;
+	    }
+
         public virtual Image LoadThumbnailImage(ThumbnailSettings settings)
         {
             string fileName = settings.GetFileName(".png");
@@ -33,10 +43,10 @@ namespace Geta.Epi.FontThumbnail
 
         protected virtual MemoryStream GenerateImage(ThumbnailSettings settings)
         {
-            PrivateFontCollection fonts;
-            FontFamily family = LoadFontFamily(HttpContext.Current.Server.MapPath("~/fontawesome-webfont.ttf"), out fonts);
+			PrivateFontCollection fonts;
+            FontFamily family = LoadFontFamily(HttpContext.Current.Server.MapPath(Constants.FontAwesomePath), out fonts);
 
-            var cc = new ColorConverter();
+			var cc = new ColorConverter();
             var bg = (Color)cc.ConvertFrom(settings.BackgroundColor);
             var fg = (Color)cc.ConvertFrom(settings.ForegroundColor);
 

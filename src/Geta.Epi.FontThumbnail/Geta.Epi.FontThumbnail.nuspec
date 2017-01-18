@@ -19,7 +19,7 @@
   </metadata>
   <files>
     <file src="bin\Geta.Epi.FontThumbnail.dll" target="lib\net45\" />
-		<file src="bin\Geta.Epi.FontThumbnail.zip" target="content\modules\_protected\Geta.Epi.FontThumbnail\" />
+		<file src="Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" target="content\modules\_protected\Geta.Epi.FontThumbnail\" />
 		<file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
   </files>
 </package>

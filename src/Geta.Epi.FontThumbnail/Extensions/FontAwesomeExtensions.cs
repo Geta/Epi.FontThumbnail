@@ -50,7 +50,7 @@ namespace Geta.Epi.FontThumbnail.Extensions
 
 
 
-            return string.Format("thumbnailicon?{0}",parameters);
+            return string.Format("/Geta_Epi_ThumbnailIcon?{0}", parameters);
 
 		}
 	}

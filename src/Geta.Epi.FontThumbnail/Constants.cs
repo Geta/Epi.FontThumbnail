@@ -3,6 +3,7 @@
     public static class Constants
     {
         public static string DefaultCachePath = "[appDataPath]\\thumb_cache\\";
+		public static string FontAwesomePath = "modules\\_protected\\Geta.Epi.FontThumbnail\\fontawesome-webfont.ttf";
         public static string DefaultBackgroundColor = "#5ebd7d";
         public static string DefaultForegroundColor = "#ffffff";
         public static int DefaultFontSize = 40;

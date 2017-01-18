@@ -22,7 +22,7 @@ namespace Geta.Epi.FontThumbnail
             }
 
             // the route for the controller responsible for generating or loading the image from disk
-            RouteTable.Routes.MapRoute("Icon", "thumbnailicon", new { controller = "ThumbnailIcon", action = "GenerateThumbnail"});
+            RouteTable.Routes.MapRoute("ThumbnailIcon", "Geta_Epi_ThumbnailIcon", new { controller = "ThumbnailIcon", action = "GenerateThumbnail"});
 
             // verify cache directory exists
             string fullPath = VirtualPathUtilityEx.RebasePhysicalPath(Constants.DefaultCachePath);

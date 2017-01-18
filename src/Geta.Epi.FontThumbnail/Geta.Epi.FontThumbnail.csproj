@@ -182,16 +182,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\fontawesome-webfont.svg" />
+    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.svg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Geta.Epi.FontThumbnail.nuspec" />
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\fontawesome-webfont.eot" />
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" />
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\fontawesome-webfont.woff" />
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\fontawesome-webfont.woff2" />
-    <Content Include="ClientResources\Fonts\font-awesome-4.7.0\FontAwesome.otf" />
+    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.eot" />
+    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" />
+    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff" />
+    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff2" />
+    <None Include="Fonts\font-awesome-4.7.0\FontAwesome.otf" />
     <None Include="module.config" />
     <None Include="Web.Module.config" />
   </ItemGroup>
@@ -207,6 +207,7 @@
     <Compile Include="Extensions\FontAwesomeExtensions.cs" />
     <Compile Include="FontAwesome.cs" />
     <Compile Include="FontThumbnailInitialization.cs" />
+    <Compile Include="FontThumbnailModule.cs" />
     <Compile Include="FontThumbnailService.cs" />
     <Compile Include="IFontThumbnailService.cs" />
     <Compile Include="Mvc\ImageResult.cs" />
@@ -221,7 +222,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
-  <Import Project="$(SolutionDir)build\BuildEpiModule.proj" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
