@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Hosting;
+using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.Modules;
 using EPiServer.Web;
@@ -36,6 +37,7 @@ namespace Geta.Epi.FontThumbnail
                 {
                     stream.Seek(0, SeekOrigin.Begin);
                     stream.CopyTo(fileStream);
+					stream.Dispose();
                 }
             }
             return Image.FromFile(GetFileFullPath(fileName));
@@ -45,7 +47,7 @@ namespace Geta.Epi.FontThumbnail
         {
 			PrivateFontCollection fonts;
             FontFamily family = LoadFontFamily(HttpContext.Current.Server.MapPath(Constants.FontAwesomePath), out fonts);
-
+			
 			var cc = new ColorConverter();
             var bg = (Color)cc.ConvertFrom(settings.BackgroundColor);
             var fg = (Color)cc.ConvertFrom(settings.ForegroundColor);
@@ -73,11 +75,11 @@ namespace Geta.Epi.FontThumbnail
                 g.DrawString(chr, font, new SolidBrush(fg), displayRectangle, format1);
                 bitmap.Save(stream, ImageFormat.Png);
 
-                font.Dispose();
-                family.Dispose();
-            }
-
-            return stream;
+				family.Dispose();
+				fonts.Dispose();
+			}
+			
+			return stream;
         }
 
         protected virtual FontFamily LoadFontFamily(string fileName, out PrivateFontCollection fontCollection)
