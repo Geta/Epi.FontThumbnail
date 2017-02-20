@@ -4,12 +4,6 @@ This package basically consists of an override to the built in "ImageUrlAttribut
 
 ![Screenshot of package](/docs/fontthumbnail_overview.jpg)
 
-## How to install
-
-Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
-
-    Install-Package Geta.Epi.FontThumbnail
-
 ## How to use
 
 Using the built in ImageUrlAttribute, you specify the images to be presented like this:
@@ -38,3 +32,9 @@ Using the following configuration you can change the default colors:
     <add key="FontThumbnail.FontSize" value="40" />
 </appSettings>
 ```
+
+## How to install
+
+Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
+
+    Install-Package Geta.Epi.FontThumbnail
