@@ -4,6 +4,8 @@ using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.IO;
 using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Web;
 using System.Web.Hosting;
 using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
@@ -54,8 +56,8 @@ namespace Geta.Epi.FontThumbnail
         protected virtual MemoryStream GenerateImage(ThumbnailSettings settings)
         {
 			PrivateFontCollection fonts;
-            FontFamily family = LoadFontFamily(HttpContext.Current.Server.MapPath(Constants.FontAwesomePath), out fonts);
-			
+            FontFamily family = LoadFontFamilyFromEmbeddedResource(Constants.FontAwesomePath, out fonts);
+
 			var cc = new ColorConverter();
             var bg = (Color)cc.ConvertFrom(settings.BackgroundColor);
             var fg = (Color)cc.ConvertFrom(settings.ForegroundColor);
@@ -86,14 +88,38 @@ namespace Geta.Epi.FontThumbnail
 				family.Dispose();
 				fonts.Dispose();
 			}
-			
+
 			return stream;
         }
 
-        protected virtual FontFamily LoadFontFamily(string fileName, out PrivateFontCollection fontCollection)
+        protected virtual FontFamily LoadFontFamilyFromEmbeddedResource(string fileName, out PrivateFontCollection fontCollection)
         {
             fontCollection = new PrivateFontCollection();
-            fontCollection.AddFontFile(fileName);
+
+            // receive resource stream
+            Stream fontStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(fileName);
+
+            // create an unsafe memory block for the font data
+            System.IntPtr data = Marshal.AllocCoTaskMem((int)fontStream.Length);
+
+            // create a buffer to read in to
+            byte[] fontdata = new byte[fontStream.Length];
+
+            // read the font data from the resource
+            fontStream.Read(fontdata, 0, (int)fontStream.Length);
+
+            // copy the bytes to the unsafe memory block
+            Marshal.Copy(fontdata, 0, data, (int)fontStream.Length);
+
+            // pass the font to the font collection
+            fontCollection.AddMemoryFont(data, (int)fontStream.Length);
+
+            // close the resource stream
+            fontStream.Close();
+
+            // free up the unsafe memory
+            Marshal.FreeCoTaskMem(data);
+
             return fontCollection.Families[0];
         }
 
@@ -105,10 +131,10 @@ namespace Geta.Epi.FontThumbnail
         protected virtual string GetFileFullPath(string fileName)
         {
             string rootPath = ConfigurationManager.AppSettings["FontThumbnail.CachePath"] ?? Constants.DefaultCachePath;
-            
+
             return VirtualPathUtilityEx.RebasePhysicalPath(rootPath + fileName);
         }
 
-        
+
     }
 }

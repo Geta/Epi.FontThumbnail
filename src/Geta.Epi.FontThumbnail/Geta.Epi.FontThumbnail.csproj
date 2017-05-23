@@ -188,6 +188,7 @@
     </Content>
     <Content Include="Geta.Epi.FontThumbnail.nuspec" />
     <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.eot" />
+    <EmbeddedResource Include="Fonts\fontawesome.ttf" />
     <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" />
     <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff" />
     <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff2" />
