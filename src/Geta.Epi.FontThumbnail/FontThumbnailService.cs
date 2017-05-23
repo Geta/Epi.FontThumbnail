@@ -29,7 +29,7 @@ namespace Geta.Epi.FontThumbnail
             string fileName = settings.GetFileName(".png");
 
             if (!CachedImageExists(fileName))
-            {   
+            {
                 var stream = GenerateImage(settings);
 
                 string savePath = GetFileFullPath(fileName);
@@ -37,10 +37,18 @@ namespace Geta.Epi.FontThumbnail
                 {
                     stream.Seek(0, SeekOrigin.Begin);
                     stream.CopyTo(fileStream);
-					stream.Dispose();
+                    stream.Dispose();
+                    stream.Close();
                 }
             }
-            return Image.FromFile(GetFileFullPath(fileName));
+
+            Image img;
+            using (var bmpTemp = new Bitmap(GetFileFullPath(fileName)))
+            {
+                img = new Bitmap(bmpTemp);
+            }
+
+            return img;
         }
 
         protected virtual MemoryStream GenerateImage(ThumbnailSettings settings)
