@@ -1,7 +1,7 @@
 ﻿namespace Geta.Epi.FontThumbnail
 {
 	/*https://github.com/FrankW76/FontAwesome-WindowsForms/blob/7a45500c3d04ba98ecb7ff402d98217bdf2b4aca/FontAwesomeIcons/IconType.cs*/
-	public enum IconType
+	public enum FontAwesome
 	{
 		_500Px = 0xf26e,
 		AddressBook = 0xf2b9,
