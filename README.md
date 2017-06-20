@@ -33,6 +33,20 @@ Using the following configuration you can change the default colors:
 </appSettings>
 ```
 
+## Loading custom fonts
+To load custom icon fonts you can place the font you want to use in the default folder [appDataPath]\fonts\ (this can also be customized using appSettings.
+```xml
+<appSettings>
+    <add key="FontThumbnail.CustomFontPath" value="" />
+</appSettings>
+```
+Then specify the font and the character to use in the ThumbnailIcon constructor like this.
+```cs
+[ThumbnailIcon("fontello.ttf",0xe801)]
+```
+
+
+
 ## How to install
 
 Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
