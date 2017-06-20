@@ -1,14 +1,11 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Web;
-using System.Web.Hosting;
-using Castle.DynamicProxy.Generators.Emitters.SimpleAST;
 using EPiServer.ServiceLocation;
 using EPiServer.Shell.Modules;
 using EPiServer.Web;
@@ -56,7 +53,16 @@ namespace Geta.Epi.FontThumbnail
         protected virtual MemoryStream GenerateImage(ThumbnailSettings settings)
         {
 			PrivateFontCollection fonts;
-            FontFamily family = LoadFontFamilyFromEmbeddedResource(Constants.FontAwesomePath, out fonts);
+            FontFamily family;
+            if (settings.UseEmbeddedFont)
+            {
+                family = LoadFontFamilyFromEmbeddedResource(settings.EmbeddedFont, out fonts);
+            }
+            else
+            {
+                family = LoadFontFamilyFromDisk(settings.CustomFontName, out fonts);
+            }
+
 
 			var cc = new ColorConverter();
             var bg = (Color)cc.ConvertFrom(settings.BackgroundColor);
@@ -81,7 +87,7 @@ namespace Geta.Epi.FontThumbnail
                 format1.Alignment = StringAlignment.Center;
 
                 Rectangle displayRectangle = new Rectangle(new Point(0, 0), new Size(settings.Width, settings.Height));
-                string chr = char.ConvertFromUtf32((int)settings.Icon);
+                string chr = char.ConvertFromUtf32(settings.Character);
                 g.DrawString(chr, font, new SolidBrush(fg), displayRectangle, format1);
                 bitmap.Save(stream, ImageFormat.Png);
 
@@ -94,33 +100,61 @@ namespace Geta.Epi.FontThumbnail
 
         protected virtual FontFamily LoadFontFamilyFromEmbeddedResource(string fileName, out PrivateFontCollection fontCollection)
         {
-            fontCollection = new PrivateFontCollection();
+            try
+            {
+                fontCollection = new PrivateFontCollection();
 
-            // receive resource stream
-            Stream fontStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(fileName);
+                string fontPath = $"{Constants.EmbeddedFontPath}.{fileName}";
 
-            // create an unsafe memory block for the font data
-            System.IntPtr data = Marshal.AllocCoTaskMem((int)fontStream.Length);
+                // receive resource stream
+                Stream fontStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(fontPath);
 
-            // create a buffer to read in to
-            byte[] fontdata = new byte[fontStream.Length];
+                // create an unsafe memory block for the font data
+                System.IntPtr data = Marshal.AllocCoTaskMem((int)fontStream.Length);
 
-            // read the font data from the resource
-            fontStream.Read(fontdata, 0, (int)fontStream.Length);
+                // create a buffer to read in to
+                byte[] fontdata = new byte[fontStream.Length];
 
-            // copy the bytes to the unsafe memory block
-            Marshal.Copy(fontdata, 0, data, (int)fontStream.Length);
+                // read the font data from the resource
+                fontStream.Read(fontdata, 0, (int)fontStream.Length);
 
-            // pass the font to the font collection
-            fontCollection.AddMemoryFont(data, (int)fontStream.Length);
+                // copy the bytes to the unsafe memory block
+                Marshal.Copy(fontdata, 0, data, (int)fontStream.Length);
 
-            // close the resource stream
-            fontStream.Close();
+                // pass the font to the font collection
+                fontCollection.AddMemoryFont(data, (int)fontStream.Length);
 
-            // free up the unsafe memory
-            Marshal.FreeCoTaskMem(data);
+                // close the resource stream
+                fontStream.Close();
 
-            return fontCollection.Families[0];
+                // free up the unsafe memory
+                Marshal.FreeCoTaskMem(data);
+
+                return fontCollection.Families[0];
+            }
+            catch(Exception ex)
+            {
+                throw (new Exception($"Unable to load font {fileName} from EmbeddedResource", ex));
+            }
+        }
+
+        protected virtual FontFamily LoadFontFamilyFromDisk(string fileName, out PrivateFontCollection fontCollection)
+        {
+            string customFontFolder = ConfigurationManager.AppSettings["FontThumbnail.CustomFontPath"] ?? Constants.DefaultCustomFontPath;
+            string fontPath = $"{customFontFolder}{fileName}";
+
+            var rebased = VirtualPathUtilityEx.RebasePhysicalPath(fontPath);
+
+            try
+            {
+                fontCollection = new PrivateFontCollection();
+                fontCollection.AddFontFile(rebased);
+                return fontCollection.Families[0];
+            }
+            catch (Exception ex)
+            {
+                throw (new Exception($"Unable to load custom font from path {fontPath}", ex));
+            }
         }
 
         protected virtual bool CachedImageExists(string fileName)

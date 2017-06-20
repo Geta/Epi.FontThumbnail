@@ -7,12 +7,22 @@ namespace Geta.Epi.FontThumbnail.Settings
 {
     public class ThumbnailSettings
     {
-        public FontAwesome Icon { get; set; } 
         public string BackgroundColor { get; set; }
         public string ForegroundColor { get; set; }
         public int Width { get; set; }
         public int Height { get; set; }
         public int FontSize { get; set; }
+        public int Character { get; set; }
+        public string CustomFontName { get; set; }
+        public string EmbeddedFont { get; set; }
+
+        public bool UseEmbeddedFont
+        {
+            get
+            {
+                return string.IsNullOrWhiteSpace(CustomFontName);
+            }
+        }
 
         public string GetFileName(string fileEnding)
         {
@@ -25,15 +35,9 @@ namespace Geta.Epi.FontThumbnail.Settings
 
             foreach (var prop in this.GetType().GetProperties())
             {
-                coll.Add(prop.Name,prop.GetValue(this,null).ToString());
+                coll.Add(prop.Name,prop.GetValue(this,null)?.ToString());
             }
             return coll;
-        }
-
-        public override string ToString()
-        {
-            return string.Concat(this.Icon, this.BackgroundColor, this.ForegroundColor, this.FontSize, this.Width,
-                this.Height);
         }
 
         protected virtual Guid AsGuid(string input)
@@ -49,6 +53,12 @@ namespace Geta.Epi.FontThumbnail.Settings
             }
 
             return result;
+        }
+
+        public override string ToString()
+        {
+            return string.Concat(this.EmbeddedFont, this.CustomFontName, this.Character, this.BackgroundColor, this.ForegroundColor, this.FontSize, this.Width,
+                this.Height);
         }
     }
 }
