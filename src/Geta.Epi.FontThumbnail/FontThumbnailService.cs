@@ -149,6 +149,7 @@ namespace Geta.Epi.FontThumbnail
             {
                 fontCollection = new PrivateFontCollection();
                 fontCollection.AddFontFile(rebased);
+                RemoveFontResourceEx(rebased, 16, IntPtr.Zero);
                 return fontCollection.Families[0];
             }
             catch (Exception ex)
@@ -168,6 +169,11 @@ namespace Geta.Epi.FontThumbnail
 
             return VirtualPathUtilityEx.RebasePhysicalPath(rootPath + fileName);
         }
+
+        // https://stackoverflow.com/questions/26671026/how-to-delete-the-file-of-a-privatefontcollection-addfontfile
+        // Force unregister of font in GDI32 because of bug
+        [DllImport("gdi32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+        public static extern int RemoveFontResourceEx(string lpszFilename, int fl, IntPtr pdv);
 
 
     }
