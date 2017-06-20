@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/Geta/Epi.FontThumbnail</projectUrl>
 		<iconUrl>https://cdn.geta.no/opensource/icons/Geta-logo-3.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Generates images based on FontAwesome, to be shown when creating new content in Episerver.</description>
+    <description>Generates images based on FontAwesome or custom icon font, to be shown when creating new content in Episerver.</description>
     <copyright>Copyright 2017 Geta</copyright>
     <tags>EPiServer</tags>
     <dependencies>
