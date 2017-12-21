@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Geta.Epi.FontThumbnail.dll" target="lib\net45\" />
-		<file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
+    <file src="bin\Release\Geta.Epi.FontThumbnail.dll" target="lib\net45\" />
+	<file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
   </files>
 </package>
