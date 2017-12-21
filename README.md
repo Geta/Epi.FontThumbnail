@@ -58,6 +58,7 @@ Then specify the font and the character to use in the ThumbnailIcon constructor 
 
 ## More info
 https://getadigital.com/blog/contenttype-preview-images-w.-icons/
+
 https://getadigital.com/blog/new-version-of-fontthumbnail/
 
 ## Package maintainer
