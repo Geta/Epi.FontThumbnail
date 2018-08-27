@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Configuration;
 using System.Drawing;
 using System.Drawing.Imaging;
@@ -16,13 +16,6 @@ namespace Geta.Epi.FontThumbnail
     [ServiceConfiguration(typeof(IFontThumbnailService))]
     public class FontThumbnailService : IFontThumbnailService
     {
-	    private readonly ModuleTable _moduleTable;
-
-	    public FontThumbnailService(ModuleTable moduleTable)
-	    {
-		    _moduleTable = moduleTable;
-	    }
-
         public virtual Image LoadThumbnailImage(ThumbnailSettings settings)
         {
             string fileName = settings.GetFileName(".png");

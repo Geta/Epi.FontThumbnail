@@ -11,12 +11,22 @@ namespace Geta.Epi.FontThumbnail
     {
         public static string GetUrl(FontAwesome icon, string backgroundColor = "", string foregroundColor = "", int fontSize = -1)
         {
-            var settings = GetSettings(backgroundColor,foregroundColor,fontSize);
-            settings.EmbeddedFont = "fontawesome.ttf";
+            return BuildSettings("fontawesome.ttf", (int)icon, backgroundColor, foregroundColor, fontSize);
+        }
 
-            settings.Character = (int)icon;
+        public static string GetUrl(FontAwesome5Brands icon, string backgroundColor = "", string foregroundColor = "", int fontSize = -1)
+        {
+            return BuildSettings("fa-brands-400.ttf", (int)icon, backgroundColor, foregroundColor, fontSize);
+        }
 
-            return CompileUrl(settings);
+        public static string GetUrl(FontAwesome5Regular icon, string backgroundColor = "", string foregroundColor = "", int fontSize = -1)
+        {
+            return BuildSettings("fa-regular-400.ttf", (int)icon, backgroundColor, foregroundColor, fontSize);
+        }
+
+        public static string GetUrl(FontAwesome5Solid icon, string backgroundColor = "", string foregroundColor = "", int fontSize = -1)
+        {
+            return BuildSettings("fa-solid-900.ttf", (int)icon, backgroundColor, foregroundColor, fontSize);
         }
 
         public static string GetUrl(string customFont, int character, string backgroundColor = "",
@@ -30,7 +40,13 @@ namespace Geta.Epi.FontThumbnail
             return CompileUrl(settings);
         }
 
-
+        private static string BuildSettings(string embeddedFont, int icon, string backgroundColor, string foregroundColor, int fontSize)
+        {
+            var settings = GetSettings(backgroundColor, foregroundColor, fontSize);
+            settings.EmbeddedFont = embeddedFont;
+            settings.Character = icon;
+            return CompileUrl(settings);
+        }
 
         // Helper methods
         private static string CompileUrl(ThumbnailSettings settings)
