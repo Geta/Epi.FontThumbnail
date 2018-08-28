@@ -172,17 +172,16 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.svg" />
+    <EmbeddedResource Include="Fonts\fa-brands-400.ttf" />
+    <EmbeddedResource Include="Fonts\fa-regular-400.ttf" />
+    <EmbeddedResource Include="Fonts\fa-solid-900.ttf" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Geta.Epi.FontThumbnail.nuspec" />
-    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.eot" />
+    <Content Include="Geta.Epi.FontThumbnail.nuspec">
+      <SubType>Designer</SubType>
+    </Content>
     <EmbeddedResource Include="Fonts\fontawesome.ttf" />
-    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.ttf" />
-    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff" />
-    <None Include="Fonts\font-awesome-4.7.0\fontawesome-webfont.woff2" />
-    <None Include="Fonts\font-awesome-4.7.0\FontAwesome.otf" />
     <None Include="module.config" />
     <None Include="Web.Module.config" />
   </ItemGroup>
@@ -191,6 +190,9 @@
     <Compile Include="Controllers\ThumbnailIconController.cs" />
     <Compile Include="DataAnnotations\ThumbnailIcon.cs" />
     <Compile Include="FontAwesome.cs" />
+    <Compile Include="FontAwesome5Brands.cs" />
+    <Compile Include="FontAwesome5Regular.cs" />
+    <Compile Include="FontAwesome5Solid.cs" />
     <Compile Include="FontThumbnailInitialization.cs" />
     <Compile Include="FontThumbnailModule.cs" />
     <Compile Include="FontThumbnailService.cs" />
