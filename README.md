@@ -63,3 +63,6 @@ https://getadigital.com/blog/new-version-of-fontthumbnail/
 
 ## Package maintainer
 https://github.com/degborta
+
+## Contributors
+https://github.com/johanbenschop
