@@ -7,7 +7,7 @@ This package basically consists of an override to the built in "ImageUrlAttribut
 
 ## Features
 * Generates preview images for the different contenttypes in your Episerver project
-* Support for using FontAwesome icons
+* Support for using Font Awesome Free 5 and 4 icons
 * Supports customized foreground and background color on generated images
 * Loading custom fonts
 
@@ -22,14 +22,15 @@ Using the built in ImageUrlAttribute, you specify the images to be presented lik
 [ImageUrlAttribute("~/images/contenttypes/articlepage.png")]
 ```
 
-Using this package you can specify it like this instead.
+Using this package you can specify it like this instead:
 ```cs
-[ThumbnailIcon(FontAwesome.Github)]
+[ThumbnailIcon(FontAwesome5Brands.Github)]
 ```
+There are a couple different enum types available: `FontAwesome5Brands`, `FontAwesome5Regular` and `FontAwesome5Solid` for the different Font Awesome 5 styles. There is also the `FontAwesome` enum for the Font Awesome version 4 icons. 
 
-or with overriddes for specifying different colors and size
+Or with overriddes for specifying different colors and size:
 ```cs
-[ThumbnailIcon(FontAwesome.Github,"#000000","#ffffff",40)]
+[ThumbnailIcon(FontAwesome5Brands.Github,"#000000","#ffffff",40)]
 ```
 The defaults if nothing else is specified is of course the Geta colors as seen in the screenshot.
 
