@@ -7,17 +7,18 @@
     <authors>Geta</authors>
     <owners>Geta</owners>
     <projectUrl>https://github.com/Geta/Epi.FontThumbnail</projectUrl>
-	<iconUrl>https://cdn.geta.no/opensource/icons/Geta-logo-3.png</iconUrl>
+    <iconUrl>https://cdn.geta.no/opensource/icons/Geta-logo-3.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Generates images based on FontAwesome or custom icon font, to be shown when creating new content in Episerver.</description>
-    <copyright>Copyright 2017 Geta</copyright>
-    <tags>EPiServer</tags>
+    <description>Generates images based on FontAwesome (4 and 5) or custom icon font, to be shown when creating new content in Episerver.</description>
+    <copyright>Copyright 2018 Geta</copyright>
+    <tags>Episerver</tags>
     <dependencies>
       <dependency id="EPiServer.CMS.UI" version="[11.1.0, 12.0)" />
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\Geta.Epi.FontThumbnail.dll" target="lib\net45\" />
-	<file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
+    <file src="bin\Release\Geta.Epi.FontThumbnail.dll" target="lib\net461\" />
+    <file src="bin\Release\Geta.Epi.FontThumbnail.xml" target="lib\net461\" />
+    <file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
   </files>
 </package>

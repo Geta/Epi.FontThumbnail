@@ -15,27 +15,20 @@ namespace Geta.Epi.FontThumbnail.Settings
         public int Character { get; set; }
         public string CustomFontName { get; set; }
         public string EmbeddedFont { get; set; }
-
-        public bool UseEmbeddedFont
-        {
-            get
-            {
-                return string.IsNullOrWhiteSpace(CustomFontName);
-            }
-        }
+        public bool UseEmbeddedFont => string.IsNullOrWhiteSpace(CustomFontName);
 
         public string GetFileName(string fileEnding)
         {
-            return string.Concat(this.AsGuid(this.ToString()),fileEnding);
+            return string.Concat(AsGuid(ToString()), fileEnding);
         }
 
         public NameValueCollection GetUrlParameters()
         {
             var coll = new NameValueCollection();
 
-            foreach (var prop in this.GetType().GetProperties())
+            foreach (var prop in GetType().GetProperties())
             {
-                coll.Add(prop.Name,prop.GetValue(this,null)?.ToString());
+                coll.Add(prop.Name, prop.GetValue(this, null)?.ToString());
             }
             return coll;
         }
@@ -44,21 +37,16 @@ namespace Geta.Epi.FontThumbnail.Settings
         {
             var bytes = Encoding.UTF8.GetBytes(input);
 
-            Guid result;
-
             using (var hasher = MD5.Create())
             {
                 var hash = hasher.ComputeHash(bytes);
-                result = new Guid(hash);
+                return new Guid(hash);
             }
-
-            return result;
         }
 
         public override string ToString()
         {
-            return string.Concat(this.EmbeddedFont, this.CustomFontName, this.Character, this.BackgroundColor, this.ForegroundColor, this.FontSize, this.Width,
-                this.Height);
+            return string.Concat(EmbeddedFont, CustomFontName, Character, BackgroundColor, ForegroundColor, FontSize, Width, Height);
         }
     }
 }
