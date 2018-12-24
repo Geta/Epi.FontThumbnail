@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.6.1.
+	/// Font Awesome. Version 5.6.3.
 	/// </summary>
 	public enum FontAwesome5Solid
 	{
@@ -2260,9 +2260,16 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Fire (fire)
 		/// <para>Terms: caliente, flame, heat, hot, popular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.6.3.</para>
 		/// </summary>
 		Fire = 0xf06d,
+
+		/// <summary>
+		/// Alternate Fire (fire-alt)
+		/// <para>Terms: caliente, flame, heat, hot, popular</para>
+		/// <para>Added in 5.6.3.</para>
+		/// </summary>
+		FireAlt = 0xf7e4,
 
 		/// <summary>
 		/// Fire-Extinguisher (fire-extinguisher)

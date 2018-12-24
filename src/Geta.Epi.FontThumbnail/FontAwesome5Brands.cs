@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.6.0.
+	/// Font Awesome. Version 5.6.3.
 	/// </summary>
 	public enum FontAwesome5Brands
 	{
@@ -801,7 +801,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Fedora (fedora)
 		/// <para>Terms: linux, operating system, os</para>
-		/// <para>Added in 5.6.0.</para>
+		/// <para>Added in 5.6.0, updated in 5.6.3.</para>
 		/// </summary>
 		Fedora = 0xf798,
 
