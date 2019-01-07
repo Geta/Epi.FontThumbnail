@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.3.0.
+	/// Font Awesome. Version 5.6.3.
 	/// </summary>
 	public enum FontAwesome5Brands
 	{
@@ -34,10 +34,24 @@ namespace Geta.Epi.FontThumbnail
 		Accusoft = 0xf369,
 
 		/// <summary>
+		/// Acquisitions Incorporated (acquisitions-incorporated)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		AcquisitionsIncorporated = 0xf6af,
+
+		/// <summary>
 		/// App.Net (adn)
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
 		Adn = 0xf170,
+
+		/// <summary>
+		/// Adobe (adobe)
+		/// <para>Terms: acrobat, app, design, illustrator, indesign, photoshop</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Adobe = 0xf778,
 
 		/// <summary>
 		/// Adversal (adversal)
@@ -126,7 +140,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Apple (apple)
-		/// <para>Terms: food, fruit, osx</para>
+		/// <para>Terms: food, fruit, ios, mac, operating system, os, osx</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.0.7.</para>
 		/// </summary>
 		Apple = 0xf179,
@@ -138,10 +152,22 @@ namespace Geta.Epi.FontThumbnail
 		ApplePay = 0xf415,
 
 		/// <summary>
+		/// Artstation (artstation)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Artstation = 0xf77a,
+
+		/// <summary>
 		/// Asymmetrik, Ltd. (asymmetrik)
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
 		Asymmetrik = 0xf372,
+
+		/// <summary>
+		/// Atlassian (atlassian)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Atlassian = 0xf77b,
 
 		/// <summary>
 		/// Audible (audible)
@@ -199,8 +225,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Bitbucket (bitbucket)
-		/// <para>Terms: bitbucket-square, git</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
+		/// <para>Terms: atlassian, bitbucket-square, git</para>
+		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.6.0.</para>
 		/// </summary>
 		Bitbucket = 0xf171,
 
@@ -271,6 +297,13 @@ namespace Geta.Epi.FontThumbnail
 		Buysellads = 0xf20d,
 
 		/// <summary>
+		/// Canadian Maple Leaf (canadian-maple-leaf)
+		/// <para>Terms: canada, flag, flora, nature, plant</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		CanadianMapleLeaf = 0xf785,
+
+		/// <summary>
 		/// Amazon Pay Credit Card (cc-amazon-pay)
 		/// <para>Added in 5.0.2.</para>
 		/// </summary>
@@ -338,6 +371,13 @@ namespace Geta.Epi.FontThumbnail
 		Centercode = 0xf380,
 
 		/// <summary>
+		/// Centos (centos)
+		/// <para>Terms: linux, operating system, os</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Centos = 0xf789,
+
+		/// <summary>
 		/// Chrome (chrome)
 		/// <para>Terms: browser</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
@@ -373,6 +413,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
 		/// </summary>
 		Codiepie = 0xf284,
+
+		/// <summary>
+		/// Confluence (confluence)
+		/// <para>Terms: atlassian</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Confluence = 0xf78d,
 
 		/// <summary>
 		/// Connect Develop (connectdevelop)
@@ -435,7 +482,7 @@ namespace Geta.Epi.FontThumbnail
 		CreativeCommonsPd = 0xf4ec,
 
 		/// <summary>
-		/// Creative Commons Public Domain Alternate (creative-commons-pd-alt)
+		/// Alternate Creative Commons Public Domain (creative-commons-pd-alt)
 		/// <para>Added in 5.0.11.</para>
 		/// </summary>
 		CreativeCommonsPdAlt = 0xf4ed,
@@ -471,6 +518,19 @@ namespace Geta.Epi.FontThumbnail
 		CreativeCommonsShare = 0xf4f2,
 
 		/// <summary>
+		/// Creative Commons CC0 (creative-commons-zero)
+		/// <para>Added in 5.0.11, updated in 5.4.0.</para>
+		/// </summary>
+		CreativeCommonsZero = 0xf4f3,
+
+		/// <summary>
+		/// Critical Role (critical-role)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		CriticalRole = 0xf6c9,
+
+		/// <summary>
 		/// CSS 3 Logo (css3)
 		/// <para>Terms: code</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
@@ -494,6 +554,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
 		DAndD = 0xf38d,
+
+		/// <summary>
+		/// D&D Beyond (d-and-d-beyond)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, gaming, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		DAndDBeyond = 0xf6ca,
 
 		/// <summary>
 		/// Dashcube (dashcube)
@@ -520,10 +587,29 @@ namespace Geta.Epi.FontThumbnail
 		Deskpro = 0xf38f,
 
 		/// <summary>
+		/// DEV (dev)
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		Dev = 0xf6cc,
+
+		/// <summary>
 		/// Deviantart (deviantart)
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		Deviantart = 0xf1bd,
+
+		/// <summary>
+		/// DHL (dhl)
+		/// <para>Terms: Dalsey, Hillblom and Lynn, german, package, shipping</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Dhl = 0xf790,
+
+		/// <summary>
+		/// Diaspora (diaspora)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Diaspora = 0xf791,
 
 		/// <summary>
 		/// Digg Logo (digg)
@@ -699,6 +785,34 @@ namespace Geta.Epi.FontThumbnail
 		FacebookSquare = 0xf082,
 
 		/// <summary>
+		/// Fantasy Flight-Games (fantasy-flight-games)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		FantasyFlightGames = 0xf6dc,
+
+		/// <summary>
+		/// Fedex (fedex)
+		/// <para>Terms: Federal Express, package, shipping</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Fedex = 0xf797,
+
+		/// <summary>
+		/// Fedora (fedora)
+		/// <para>Terms: linux, operating system, os</para>
+		/// <para>Added in 5.6.0, updated in 5.6.3.</para>
+		/// </summary>
+		Fedora = 0xf798,
+
+		/// <summary>
+		/// Figma (figma)
+		/// <para>Terms: app, design, interface</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Figma = 0xf799,
+
+		/// <summary>
 		/// Firefox (firefox)
 		/// <para>Terms: browser</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.1.</para>
@@ -818,12 +932,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Galactic Republic (galactic-republic)
+		/// <para>Terms: politics, star wars</para>
 		/// <para>Added in 5.0.12.</para>
 		/// </summary>
 		GalacticRepublic = 0xf50c,
 
 		/// <summary>
 		/// Galactic Senate (galactic-senate)
+		/// <para>Terms: star wars</para>
 		/// <para>Added in 5.0.12.</para>
 		/// </summary>
 		GalacticSenate = 0xf50d,
@@ -1083,11 +1199,25 @@ namespace Geta.Epi.FontThumbnail
 		Instagram = 0xf16d,
 
 		/// <summary>
+		/// Intercom (intercom)
+		/// <para>Terms: app, customer, messenger</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Intercom = 0xf7af,
+
+		/// <summary>
 		/// Internet-Explorer (internet-explorer)
 		/// <para>Terms: browser, ie</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		InternetExplorer = 0xf26b,
+
+		/// <summary>
+		/// Invision (invision)
+		/// <para>Terms: app, design, interface</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Invision = 0xf7b0,
 
 		/// <summary>
 		/// Ioxhost (ioxhost)
@@ -1125,6 +1255,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
 		Jenkins = 0xf3b6,
+
+		/// <summary>
+		/// Jira (jira)
+		/// <para>Terms: atlassian</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Jira = 0xf7b1,
 
 		/// <summary>
 		/// Joget (joget)
@@ -1238,7 +1375,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Linkedin In (linkedin-in)
 		/// <para>Terms: linkedin</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.4.1.</para>
 		/// </summary>
 		LinkedinIn = 0xf0e1,
 
@@ -1332,6 +1469,12 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		Megaport = 0xf5a3,
+
+		/// <summary>
+		/// Mendeley (mendeley)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Mendeley = 0xf7b3,
 
 		/// <summary>
 		/// Microsoft (microsoft)
@@ -1437,6 +1580,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Old Republic (old-republic)
+		/// <para>Terms: politics, star wars</para>
 		/// <para>Added in 5.0.12.</para>
 		/// </summary>
 		OldRepublic = 0xf510,
@@ -1479,7 +1623,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Pagelines (pagelines)
-		/// <para>Terms: eco, leaf, leaves, nature, plant, tree</para>
+		/// <para>Terms: eco, flora, leaf, leaves, nature, plant, tree</para>
 		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Pagelines = 0xf18c,
@@ -1501,6 +1645,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
 		/// </summary>
 		Paypal = 0xf1ed,
+
+		/// <summary>
+		/// Penny Arcade (penny-arcade)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, pax, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		PennyArcade = 0xf704,
 
 		/// <summary>
 		/// Periscope (periscope)
@@ -1624,6 +1775,12 @@ namespace Geta.Epi.FontThumbnail
 		RProject = 0xf4f7,
 
 		/// <summary>
+		/// Raspberry Pi (raspberry-pi)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		RaspberryPi = 0xf7bb,
+
+		/// <summary>
 		/// Ravelry (ravelry)
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -1634,6 +1791,12 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
 		React = 0xf41b,
+
+		/// <summary>
+		/// Reacteurope (reacteurope)
+		/// <para>Added in 5.5.0.</para>
+		/// </summary>
+		Reacteurope = 0xf75d,
 
 		/// <summary>
 		/// Readme (readme)
@@ -1672,10 +1835,11 @@ namespace Geta.Epi.FontThumbnail
 		RedditSquare = 0xf1a2,
 
 		/// <summary>
-		/// Rendact (rendact)
-		/// <para>Added in 5.0.0.</para>
+		/// Redhat (redhat)
+		/// <para>Terms: linux, operating system, os</para>
+		/// <para>Added in 5.6.0.</para>
 		/// </summary>
-		Rendact = 0xf3e4,
+		Redhat = 0xf7bc,
 
 		/// <summary>
 		/// Renren (renren)
@@ -1709,7 +1873,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Rocket.Chat (rocketchat)
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.4.2.</para>
 		/// </summary>
 		Rocketchat = 0xf3e8,
 
@@ -1800,6 +1964,13 @@ namespace Geta.Epi.FontThumbnail
 		Sith = 0xf512,
 
 		/// <summary>
+		/// Sketch (sketch)
+		/// <para>Terms: app, design, interface</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Sketch = 0xf7c6,
+
+		/// <summary>
 		/// Skyatlas (skyatlas)
 		/// <para>Added in 4.3.0, updated in 5.0.0 and 5.0.3.</para>
 		/// </summary>
@@ -1856,8 +2027,14 @@ namespace Geta.Epi.FontThumbnail
 		Soundcloud = 0xf1be,
 
 		/// <summary>
+		/// Sourcetree (sourcetree)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Sourcetree = 0xf7d3,
+
+		/// <summary>
 		/// Speakap (speakap)
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.4.0.</para>
 		/// </summary>
 		Speakap = 0xf3f3,
 
@@ -1964,6 +2141,13 @@ namespace Geta.Epi.FontThumbnail
 		Supple = 0xf3f9,
 
 		/// <summary>
+		/// Suse (suse)
+		/// <para>Terms: linux, operating system, os</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Suse = 0xf7d6,
+
+		/// <summary>
 		/// Teamspeak (teamspeak)
 		/// <para>Added in 5.0.11, updated in 5.1.0.</para>
 		/// </summary>
@@ -2006,6 +2190,12 @@ namespace Geta.Epi.FontThumbnail
 		Themeisle = 0xf2b2,
 
 		/// <summary>
+		/// Think Peaks (think-peaks)
+		/// <para>Added in 5.4.2.</para>
+		/// </summary>
+		ThinkPeaks = 0xf731,
+
+		/// <summary>
 		/// Trade Federation (trade-federation)
 		/// <para>Added in 5.0.12.</para>
 		/// </summary>
@@ -2013,7 +2203,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Trello (trello)
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
+		/// <para>Terms: atlassian</para>
+		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.6.0.</para>
 		/// </summary>
 		Trello = 0xf181,
 
@@ -2068,6 +2259,13 @@ namespace Geta.Epi.FontThumbnail
 		Uber = 0xf402,
 
 		/// <summary>
+		/// Ubuntu (ubuntu)
+		/// <para>Terms: linux, operating system, os</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Ubuntu = 0xf7df,
+
+		/// <summary>
 		/// Uikit (uikit)
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -2086,10 +2284,24 @@ namespace Geta.Epi.FontThumbnail
 		Untappd = 0xf405,
 
 		/// <summary>
+		/// UPS (ups)
+		/// <para>Terms: United Parcel Service, package, shipping</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Ups = 0xf7e0,
+
+		/// <summary>
 		/// USB (usb)
 		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
 		/// </summary>
 		Usb = 0xf287,
+
+		/// <summary>
+		/// United States Postal Service (usps)
+		/// <para>Terms: american, package, shipping, usa</para>
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Usps = 0xf7e1,
 
 		/// <summary>
 		/// Us-Sunnah Foundation (ussunnah)
@@ -2110,13 +2322,13 @@ namespace Geta.Epi.FontThumbnail
 		Viacoin = 0xf237,
 
 		/// <summary>
-		/// Viadeo (viadeo)
+		/// Video (viadeo)
 		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
 		/// </summary>
 		Viadeo = 0xf2a9,
 
 		/// <summary>
-		/// Viadeo Square (viadeo-square)
+		/// Video Square (viadeo-square)
 		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
 		/// </summary>
 		ViadeoSquare = 0xf2aa,
@@ -2214,7 +2426,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Windows (windows)
-		/// <para>Terms: microsoft</para>
+		/// <para>Terms: microsoft, operating system, os</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
 		Windows = 0xf17a,
@@ -2226,7 +2438,14 @@ namespace Geta.Epi.FontThumbnail
 		Wix = 0xf5cf,
 
 		/// <summary>
-		/// Wolf Pack-Battalion (wolf-pack-battalion)
+		/// Wizards Of The Coast (wizards-of-the-coast)
+		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop</para>
+		/// <para>Added in 5.4.0.</para>
+		/// </summary>
+		WizardsOfTheCoast = 0xf730,
+
+		/// <summary>
+		/// Wolf Pack Battalion (wolf-pack-battalion)
 		/// <para>Added in 5.0.12.</para>
 		/// </summary>
 		WolfPackBattalion = 0xf514,
@@ -2260,6 +2479,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
 		/// </summary>
 		Wpforms = 0xf298,
+
+		/// <summary>
+		/// Wpressr (wpressr)
+		/// <para>Terms: rendact</para>
+		/// <para>Added in 5.4.2.</para>
+		/// </summary>
+		Wpressr = 0xf3e4,
 
 		/// <summary>
 		/// Xbox (xbox)
@@ -2302,6 +2528,12 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
 		YandexInternational = 0xf414,
+
+		/// <summary>
+		/// Yarn (yarn)
+		/// <para>Added in 5.6.0.</para>
+		/// </summary>
+		Yarn = 0xf7e3,
 
 		/// <summary>
 		/// Yelp (yelp)

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Linq;
 using System.Web;
 using Geta.Epi.FontThumbnail.Settings;
@@ -29,8 +27,7 @@ namespace Geta.Epi.FontThumbnail
             return BuildSettings("fa-solid-900.ttf", (int)icon, backgroundColor, foregroundColor, fontSize);
         }
 
-        public static string GetUrl(string customFont, int character, string backgroundColor = "",
-            string foregroundColor = "", int fontSize = -1)
+        public static string GetUrl(string customFont, int character, string backgroundColor = "", string foregroundColor = "", int fontSize = -1)
         {
             var settings = GetSettings(backgroundColor, foregroundColor, fontSize);
 

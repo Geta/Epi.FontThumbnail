@@ -10,24 +10,27 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.3.0.
+	/// Font Awesome. Version 5.6.0.
 	/// </summary>
 	public enum FontAwesome5Regular
 	{
 		/// <summary>
 		/// Address Book (address-book)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
 		/// </summary>
 		AddressBook = 0xf2b9,
 
 		/// <summary>
 		/// Address Card (address-card)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
 		/// </summary>
 		AddressCard = 0xf2bb,
 
 		/// <summary>
 		/// Angry Face (angry)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: disapprove, emoticon, face, mad, upset</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -35,6 +38,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Arrow Circle Down (arrow-alt-circle-down)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: arrow-circle-o-down, download</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -42,6 +46,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Arrow Circle Left (arrow-alt-circle-left)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: arrow-circle-o-left, back, previous</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -49,6 +54,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Arrow Circle Right (arrow-alt-circle-right)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: arrow-circle-o-right, forward, next</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -56,6 +62,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Arrow Circle Up (arrow-alt-circle-up)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: arrow-circle-o-up</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -63,6 +70,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Bell (bell)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: alert, notification, reminder</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.2.0.</para>
 		/// </summary>
@@ -70,12 +78,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Bell Slash (bell-slash)
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: alert, cancel, disabled, notification, off, reminder</para>
 		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
 		/// </summary>
 		BellSlash = 0xf1f6,
 
 		/// <summary>
 		/// Bookmark (bookmark)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: save</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -83,6 +94,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Building (building)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: apartment, business, company, office, work</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -90,6 +102,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Calendar (calendar)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: calendar-o, date, event, schedule, time, when</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -97,34 +110,39 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Calendar (calendar-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: calendar, date, event, schedule, time, when</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.0.</para>
 		/// </summary>
 		CalendarAlt = 0xf073,
 
 		/// <summary>
 		/// Calendar Check (calendar-check)
-		/// <para>Terms: accept, agree, appointment, confirm, correct, done, ok, select, success, todo</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, time, todo, when</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CalendarCheck = 0xf274,
 
 		/// <summary>
 		/// Calendar Minus (calendar-minus)
-		/// <para>Terms: delete, remove</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: delete, negative, remove</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CalendarMinus = 0xf272,
 
 		/// <summary>
 		/// Calendar Plus (calendar-plus)
-		/// <para>Terms: add, create, new</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: add, create, new, positive</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CalendarPlus = 0xf271,
 
 		/// <summary>
 		/// Calendar Times (calendar-times)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: archive, delete, remove, x</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -132,6 +150,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Caret Square Down (caret-square-down)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: caret-square-o-down, dropdown, menu, more</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -139,6 +158,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Caret Square Left (caret-square-left)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: back, caret-square-o-left, previous</para>
 		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -146,6 +166,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Caret Square Right (caret-square-right)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: caret-square-o-right, forward, next</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -153,6 +174,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Caret Square Up (caret-square-up)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: caret-square-o-up</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -160,6 +182,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Bar Chart (chart-bar)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: analytics, bar-chart, graph</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
 		/// </summary>
@@ -167,6 +190,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Check Circle (check-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, todo, yes</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -174,6 +198,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Check Square (check-square)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, todo, yes</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -181,6 +206,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Circle (circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: circle-thin, dot, notification</para>
 		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -188,6 +214,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Clipboard (clipboard)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: paste</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -195,6 +222,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Clock (clock)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: date, late, schedule, timer, timestamp, watch</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -202,6 +230,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Clone (clone)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: copy, duplicate</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -209,6 +238,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Closed Captioning (closed-captioning)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: cc</para>
 		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -216,6 +246,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Comment (comment)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
 		/// </summary>
@@ -223,19 +254,22 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Comment (comment-alt)
-		/// <para>Terms: bubble, chat, commenting, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CommentAlt = 0xf27a,
 
 		/// <summary>
 		/// Comment Dots (comment-dots)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 5.0.9.</para>
 		/// </summary>
 		CommentDots = 0xf4ad,
 
 		/// <summary>
 		/// Comments (comments)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
 		/// </summary>
@@ -243,6 +277,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Compass (compass)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: directory, location, menu, safari</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.2.0.</para>
 		/// </summary>
@@ -250,6 +285,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Copy (copy)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: clone, duplicate, file, files-o</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -257,12 +293,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Copyright (copyright)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
 		/// </summary>
 		Copyright = 0xf1f9,
 
 		/// <summary>
 		/// Credit Card (credit-card)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: buy, checkout, credit-card-alt, debit, money, payment, purchase</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -270,6 +308,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Dizzy Face (dizzy)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: dazed, disapprove, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -277,6 +316,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Dot Circle (dot-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: bullseye, notification, target</para>
 		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -284,6 +324,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Edit (edit)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: edit, pen, pencil, update, write</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -291,6 +332,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Envelope (envelope)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -298,6 +340,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Envelope Open (envelope-open)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -305,6 +348,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Eye (eye)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: optic, see, seen, show, sight, views, visible</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -312,6 +356,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Eye Slash (eye-slash)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -319,6 +364,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// File (file)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: document, new, page, pdf, resume</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -326,6 +372,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate File (file-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: document, file-text, invoice, new, page, pdf</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -333,6 +380,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Archive File (file-archive)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -340,61 +388,71 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Audio File (file-audio)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileAudio = 0xf1c7,
 
 		/// <summary>
 		/// Code File (file-code)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileCode = 0xf1c9,
 
 		/// <summary>
 		/// Excel File (file-excel)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileExcel = 0xf1c3,
 
 		/// <summary>
 		/// Image File (file-image)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileImage = 0xf1c5,
 
 		/// <summary>
 		/// PDF File (file-pdf)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FilePdf = 0xf1c1,
 
 		/// <summary>
 		/// Powerpoint File (file-powerpoint)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FilePowerpoint = 0xf1c4,
 
 		/// <summary>
 		/// Video File (file-video)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileVideo = 0xf1c8,
 
 		/// <summary>
 		/// Word File (file-word)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		FileWord = 0xf1c2,
 
 		/// <summary>
 		/// Flag (flag)
-		/// <para>Terms: notice, notification, notify, report</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: country, notice, notification, notify, pole, report, symbol</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Flag = 0xf024,
 
 		/// <summary>
 		/// Flushed Face (flushed)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: embarrassed, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -402,18 +460,21 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Folder (folder)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
 		/// </summary>
 		Folder = 0xf07b,
 
 		/// <summary>
 		/// Folder Open (folder-open)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		FolderOpen = 0xf07c,
 
 		/// <summary>
 		/// Frowning Face (frown)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
 		/// </summary>
@@ -421,6 +482,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Frowning Face With Open Mouth (frown-open)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -428,6 +490,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Futbol (futbol)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: ball, football, soccer</para>
 		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.0.5.</para>
 		/// </summary>
@@ -435,6 +498,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Gem (gem)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: diamond</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -442,6 +506,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grimacing Face (grimace)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: cringe, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -449,6 +514,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Face (grin)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, laugh, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -456,6 +522,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Grinning Face (grin-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, laugh, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -463,6 +530,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Face With Smiling Eyes (grin-beam)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, laugh, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -470,6 +538,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Face With Sweat (grin-beam-sweat)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -477,6 +546,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Smiling Face With Heart-Eyes (grin-hearts)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, love, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -484,6 +554,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Squinting Face (grin-squint)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, laugh, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -491,6 +562,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Rolling On The Floor Laughing (grin-squint-tears)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, happy, smile</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -498,6 +570,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Star-Struck (grin-stars)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, star-struck</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -505,6 +578,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Face With Tears Of Joy (grin-tears)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -512,6 +586,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Face With Tongue (grin-tongue)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -519,6 +594,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Squinting Face With Tongue (grin-tongue-squint)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -526,6 +602,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Winking Face With Tongue (grin-tongue-wink)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -533,6 +610,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Winking Face (grin-wink)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, flirt, laugh, smile</para>
 		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
 		/// </summary>
@@ -540,12 +618,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Lizard (Hand) (hand-lizard)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandLizard = 0xf258,
 
 		/// <summary>
 		/// Paper (Hand) (hand-paper)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: stop</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -553,12 +633,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Peace (Hand) (hand-peace)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandPeace = 0xf25b,
 
 		/// <summary>
 		/// Hand Pointing Down (hand-point-down)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: finger, hand-o-down, point</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -566,6 +648,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Hand Pointing Left (hand-point-left)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: back, finger, hand-o-left, left, point, previous</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -573,6 +656,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Hand Pointing Right (hand-point-right)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: finger, forward, hand-o-right, next, point, right</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -580,6 +664,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Hand Pointing Up (hand-point-up)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: finger, hand-o-up, point</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -587,6 +672,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Pointer (Hand) (hand-pointer)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: select</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -594,24 +680,28 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Rock (Hand) (hand-rock)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandRock = 0xf255,
 
 		/// <summary>
 		/// Scissors (Hand) (hand-scissors)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandScissors = 0xf257,
 
 		/// <summary>
 		/// Spock (Hand) (hand-spock)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandSpock = 0xf259,
 
 		/// <summary>
 		/// Handshake (handshake)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: greeting, partnership</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
 		/// </summary>
@@ -619,6 +709,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// HDD (hdd)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: cpu, hard drive, harddrive, machine, save, storage</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -626,13 +717,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Heart (heart)
-		/// <para>Terms: favorite, like, love</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: favorite, like, love, relationship</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
 		/// </summary>
 		Heart = 0xf004,
 
 		/// <summary>
 		/// Hospital (hospital)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: building, emergency room, medical center</para>
 		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -640,18 +733,21 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Hourglass (hourglass)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		Hourglass = 0xf254,
 
 		/// <summary>
 		/// Identification Badge (id-badge)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
 		/// </summary>
 		IdBadge = 0xf2c1,
 
 		/// <summary>
 		/// Identification Card (id-card)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: document, identification, issued</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
 		/// </summary>
@@ -659,13 +755,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Image (image)
-		/// <para>Terms: album, photo, picture, picture</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: album, photo, picture</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Image = 0xf03e,
 
 		/// <summary>
 		/// Images (images)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: album, photo, picture</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -673,6 +771,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Keyboard (keyboard)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: input, type</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -680,6 +779,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Kissing Face (kiss)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: beso, emoticon, face, love, smooch</para>
 		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
 		/// </summary>
@@ -687,6 +787,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Kissing Face With Smiling Eyes (kiss-beam)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: beso, emoticon, face, love, smooch</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -694,6 +795,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Face Blowing A Kiss (kiss-wink-heart)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: beso, emoticon, face, love, smooch</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -701,6 +803,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Grinning Face With Big Eyes (laugh)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face, laugh</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -708,6 +811,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Laugh Face With Beaming Eyes (laugh-beam)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -715,6 +819,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Laughing Squinting Face (laugh-squint)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -722,6 +827,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Laughing Winking Face (laugh-wink)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -729,6 +835,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Lemon (lemon)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: food</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -736,6 +843,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Life Ring (life-ring)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: support</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -743,6 +851,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Lightbulb (lightbulb)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: idea, inspiration</para>
 		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.3.0.</para>
 		/// </summary>
@@ -750,6 +859,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate List (list-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -757,6 +867,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Map (map)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: coordinates, location, paper, place, travel</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.1.0.</para>
 		/// </summary>
@@ -764,6 +875,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Neutral Face (meh)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, neutral, rating</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
 		/// </summary>
@@ -771,6 +883,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Face Without Mouth (meh-blank)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, neutral, rating</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -778,6 +891,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Face With Rolling Eyes (meh-rolling-eyes)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, neutral, rating</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -785,13 +899,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Minus Square (minus-square)
-		/// <para>Terms: collapse, delete, hide, hide, minify, remove, trash</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: collapse, delete, hide, minify, negative, remove, trash</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		MinusSquare = 0xf146,
 
 		/// <summary>
 		/// Alternate Money Bill (money-bill-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
 		/// <para>Added in 5.0.0, updated in 5.0.13.</para>
 		/// </summary>
@@ -799,13 +915,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Moon (moon)
-		/// <para>Terms: contrast, darker, night</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: contrast, crescent, darker, lunar, night</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
 		Moon = 0xf186,
 
 		/// <summary>
 		/// Newspaper (newspaper)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: article, press</para>
 		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -813,6 +931,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Object Group (object-group)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: design</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -820,6 +939,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Object Ungroup (object-ungroup)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: design</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -827,18 +947,21 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Paper Plane (paper-plane)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		PaperPlane = 0xf1d8,
 
 		/// <summary>
 		/// Pause Circle (pause-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
 		/// </summary>
 		PauseCircle = 0xf28b,
 
 		/// <summary>
 		/// Play Circle (play-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: playing, start</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -846,13 +969,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Plus Square (plus-square)
-		/// <para>Terms: add, create, expand, new</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: add, create, expand, new, positive</para>
 		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		PlusSquare = 0xf0fe,
 
 		/// <summary>
 		/// Question Circle (question-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: help, information, support, unknown</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -860,12 +985,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Registered Trademark (registered)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		Registered = 0xf25d,
 
 		/// <summary>
 		/// Crying Face (sad-cry)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, tear, tears</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -873,6 +1000,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Loudly Crying Face (sad-tear)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, tear, tears</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -880,6 +1008,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Save (save)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: floppy, floppy-o</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -887,6 +1016,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Share Square (share-square)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: send, social</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -894,6 +1024,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Smiling Face (smile)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: approve, emoticon, face, happy, rating, satisfied</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
 		/// </summary>
@@ -901,13 +1032,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Beaming Face With Smiling Eyes (smile-beam)
-		/// <para>Terms: emoticon, face, happy</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: emoticon, face, happy, positive</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		SmileBeam = 0xf5b8,
 
 		/// <summary>
 		/// Winking Face (smile-wink)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, happy</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -915,12 +1048,15 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Snowflake (snowflake)
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: precipitation, seasonal, winter</para>
+		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.5.0.</para>
 		/// </summary>
 		Snowflake = 0xf2dc,
 
 		/// <summary>
 		/// Square (square)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: block, box</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -928,6 +1064,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Star (star)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: achievement, award, favorite, important, night, rating, score</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -935,6 +1072,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Star-Half (star-half)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -942,25 +1080,29 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Sticky Note (sticky-note)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		StickyNote = 0xf249,
 
 		/// <summary>
 		/// Stop Circle (stop-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
 		/// </summary>
 		StopCircle = 0xf28d,
 
 		/// <summary>
 		/// Sun (sun)
-		/// <para>Terms: brighten, contrast, day, lighter, weather</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: brighten, contrast, day, lighter, sol, solar, star, weather</para>
+		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.5.0.</para>
 		/// </summary>
 		Sun = 0xf185,
 
 		/// <summary>
 		/// Hushed Face (surprise)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, shocked</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -968,6 +1110,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Thumbs-Down (thumbs-down)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: disagree, disapprove, dislike, hand, thumbs-o-down</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -975,6 +1118,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Thumbs-Up (thumbs-up)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: agree, approve, favorite, hand, like, ok, okay, success, thumbs-o-up, yes, you got it dude</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -982,6 +1126,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Times Circle (times-circle)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -989,6 +1134,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Tired Face (tired)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: emoticon, face, grumpy</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
@@ -996,6 +1142,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Trash (trash-alt)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: delete, garbage, hide, remove, trash, trash-o</para>
 		/// <para>Added in 5.0.0.</para>
 		/// </summary>
@@ -1003,38 +1150,44 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// User (user)
-		/// <para>Terms: account, avatar, head, man, person, profile</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
 		/// </summary>
 		User = 0xf007,
 
 		/// <summary>
 		/// User Circle (user-circle)
-		/// <para>Terms: account, avatar, head, man, person, profile</para>
+		/// <para>Styles: solid, regular</para>
+		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
 		/// </summary>
 		UserCircle = 0xf2bd,
 
 		/// <summary>
 		/// Window Close (window-close)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
 		WindowClose = 0xf410,
 
 		/// <summary>
 		/// Window Maximize (window-maximize)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
 		WindowMaximize = 0xf2d0,
 
 		/// <summary>
 		/// Window Minimize (window-minimize)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
 		WindowMinimize = 0xf2d1,
 
 		/// <summary>
 		/// Window Restore (window-restore)
+		/// <para>Styles: solid, regular</para>
 		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
 		/// </summary>
 		WindowRestore = 0xf2d2,
