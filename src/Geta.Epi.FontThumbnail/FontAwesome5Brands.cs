@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.6.3.
+	/// Font Awesome. Version 5.7.0.
 	/// </summary>
 	public enum FontAwesome5Brands
 	{
@@ -140,7 +140,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Apple (apple)
-		/// <para>Terms: food, fruit, ios, mac, operating system, os, osx</para>
+		/// <para>Terms: fruit, ios, mac, operating system, os, osx</para>
 		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.0.7.</para>
 		/// </summary>
 		Apple = 0xf179,
@@ -312,7 +312,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// American Express Credit Card (cc-amex)
 		/// <para>Terms: amex</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		CcAmex = 0xf1f3,
 
@@ -569,8 +569,8 @@ namespace Geta.Epi.FontThumbnail
 		Dashcube = 0xf210,
 
 		/// <summary>
-		/// Delicious Logo (delicious)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
+		/// Delicious (delicious)
+		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Delicious = 0xf1a5,
 
@@ -619,7 +619,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Digital Ocean (digital-ocean)
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
 		/// </summary>
 		DigitalOcean = 0xf391,
 
@@ -691,7 +691,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Ebay (ebay)
-		/// <para>Added in 5.0.11.</para>
+		/// <para>Added in 5.0.11, updated in 5.7.0.</para>
 		/// </summary>
 		Ebay = 0xf4f4,
 
@@ -735,7 +735,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Erlang (erlang)
-		/// <para>Added in 5.0.0, updated in 5.0.3.</para>
+		/// <para>Added in 5.0.0, updated in 5.0.3 and 5.7.0.</para>
 		/// </summary>
 		Erlang = 0xf39d,
 
@@ -808,7 +808,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Figma (figma)
 		/// <para>Terms: app, design, interface</para>
-		/// <para>Added in 5.6.0.</para>
+		/// <para>Added in 5.6.0, updated in 5.7.0.</para>
 		/// </summary>
 		Figma = 0xf799,
 
@@ -1004,7 +1004,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Gitlab (gitlab)
 		/// <para>Terms: Axosoft</para>
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.6.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Gitlab = 0xf296,
 
@@ -1152,7 +1152,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Hooli (hooli)
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
 		/// </summary>
 		Hooli = 0xf427,
 
@@ -1239,14 +1239,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Java (java)
-		/// <para>Added in 5.0.10.</para>
+		/// <para>Added in 5.0.10, updated in 5.7.0.</para>
 		/// </summary>
 		Java = 0xf4e4,
 
 		/// <summary>
 		/// Jedi Order (jedi-order)
 		/// <para>Terms: star wars</para>
-		/// <para>Added in 5.0.12.</para>
+		/// <para>Added in 5.0.12, updated in 5.7.0.</para>
 		/// </summary>
 		JediOrder = 0xf50e,
 
@@ -1406,7 +1406,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Mailchimp (mailchimp)
-		/// <para>Added in 5.1.0.</para>
+		/// <para>Added in 5.1.0, updated in 5.7.0.</para>
 		/// </summary>
 		Mailchimp = 0xf59e,
 
@@ -1418,7 +1418,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Markdown (markdown)
-		/// <para>Added in 5.2.0.</para>
+		/// <para>Added in 5.2.0, updated in 5.7.0.</para>
 		/// </summary>
 		Markdown = 0xf60f,
 
@@ -1605,7 +1605,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Optin Monster (optin-monster)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		OptinMonster = 0xf23c,
 
@@ -1691,7 +1691,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Pied Piper Logo (pied-piper-alt)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		PiedPiperAlt = 0xf1a8,
 
@@ -1758,7 +1758,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Quinscape (quinscape)
-		/// <para>Added in 5.0.5.</para>
+		/// <para>Added in 5.0.5, updated in 5.7.0.</para>
 		/// </summary>
 		Quinscape = 0xf459,
 
@@ -1935,7 +1935,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Shirts In Bulk (shirtsinbulk)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.3.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Shirtsinbulk = 0xf214,
 
@@ -1985,7 +1985,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Slack Logo (slack)
 		/// <para>Terms: anchor, hash, hashtag</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Slack = 0xf198,
 
@@ -2088,13 +2088,13 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Sticker Mule (sticker-mule)
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
 		/// </summary>
 		StickerMule = 0xf3f7,
 
 		/// <summary>
 		/// Strava (strava)
-		/// <para>Added in 5.0.0, updated in 5.0.1.</para>
+		/// <para>Added in 5.0.0, updated in 5.0.1 and 5.7.0.</para>
 		/// </summary>
 		Strava = 0xf428,
 
@@ -2173,7 +2173,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// The Red Yeti (the-red-yeti)
-		/// <para>Added in 5.3.0.</para>
+		/// <para>Added in 5.3.0, updated in 5.7.0.</para>
 		/// </summary>
 		TheRedYeti = 0xf69d,
 
@@ -2329,7 +2329,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Video Square (viadeo-square)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.6.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		ViadeoSquare = 0xf2aa,
 
@@ -2537,7 +2537,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Yelp (yelp)
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Yelp = 0xf1e9,
 
