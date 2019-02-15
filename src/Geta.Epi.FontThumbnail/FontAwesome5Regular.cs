@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.6.0.
+	/// Font Awesome. Version 5.7.0.
 	/// </summary>
 	public enum FontAwesome5Regular
 	{
@@ -112,14 +112,14 @@ namespace Geta.Epi.FontThumbnail
 		/// Alternate Calendar (calendar-alt)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: calendar, date, event, schedule, time, when</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.7.0.</para>
 		/// </summary>
 		CalendarAlt = 0xf073,
 
 		/// <summary>
 		/// Calendar Check (calendar-check)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, time, todo, when</para>
+		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CalendarCheck = 0xf274,
@@ -191,7 +191,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Check Circle (check-circle)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, todo, yes</para>
+		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		CheckCircle = 0xf058,
@@ -199,7 +199,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Check Square (check-square)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, todo, yes</para>
+		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		CheckSquare = 0xf14a,
@@ -350,7 +350,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Eye (eye)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: optic, see, seen, show, sight, views, visible</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Eye = 0xf06e,
 
@@ -358,7 +358,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Eye Slash (eye-slash)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		EyeSlash = 0xf070,
 
@@ -382,7 +382,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Archive File (file-archive)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		FileArchive = 0xf1c6,
 
@@ -836,7 +836,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Lemon (lemon)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: food</para>
+		/// <para>Terms: citrus, lemonade, lime, tart</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Lemon = 0xf094,
@@ -1144,7 +1144,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Alternate Trash (trash-alt)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: delete, garbage, hide, remove, trash, trash-o</para>
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
 		/// </summary>
 		TrashAlt = 0xf2ed,
 

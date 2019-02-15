@@ -10,7 +10,7 @@
 namespace Geta.Epi.FontThumbnail
 {
 	/// <summary>
-	/// Font Awesome. Version 5.6.3.
+	/// Font Awesome. Version 5.7.0.
 	/// </summary>
 	public enum FontAwesome5Solid
 	{
@@ -175,7 +175,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Fruit Apple (apple-alt)
-		/// <para>Terms: fall, food, fruit, fuji, macintosh, seasonal</para>
+		/// <para>Terms: fall, fruit, fuji, macintosh, seasonal</para>
 		/// <para>Added in 5.2.0.</para>
 		/// </summary>
 		AppleAlt = 0xf5d1,
@@ -377,6 +377,13 @@ namespace Geta.Epi.FontThumbnail
 		Backward = 0xf04a,
 
 		/// <summary>
+		/// Bacon (bacon)
+		/// <para>Terms: breakfast, ham, meat, pancetta, pork, vegan</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Bacon = 0xf7e5,
+
+		/// <summary>
 		/// Balance Scale (balance-scale)
 		/// <para>Terms: balanced, justice, legal, measure, weight</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.13.</para>
@@ -524,7 +531,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Biohazard (biohazard)
 		/// <para>Terms: danger, dangerous, medical, waste</para>
-		/// <para>Added in 5.6.0.</para>
+		/// <para>Added in 5.6.0, updated in 5.7.0.</para>
 		/// </summary>
 		Biohazard = 0xf780,
 
@@ -608,6 +615,12 @@ namespace Geta.Epi.FontThumbnail
 		BookDead = 0xf6b7,
 
 		/// <summary>
+		/// Medical Book (book-medical)
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		BookMedical = 0xf7e6,
+
+		/// <summary>
 		/// Book Open (book-open)
 		/// <para>Terms: flyer, notebook, open book, pamphlet, reading</para>
 		/// <para>Added in 5.0.13, updated in 5.1.0 and 5.2.0.</para>
@@ -644,7 +657,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Box Open (box-open)
-		/// <para>Added in 5.0.9.</para>
+		/// <para>Added in 5.0.9, updated in 5.7.0.</para>
 		/// </summary>
 		BoxOpen = 0xf49e,
 
@@ -666,6 +679,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.2.0.</para>
 		/// </summary>
 		Brain = 0xf5dc,
+
+		/// <summary>
+		/// Bread Slice (bread-slice)
+		/// <para>Terms: bake, bakery, baking, dough, flour, gluten, grain, sandwich, sourdough, toast, wheat, yeast</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		BreadSlice = 0xf7ec,
 
 		/// <summary>
 		/// Briefcase (briefcase)
@@ -733,7 +753,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Burn (burn)
-		/// <para>Terms: energy</para>
+		/// <para>Terms: caliente, energy, fire, flame, gas, heat, hot</para>
 		/// <para>Added in 5.0.7.</para>
 		/// </summary>
 		Burn = 0xf46a,
@@ -777,14 +797,14 @@ namespace Geta.Epi.FontThumbnail
 		/// Alternate Calendar (calendar-alt)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: calendar, date, event, schedule, time, when</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.7.0.</para>
 		/// </summary>
 		CalendarAlt = 0xf073,
 
 		/// <summary>
 		/// Calendar Check (calendar-check)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, time, todo, when</para>
+		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		CalendarCheck = 0xf274,
@@ -850,7 +870,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Candy Cane (candy-cane)
-		/// <para>Terms: candy, christmas, food, holiday, mint, peppermint, striped, xmas</para>
+		/// <para>Terms: candy, christmas, holiday, mint, peppermint, striped, xmas</para>
 		/// <para>Added in 5.6.0.</para>
 		/// </summary>
 		CandyCane = 0xf786,
@@ -962,7 +982,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Carrot (carrot)
-		/// <para>Terms: bugs bunny, food, holiday, orange, vegetable</para>
+		/// <para>Terms: bugs bunny, holiday, orange, vegetable</para>
 		/// <para>Added in 5.6.0.</para>
 		/// </summary>
 		Carrot = 0xf787,
@@ -1068,7 +1088,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Check Circle (check-circle)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, todo, yes</para>
+		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		CheckCircle = 0xf058,
@@ -1083,10 +1103,17 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Check Square (check-square)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, todo, yes</para>
+		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
 		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
 		/// </summary>
 		CheckSquare = 0xf14a,
+
+		/// <summary>
+		/// Cheese (cheese)
+		/// <para>Terms: cheddar, curd, gouda, melt, parmesan, sandwich, swiss, wedge</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Cheese = 0xf7ef,
 
 		/// <summary>
 		/// Chess (chess)
@@ -1102,7 +1129,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Chess Board (chess-board)
-		/// <para>Added in 5.0.5.</para>
+		/// <para>Added in 5.0.5, updated in 5.7.0.</para>
 		/// </summary>
 		ChessBoard = 0xf43c,
 
@@ -1226,6 +1253,13 @@ namespace Geta.Epi.FontThumbnail
 		City = 0xf64f,
 
 		/// <summary>
+		/// Medical Clinic (clinic-medical)
+		/// <para>Terms: doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		ClinicMedical = 0xf7f2,
+
+		/// <summary>
 		/// Clipboard (clipboard)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: paste</para>
@@ -1235,14 +1269,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Clipboard With Check (clipboard-check)
-		/// <para>Terms: accept, agree, confirm, done, ok, select, success, todo, yes</para>
+		/// <para>Terms: accept, agree, confirm, done, ok, select, success, tick, todo, yes</para>
 		/// <para>Added in 5.0.7.</para>
 		/// </summary>
 		ClipboardCheck = 0xf46c,
 
 		/// <summary>
 		/// Clipboard List (clipboard-list)
-		/// <para>Terms: checklist, completed, done, finished, intinerary, ol, schedule, todo, ul</para>
+		/// <para>Terms: checklist, completed, done, finished, intinerary, ol, schedule, tick, todo, ul</para>
 		/// <para>Added in 5.0.7.</para>
 		/// </summary>
 		ClipboardList = 0xf46d,
@@ -1280,7 +1314,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Cloud Download (cloud-download-alt)
-		/// <para>Terms: import</para>
+		/// <para>Terms: export</para>
 		/// <para>Added in 5.0.0, updated in 5.0.11.</para>
 		/// </summary>
 		CloudDownloadAlt = 0xf381,
@@ -1423,6 +1457,13 @@ namespace Geta.Epi.FontThumbnail
 		CommentDots = 0xf4ad,
 
 		/// <summary>
+		/// Alternate Medical Chat (comment-medical)
+		/// <para>Terms: advice, diagnose, prescription</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		CommentMedical = 0xf7f5,
+
+		/// <summary>
 		/// Comment Slash (comment-slash)
 		/// <para>Added in 5.0.9.</para>
 		/// </summary>
@@ -1466,7 +1507,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Alternate Compress Arrows (compress-arrows-alt)
-		/// <para>Terms: arrows-alt, collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
+		/// <para>Terms: collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
 		/// <para>Added in 5.6.0.</para>
 		/// </summary>
 		CompressArrowsAlt = 0xf78c,
@@ -1480,14 +1521,14 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Cookie (cookie)
-		/// <para>Terms: baked good, chips, food, snack, sweet, treat</para>
+		/// <para>Terms: baked good, chips, snack, sweet, treat</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		Cookie = 0xf563,
 
 		/// <summary>
 		/// Cookie Bite (cookie-bite)
-		/// <para>Terms: baked good, bitten, chips, eating, food, snack, sweet, treat</para>
+		/// <para>Terms: baked good, bitten, chips, eating, snack, sweet, treat</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		CookieBite = 0xf564,
@@ -1563,6 +1604,13 @@ namespace Geta.Epi.FontThumbnail
 		Crown = 0xf521,
 
 		/// <summary>
+		/// Crutch (crutch)
+		/// <para>Terms: cane, injury, wheelchair</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Crutch = 0xf7f7,
+
+		/// <summary>
 		/// Cube (cube)
 		/// <para>Terms: package</para>
 		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
@@ -1618,7 +1666,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Diagnoses (diagnoses)
-		/// <para>Added in 5.0.7.</para>
+		/// <para>Terms: analyze, detect, diagnosis, examine, medicine</para>
+		/// <para>Added in 5.0.7, updated in 5.7.0.</para>
 		/// </summary>
 		Diagnoses = 0xf470,
 
@@ -1780,7 +1829,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Download (download)
-		/// <para>Terms: import</para>
+		/// <para>Terms: export</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Download = 0xf019,
@@ -1821,7 +1870,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Drumstick With Bite Taken Out (drumstick-bite)
-		/// <para>Added in 5.4.0.</para>
+		/// <para>Terms: bone, chicken, leg, meat, poultry, seasonal, turkey</para>
+		/// <para>Added in 5.4.0, updated in 5.7.0.</para>
 		/// </summary>
 		DrumstickBite = 0xf6d7,
 
@@ -1860,6 +1910,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Edit = 0xf044,
+
+		/// <summary>
+		/// Egg (egg)
+		/// <para>Terms: breakfast, chicken, easter, yolk</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Egg = 0xf7fb,
 
 		/// <summary>
 		/// Eject (eject)
@@ -1997,7 +2054,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Eye (eye)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: optic, see, seen, show, sight, views, visible</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Eye = 0xf06e,
 
@@ -2012,7 +2069,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Eye Slash (eye-slash)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		EyeSlash = 0xf070,
 
@@ -2084,7 +2141,7 @@ namespace Geta.Epi.FontThumbnail
 		/// Archive File (file-archive)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		FileArchive = 0xf1c6,
 
@@ -2118,6 +2175,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// File Download (file-download)
+		/// <para>Terms: export</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		FileDownload = 0xf56d,
@@ -2131,7 +2189,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// File Export (file-export)
-		/// <para>Added in 5.1.0.</para>
+		/// <para>Terms: download</para>
+		/// <para>Added in 5.1.0, updated in 5.7.0.</para>
 		/// </summary>
 		FileExport = 0xf56e,
 
@@ -2144,7 +2203,8 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// File Import (file-import)
-		/// <para>Added in 5.1.0.</para>
+		/// <para>Terms: upload</para>
+		/// <para>Added in 5.1.0, updated in 5.7.0.</para>
 		/// </summary>
 		FileImport = 0xf56f,
 
@@ -2204,6 +2264,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// File Upload (file-upload)
+		/// <para>Terms: import</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		FileUpload = 0xf574,
@@ -2285,7 +2346,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Fish (fish)
-		/// <para>Terms: fauna, gold, swimming</para>
+		/// <para>Terms: fauna, gold, seafood, swimming</para>
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		Fish = 0xf578,
@@ -2308,7 +2369,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Flag-Checkered (flag-checkered)
 		/// <para>Terms: notice, notification, notify, pole, racing, report, symbol</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		FlagCheckered = 0xf11e,
 
@@ -2553,7 +2614,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Gopuram (gopuram)
 		/// <para>Terms: building, entrance, hinduism, temple, tower</para>
-		/// <para>Added in 5.3.0.</para>
+		/// <para>Added in 5.3.0, updated in 5.7.0.</para>
 		/// </summary>
 		Gopuram = 0xf664,
 
@@ -2731,6 +2792,13 @@ namespace Geta.Epi.FontThumbnail
 		HSquare = 0xf0fd,
 
 		/// <summary>
+		/// Hamburger (hamburger)
+		/// <para>Terms: bacon, beef, burger, burger king, cheeseburger, fast food, grill, ground beef, mcdonalds, sandwich</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Hamburger = 0xf805,
+
+		/// <summary>
 		/// Hammer (hammer)
 		/// <para>Terms: admin, fix, repair, settings, tool</para>
 		/// <para>Added in 5.4.0.</para>
@@ -2769,6 +2837,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		HandLizard = 0xf258,
+
+		/// <summary>
+		/// Hand With Middle Finger Raised (hand-middle-finger)
+		/// <para>Terms: flip the bird, gesture, hate, rude</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		HandMiddleFinger = 0xf806,
 
 		/// <summary>
 		/// Paper (Hand) (hand-paper)
@@ -2873,6 +2948,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.4.0.</para>
 		/// </summary>
 		Hanukiah = 0xf6e6,
+
+		/// <summary>
+		/// Hard Hat (hard-hat)
+		/// <para>Terms: construction, hardhat, helmet, safety</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		HardHat = 0xf807,
 
 		/// <summary>
 		/// Hashtag (hashtag)
@@ -3002,7 +3084,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Home (home)
 		/// <para>Terms: building, house, main</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Home = 0xf015,
 
@@ -3046,6 +3128,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.1.0.</para>
 		/// </summary>
 		HotTub = 0xf593,
+
+		/// <summary>
+		/// Hot Dog (hotdog)
+		/// <para>Terms: bun, chili, frankfurt, frankfurter, kosher, polish, sandwich, sausage, vienna, weiner</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Hotdog = 0xf80f,
 
 		/// <summary>
 		/// Hotel (hotel)
@@ -3098,6 +3187,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
 		/// </summary>
 		ICursor = 0xf246,
+
+		/// <summary>
+		/// Ice Cream (ice-cream)
+		/// <para>Terms: chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		IceCream = 0xf810,
 
 		/// <summary>
 		/// Icicles (icicles)
@@ -3306,6 +3402,13 @@ namespace Geta.Epi.FontThumbnail
 		LaptopCode = 0xf5fc,
 
 		/// <summary>
+		/// Laptop Medical (laptop-medical)
+		/// <para>Terms: ehr, electronic health records, history</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		LaptopMedical = 0xf812,
+
+		/// <summary>
 		/// Grinning Face With Big Eyes (laugh)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: LOL, emoticon, face, laugh</para>
@@ -3354,7 +3457,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Lemon (lemon)
 		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: food</para>
+		/// <para>Terms: citrus, lemonade, lime, tart</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Lemon = 0xf094,
@@ -3952,6 +4055,13 @@ namespace Geta.Epi.FontThumbnail
 		Outdent = 0xf03b,
 
 		/// <summary>
+		/// Pager (pager)
+		/// <para>Terms: beeper, cellphone, communication</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		Pager = 0xf815,
+
+		/// <summary>
 		/// Paint Brush (paint-brush)
 		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
 		/// </summary>
@@ -4114,6 +4224,13 @@ namespace Geta.Epi.FontThumbnail
 		PeopleCarry = 0xf4ce,
 
 		/// <summary>
+		/// Hot Pepper (pepper-hot)
+		/// <para>Terms: buffalo wings, capsicum, chili, chilli, habanero, jalapeno, mexican, spicy, tabasco</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		PepperHot = 0xf816,
+
+		/// <summary>
 		/// Percent (percent)
 		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
 		/// </summary>
@@ -4155,7 +4272,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Phone Volume (phone-volume)
 		/// <para>Terms: telephone, volume-control-phone</para>
-		/// <para>Added in 4.6.0, updated in 5.0.0 and 5.0.3.</para>
+		/// <para>Added in 4.6.0, updated in 5.0.0, 5.0.3 and 5.7.0.</para>
 		/// </summary>
 		PhoneVolume = 0xf2a0,
 
@@ -4172,6 +4289,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.7.</para>
 		/// </summary>
 		Pills = 0xf484,
+
+		/// <summary>
+		/// Pizza Slice (pizza-slice)
+		/// <para>Terms: cheese, chicago, italian, mozzarella, new york, pepperoni, pie, slice, teenage mutant ninja turtles, tomato</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		PizzaSlice = 0xf818,
 
 		/// <summary>
 		/// Place Of Worship (place-of-worship)
@@ -4533,7 +4657,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Rocket (rocket)
 		/// <para>Terms: app</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
+		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Rocket = 0xf135,
 
@@ -5269,7 +5393,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Stroopwafel (stroopwafel)
-		/// <para>Terms: dessert, food, sweets, waffle</para>
+		/// <para>Terms: dessert, sweets, waffle</para>
 		/// <para>Added in 5.0.13.</para>
 		/// </summary>
 		Stroopwafel = 0xf551,
@@ -5434,7 +5558,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Tasks (tasks)
-		/// <para>Terms: downloading, downloads, loading, progress, settings</para>
+		/// <para>Terms: checklist, downloading, downloads, loading, progress, project management, settings, to do</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Tasks = 0xf0ae,
@@ -5501,7 +5625,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Th (th)
 		/// <para>Terms: blocks, boxes, grid, squares</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
+		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Th = 0xf00a,
 
@@ -5685,7 +5809,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Torah (torah)
 		/// <para>Terms: book, jewish, judaism</para>
-		/// <para>Added in 5.3.0.</para>
+		/// <para>Added in 5.3.0, updated in 5.7.0.</para>
 		/// </summary>
 		Torah = 0xf6a0,
 
@@ -5744,7 +5868,7 @@ namespace Geta.Epi.FontThumbnail
 		/// <summary>
 		/// Trash (trash)
 		/// <para>Terms: delete, garbage, hide, remove</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Trash = 0xf1f8,
 
@@ -5752,9 +5876,23 @@ namespace Geta.Epi.FontThumbnail
 		/// Alternate Trash (trash-alt)
 		/// <para>Styles: solid, regular</para>
 		/// <para>Terms: delete, garbage, hide, remove, trash, trash-o</para>
-		/// <para>Added in 5.0.0.</para>
+		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
 		/// </summary>
 		TrashAlt = 0xf2ed,
+
+		/// <summary>
+		/// Trash Restore (trash-restore)
+		/// <para>Terms: back, control z, oops, undo</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		TrashRestore = 0xf829,
+
+		/// <summary>
+		/// Alternative Trash Restore (trash-restore-alt)
+		/// <para>Terms: back, control z, oops, undo</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		TrashRestoreAlt = 0xf82a,
 
 		/// <summary>
 		/// Tree (tree)
@@ -5812,7 +5950,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// TTY (tty)
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
+		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
 		/// </summary>
 		Tty = 0xf1e4,
 
@@ -5893,7 +6031,7 @@ namespace Geta.Epi.FontThumbnail
 
 		/// <summary>
 		/// Upload (upload)
-		/// <para>Terms: export, publish</para>
+		/// <para>Terms: import, publish</para>
 		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
 		/// </summary>
 		Upload = 0xf093,
@@ -5986,8 +6124,8 @@ namespace Geta.Epi.FontThumbnail
 		UserLock = 0xf502,
 
 		/// <summary>
-		/// User-Md (user-md)
-		/// <para>Terms: doctor, job, medical, nurse, occupation, profile</para>
+		/// Doctor (user-md)
+		/// <para>Terms: job, medical, nurse, occupation, physician, profile, surgeon</para>
 		/// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11, 5.0.3 and 5.0.7.</para>
 		/// </summary>
 		UserMd = 0xf0f0,
@@ -6005,6 +6143,13 @@ namespace Geta.Epi.FontThumbnail
 		/// <para>Added in 5.0.11.</para>
 		/// </summary>
 		UserNinja = 0xf504,
+
+		/// <summary>
+		/// Nurse (user-nurse)
+		/// <para>Terms: doctor, midwife, practitioner, surgeon</para>
+		/// <para>Added in 5.7.0.</para>
+		/// </summary>
+		UserNurse = 0xf82f,
 
 		/// <summary>
 		/// User Plus (user-plus)
