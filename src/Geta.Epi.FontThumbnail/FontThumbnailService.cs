@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Configuration;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -57,8 +57,6 @@ namespace Geta.Epi.FontThumbnail
                 family = LoadFontFamilyFromDisk(settings.CustomFontName);
             }
 
-            //fonts?.Dispose();
-
             var cc = new ColorConverter();
             var bg = (Color)cc.ConvertFrom(settings.BackgroundColor);
             var fg = (Color)cc.ConvertFrom(settings.ForegroundColor);
@@ -76,6 +74,18 @@ namespace Geta.Epi.FontThumbnail
 
                 g.Clear(bg);
 
+                switch (settings.Rotate)
+                {
+                    case Rotations.Rotate90:
+                    case Rotations.Rotate180:
+                    case Rotations.Rotate270:
+                        g.TranslateTransform(settings.Width / 2, settings.Height / 2);
+                        g.RotateTransform((int)settings.Rotate);
+                        g.TranslateTransform(-(settings.Width / 2), -(settings.Height / 2));
+                        break;
+                }
+
+                var format1 = new StringFormat(StringFormatFlags.NoClip);
                 using (var format = new StringFormat(StringFormatFlags.NoClip))
                 {
                     format.LineAlignment = StringAlignment.Center;
@@ -88,6 +98,15 @@ namespace Geta.Epi.FontThumbnail
                     }
                 }
 
+                switch (settings.Rotate)
+                {
+                    case Rotations.FlipHorizontal:
+                        bitmap.RotateFlip(RotateFlipType.RotateNoneFlipX);
+                        break;
+                    case Rotations.FlipVertical:
+                        bitmap.RotateFlip(RotateFlipType.RotateNoneFlipY);
+                        break;
+                }
                 bitmap.Save(stream, ImageFormat.Png);
             }
 
@@ -99,9 +118,8 @@ namespace Geta.Epi.FontThumbnail
         {
             var cache = MemoryCache.Default;
             var cacheKey = $"geta.fontawesome.embedded.fontcollection.{fileName}";
-            var fontCollection = cache[cacheKey] as PrivateFontCollection;
 
-            if (fontCollection == null)
+            if (!(cache[cacheKey] is PrivateFontCollection fontCollection))
             {
                 try
                 {
@@ -110,7 +128,7 @@ namespace Geta.Epi.FontThumbnail
                     // specify embedded resource name
                     var resource = $"{Constants.EmbeddedFontPath}.{fileName}";
                     // receive resource stream
-                    var fontStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resource);
+                    var fontStream = typeof(FontThumbnailService).Assembly.GetManifestResourceStream(resource);
                     // create an unsafe memory block for the font data
                     var data = Marshal.AllocCoTaskMem((int)fontStream.Length);
                     // create a buffer to read in to
@@ -131,7 +149,7 @@ namespace Geta.Epi.FontThumbnail
                 }
                 catch (Exception ex)
                 {
-                    throw (new Exception($"Unable to load font {fileName} from EmbeddedResource", ex));
+                    throw new Exception($"Unable to load font {fileName} from EmbeddedResource", ex);
                 }
             }
 
@@ -142,11 +160,10 @@ namespace Geta.Epi.FontThumbnail
         {
             var cache = MemoryCache.Default;
             var cacheKey = $"geta.fontawesome.disk.fontcollection.{fileName}";
-            var fontCollection = cache[cacheKey] as PrivateFontCollection;
 
-            if (fontCollection == null)
+            if (!(cache[cacheKey] is PrivateFontCollection fontCollection))
             {
-                var customFontFolder = ConfigurationManager.AppSettings["FontThumbnail.CustomFontPath"] ?? Constants.DefaultCustomFontPath;
+                var customFontFolder = ConfigurationManager.AppSettings[Constants.AppSettings.CustomFontPath] ?? Constants.DefaultCustomFontPath;
                 var fontPath = $"{customFontFolder}{fileName}";
 
                 var rebased = VirtualPathUtilityEx.RebasePhysicalPath(fontPath);
@@ -160,7 +177,7 @@ namespace Geta.Epi.FontThumbnail
                 }
                 catch (Exception ex)
                 {
-                    throw (new Exception($"Unable to load custom font from path {fontPath}", ex));
+                    throw new Exception($"Unable to load custom font from path {fontPath}", ex);
                 }
             }
 
@@ -169,7 +186,7 @@ namespace Geta.Epi.FontThumbnail
 
         protected virtual string GetFileFullPath(string fileName)
         {
-            string rootPath = ConfigurationManager.AppSettings["FontThumbnail.CachePath"] ?? Constants.DefaultCachePath;
+            string rootPath = ConfigurationManager.AppSettings[Constants.AppSettings.CachePath] ?? Constants.DefaultCachePath;
 
             return VirtualPathUtilityEx.RebasePhysicalPath(rootPath + fileName);
         }

@@ -174,34 +174,62 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Fonts\fa-brands-400.ttf" />
-    <EmbeddedResource Include="Fonts\fa-regular-400.ttf" />
-    <EmbeddedResource Include="Fonts\fa-solid-900.ttf" />
+    <EmbeddedResource Include="ClientResources\fa5\css\all.min.css" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-brands-400.svg" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-regular-400.svg" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-solid-900.svg" />
+    <EmbeddedResource Include="ClientResources\fa4\css\font-awesome.min.css" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\fontawesome-webfont.svg" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Geta.Epi.FontThumbnail.nuspec">
       <SubType>Designer</SubType>
     </Content>
-    <EmbeddedResource Include="Fonts\fontawesome.ttf" />
-    <None Include="module.config" />
-    <None Include="Web.Module.config" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\fontawesome-webfont.eot" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\fontawesome-webfont.ttf" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\fontawesome-webfont.woff" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\fontawesome-webfont.woff2" />
+    <EmbeddedResource Include="ClientResources\fa4\fonts\FontAwesome.otf" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-brands-400.eot" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-brands-400.ttf" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-brands-400.woff" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-brands-400.woff2" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-regular-400.eot" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-regular-400.ttf" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-regular-400.woff" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-regular-400.woff2" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-solid-900.eot" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-solid-900.ttf" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-solid-900.woff" />
+    <EmbeddedResource Include="ClientResources\fa5\webfonts\fa-solid-900.woff2" />
+    <None Include="web.config.uninstall.xdt" />
+    <None Include="web.config.install.xdt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ResourceProvider\AssemblyResourceProvider.cs" />
+    <Compile Include="Attributes\ThumbnailIconAttribute.cs" />
+    <Compile Include="Attributes\TreeIconAttribute.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Controllers\ThumbnailIconController.cs" />
-    <Compile Include="DataAnnotations\ThumbnailIcon.cs" />
     <Compile Include="FontAwesome.cs" />
     <Compile Include="FontAwesome5Brands.cs" />
     <Compile Include="FontAwesome5Regular.cs" />
     <Compile Include="FontAwesome5Solid.cs" />
+    <Compile Include="FontAwesomeClientResourceProvider.cs" />
     <Compile Include="FontThumbnailInitialization.cs" />
     <Compile Include="FontThumbnailModule.cs" />
     <Compile Include="FontThumbnailService.cs" />
     <Compile Include="IFontThumbnailService.cs" />
     <Compile Include="ImageUrlHelper.cs" />
+    <Compile Include="Initialization\TreeIconUIDescriptorInitialization.cs" />
     <Compile Include="Mvc\ImageResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResourceProvider\AssemblyResourceProviderRegistrationModule.cs" />
+    <Compile Include="ResourceProvider\AssemblyResourceVirtualDirectory.cs" />
+    <Compile Include="ResourceProvider\AssemblyResourceVirtualFile.cs" />
+    <Compile Include="ResourceProvider\NeverExpiresCacheCacheDependency.cs" />
+    <Compile Include="Rotations.cs" />
     <Compile Include="Settings\ThumbnailSettings.cs" />
   </ItemGroup>
   <ItemGroup />

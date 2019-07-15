@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using System.Security;
 using System.Threading.Tasks;
 using Geta.Epi.FontThumbnail.EnumGenerator.Models;
 using Newtonsoft.Json;
@@ -100,27 +101,27 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
 
                 writer.WriteLine("namespace Geta.Epi.FontThumbnail\n{");
 
-                writer.WriteLine("\t/// <summary>");
-                writer.WriteLine($"\t/// Font Awesome. Version {latestVersionChange}.");
-                writer.WriteLine("\t/// </summary>");
+                writer.WriteLine("    /// <summary>");
+                writer.WriteLine($"    /// Font Awesome. Version {latestVersionChange}.");
+                writer.WriteLine("    /// </summary>");
 
-                writer.WriteLine($"\tpublic enum {enumName}");
-                writer.WriteLine("\t{");
+                writer.WriteLine($"    public enum {enumName}");
+                writer.WriteLine("    {");
 
                 foreach (var icon in icons)
                 {
-                    writer.WriteLine("\t\t/// <summary>");
-                    writer.WriteLine($"\t\t/// {icon.Label.ToTitleCase()} ({icon.Name})");
+                    writer.WriteLine("        /// <summary>");
+                    writer.WriteLine($"        /// {SecurityElement.Escape(icon.Label.ToTitleCase())} ({SecurityElement.Escape(icon.Name)})");
                     WriteStyles(writer, icon);
                     WriteSearchTerms(writer, icon);
                     WriteChanges(writer, icon);
-                    writer.WriteLine("\t\t/// </summary>");
+                    writer.WriteLine("        /// </summary>");
 
                     var name = GetEnumSafeName(icon);
-                    writer.WriteLine($"\t\t{name} = 0x{icon.Unicode},\n");
+                    writer.WriteLine($"        {name} = 0x{icon.Unicode},\n");
                 }
 
-                writer.WriteLine("\t}\n}");
+                writer.WriteLine("    }\n}");
             }
         }
 
@@ -128,7 +129,7 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
         {
             if (icon.Styles?.Count > 1)
             {
-                writer.WriteLine($"\t\t/// <para>Styles: {string.Join(", ", icon.Styles)}</para>");
+                writer.WriteLine($"        /// <para>Styles: {SecurityElement.Escape(string.Join(", ", icon.Styles))}</para>");
             }
         }
 
@@ -136,7 +137,7 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
         {
             if (icon.Search?.Terms?.Count > 0)
             {
-                writer.WriteLine($"\t\t/// <para>Terms: {string.Join(", ", icon.Search.Terms)}</para>");
+                writer.WriteLine($"        /// <para>Terms: {SecurityElement.Escape(string.Join(", ", icon.Search.Terms))}</para>");
             }
         }
 
@@ -144,7 +145,7 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
         {
             var changes = icon.Changes.Select(x => x.FormatSemver()).OrderBy(x => x);
 
-            writer.Write($"\t\t/// <para>Added in {changes.First()}");
+            writer.Write($"        /// <para>Added in {changes.First()}");
             if (changes.Count() > 1)
             {
                 var otherChanges = changes.Skip(1);

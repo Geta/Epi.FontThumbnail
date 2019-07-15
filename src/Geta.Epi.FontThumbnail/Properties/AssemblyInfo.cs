@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Geta.Epi.ContentReferenceSelector")]
-[assembly: AssemblyDescription("desc")]
+[assembly: AssemblyTitle("Geta.Epi.FontThumbnail")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Geta")]
-[assembly: AssemblyProduct("Geta.Epi.ContentReferenceSelector")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyProduct("Geta.Epi.FontThumbnail")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -10,7 +10,7 @@
     <iconUrl>https://cdn.geta.no/opensource/icons/Geta-logo-3.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Generates images based on FontAwesome (4 and 5) or custom icon font, to be shown when creating new content in Episerver.</description>
-    <copyright>Copyright 2018 Geta</copyright>
+    <copyright>Copyright 2019 Geta</copyright>
     <tags>Episerver</tags>
     <dependencies>
       <dependency id="EPiServer.CMS.UI" version="[11.1.0, 12.0)" />
@@ -19,6 +19,7 @@
   <files>
     <file src="bin\Release\Geta.Epi.FontThumbnail.dll" target="lib\net461\" />
     <file src="bin\Release\Geta.Epi.FontThumbnail.xml" target="lib\net461\" />
-    <file src="Web.Module.config" target="content\modules\_protected\Geta.Epi.FontThumbnail\Web.config" />
+    <file src="web.config.install.xdt" target="content\" />
+    <file src="web.config.uninstall.xdt" target="content\" />
   </files>
 </package>

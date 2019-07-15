@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28016.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geta.Epi.FontThumbnail", "src\Geta.Epi.FontThumbnail\Geta.Epi.FontThumbnail.csproj", "{4A904CA7-12CE-451B-BFE4-F135EA9FA04B}"
 EndProject

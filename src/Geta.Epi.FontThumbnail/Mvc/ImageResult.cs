@@ -8,20 +8,11 @@ namespace Geta.Epi.FontThumbnail.Mvc
 {
     public class ImageResult : ActionResult
     {
-        public Image Image
-        {
-            get; set;
-        }
+        public Image Image { get; set; }
 
-        public ImageFormat ImageFormat
-        {
-            get; set;
-        }
+        public ImageFormat ImageFormat { get; set; }
 
-        private static Dictionary<ImageFormat, string> FormatMap
-        {
-            get; set;
-        }
+        private static Dictionary<ImageFormat, string> FormatMap { get; set; }
 
         static ImageResult()
         {
@@ -30,8 +21,8 @@ namespace Geta.Epi.FontThumbnail.Mvc
 
         public override void ExecuteResult(ControllerContext context)
         {
-            if (Image == null) throw new ArgumentNullException("Image");
-            if (ImageFormat == null) throw new ArgumentNullException("ImageFormat");
+            if (Image == null) throw new ArgumentNullException(nameof(Image));
+            if (ImageFormat == null) throw new ArgumentNullException(nameof(ImageFormat));
 
             context.HttpContext.Response.Clear();
             context.HttpContext.Response.ContentType = FormatMap[ImageFormat];
@@ -42,15 +33,15 @@ namespace Geta.Epi.FontThumbnail.Mvc
         private static void CreateContentTypeMap()
         {
             FormatMap = new Dictionary<ImageFormat, string>
-        {
-            { ImageFormat.Bmp,  "image/bmp"                },
-            { ImageFormat.Gif,  "image/gif"                },
-            { ImageFormat.Icon, "image/vnd.microsoft.icon" },
-            { ImageFormat.Jpeg, "image/Jpeg"               },
-            { ImageFormat.Png,  "image/png"                },
-            { ImageFormat.Tiff, "image/tiff"               },
-            { ImageFormat.Wmf,  "image/wmf"                }
-        };
+            {
+                { ImageFormat.Bmp,  "image/bmp"                },
+                { ImageFormat.Gif,  "image/gif"                },
+                { ImageFormat.Icon, "image/vnd.microsoft.icon" },
+                { ImageFormat.Jpeg, "image/Jpeg"               },
+                { ImageFormat.Png,  "image/png"                },
+                { ImageFormat.Tiff, "image/tiff"               },
+                { ImageFormat.Wmf,  "image/wmf"                }
+            };
         }
     }
 }
