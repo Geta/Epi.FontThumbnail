@@ -10,7 +10,7 @@ namespace Geta.Epi.FontThumbnail
     [ModuleDependency(typeof(EPiServer.Cms.Shell.InitializableModule))]
     [ModuleDependency(typeof(EPiServer.Web.InitializationModule))]
     [InitializableModule]
-    public class FontThumbnailInitialization : IInitializableModule
+    internal class FontThumbnailInitialization : IInitializableModule
     {
         private static bool _initialized;
 
@@ -22,10 +22,10 @@ namespace Geta.Epi.FontThumbnail
             }
 
             // the route for the controller responsible for generating or loading the image from disk
-            RouteTable.Routes.MapRoute("ThumbnailIcon", Constants.UrlFragment, new { controller = "ThumbnailIcon", action = "GenerateThumbnail"});
+            RouteTable.Routes.MapRoute("ThumbnailIcon", Constants.UrlFragment, new { controller = "ThumbnailIcon", action = "GenerateThumbnail" });
 
             // verify cache directory exists
-            string fullPath = VirtualPathUtilityEx.RebasePhysicalPath(Constants.DefaultCachePath);
+            var fullPath = VirtualPathUtilityEx.RebasePhysicalPath(Constants.DefaultCachePath);
             if (!Directory.Exists(fullPath))
             {
                 Directory.CreateDirectory(fullPath);
@@ -35,10 +35,6 @@ namespace Geta.Epi.FontThumbnail
         }
 
         public void Uninitialize(InitializationEngine context)
-        {
-        }
-
-        public void Preload(string[] parameters)
         {
         }
     }

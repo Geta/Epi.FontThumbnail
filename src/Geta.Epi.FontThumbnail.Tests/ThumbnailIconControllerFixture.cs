@@ -9,21 +9,21 @@ namespace Geta.Epi.FontThumbnail.Tests
 {
     public class ThumbnailIconControllerFixture : IDisposable
     {
-        public readonly ThumbnailIconController controller;
-        public readonly ThumbnailSettings settings;
+        internal readonly ThumbnailIconController Controller;
+        internal readonly ThumbnailSettings Settings;
         private readonly string _temporaryDirectory;
 
         public ThumbnailIconControllerFixture()
         {
-            var partialDirectpry = $"[appDataPath]\\thumb_cache\\{Guid.NewGuid()}\\";
-            ConfigurationManager.AppSettings["FontThumbnail.CachePath"] = partialDirectpry;
-            _temporaryDirectory = VirtualPathUtilityEx.RebasePhysicalPath(partialDirectpry);
+            var partialDirectory = $"[appDataPath]\\thumb_cache\\{Guid.NewGuid()}\\";
+            ConfigurationManager.AppSettings["FontThumbnail.CachePath"] = partialDirectory;
+            _temporaryDirectory = VirtualPathUtilityEx.RebasePhysicalPath(partialDirectory);
 
             Directory.CreateDirectory(_temporaryDirectory);
 
             var service = new FontThumbnailService();
-            controller = new ThumbnailIconController(service);
-            settings = new ThumbnailSettings
+            Controller = new ThumbnailIconController(service);
+            Settings = new ThumbnailSettings
             {
                 FontSize = Constants.DefaultFontSize,
                 BackgroundColor = Constants.DefaultBackgroundColor,
