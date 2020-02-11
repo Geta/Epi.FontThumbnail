@@ -109,3 +109,4 @@ Backup*/
 UpgradeLog*.XML
 License.config
 *.orig
+/.idea/
