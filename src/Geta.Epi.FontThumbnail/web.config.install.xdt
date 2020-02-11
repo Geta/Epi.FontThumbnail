@@ -5,7 +5,7 @@
   
   <appSettings>
     <add key="FontThumbnail.EnableTreeIcons" value="false" xdt:Transform="InsertIfMissing" />
-  </appSettings
+  </appSettings>
 
   <episerver.shell xdt:Transform="InsertIfMissing">
     <protectedModules xdt:Transform="InsertIfMissing">
