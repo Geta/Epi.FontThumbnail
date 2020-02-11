@@ -1,12 +1,15 @@
 # Geta.Epi.FontThumbnail
 
 ## Description
-This package basically consists of an override to the built in "ImageUrlAttribute" that is used to specify preview images for the different contenttypes in your Episerver project. The only difference is that with this attribute the images are generated using a configured background color, foreground color and a reference to a FontAwesome icon.n
+This package basically consists of an override to the built in "ImageUrlAttribute" that is used to specify preview images for the different contenttypes in your Episerver project. The only difference is that with this attribute the images are generated using a configured background color, foreground color and a reference to a FontAwesome icon. Since version x another feature was introduced where the same configured icon will also replace the treeicon in the page tree (feature needs to be explicitly turned on using configuration).
 
 ![Screenshot of package](/docs/fontthumbnail_overview.jpg)
 
+![Screenshot of package](/docs/treeicon_overview.jpg)
+
 ## Features
 * Generates preview images for the different contenttypes in your Episerver project
+* Replace tree icons with custom icons for content types
 * Support for using Font Awesome Free 5 and 4 icons
 * Supports customized foreground and background color on generated images
 * Loading custom fonts
@@ -55,6 +58,50 @@ To load custom icon fonts you can place the font you want to use in the default 
 Then specify the font and the character to use in the ThumbnailIcon constructor like this.
 ```cs
 [ThumbnailIcon("fontello.ttf",0xe801)]
+```
+
+## Tree icon feature
+
+
+
+To enable the feature to use custom icons in the content tree you have to add this configuration:
+```xml
+<appSettings>
+    <add key="FontThumbnail.EnableTreeIcons" value="true"/>
+</appSettings>
+```
+
+By default the same icons will be used in the content tree if you have defined an icon using the ThumbnailIcon-attribute.
+```cs
+[ThumbnailIcon(FontAwesome5Brands.Github)]
+```
+
+You can however disable this for specific content types using the ignore property on the TreeIcon-attribute on the content type, like this:
+
+```cs
+[ContentType(DisplayName = "Blog List Page")]
+[ThumbnailIcon(FontAwesome5Solid.Blog)]
+[TreeIcon(Ignore = true)]
+public class BlogListPage : FoundationPageData
+{
+    ...
+}
+```
+
+There is also support for overriding the icon defined in the ThumbnailIcon-attribute like this:
+```cs
+[ContentType(DisplayName = "Blog List Page")]
+[ThumbnailIcon(FontAwesome5Solid.Blog)]
+[TreeIcon(FontAwesome5Solid.CheckDouble)]
+public class BlogListPage : FoundationPageData
+{
+    ...
+}
+```
+
+or with the optional rotation (FlipVertical, FlipHorizontal, Rotate90, Rotate180, Rotate270):
+```cs
+[TreeIcon(FontAwesome5Solid.CheckDouble, Rotations.Rotate90)]
 ```
 
 ## More info
