@@ -16,7 +16,7 @@ namespace Geta.Epi.FontThumbnail.Controllers
             _thumbnailService = thumbnailService ?? throw new ArgumentNullException(nameof(thumbnailService));
         }
 
-        [Authorize(Roles = "Administrators, CmsAdmins, CmsEditors, WebAdmins, WebEditors")]
+        [Authorize(Roles = "Administrators, CmsAdmins, CmsEditors, WebAdmins, WebEditors, ThumbnailGroup")]
         public ActionResult GenerateThumbnail(ThumbnailSettings settings)
         {
             if (!CheckValidFormatHtmlColor(settings.BackgroundColor) || !CheckValidFormatHtmlColor(settings.ForegroundColor))
