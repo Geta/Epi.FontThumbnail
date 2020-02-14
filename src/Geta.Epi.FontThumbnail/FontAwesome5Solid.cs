@@ -9,6473 +9,6903 @@
 
 namespace Geta.Epi.FontThumbnail
 {
-	/// <summary>
-	/// Font Awesome. Version 5.7.0.
-	/// </summary>
-	public enum FontAwesome5Solid
-	{
-		/// <summary>
-		/// Ad (ad)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Ad = 0xf641,
-
-		/// <summary>
-		/// Address Book (address-book)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		AddressBook = 0xf2b9,
-
-		/// <summary>
-		/// Address Card (address-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		AddressCard = 0xf2bb,
-
-		/// <summary>
-		/// Adjust (adjust)
-		/// <para>Terms: contrast</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Adjust = 0xf042,
-
-		/// <summary>
-		/// Air Freshener (air-freshener)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		AirFreshener = 0xf5d0,
-
-		/// <summary>
-		/// Align-Center (align-center)
-		/// <para>Terms: middle, text</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AlignCenter = 0xf037,
-
-		/// <summary>
-		/// Align-Justify (align-justify)
-		/// <para>Terms: text</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AlignJustify = 0xf039,
-
-		/// <summary>
-		/// Align-Left (align-left)
-		/// <para>Terms: text</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AlignLeft = 0xf036,
-
-		/// <summary>
-		/// Align-Right (align-right)
-		/// <para>Terms: text</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AlignRight = 0xf038,
-
-		/// <summary>
-		/// Allergies (allergies)
-		/// <para>Terms: freckles, hand, intolerances, pox, spots</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Allergies = 0xf461,
-
-		/// <summary>
-		/// Ambulance (ambulance)
-		/// <para>Terms: help, machine, support, vehicle</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
-		/// </summary>
-		Ambulance = 0xf0f9,
-
-		/// <summary>
-		/// American Sign Language Interpreting (american-sign-language-interpreting)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		AmericanSignLanguageInterpreting = 0xf2a3,
-
-		/// <summary>
-		/// Anchor (anchor)
-		/// <para>Terms: link</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Anchor = 0xf13d,
-
-		/// <summary>
-		/// Angle Double Down (angle-double-down)
-		/// <para>Terms: arrows</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleDoubleDown = 0xf103,
-
-		/// <summary>
-		/// Angle Double Left (angle-double-left)
-		/// <para>Terms: arrows, back, laquo, previous, quote</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleDoubleLeft = 0xf100,
-
-		/// <summary>
-		/// Angle Double Right (angle-double-right)
-		/// <para>Terms: arrows, forward, next, quote, raquo</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleDoubleRight = 0xf101,
-
-		/// <summary>
-		/// Angle Double Up (angle-double-up)
-		/// <para>Terms: arrows</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleDoubleUp = 0xf102,
-
-		/// <summary>
-		/// Angle-Down (angle-down)
-		/// <para>Terms: arrow</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleDown = 0xf107,
-
-		/// <summary>
-		/// Angle-Left (angle-left)
-		/// <para>Terms: arrow, back, previous</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleLeft = 0xf104,
-
-		/// <summary>
-		/// Angle-Right (angle-right)
-		/// <para>Terms: arrow, forward, next</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleRight = 0xf105,
-
-		/// <summary>
-		/// Angle-Up (angle-up)
-		/// <para>Terms: arrow</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		AngleUp = 0xf106,
-
-		/// <summary>
-		/// Angry Face (angry)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, mad, upset</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Angry = 0xf556,
-
-		/// <summary>
-		/// Ankh (ankh)
-		/// <para>Terms: amulet, copper, coptic christianity, copts, crux ansata, egyptian, venus</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Ankh = 0xf644,
-
-		/// <summary>
-		/// Fruit Apple (apple-alt)
-		/// <para>Terms: fall, fruit, fuji, macintosh, seasonal</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		AppleAlt = 0xf5d1,
-
-		/// <summary>
-		/// Archive (archive)
-		/// <para>Terms: box, package, storage</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Archive = 0xf187,
-
-		/// <summary>
-		/// Archway (archway)
-		/// <para>Terms: arc, monument, road, street</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Archway = 0xf557,
-
-		/// <summary>
-		/// Alternate Arrow Circle Down (arrow-alt-circle-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-down, download</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleDown = 0xf358,
-
-		/// <summary>
-		/// Alternate Arrow Circle Left (arrow-alt-circle-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-left, back, previous</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleLeft = 0xf359,
-
-		/// <summary>
-		/// Alternate Arrow Circle Right (arrow-alt-circle-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-right, forward, next</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleRight = 0xf35a,
-
-		/// <summary>
-		/// Alternate Arrow Circle Up (arrow-alt-circle-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-up</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleUp = 0xf35b,
-
-		/// <summary>
-		/// Arrow Circle Down (arrow-circle-down)
-		/// <para>Terms: download</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowCircleDown = 0xf0ab,
-
-		/// <summary>
-		/// Arrow Circle Left (arrow-circle-left)
-		/// <para>Terms: back, previous</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowCircleLeft = 0xf0a8,
-
-		/// <summary>
-		/// Arrow Circle Right (arrow-circle-right)
-		/// <para>Terms: forward, next</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowCircleRight = 0xf0a9,
-
-		/// <summary>
-		/// Arrow Circle Up (arrow-circle-up)
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowCircleUp = 0xf0aa,
-
-		/// <summary>
-		/// Arrow-Down (arrow-down)
-		/// <para>Terms: download</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowDown = 0xf063,
-
-		/// <summary>
-		/// Arrow-Left (arrow-left)
-		/// <para>Terms: back, previous</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowLeft = 0xf060,
-
-		/// <summary>
-		/// Arrow-Right (arrow-right)
-		/// <para>Terms: forward, next</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowRight = 0xf061,
-
-		/// <summary>
-		/// Arrow-Up (arrow-up)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowUp = 0xf062,
-
-		/// <summary>
-		/// Alternate Arrows (arrows-alt)
-		/// <para>Terms: arrow, arrows, bigger, enlarge, expand, fullscreen, move, position, reorder, resize</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ArrowsAlt = 0xf0b2,
-
-		/// <summary>
-		/// Alternate Arrows Horizontal (arrows-alt-h)
-		/// <para>Terms: arrows-h, resize</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowsAltH = 0xf337,
-
-		/// <summary>
-		/// Alternate Arrows Vertical (arrows-alt-v)
-		/// <para>Terms: arrows-v, resize</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowsAltV = 0xf338,
-
-		/// <summary>
-		/// Assistive Listening Systems (assistive-listening-systems)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		AssistiveListeningSystems = 0xf2a2,
-
-		/// <summary>
-		/// Asterisk (asterisk)
-		/// <para>Terms: details</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Asterisk = 0xf069,
-
-		/// <summary>
-		/// At (at)
-		/// <para>Terms: e-mail, email</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		At = 0xf1fa,
-
-		/// <summary>
-		/// Atlas (atlas)
-		/// <para>Terms: book, directions, geography, map, wayfinding</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Atlas = 0xf558,
-
-		/// <summary>
-		/// Atom (atom)
-		/// <para>Terms: atheism, chemistry, science</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Atom = 0xf5d2,
-
-		/// <summary>
-		/// Audio Description (audio-description)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		AudioDescription = 0xf29e,
-
-		/// <summary>
-		/// Award (award)
-		/// <para>Terms: honor, praise, prize, recognition, ribbon</para>
-		/// <para>Added in 5.1.0, updated in 5.2.0.</para>
-		/// </summary>
-		Award = 0xf559,
-
-		/// <summary>
-		/// Baby (baby)
-		/// <para>Terms: diaper, human, infant, kid, offspring, person, sprout</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Baby = 0xf77c,
-
-		/// <summary>
-		/// Baby Carriage (baby-carriage)
-		/// <para>Terms: buggy, carrier, infant, push, stroller, transportation, walk, wheels</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		BabyCarriage = 0xf77d,
-
-		/// <summary>
-		/// Backspace (backspace)
-		/// <para>Terms: command, delete, keyboard, undo</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Backspace = 0xf55a,
-
-		/// <summary>
-		/// Backward (backward)
-		/// <para>Terms: previous, rewind</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Backward = 0xf04a,
-
-		/// <summary>
-		/// Bacon (bacon)
-		/// <para>Terms: breakfast, ham, meat, pancetta, pork, vegan</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Bacon = 0xf7e5,
-
-		/// <summary>
-		/// Balance Scale (balance-scale)
-		/// <para>Terms: balanced, justice, legal, measure, weight</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		BalanceScale = 0xf24e,
-
-		/// <summary>
-		/// Ban (ban)
-		/// <para>Terms: abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Ban = 0xf05e,
-
-		/// <summary>
-		/// Band-Aid (band-aid)
-		/// <para>Terms: bandage, boo boo, ouch</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		BandAid = 0xf462,
-
-		/// <summary>
-		/// Barcode (barcode)
-		/// <para>Terms: scan</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Barcode = 0xf02a,
-
-		/// <summary>
-		/// Bars (bars)
-		/// <para>Terms: checklist, drag, hamburger, list, menu, nav, navigation, ol, reorder, settings, todo, ul</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bars = 0xf0c9,
-
-		/// <summary>
-		/// Baseball Ball (baseball-ball)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		BaseballBall = 0xf433,
-
-		/// <summary>
-		/// Basketball Ball (basketball-ball)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		BasketballBall = 0xf434,
-
-		/// <summary>
-		/// Bath (bath)
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bath = 0xf2cd,
-
-		/// <summary>
-		/// Battery Empty (battery-empty)
-		/// <para>Terms: power, status</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		BatteryEmpty = 0xf244,
-
-		/// <summary>
-		/// Battery Full (battery-full)
-		/// <para>Terms: power, status</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		BatteryFull = 0xf240,
-
-		/// <summary>
-		/// Battery 1/2 Full (battery-half)
-		/// <para>Terms: power, status</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		BatteryHalf = 0xf242,
-
-		/// <summary>
-		/// Battery 1/4 Full (battery-quarter)
-		/// <para>Terms: power, status</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		BatteryQuarter = 0xf243,
-
-		/// <summary>
-		/// Battery 3/4 Full (battery-three-quarters)
-		/// <para>Terms: power, status</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		BatteryThreeQuarters = 0xf241,
-
-		/// <summary>
-		/// Bed (bed)
-		/// <para>Terms: lodging, sleep, travel</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Bed = 0xf236,
-
-		/// <summary>
-		/// Beer (beer)
-		/// <para>Terms: alcohol, bar, beverage, drink, liquor, mug, stein</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Beer = 0xf0fc,
-
-		/// <summary>
-		/// Bell (bell)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: alert, notification, reminder</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Bell = 0xf0f3,
-
-		/// <summary>
-		/// Bell Slash (bell-slash)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: alert, cancel, disabled, notification, off, reminder</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		BellSlash = 0xf1f6,
-
-		/// <summary>
-		/// Bezier Curve (bezier-curve)
-		/// <para>Terms: curves, illustrator, lines, path, vector</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		BezierCurve = 0xf55b,
-
-		/// <summary>
-		/// Bible (bible)
-		/// <para>Terms: book, catholicism, christianity</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Bible = 0xf647,
-
-		/// <summary>
-		/// Bicycle (bicycle)
-		/// <para>Terms: bike, gears, transportation, vehicle</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bicycle = 0xf206,
-
-		/// <summary>
-		/// Binoculars (binoculars)
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Binoculars = 0xf1e5,
-
-		/// <summary>
-		/// Biohazard (biohazard)
-		/// <para>Terms: danger, dangerous, medical, waste</para>
-		/// <para>Added in 5.6.0, updated in 5.7.0.</para>
-		/// </summary>
-		Biohazard = 0xf780,
-
-		/// <summary>
-		/// Birthday Cake (birthday-cake)
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		BirthdayCake = 0xf1fd,
-
-		/// <summary>
-		/// Blender (blender)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Blender = 0xf517,
-
-		/// <summary>
-		/// Blender Phone (blender-phone)
-		/// <para>Terms: appliance, fantasy, silly</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		BlenderPhone = 0xf6b6,
-
-		/// <summary>
-		/// Blind (blind)
-		/// <para>Terms: cane, disability, person, sight</para>
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		Blind = 0xf29d,
-
-		/// <summary>
-		/// Blog (blog)
-		/// <para>Terms: journal, log, online, personal, post, web 2.0, wordpress, writing</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Blog = 0xf781,
-
-		/// <summary>
-		/// Bold (bold)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bold = 0xf032,
-
-		/// <summary>
-		/// Lightning Bolt (bolt)
-		/// <para>Terms: electricity, lightning, weather, zap</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.5.0.</para>
-		/// </summary>
-		Bolt = 0xf0e7,
-
-		/// <summary>
-		/// Bomb (bomb)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bomb = 0xf1e2,
-
-		/// <summary>
-		/// Bone (bone)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Bone = 0xf5d7,
-
-		/// <summary>
-		/// Bong (bong)
-		/// <para>Terms: aparatus, cannabis, marijuana, pipe, smoke, smoking</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Bong = 0xf55c,
-
-		/// <summary>
-		/// Book (book)
-		/// <para>Terms: documentation, read</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Book = 0xf02d,
-
-		/// <summary>
-		/// Book Of The Dead (book-dead)
-		/// <para>Terms: Dungeons & Dragons, crossbones, d&d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, read, skull, spell</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		BookDead = 0xf6b7,
-
-		/// <summary>
-		/// Medical Book (book-medical)
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		BookMedical = 0xf7e6,
-
-		/// <summary>
-		/// Book Open (book-open)
-		/// <para>Terms: flyer, notebook, open book, pamphlet, reading</para>
-		/// <para>Added in 5.0.13, updated in 5.1.0 and 5.2.0.</para>
-		/// </summary>
-		BookOpen = 0xf518,
-
-		/// <summary>
-		/// Book Reader (book-reader)
-		/// <para>Terms: library</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		BookReader = 0xf5da,
-
-		/// <summary>
-		/// Bookmark (bookmark)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: save</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bookmark = 0xf02e,
-
-		/// <summary>
-		/// Bowling Ball (bowling-ball)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		BowlingBall = 0xf436,
-
-		/// <summary>
-		/// Box (box)
-		/// <para>Terms: package</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Box = 0xf466,
-
-		/// <summary>
-		/// Box Open (box-open)
-		/// <para>Added in 5.0.9, updated in 5.7.0.</para>
-		/// </summary>
-		BoxOpen = 0xf49e,
-
-		/// <summary>
-		/// Boxes (boxes)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Boxes = 0xf468,
-
-		/// <summary>
-		/// Braille (braille)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		Braille = 0xf2a1,
-
-		/// <summary>
-		/// Brain (brain)
-		/// <para>Terms: cerebellum, gray matter, intellect, medulla oblongata, mind, noodle, wit</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Brain = 0xf5dc,
-
-		/// <summary>
-		/// Bread Slice (bread-slice)
-		/// <para>Terms: bake, bakery, baking, dough, flour, gluten, grain, sandwich, sourdough, toast, wheat, yeast</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		BreadSlice = 0xf7ec,
-
-		/// <summary>
-		/// Briefcase (briefcase)
-		/// <para>Terms: bag, business, luggage, office, work</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Briefcase = 0xf0b1,
-
-		/// <summary>
-		/// Medical Briefcase (briefcase-medical)
-		/// <para>Terms: health briefcase</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		BriefcaseMedical = 0xf469,
-
-		/// <summary>
-		/// Broadcast Tower (broadcast-tower)
-		/// <para>Terms: airwaves, radio, waves</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		BroadcastTower = 0xf519,
-
-		/// <summary>
-		/// Broom (broom)
-		/// <para>Terms: clean, firebolt, fly, halloween, holiday, nimbus 2000, quidditch, sweep, witch</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Broom = 0xf51a,
-
-		/// <summary>
-		/// Brush (brush)
-		/// <para>Terms: bristles, color, handle, painting</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Brush = 0xf55d,
-
-		/// <summary>
-		/// Bug (bug)
-		/// <para>Terms: insect, report</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bug = 0xf188,
-
-		/// <summary>
-		/// Building (building)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: apartment, business, company, office, work</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Building = 0xf1ad,
-
-		/// <summary>
-		/// Bullhorn (bullhorn)
-		/// <para>Terms: announcement, broadcast, louder, megaphone, share</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Bullhorn = 0xf0a1,
-
-		/// <summary>
-		/// Bullseye (bullseye)
-		/// <para>Terms: target</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Bullseye = 0xf140,
-
-		/// <summary>
-		/// Burn (burn)
-		/// <para>Terms: caliente, energy, fire, flame, gas, heat, hot</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Burn = 0xf46a,
-
-		/// <summary>
-		/// Bus (bus)
-		/// <para>Terms: machine, public transportation, transportation, vehicle</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Bus = 0xf207,
-
-		/// <summary>
-		/// Bus Alt (bus-alt)
-		/// <para>Terms: machine, public transportation, transportation, vehicle</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		BusAlt = 0xf55e,
-
-		/// <summary>
-		/// Business Time (business-time)
-		/// <para>Terms: briefcase, business socks, clock, flight of the conchords, wednesday</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		BusinessTime = 0xf64a,
-
-		/// <summary>
-		/// Calculator (calculator)
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Calculator = 0xf1ec,
-
-		/// <summary>
-		/// Calendar (calendar)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: calendar-o, date, event, schedule, time, when</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Calendar = 0xf133,
-
-		/// <summary>
-		/// Alternate Calendar (calendar-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: calendar, date, event, schedule, time, when</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.7.0.</para>
-		/// </summary>
-		CalendarAlt = 0xf073,
-
-		/// <summary>
-		/// Calendar Check (calendar-check)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarCheck = 0xf274,
-
-		/// <summary>
-		/// Calendar With Day Focus (calendar-day)
-		/// <para>Terms: date, detail, event, focus, schedule, single day, time, today, when</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		CalendarDay = 0xf783,
-
-		/// <summary>
-		/// Calendar Minus (calendar-minus)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: delete, negative, remove</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarMinus = 0xf272,
-
-		/// <summary>
-		/// Calendar Plus (calendar-plus)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: add, create, new, positive</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarPlus = 0xf271,
-
-		/// <summary>
-		/// Calendar Times (calendar-times)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: archive, delete, remove, x</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarTimes = 0xf273,
-
-		/// <summary>
-		/// Calendar With Week Focus (calendar-week)
-		/// <para>Terms: date, detail, event, focus, schedule, single week, time, today, when</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		CalendarWeek = 0xf784,
-
-		/// <summary>
-		/// Camera (camera)
-		/// <para>Terms: photo, picture, record</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Camera = 0xf030,
-
-		/// <summary>
-		/// Retro Camera (camera-retro)
-		/// <para>Terms: photo, picture, record</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CameraRetro = 0xf083,
-
-		/// <summary>
-		/// Campground (campground)
-		/// <para>Terms: camping, fall, outdoors, seasonal, tent</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Campground = 0xf6bb,
-
-		/// <summary>
-		/// Candy Cane (candy-cane)
-		/// <para>Terms: candy, christmas, holiday, mint, peppermint, striped, xmas</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		CandyCane = 0xf786,
-
-		/// <summary>
-		/// Cannabis (cannabis)
-		/// <para>Terms: bud, chronic, drugs, endica, endo, ganja, marijuana, mary jane, pot, reefer, sativa, spliff, weed, whacky-tabacky</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Cannabis = 0xf55f,
-
-		/// <summary>
-		/// Capsules (capsules)
-		/// <para>Terms: drugs, medicine</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Capsules = 0xf46b,
-
-		/// <summary>
-		/// Car (car)
-		/// <para>Terms: machine, transportation, vehicle</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Car = 0xf1b9,
-
-		/// <summary>
-		/// Alternate Car (car-alt)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		CarAlt = 0xf5de,
-
-		/// <summary>
-		/// Car Battery (car-battery)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		CarBattery = 0xf5df,
-
-		/// <summary>
-		/// Car Crash (car-crash)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		CarCrash = 0xf5e1,
-
-		/// <summary>
-		/// Car Side (car-side)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		CarSide = 0xf5e4,
-
-		/// <summary>
-		/// Caret Down (caret-down)
-		/// <para>Terms: arrow, dropdown, menu, more, triangle down</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretDown = 0xf0d7,
-
-		/// <summary>
-		/// Caret Left (caret-left)
-		/// <para>Terms: arrow, back, previous, triangle left</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretLeft = 0xf0d9,
-
-		/// <summary>
-		/// Caret Right (caret-right)
-		/// <para>Terms: arrow, forward, next, triangle right</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretRight = 0xf0da,
-
-		/// <summary>
-		/// Caret Square Down (caret-square-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-down, dropdown, menu, more</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareDown = 0xf150,
-
-		/// <summary>
-		/// Caret Square Left (caret-square-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: back, caret-square-o-left, previous</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareLeft = 0xf191,
-
-		/// <summary>
-		/// Caret Square Right (caret-square-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-right, forward, next</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareRight = 0xf152,
-
-		/// <summary>
-		/// Caret Square Up (caret-square-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-up</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareUp = 0xf151,
-
-		/// <summary>
-		/// Caret Up (caret-up)
-		/// <para>Terms: arrow, triangle up</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretUp = 0xf0d8,
-
-		/// <summary>
-		/// Carrot (carrot)
-		/// <para>Terms: bugs bunny, holiday, orange, vegetable</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Carrot = 0xf787,
-
-		/// <summary>
-		/// Shopping Cart Arrow Down (cart-arrow-down)
-		/// <para>Terms: shopping</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		CartArrowDown = 0xf218,
-
-		/// <summary>
-		/// Add To Shopping Cart (cart-plus)
-		/// <para>Terms: add, create, new, positive, shopping</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		CartPlus = 0xf217,
-
-		/// <summary>
-		/// Cash Register (cash-register)
-		/// <para>Terms: buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		CashRegister = 0xf788,
-
-		/// <summary>
-		/// Cat (cat)
-		/// <para>Terms: feline, halloween, holiday, kitten, kitty, meow, pet</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Cat = 0xf6be,
-
-		/// <summary>
-		/// Certificate (certificate)
-		/// <para>Terms: badge, star</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Certificate = 0xf0a3,
-
-		/// <summary>
-		/// Chair (chair)
-		/// <para>Terms: furniture, seat</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Chair = 0xf6c0,
-
-		/// <summary>
-		/// Chalkboard (chalkboard)
-		/// <para>Terms: blackboard, learning, school, teaching, whiteboard, writing</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Chalkboard = 0xf51b,
-
-		/// <summary>
-		/// Chalkboard Teacher (chalkboard-teacher)
-		/// <para>Terms: blackboard, instructor, learning, professor, school, whiteboard, writing</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		ChalkboardTeacher = 0xf51c,
-
-		/// <summary>
-		/// Charging Station (charging-station)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		ChargingStation = 0xf5e7,
-
-		/// <summary>
-		/// Area Chart (chart-area)
-		/// <para>Terms: analytics, area-chart, graph</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChartArea = 0xf1fe,
-
-		/// <summary>
-		/// Bar Chart (chart-bar)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: analytics, bar-chart, graph</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		ChartBar = 0xf080,
-
-		/// <summary>
-		/// Line Chart (chart-line)
-		/// <para>Terms: activity, analytics, dashboard, gain, graph, increase, line-chart</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		ChartLine = 0xf201,
-
-		/// <summary>
-		/// Pie Chart (chart-pie)
-		/// <para>Terms: analytics, graph, pie-chart</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		ChartPie = 0xf200,
-
-		/// <summary>
-		/// Check (check)
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Check = 0xf00c,
-
-		/// <summary>
-		/// Check Circle (check-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CheckCircle = 0xf058,
-
-		/// <summary>
-		/// Check Double (check-double)
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		CheckDouble = 0xf560,
-
-		/// <summary>
-		/// Check Square (check-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		CheckSquare = 0xf14a,
-
-		/// <summary>
-		/// Cheese (cheese)
-		/// <para>Terms: cheddar, curd, gouda, melt, parmesan, sandwich, swiss, wedge</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Cheese = 0xf7ef,
-
-		/// <summary>
-		/// Chess (chess)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		Chess = 0xf439,
-
-		/// <summary>
-		/// Chess Bishop (chess-bishop)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessBishop = 0xf43a,
-
-		/// <summary>
-		/// Chess Board (chess-board)
-		/// <para>Added in 5.0.5, updated in 5.7.0.</para>
-		/// </summary>
-		ChessBoard = 0xf43c,
-
-		/// <summary>
-		/// Chess King (chess-king)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessKing = 0xf43f,
-
-		/// <summary>
-		/// Chess Knight (chess-knight)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessKnight = 0xf441,
-
-		/// <summary>
-		/// Chess Pawn (chess-pawn)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessPawn = 0xf443,
-
-		/// <summary>
-		/// Chess Queen (chess-queen)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessQueen = 0xf445,
-
-		/// <summary>
-		/// Chess Rook (chess-rook)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		ChessRook = 0xf447,
-
-		/// <summary>
-		/// Chevron Circle Down (chevron-circle-down)
-		/// <para>Terms: arrow, dropdown, menu, more</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronCircleDown = 0xf13a,
-
-		/// <summary>
-		/// Chevron Circle Left (chevron-circle-left)
-		/// <para>Terms: arrow, back, previous</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronCircleLeft = 0xf137,
-
-		/// <summary>
-		/// Chevron Circle Right (chevron-circle-right)
-		/// <para>Terms: arrow, forward, next</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronCircleRight = 0xf138,
-
-		/// <summary>
-		/// Chevron Circle Up (chevron-circle-up)
-		/// <para>Terms: arrow</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronCircleUp = 0xf139,
-
-		/// <summary>
-		/// Chevron-Down (chevron-down)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronDown = 0xf078,
-
-		/// <summary>
-		/// Chevron-Left (chevron-left)
-		/// <para>Terms: back, bracket, previous</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronLeft = 0xf053,
-
-		/// <summary>
-		/// Chevron-Right (chevron-right)
-		/// <para>Terms: bracket, forward, next</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronRight = 0xf054,
-
-		/// <summary>
-		/// Chevron-Up (chevron-up)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ChevronUp = 0xf077,
-
-		/// <summary>
-		/// Child (child)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Child = 0xf1ae,
-
-		/// <summary>
-		/// Church (church)
-		/// <para>Terms: building, community, religion</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Church = 0xf51d,
-
-		/// <summary>
-		/// Circle (circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: circle-thin, dot, notification</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Circle = 0xf111,
-
-		/// <summary>
-		/// Circle Notched (circle-notch)
-		/// <para>Terms: circle-o-notch</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		CircleNotch = 0xf1ce,
-
-		/// <summary>
-		/// City (city)
-		/// <para>Terms: buildings, busy, skyscrapers, urban, windows</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		City = 0xf64f,
-
-		/// <summary>
-		/// Medical Clinic (clinic-medical)
-		/// <para>Terms: doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		ClinicMedical = 0xf7f2,
-
-		/// <summary>
-		/// Clipboard (clipboard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: paste</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Clipboard = 0xf328,
-
-		/// <summary>
-		/// Clipboard With Check (clipboard-check)
-		/// <para>Terms: accept, agree, confirm, done, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		ClipboardCheck = 0xf46c,
-
-		/// <summary>
-		/// Clipboard List (clipboard-list)
-		/// <para>Terms: checklist, completed, done, finished, intinerary, ol, schedule, tick, todo, ul</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		ClipboardList = 0xf46d,
-
-		/// <summary>
-		/// Clock (clock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: date, late, schedule, timer, timestamp, watch</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Clock = 0xf017,
-
-		/// <summary>
-		/// Clone (clone)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: copy, duplicate</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Clone = 0xf24d,
-
-		/// <summary>
-		/// Closed Captioning (closed-captioning)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cc</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ClosedCaptioning = 0xf20a,
-
-		/// <summary>
-		/// Cloud (cloud)
-		/// <para>Terms: save</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.11.</para>
-		/// </summary>
-		Cloud = 0xf0c2,
-
-		/// <summary>
-		/// Alternate Cloud Download (cloud-download-alt)
-		/// <para>Terms: export</para>
-		/// <para>Added in 5.0.0, updated in 5.0.11.</para>
-		/// </summary>
-		CloudDownloadAlt = 0xf381,
-
-		/// <summary>
-		/// Cloud With (A Chance Of) Meatball (cloud-meatball)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		CloudMeatball = 0xf73b,
-
-		/// <summary>
-		/// Cloud With Moon (cloud-moon)
-		/// <para>Terms: crescent, evening, halloween, holiday, lunar, night, sky</para>
-		/// <para>Added in 5.4.0, updated in 5.5.0.</para>
-		/// </summary>
-		CloudMoon = 0xf6c3,
-
-		/// <summary>
-		/// Cloud With Moon And Rain (cloud-moon-rain)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		CloudMoonRain = 0xf73c,
-
-		/// <summary>
-		/// Cloud With Rain (cloud-rain)
-		/// <para>Terms: precipitation</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		CloudRain = 0xf73d,
-
-		/// <summary>
-		/// Cloud With Heavy Showers (cloud-showers-heavy)
-		/// <para>Terms: precipitation, rain, storm</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		CloudShowersHeavy = 0xf740,
-
-		/// <summary>
-		/// Cloud With Sun (cloud-sun)
-		/// <para>Terms: day, daytime, fall, outdoors, seasonal</para>
-		/// <para>Added in 5.4.0, updated in 5.5.0.</para>
-		/// </summary>
-		CloudSun = 0xf6c4,
-
-		/// <summary>
-		/// Cloud With Sun And Rain (cloud-sun-rain)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		CloudSunRain = 0xf743,
-
-		/// <summary>
-		/// Alternate Cloud Upload (cloud-upload-alt)
-		/// <para>Terms: cloud-upload</para>
-		/// <para>Added in 5.0.0, updated in 5.0.11.</para>
-		/// </summary>
-		CloudUploadAlt = 0xf382,
-
-		/// <summary>
-		/// Cocktail (cocktail)
-		/// <para>Terms: alcohol, beverage, drink</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Cocktail = 0xf561,
-
-		/// <summary>
-		/// Code (code)
-		/// <para>Terms: brackets, html</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Code = 0xf121,
-
-		/// <summary>
-		/// Code Branch (code-branch)
-		/// <para>Terms: branch, code-fork, fork, git, github, rebase, svn, vcs, version</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		CodeBranch = 0xf126,
-
-		/// <summary>
-		/// Coffee (coffee)
-		/// <para>Terms: beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Coffee = 0xf0f4,
-
-		/// <summary>
-		/// Cog (cog)
-		/// <para>Terms: settings</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Cog = 0xf013,
-
-		/// <summary>
-		/// Cogs (cogs)
-		/// <para>Terms: gears, settings</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Cogs = 0xf085,
-
-		/// <summary>
-		/// Coins (coins)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Coins = 0xf51e,
-
-		/// <summary>
-		/// Columns (columns)
-		/// <para>Terms: dashboard, panes, split</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Columns = 0xf0db,
-
-		/// <summary>
-		/// Comment (comment)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Comment = 0xf075,
-
-		/// <summary>
-		/// Alternate Comment (comment-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CommentAlt = 0xf27a,
-
-		/// <summary>
-		/// Comment Dollar (comment-dollar)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		CommentDollar = 0xf651,
-
-		/// <summary>
-		/// Comment Dots (comment-dots)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		CommentDots = 0xf4ad,
-
-		/// <summary>
-		/// Alternate Medical Chat (comment-medical)
-		/// <para>Terms: advice, diagnose, prescription</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		CommentMedical = 0xf7f5,
-
-		/// <summary>
-		/// Comment Slash (comment-slash)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		CommentSlash = 0xf4b3,
-
-		/// <summary>
-		/// Comments (comments)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Comments = 0xf086,
-
-		/// <summary>
-		/// Comments Dollar (comments-dollar)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		CommentsDollar = 0xf653,
-
-		/// <summary>
-		/// Compact Disc (compact-disc)
-		/// <para>Terms: bluray, cd, disc, media</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		CompactDisc = 0xf51f,
-
-		/// <summary>
-		/// Compass (compass)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: directory, location, menu, safari</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Compass = 0xf14e,
-
-		/// <summary>
-		/// Compress (compress)
-		/// <para>Terms: collapse, combine, contract, merge, smaller</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Compress = 0xf066,
-
-		/// <summary>
-		/// Alternate Compress Arrows (compress-arrows-alt)
-		/// <para>Terms: collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		CompressArrowsAlt = 0xf78c,
-
-		/// <summary>
-		/// Concierge Bell (concierge-bell)
-		/// <para>Terms: attention, hotel, service, support</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		ConciergeBell = 0xf562,
-
-		/// <summary>
-		/// Cookie (cookie)
-		/// <para>Terms: baked good, chips, snack, sweet, treat</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Cookie = 0xf563,
-
-		/// <summary>
-		/// Cookie Bite (cookie-bite)
-		/// <para>Terms: baked good, bitten, chips, eating, snack, sweet, treat</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		CookieBite = 0xf564,
-
-		/// <summary>
-		/// Copy (copy)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: clone, duplicate, file, files-o</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Copy = 0xf0c5,
-
-		/// <summary>
-		/// Copyright (copyright)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Copyright = 0xf1f9,
-
-		/// <summary>
-		/// Couch (couch)
-		/// <para>Terms: furniture, sofa</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Couch = 0xf4b8,
-
-		/// <summary>
-		/// Credit Card (credit-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: buy, checkout, credit-card-alt, debit, money, payment, purchase</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CreditCard = 0xf09d,
-
-		/// <summary>
-		/// Crop (crop)
-		/// <para>Terms: design</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Crop = 0xf125,
-
-		/// <summary>
-		/// Alternate Crop (crop-alt)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		CropAlt = 0xf565,
-
-		/// <summary>
-		/// Cross (cross)
-		/// <para>Terms: catholicism, christianity</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Cross = 0xf654,
-
-		/// <summary>
-		/// Crosshairs (crosshairs)
-		/// <para>Terms: gpd, picker, position</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Crosshairs = 0xf05b,
-
-		/// <summary>
-		/// Crow (crow)
-		/// <para>Terms: bird, bullfrog, fauna, halloween, holiday, toad</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Crow = 0xf520,
-
-		/// <summary>
-		/// Crown (crown)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Crown = 0xf521,
-
-		/// <summary>
-		/// Crutch (crutch)
-		/// <para>Terms: cane, injury, wheelchair</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Crutch = 0xf7f7,
-
-		/// <summary>
-		/// Cube (cube)
-		/// <para>Terms: package</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Cube = 0xf1b2,
-
-		/// <summary>
-		/// Cubes (cubes)
-		/// <para>Terms: packages</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Cubes = 0xf1b3,
-
-		/// <summary>
-		/// Cut (cut)
-		/// <para>Terms: scissors</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Cut = 0xf0c4,
-
-		/// <summary>
-		/// Database (database)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Database = 0xf1c0,
-
-		/// <summary>
-		/// Deaf (deaf)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		Deaf = 0xf2a4,
-
-		/// <summary>
-		/// Democrat (democrat)
-		/// <para>Terms: american, democratic party, donkey, election, left, left-wing, liberal, politics, usa</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Democrat = 0xf747,
-
-		/// <summary>
-		/// Desktop (desktop)
-		/// <para>Terms: computer, cpu, demo, desktop, device, machine, monitor, pc, screen</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Desktop = 0xf108,
-
-		/// <summary>
-		/// Dharmachakra (dharmachakra)
-		/// <para>Terms: buddhism, buddhist, wheel of dharma</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Dharmachakra = 0xf655,
-
-		/// <summary>
-		/// Diagnoses (diagnoses)
-		/// <para>Terms: analyze, detect, diagnosis, examine, medicine</para>
-		/// <para>Added in 5.0.7, updated in 5.7.0.</para>
-		/// </summary>
-		Diagnoses = 0xf470,
-
-		/// <summary>
-		/// Dice (dice)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Dice = 0xf522,
-
-		/// <summary>
-		/// Dice D20 (dice-d20)
-		/// <para>Terms: Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		DiceD20 = 0xf6cf,
-
-		/// <summary>
-		/// Dice D6 (dice-d6)
-		/// <para>Terms: Dungeons & Dragons, chance, d&d, dnd, fantasy, gambling, game, roll</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		DiceD6 = 0xf6d1,
-
-		/// <summary>
-		/// Dice Five (dice-five)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceFive = 0xf523,
-
-		/// <summary>
-		/// Dice Four (dice-four)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceFour = 0xf524,
-
-		/// <summary>
-		/// Dice One (dice-one)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceOne = 0xf525,
-
-		/// <summary>
-		/// Dice Six (dice-six)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceSix = 0xf526,
-
-		/// <summary>
-		/// Dice Three (dice-three)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceThree = 0xf527,
-
-		/// <summary>
-		/// Dice Two (dice-two)
-		/// <para>Terms: chance, gambling, game, roll</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DiceTwo = 0xf528,
-
-		/// <summary>
-		/// Digital Tachograph (digital-tachograph)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		DigitalTachograph = 0xf566,
-
-		/// <summary>
-		/// Directions (directions)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Directions = 0xf5eb,
-
-		/// <summary>
-		/// Divide (divide)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Divide = 0xf529,
-
-		/// <summary>
-		/// Dizzy Face (dizzy)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: dazed, disapprove, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Dizzy = 0xf567,
-
-		/// <summary>
-		/// DNA (dna)
-		/// <para>Terms: double helix, helix</para>
-		/// <para>Added in 5.0.10, updated in 5.0.7.</para>
-		/// </summary>
-		Dna = 0xf471,
-
-		/// <summary>
-		/// Dog (dog)
-		/// <para>Terms: canine, fauna, mammmal, pet, pooch, puppy, woof</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Dog = 0xf6d3,
-
-		/// <summary>
-		/// Dollar Sign (dollar-sign)
-		/// <para>Terms: $, dollar-sign, money, price, usd</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		DollarSign = 0xf155,
-
-		/// <summary>
-		/// Dolly (dolly)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Dolly = 0xf472,
-
-		/// <summary>
-		/// Dolly Flatbed (dolly-flatbed)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		DollyFlatbed = 0xf474,
-
-		/// <summary>
-		/// Donate (donate)
-		/// <para>Terms: generosity, give</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Donate = 0xf4b9,
-
-		/// <summary>
-		/// Door Closed (door-closed)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DoorClosed = 0xf52a,
-
-		/// <summary>
-		/// Door Open (door-open)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		DoorOpen = 0xf52b,
-
-		/// <summary>
-		/// Dot Circle (dot-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bullseye, notification, target</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		DotCircle = 0xf192,
-
-		/// <summary>
-		/// Dove (dove)
-		/// <para>Terms: bird, fauna, flying, peace</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Dove = 0xf4ba,
-
-		/// <summary>
-		/// Download (download)
-		/// <para>Terms: export</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Download = 0xf019,
-
-		/// <summary>
-		/// Drafting Compass (drafting-compass)
-		/// <para>Terms: mechanical drawing, plot, plotting</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		DraftingCompass = 0xf568,
-
-		/// <summary>
-		/// Dragon (dragon)
-		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Dragon = 0xf6d5,
-
-		/// <summary>
-		/// Draw Polygon (draw-polygon)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		DrawPolygon = 0xf5ee,
-
-		/// <summary>
-		/// Drum (drum)
-		/// <para>Terms: instrument, music, percussion, snare, sound</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Drum = 0xf569,
-
-		/// <summary>
-		/// Drum Steelpan (drum-steelpan)
-		/// <para>Terms: calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		DrumSteelpan = 0xf56a,
-
-		/// <summary>
-		/// Drumstick With Bite Taken Out (drumstick-bite)
-		/// <para>Terms: bone, chicken, leg, meat, poultry, seasonal, turkey</para>
-		/// <para>Added in 5.4.0, updated in 5.7.0.</para>
-		/// </summary>
-		DrumstickBite = 0xf6d7,
-
-		/// <summary>
-		/// Dumbbell (dumbbell)
-		/// <para>Terms: exercise, gym, strength, weight, weight-lifting</para>
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		Dumbbell = 0xf44b,
-
-		/// <summary>
-		/// Dumpster (dumpster)
-		/// <para>Terms: alley, bin, commercial, trash, waste</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Dumpster = 0xf793,
-
-		/// <summary>
-		/// Dumpster Fire (dumpster-fire)
-		/// <para>Terms: alley, bin, commercial, danger, dangerous, euphemism, flame, heat, hot, trash, waste</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		DumpsterFire = 0xf794,
-
-		/// <summary>
-		/// Dungeon (dungeon)
-		/// <para>Terms: Dungeons & Dragons, building, d&d, dnd, door, entrance, fantasy, gate</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Dungeon = 0xf6d9,
-
-		/// <summary>
-		/// Edit (edit)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: edit, pen, pencil, update, write</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Edit = 0xf044,
-
-		/// <summary>
-		/// Egg (egg)
-		/// <para>Terms: breakfast, chicken, easter, yolk</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Egg = 0xf7fb,
-
-		/// <summary>
-		/// Eject (eject)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Eject = 0xf052,
-
-		/// <summary>
-		/// Horizontal Ellipsis (ellipsis-h)
-		/// <para>Terms: dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		EllipsisH = 0xf141,
-
-		/// <summary>
-		/// Vertical Ellipsis (ellipsis-v)
-		/// <para>Terms: dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		EllipsisV = 0xf142,
-
-		/// <summary>
-		/// Envelope (envelope)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Envelope = 0xf0e0,
-
-		/// <summary>
-		/// Envelope Open (envelope-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		EnvelopeOpen = 0xf2b6,
-
-		/// <summary>
-		/// Envelope Open-Text (envelope-open-text)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		EnvelopeOpenText = 0xf658,
-
-		/// <summary>
-		/// Envelope Square (envelope-square)
-		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		EnvelopeSquare = 0xf199,
-
-		/// <summary>
-		/// Equals (equals)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Equals = 0xf52c,
-
-		/// <summary>
-		/// Eraser (eraser)
-		/// <para>Terms: delete, remove</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Eraser = 0xf12d,
-
-		/// <summary>
-		/// Ethernet (ethernet)
-		/// <para>Terms: cable, cat 5, cat 6, connection, hardware, internet, network, wired</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Ethernet = 0xf796,
-
-		/// <summary>
-		/// Euro Sign (euro-sign)
-		/// <para>Terms: eur</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		EuroSign = 0xf153,
-
-		/// <summary>
-		/// Alternate Exchange (exchange-alt)
-		/// <para>Terms: arrow, arrows, exchange, reciprocate, return, swap, transfer</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ExchangeAlt = 0xf362,
-
-		/// <summary>
-		/// Exclamation (exclamation)
-		/// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Exclamation = 0xf12a,
-
-		/// <summary>
-		/// Exclamation Circle (exclamation-circle)
-		/// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ExclamationCircle = 0xf06a,
-
-		/// <summary>
-		/// Exclamation Triangle (exclamation-triangle)
-		/// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.1.</para>
-		/// </summary>
-		ExclamationTriangle = 0xf071,
-
-		/// <summary>
-		/// Expand (expand)
-		/// <para>Terms: bigger, enlarge, resize</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Expand = 0xf065,
-
-		/// <summary>
-		/// Alternate Expand Arrows (expand-arrows-alt)
-		/// <para>Terms: arrows-alt, bigger, enlarge, move, resize</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ExpandArrowsAlt = 0xf31e,
-
-		/// <summary>
-		/// Alternate External Link (external-link-alt)
-		/// <para>Terms: external-link, new, open</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ExternalLinkAlt = 0xf35d,
-
-		/// <summary>
-		/// Alternate External Link Square (external-link-square-alt)
-		/// <para>Terms: external-link-square, new, open</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ExternalLinkSquareAlt = 0xf360,
-
-		/// <summary>
-		/// Eye (eye)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: optic, see, seen, show, sight, views, visible</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Eye = 0xf06e,
-
-		/// <summary>
-		/// Eye Dropper (eye-dropper)
-		/// <para>Terms: eyedropper</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		EyeDropper = 0xf1fb,
-
-		/// <summary>
-		/// Eye Slash (eye-slash)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		EyeSlash = 0xf070,
-
-		/// <summary>
-		/// Fast-Backward (fast-backward)
-		/// <para>Terms: beginning, first, previous, rewind, start</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		FastBackward = 0xf049,
-
-		/// <summary>
-		/// Fast-Forward (fast-forward)
-		/// <para>Terms: end, last, next</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		FastForward = 0xf050,
-
-		/// <summary>
-		/// Fax (fax)
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Fax = 0xf1ac,
-
-		/// <summary>
-		/// Feather (feather)
-		/// <para>Terms: bird, light, plucked, quill</para>
-		/// <para>Added in 5.0.13, updated in 5.1.0.</para>
-		/// </summary>
-		Feather = 0xf52d,
-
-		/// <summary>
-		/// Alternate Feather (feather-alt)
-		/// <para>Terms: bird, light, plucked, quill</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FeatherAlt = 0xf56b,
-
-		/// <summary>
-		/// Female (female)
-		/// <para>Terms: human, person, profile, user, woman</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Female = 0xf182,
-
-		/// <summary>
-		/// Fighter-Jet (fighter-jet)
-		/// <para>Terms: airplane, fast, fly, goose, maverick, plane, quick, top gun, transportation, travel</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		FighterJet = 0xf0fb,
-
-		/// <summary>
-		/// File (file)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, new, page, pdf, resume</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		File = 0xf15b,
-
-		/// <summary>
-		/// Alternate File (file-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, file-text, invoice, new, page, pdf</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileAlt = 0xf15c,
-
-		/// <summary>
-		/// Archive File (file-archive)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		FileArchive = 0xf1c6,
-
-		/// <summary>
-		/// Audio File (file-audio)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileAudio = 0xf1c7,
-
-		/// <summary>
-		/// Code File (file-code)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileCode = 0xf1c9,
-
-		/// <summary>
-		/// File Contract (file-contract)
-		/// <para>Terms: agreement, binding, document, legal, signature</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileContract = 0xf56c,
-
-		/// <summary>
-		/// File CSV (file-csv)
-		/// <para>Terms: spreadsheets</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		FileCsv = 0xf6dd,
-
-		/// <summary>
-		/// File Download (file-download)
-		/// <para>Terms: export</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileDownload = 0xf56d,
-
-		/// <summary>
-		/// Excel File (file-excel)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileExcel = 0xf1c3,
-
-		/// <summary>
-		/// File Export (file-export)
-		/// <para>Terms: download</para>
-		/// <para>Added in 5.1.0, updated in 5.7.0.</para>
-		/// </summary>
-		FileExport = 0xf56e,
-
-		/// <summary>
-		/// Image File (file-image)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileImage = 0xf1c5,
-
-		/// <summary>
-		/// File Import (file-import)
-		/// <para>Terms: upload</para>
-		/// <para>Added in 5.1.0, updated in 5.7.0.</para>
-		/// </summary>
-		FileImport = 0xf56f,
-
-		/// <summary>
-		/// File Invoice (file-invoice)
-		/// <para>Terms: bill, document, receipt</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileInvoice = 0xf570,
-
-		/// <summary>
-		/// File Invoice With US Dollar (file-invoice-dollar)
-		/// <para>Terms: $, bill, document, dollar-sign, money, receipt, usd</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileInvoiceDollar = 0xf571,
-
-		/// <summary>
-		/// Medical File (file-medical)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		FileMedical = 0xf477,
-
-		/// <summary>
-		/// Alternate Medical File (file-medical-alt)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		FileMedicalAlt = 0xf478,
-
-		/// <summary>
-		/// PDF File (file-pdf)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FilePdf = 0xf1c1,
-
-		/// <summary>
-		/// Powerpoint File (file-powerpoint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FilePowerpoint = 0xf1c4,
-
-		/// <summary>
-		/// File Prescription (file-prescription)
-		/// <para>Terms: drugs, medical, medicine, rx</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FilePrescription = 0xf572,
-
-		/// <summary>
-		/// File Signature (file-signature)
-		/// <para>Terms: John Hancock, contract, document, name</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileSignature = 0xf573,
-
-		/// <summary>
-		/// File Upload (file-upload)
-		/// <para>Terms: import</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FileUpload = 0xf574,
-
-		/// <summary>
-		/// Video File (file-video)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileVideo = 0xf1c8,
-
-		/// <summary>
-		/// Word File (file-word)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileWord = 0xf1c2,
-
-		/// <summary>
-		/// Fill (fill)
-		/// <para>Terms: bucket, color, paint, paint bucket</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Fill = 0xf575,
-
-		/// <summary>
-		/// Fill Drip (fill-drip)
-		/// <para>Terms: bucket, color, drop, paint, paint bucket, spill</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FillDrip = 0xf576,
-
-		/// <summary>
-		/// Film (film)
-		/// <para>Terms: movie</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Film = 0xf008,
-
-		/// <summary>
-		/// Filter (filter)
-		/// <para>Terms: funnel, options</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Filter = 0xf0b0,
-
-		/// <summary>
-		/// Fingerprint (fingerprint)
-		/// <para>Terms: human, id, identification, lock, smudge, touch, unique, unlock</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Fingerprint = 0xf577,
-
-		/// <summary>
-		/// Fire (fire)
-		/// <para>Terms: caliente, flame, heat, hot, popular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.6.3.</para>
-		/// </summary>
-		Fire = 0xf06d,
-
-		/// <summary>
-		/// Alternate Fire (fire-alt)
-		/// <para>Terms: caliente, flame, heat, hot, popular</para>
-		/// <para>Added in 5.6.3.</para>
-		/// </summary>
-		FireAlt = 0xf7e4,
-
-		/// <summary>
-		/// Fire-Extinguisher (fire-extinguisher)
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FireExtinguisher = 0xf134,
-
-		/// <summary>
-		/// First Aid (first-aid)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		FirstAid = 0xf479,
-
-		/// <summary>
-		/// Fish (fish)
-		/// <para>Terms: fauna, gold, seafood, swimming</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Fish = 0xf578,
-
-		/// <summary>
-		/// Raised Fist (fist-raised)
-		/// <para>Terms: Dungeons & Dragons, d&d, dnd, fantasy, hand, ki, monk, resist, strength, unarmed combat</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		FistRaised = 0xf6de,
-
-		/// <summary>
-		/// Flag (flag)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: country, notice, notification, notify, pole, report, symbol</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Flag = 0xf024,
-
-		/// <summary>
-		/// Flag-Checkered (flag-checkered)
-		/// <para>Terms: notice, notification, notify, pole, racing, report, symbol</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		FlagCheckered = 0xf11e,
-
-		/// <summary>
-		/// United States Of America Flag (flag-usa)
-		/// <para>Terms: betsy ross, country, old glory, stars, stripes, symbol</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		FlagUsa = 0xf74d,
-
-		/// <summary>
-		/// Flask (flask)
-		/// <para>Terms: beaker, experimental, labs, science</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Flask = 0xf0c3,
-
-		/// <summary>
-		/// Flushed Face (flushed)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: embarrassed, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Flushed = 0xf579,
-
-		/// <summary>
-		/// Folder (folder)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Folder = 0xf07b,
-
-		/// <summary>
-		/// Folder Minus (folder-minus)
-		/// <para>Terms: archive, delete, negative, remove</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		FolderMinus = 0xf65d,
-
-		/// <summary>
-		/// Folder Open (folder-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		FolderOpen = 0xf07c,
-
-		/// <summary>
-		/// Folder Plus (folder-plus)
-		/// <para>Terms: add, create, new, positive</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		FolderPlus = 0xf65e,
-
-		/// <summary>
-		/// Font (font)
-		/// <para>Terms: text</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Font = 0xf031,
-
-		/// <summary>
-		/// Football Ball (football-ball)
-		/// <para>Terms: fall, pigskin, seasonal</para>
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		FootballBall = 0xf44e,
-
-		/// <summary>
-		/// Forward (forward)
-		/// <para>Terms: forward, next</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Forward = 0xf04e,
-
-		/// <summary>
-		/// Frog (frog)
-		/// <para>Terms: amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Frog = 0xf52e,
-
-		/// <summary>
-		/// Frowning Face (frown)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Frown = 0xf119,
-
-		/// <summary>
-		/// Frowning Face With Open Mouth (frown-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FrownOpen = 0xf57a,
-
-		/// <summary>
-		/// Funnel Dollar (funnel-dollar)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		FunnelDollar = 0xf662,
-
-		/// <summary>
-		/// Futbol (futbol)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: ball, football, soccer</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.0.5.</para>
-		/// </summary>
-		Futbol = 0xf1e3,
-
-		/// <summary>
-		/// Gamepad (gamepad)
-		/// <para>Terms: controller</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Gamepad = 0xf11b,
-
-		/// <summary>
-		/// Gas Pump (gas-pump)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		GasPump = 0xf52f,
-
-		/// <summary>
-		/// Gavel (gavel)
-		/// <para>Terms: hammer, judge, lawyer, opinion</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Gavel = 0xf0e3,
-
-		/// <summary>
-		/// Gem (gem)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: diamond</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Gem = 0xf3a5,
-
-		/// <summary>
-		/// Genderless (genderless)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Genderless = 0xf22d,
-
-		/// <summary>
-		/// Ghost (ghost)
-		/// <para>Terms: apparition, blinky, clyde, floating, halloween, holiday, inky, pinky, spirit</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Ghost = 0xf6e2,
-
-		/// <summary>
-		/// Gift (gift)
-		/// <para>Terms: christmas, generosity, giving, holiday, party, present, wrapped, xmas</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9 and 5.6.0.</para>
-		/// </summary>
-		Gift = 0xf06b,
-
-		/// <summary>
-		/// Gifts (gifts)
-		/// <para>Terms: christmas, generosity, giving, holiday, party, present, wrapped, xmas</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Gifts = 0xf79c,
-
-		/// <summary>
-		/// Glass Cheers (glass-cheers)
-		/// <para>Terms: alcohol, bar, beverage, celebration, champagne, clink, drink, holiday, new year's eve, party, toast</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		GlassCheers = 0xf79f,
-
-		/// <summary>
-		/// Martini Glass (glass-martini)
-		/// <para>Terms: alcohol, bar, beverage, drink, liquor</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		GlassMartini = 0xf000,
-
-		/// <summary>
-		/// Alternate Glass Martini (glass-martini-alt)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GlassMartiniAlt = 0xf57b,
-
-		/// <summary>
-		/// Glass Whiskey (glass-whiskey)
-		/// <para>Terms: alcohol, bar, beverage, drink, liquor, neat, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		GlassWhiskey = 0xf7a0,
-
-		/// <summary>
-		/// Glasses (glasses)
-		/// <para>Terms: foureyes, hipster, nerd, reading, sight, spectacles</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Glasses = 0xf530,
-
-		/// <summary>
-		/// Globe (globe)
-		/// <para>Terms: all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Globe = 0xf0ac,
-
-		/// <summary>
-		/// Globe With Africa Shown (globe-africa)
-		/// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GlobeAfrica = 0xf57c,
-
-		/// <summary>
-		/// Globe With Americas Shown (globe-americas)
-		/// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GlobeAmericas = 0xf57d,
-
-		/// <summary>
-		/// Globe With Asia Shown (globe-asia)
-		/// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GlobeAsia = 0xf57e,
-
-		/// <summary>
-		/// Globe With Europe Shown (globe-europe)
-		/// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		GlobeEurope = 0xf7a2,
-
-		/// <summary>
-		/// Golf Ball (golf-ball)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		GolfBall = 0xf450,
-
-		/// <summary>
-		/// Gopuram (gopuram)
-		/// <para>Terms: building, entrance, hinduism, temple, tower</para>
-		/// <para>Added in 5.3.0, updated in 5.7.0.</para>
-		/// </summary>
-		Gopuram = 0xf664,
-
-		/// <summary>
-		/// Graduation Cap (graduation-cap)
-		/// <para>Terms: learning, school, student</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		GraduationCap = 0xf19d,
-
-		/// <summary>
-		/// Greater Than (greater-than)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		GreaterThan = 0xf531,
-
-		/// <summary>
-		/// Greater Than Equal To (greater-than-equal)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		GreaterThanEqual = 0xf532,
-
-		/// <summary>
-		/// Grimacing Face (grimace)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cringe, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Grimace = 0xf57f,
-
-		/// <summary>
-		/// Grinning Face (grin)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Grin = 0xf580,
-
-		/// <summary>
-		/// Alternate Grinning Face (grin-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinAlt = 0xf581,
-
-		/// <summary>
-		/// Grinning Face With Smiling Eyes (grin-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinBeam = 0xf582,
-
-		/// <summary>
-		/// Grinning Face With Sweat (grin-beam-sweat)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinBeamSweat = 0xf583,
-
-		/// <summary>
-		/// Smiling Face With Heart-Eyes (grin-hearts)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, love, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinHearts = 0xf584,
-
-		/// <summary>
-		/// Grinning Squinting Face (grin-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinSquint = 0xf585,
-
-		/// <summary>
-		/// Rolling On The Floor Laughing (grin-squint-tears)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinSquintTears = 0xf586,
-
-		/// <summary>
-		/// Star-Struck (grin-stars)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, star-struck</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinStars = 0xf587,
-
-		/// <summary>
-		/// Face With Tears Of Joy (grin-tears)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTears = 0xf588,
-
-		/// <summary>
-		/// Face With Tongue (grin-tongue)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongue = 0xf589,
-
-		/// <summary>
-		/// Squinting Face With Tongue (grin-tongue-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongueSquint = 0xf58a,
-
-		/// <summary>
-		/// Winking Face With Tongue (grin-tongue-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongueWink = 0xf58b,
-
-		/// <summary>
-		/// Grinning Winking Face (grin-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, flirt, laugh, smile</para>
-		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
-		/// </summary>
-		GrinWink = 0xf58c,
-
-		/// <summary>
-		/// Grip Horizontal (grip-horizontal)
-		/// <para>Terms: affordance, drag, drop, grab, handle</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GripHorizontal = 0xf58d,
-
-		/// <summary>
-		/// Grip Lines (grip-lines)
-		/// <para>Terms: affordance, drag, drop, grab, handle</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		GripLines = 0xf7a4,
-
-		/// <summary>
-		/// Grip Lines Vertical (grip-lines-vertical)
-		/// <para>Terms: affordance, drag, drop, grab, handle</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		GripLinesVertical = 0xf7a5,
-
-		/// <summary>
-		/// Grip Vertical (grip-vertical)
-		/// <para>Terms: affordance, drag, drop, grab, handle</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GripVertical = 0xf58e,
-
-		/// <summary>
-		/// Guitar (guitar)
-		/// <para>Terms: acoustic, instrument, music, rock, rock and roll, song, strings</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Guitar = 0xf7a6,
-
-		/// <summary>
-		/// H Square (h-square)
-		/// <para>Terms: hospital, hotel</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HSquare = 0xf0fd,
-
-		/// <summary>
-		/// Hamburger (hamburger)
-		/// <para>Terms: bacon, beef, burger, burger king, cheeseburger, fast food, grill, ground beef, mcdonalds, sandwich</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Hamburger = 0xf805,
-
-		/// <summary>
-		/// Hammer (hammer)
-		/// <para>Terms: admin, fix, repair, settings, tool</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Hammer = 0xf6e3,
-
-		/// <summary>
-		/// Hamsa (hamsa)
-		/// <para>Terms: amulet, christianity, islam, jewish, judaism, muslim, protection</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Hamsa = 0xf665,
-
-		/// <summary>
-		/// Hand Holding (hand-holding)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		HandHolding = 0xf4bd,
-
-		/// <summary>
-		/// Hand Holding Heart (hand-holding-heart)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		HandHoldingHeart = 0xf4be,
-
-		/// <summary>
-		/// Hand Holding US Dollar (hand-holding-usd)
-		/// <para>Terms: $, dollar sign, donation, giving, money, price</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		HandHoldingUsd = 0xf4c0,
-
-		/// <summary>
-		/// Lizard (Hand) (hand-lizard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandLizard = 0xf258,
-
-		/// <summary>
-		/// Hand With Middle Finger Raised (hand-middle-finger)
-		/// <para>Terms: flip the bird, gesture, hate, rude</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		HandMiddleFinger = 0xf806,
-
-		/// <summary>
-		/// Paper (Hand) (hand-paper)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: stop</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPaper = 0xf256,
-
-		/// <summary>
-		/// Peace (Hand) (hand-peace)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPeace = 0xf25b,
-
-		/// <summary>
-		/// Hand Pointing Down (hand-point-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, hand-o-down, point</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointDown = 0xf0a7,
-
-		/// <summary>
-		/// Hand Pointing Left (hand-point-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: back, finger, hand-o-left, left, point, previous</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointLeft = 0xf0a5,
-
-		/// <summary>
-		/// Hand Pointing Right (hand-point-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, forward, hand-o-right, next, point, right</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointRight = 0xf0a4,
-
-		/// <summary>
-		/// Hand Pointing Up (hand-point-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, hand-o-up, point</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointUp = 0xf0a6,
-
-		/// <summary>
-		/// Pointer (Hand) (hand-pointer)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: select</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointer = 0xf25a,
-
-		/// <summary>
-		/// Rock (Hand) (hand-rock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandRock = 0xf255,
-
-		/// <summary>
-		/// Scissors (Hand) (hand-scissors)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandScissors = 0xf257,
-
-		/// <summary>
-		/// Spock (Hand) (hand-spock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandSpock = 0xf259,
-
-		/// <summary>
-		/// Hands (hands)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Hands = 0xf4c2,
-
-		/// <summary>
-		/// Helping Hands (hands-helping)
-		/// <para>Terms: aid, assistance, partnership, volunteering</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		HandsHelping = 0xf4c4,
-
-		/// <summary>
-		/// Handshake (handshake)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: greeting, partnership</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Handshake = 0xf2b5,
-
-		/// <summary>
-		/// Hanukiah (hanukiah)
-		/// <para>Terms: candle, hanukkah, jewish, judaism, light</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Hanukiah = 0xf6e6,
-
-		/// <summary>
-		/// Hard Hat (hard-hat)
-		/// <para>Terms: construction, hardhat, helmet, safety</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		HardHat = 0xf807,
-
-		/// <summary>
-		/// Hashtag (hashtag)
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hashtag = 0xf292,
-
-		/// <summary>
-		/// Wizard's Hat (hat-wizard)
-		/// <para>Terms: Dungeons & Dragons, accessory, buckle, clothing, d&d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		HatWizard = 0xf6e8,
-
-		/// <summary>
-		/// Haykal (haykal)
-		/// <para>Terms: bahai, bahá'í, star</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Haykal = 0xf666,
-
-		/// <summary>
-		/// HDD (hdd)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cpu, hard drive, harddrive, machine, save, storage</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hdd = 0xf0a0,
-
-		/// <summary>
-		/// Heading (heading)
-		/// <para>Terms: header</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Heading = 0xf1dc,
-
-		/// <summary>
-		/// Headphones (headphones)
-		/// <para>Terms: audio, listen, music, sound, speaker</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Headphones = 0xf025,
-
-		/// <summary>
-		/// Alternate Headphones (headphones-alt)
-		/// <para>Terms: audio, listen, music, sound, speaker</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		HeadphonesAlt = 0xf58f,
-
-		/// <summary>
-		/// Headset (headset)
-		/// <para>Terms: audio, gamer, gaming, listen, live chat, microphone, shot caller, sound, support, telemarketer</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Headset = 0xf590,
-
-		/// <summary>
-		/// Heart (heart)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: favorite, like, love, relationship</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Heart = 0xf004,
-
-		/// <summary>
-		/// Heart Broken (heart-broken)
-		/// <para>Terms: breakup, crushed, dislike, dumped, grief, love, lovesick, relationship, sad</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		HeartBroken = 0xf7a9,
-
-		/// <summary>
-		/// Heartbeat (heartbeat)
-		/// <para>Terms: ekg, lifeline, vital signs</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0 and 5.0.7.</para>
-		/// </summary>
-		Heartbeat = 0xf21e,
-
-		/// <summary>
-		/// Helicopter (helicopter)
-		/// <para>Terms: airwolf, apache, chopper, flight, fly</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Helicopter = 0xf533,
-
-		/// <summary>
-		/// Highlighter (highlighter)
-		/// <para>Terms: edit, marker, sharpie, update, write</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Highlighter = 0xf591,
-
-		/// <summary>
-		/// Hiking (hiking)
-		/// <para>Terms: activity, backpack, fall, fitness, outdoors, person, seasonal, walking</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Hiking = 0xf6ec,
-
-		/// <summary>
-		/// Hippo (hippo)
-		/// <para>Terms: fauna, hungry, mammmal</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Hippo = 0xf6ed,
-
-		/// <summary>
-		/// History (history)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		History = 0xf1da,
-
-		/// <summary>
-		/// Hockey Puck (hockey-puck)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		HockeyPuck = 0xf453,
-
-		/// <summary>
-		/// Holly Berry (holly-berry)
-		/// <para>Terms: catwoman, christmas, decoration, flora, halle, holiday, ororo munroe, plant, storm, xmas</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		HollyBerry = 0xf7aa,
-
-		/// <summary>
-		/// Home (home)
-		/// <para>Terms: building, house, main</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Home = 0xf015,
-
-		/// <summary>
-		/// Horse (horse)
-		/// <para>Terms: equus, fauna, mammmal, neigh</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Horse = 0xf6f0,
-
-		/// <summary>
-		/// Horse Head (horse-head)
-		/// <para>Terms: equus, fauna, mammmal, neigh</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		HorseHead = 0xf7ab,
-
-		/// <summary>
-		/// Hospital (hospital)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: building, emergency room, medical center</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hospital = 0xf0f8,
-
-		/// <summary>
-		/// Alternate Hospital (hospital-alt)
-		/// <para>Terms: building, emergency room, medical center</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		HospitalAlt = 0xf47d,
-
-		/// <summary>
-		/// Hospital Symbol (hospital-symbol)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		HospitalSymbol = 0xf47e,
-
-		/// <summary>
-		/// Hot Tub (hot-tub)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		HotTub = 0xf593,
-
-		/// <summary>
-		/// Hot Dog (hotdog)
-		/// <para>Terms: bun, chili, frankfurt, frankfurter, kosher, polish, sandwich, sausage, vienna, weiner</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Hotdog = 0xf80f,
-
-		/// <summary>
-		/// Hotel (hotel)
-		/// <para>Terms: building, lodging</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Hotel = 0xf594,
-
-		/// <summary>
-		/// Hourglass (hourglass)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hourglass = 0xf254,
-
-		/// <summary>
-		/// Hourglass End (hourglass-end)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HourglassEnd = 0xf253,
-
-		/// <summary>
-		/// Hourglass Half (hourglass-half)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HourglassHalf = 0xf252,
-
-		/// <summary>
-		/// Hourglass Start (hourglass-start)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HourglassStart = 0xf251,
-
-		/// <summary>
-		/// Damaged House (house-damage)
-		/// <para>Terms: building, devastation, home</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		HouseDamage = 0xf6f1,
-
-		/// <summary>
-		/// Hryvnia (hryvnia)
-		/// <para>Terms: money</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Hryvnia = 0xf6f2,
-
-		/// <summary>
-		/// I Beam Cursor (i-cursor)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		ICursor = 0xf246,
-
-		/// <summary>
-		/// Ice Cream (ice-cream)
-		/// <para>Terms: chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		IceCream = 0xf810,
-
-		/// <summary>
-		/// Icicles (icicles)
-		/// <para>Terms: cold, frozen, hanging, ice, seasonal, sharp</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Icicles = 0xf7ad,
-
-		/// <summary>
-		/// Identification Badge (id-badge)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		IdBadge = 0xf2c1,
-
-		/// <summary>
-		/// Identification Card (id-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, identification, issued</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		IdCard = 0xf2c2,
-
-		/// <summary>
-		/// Alternate Identification Card (id-card-alt)
-		/// <para>Terms: demographics</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		IdCardAlt = 0xf47f,
-
-		/// <summary>
-		/// Igloo (igloo)
-		/// <para>Terms: dome, dwelling, eskimo, home, house, ice, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Igloo = 0xf7ae,
-
-		/// <summary>
-		/// Image (image)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: album, photo, picture</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Image = 0xf03e,
-
-		/// <summary>
-		/// Images (images)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: album, photo, picture</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Images = 0xf302,
-
-		/// <summary>
-		/// Inbox (inbox)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Inbox = 0xf01c,
-
-		/// <summary>
-		/// Indent (indent)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Indent = 0xf03c,
-
-		/// <summary>
-		/// Industry (industry)
-		/// <para>Terms: building, factory, manufacturing</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Industry = 0xf275,
-
-		/// <summary>
-		/// Infinity (infinity)
-		/// <para>Added in 5.0.13, updated in 5.3.0.</para>
-		/// </summary>
-		Infinity = 0xf534,
-
-		/// <summary>
-		/// Info (info)
-		/// <para>Terms: details, help, information, more</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Info = 0xf129,
-
-		/// <summary>
-		/// Info Circle (info-circle)
-		/// <para>Terms: details, help, information, more</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		InfoCircle = 0xf05a,
-
-		/// <summary>
-		/// Italic (italic)
-		/// <para>Terms: italics</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Italic = 0xf033,
-
-		/// <summary>
-		/// Jedi (jedi)
-		/// <para>Terms: star wars</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Jedi = 0xf669,
-
-		/// <summary>
-		/// Joint (joint)
-		/// <para>Terms: blunt, cannabis, doobie, drugs, marijuana, roach, smoke, smoking, spliff</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Joint = 0xf595,
-
-		/// <summary>
-		/// Journal Of The Whills (journal-whills)
-		/// <para>Terms: book, jedi, star wars, the force</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		JournalWhills = 0xf66a,
-
-		/// <summary>
-		/// Kaaba (kaaba)
-		/// <para>Terms: building, cube, islam, muslim</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Kaaba = 0xf66b,
-
-		/// <summary>
-		/// Key (key)
-		/// <para>Terms: password, unlock</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Key = 0xf084,
-
-		/// <summary>
-		/// Keyboard (keyboard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: input, type</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Keyboard = 0xf11c,
-
-		/// <summary>
-		/// Khanda (khanda)
-		/// <para>Terms: chakkar, sikh, sikhism, sword</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Khanda = 0xf66d,
-
-		/// <summary>
-		/// Kissing Face (kiss)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
-		/// </summary>
-		Kiss = 0xf596,
-
-		/// <summary>
-		/// Kissing Face With Smiling Eyes (kiss-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		KissBeam = 0xf597,
-
-		/// <summary>
-		/// Face Blowing A Kiss (kiss-wink-heart)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		KissWinkHeart = 0xf598,
-
-		/// <summary>
-		/// Kiwi Bird (kiwi-bird)
-		/// <para>Terms: bird, fauna</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		KiwiBird = 0xf535,
-
-		/// <summary>
-		/// Landmark (landmark)
-		/// <para>Terms: building, historic, memoroable, politics</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Landmark = 0xf66f,
-
-		/// <summary>
-		/// Language (language)
-		/// <para>Terms: dialect, idiom, localize, speech, translate, vernacular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Language = 0xf1ab,
-
-		/// <summary>
-		/// Laptop (laptop)
-		/// <para>Terms: computer, cpu, dell, demo, device, dude you're getting, mac, macbook, machine, pc</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Laptop = 0xf109,
-
-		/// <summary>
-		/// Laptop Code (laptop-code)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		LaptopCode = 0xf5fc,
-
-		/// <summary>
-		/// Laptop Medical (laptop-medical)
-		/// <para>Terms: ehr, electronic health records, history</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		LaptopMedical = 0xf812,
-
-		/// <summary>
-		/// Grinning Face With Big Eyes (laugh)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face, laugh</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Laugh = 0xf599,
-
-		/// <summary>
-		/// Laugh Face With Beaming Eyes (laugh-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughBeam = 0xf59a,
-
-		/// <summary>
-		/// Laughing Squinting Face (laugh-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughSquint = 0xf59b,
-
-		/// <summary>
-		/// Laughing Winking Face (laugh-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughWink = 0xf59c,
-
-		/// <summary>
-		/// Layer Group (layer-group)
-		/// <para>Terms: layers</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		LayerGroup = 0xf5fd,
-
-		/// <summary>
-		/// Leaf (leaf)
-		/// <para>Terms: eco, flora, nature, plant</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Leaf = 0xf06c,
-
-		/// <summary>
-		/// Lemon (lemon)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: citrus, lemonade, lime, tart</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Lemon = 0xf094,
-
-		/// <summary>
-		/// Less Than (less-than)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		LessThan = 0xf536,
-
-		/// <summary>
-		/// Less Than Equal To (less-than-equal)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		LessThanEqual = 0xf537,
-
-		/// <summary>
-		/// Alternate Level Down (level-down-alt)
-		/// <para>Terms: level-down</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LevelDownAlt = 0xf3be,
-
-		/// <summary>
-		/// Alternate Level Up (level-up-alt)
-		/// <para>Terms: level-up</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LevelUpAlt = 0xf3bf,
-
-		/// <summary>
-		/// Life Ring (life-ring)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: support</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		LifeRing = 0xf1cd,
-
-		/// <summary>
-		/// Lightbulb (lightbulb)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: idea, inspiration</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Lightbulb = 0xf0eb,
-
-		/// <summary>
-		/// Link (link)
-		/// <para>Terms: chain</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Link = 0xf0c1,
-
-		/// <summary>
-		/// Turkish Lira Sign (lira-sign)
-		/// <para>Terms: try, turkish</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		LiraSign = 0xf195,
-
-		/// <summary>
-		/// List (list)
-		/// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		List = 0xf03a,
-
-		/// <summary>
-		/// Alternate List (list-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ListAlt = 0xf022,
-
-		/// <summary>
-		/// List-Ol (list-ol)
-		/// <para>Terms: checklist, list, numbers, ol, todo, ul</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ListOl = 0xf0cb,
-
-		/// <summary>
-		/// List-Ul (list-ul)
-		/// <para>Terms: checklist, list, ol, todo, ul</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ListUl = 0xf0ca,
-
-		/// <summary>
-		/// Location-Arrow (location-arrow)
-		/// <para>Terms: address, coordinates, gps, location, map, place, where</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		LocationArrow = 0xf124,
-
-		/// <summary>
-		/// Lock (lock)
-		/// <para>Terms: admin, protect, security</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Lock = 0xf023,
-
-		/// <summary>
-		/// Lock Open (lock-open)
-		/// <para>Terms: admin, lock, open, password, protect</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.1.</para>
-		/// </summary>
-		LockOpen = 0xf3c1,
-
-		/// <summary>
-		/// Alternate Long Arrow Down (long-arrow-alt-down)
-		/// <para>Terms: long-arrow-down</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LongArrowAltDown = 0xf309,
-
-		/// <summary>
-		/// Alternate Long Arrow Left (long-arrow-alt-left)
-		/// <para>Terms: back, long-arrow-left, previous</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LongArrowAltLeft = 0xf30a,
-
-		/// <summary>
-		/// Alternate Long Arrow Right (long-arrow-alt-right)
-		/// <para>Terms: long-arrow-right</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LongArrowAltRight = 0xf30b,
-
-		/// <summary>
-		/// Alternate Long Arrow Up (long-arrow-alt-up)
-		/// <para>Terms: long-arrow-up</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		LongArrowAltUp = 0xf30c,
-
-		/// <summary>
-		/// Low Vision (low-vision)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		LowVision = 0xf2a8,
-
-		/// <summary>
-		/// Luggage Cart (luggage-cart)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LuggageCart = 0xf59d,
-
-		/// <summary>
-		/// Magic (magic)
-		/// <para>Terms: autocomplete, automatic, mage, magic, spell, witch, wizard</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Magic = 0xf0d0,
-
-		/// <summary>
-		/// Magnet (magnet)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Magnet = 0xf076,
-
-		/// <summary>
-		/// Mail Bulk (mail-bulk)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		MailBulk = 0xf674,
-
-		/// <summary>
-		/// Male (male)
-		/// <para>Terms: human, man, person, profile, user</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Male = 0xf183,
-
-		/// <summary>
-		/// Map (map)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: coordinates, location, paper, place, travel</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Map = 0xf279,
-
-		/// <summary>
-		/// Map Marked (map-marked)
-		/// <para>Terms: address, coordinates, destination, gps, localize, location, map, paper, pin, place, point of interest, position, route, travel, where</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MapMarked = 0xf59f,
-
-		/// <summary>
-		/// Alternate Map Marked (map-marked-alt)
-		/// <para>Terms: address, coordinates, destination, gps, localize, location, map, paper, pin, place, point of interest, position, route, travel, where</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MapMarkedAlt = 0xf5a0,
-
-		/// <summary>
-		/// Map-Marker (map-marker)
-		/// <para>Terms: address, coordinates, gps, localize, location, map, pin, place, position, travel, where</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		MapMarker = 0xf041,
-
-		/// <summary>
-		/// Alternate Map Marker (map-marker-alt)
-		/// <para>Terms: address, coordinates, gps, localize, location, map, pin, place, position, travel, where</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		MapMarkerAlt = 0xf3c5,
-
-		/// <summary>
-		/// Map Pin (map-pin)
-		/// <para>Terms: address, coordinates, gps, localize, location, map, marker, place, position, travel, where</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		MapPin = 0xf276,
-
-		/// <summary>
-		/// Map Signs (map-signs)
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		MapSigns = 0xf277,
-
-		/// <summary>
-		/// Marker (marker)
-		/// <para>Terms: edit, sharpie, update, write</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Marker = 0xf5a1,
-
-		/// <summary>
-		/// Mars (mars)
-		/// <para>Terms: male</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Mars = 0xf222,
-
-		/// <summary>
-		/// Mars Double (mars-double)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		MarsDouble = 0xf227,
-
-		/// <summary>
-		/// Mars Stroke (mars-stroke)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		MarsStroke = 0xf229,
-
-		/// <summary>
-		/// Mars Stroke Horizontal (mars-stroke-h)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		MarsStrokeH = 0xf22b,
-
-		/// <summary>
-		/// Mars Stroke Vertical (mars-stroke-v)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		MarsStrokeV = 0xf22a,
-
-		/// <summary>
-		/// Mask (mask)
-		/// <para>Terms: costume, disguise, halloween, holiday, secret, super hero</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Mask = 0xf6fa,
-
-		/// <summary>
-		/// Medal (medal)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Medal = 0xf5a2,
-
-		/// <summary>
-		/// Medkit (medkit)
-		/// <para>Terms: first aid, firstaid, health, help, support</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Medkit = 0xf0fa,
-
-		/// <summary>
-		/// Neutral Face (meh)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Meh = 0xf11a,
-
-		/// <summary>
-		/// Face Without Mouth (meh-blank)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MehBlank = 0xf5a4,
-
-		/// <summary>
-		/// Face With Rolling Eyes (meh-rolling-eyes)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MehRollingEyes = 0xf5a5,
-
-		/// <summary>
-		/// Memory (memory)
-		/// <para>Terms: DIMM, RAM, hardware, technology</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Memory = 0xf538,
-
-		/// <summary>
-		/// Menorah (menorah)
-		/// <para>Terms: candle, hanukkah, jewish, judaism, light</para>
-		/// <para>Added in 5.3.0, updated in 5.4.0.</para>
-		/// </summary>
-		Menorah = 0xf676,
-
-		/// <summary>
-		/// Mercury (mercury)
-		/// <para>Terms: transgender</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Mercury = 0xf223,
-
-		/// <summary>
-		/// Meteor (meteor)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Meteor = 0xf753,
-
-		/// <summary>
-		/// Microchip (microchip)
-		/// <para>Terms: cpu, processor</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		Microchip = 0xf2db,
-
-		/// <summary>
-		/// Microphone (microphone)
-		/// <para>Terms: record, sound, voice</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Microphone = 0xf130,
-
-		/// <summary>
-		/// Alternate Microphone (microphone-alt)
-		/// <para>Terms: record, sound, voice</para>
-		/// <para>Added in 5.0.0, updated in 5.0.13.</para>
-		/// </summary>
-		MicrophoneAlt = 0xf3c9,
-
-		/// <summary>
-		/// Alternate Microphone Slash (microphone-alt-slash)
-		/// <para>Terms: disable, mute, record, sound, voice</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		MicrophoneAltSlash = 0xf539,
-
-		/// <summary>
-		/// Microphone Slash (microphone-slash)
-		/// <para>Terms: disable, mute, record, sound, voice</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		MicrophoneSlash = 0xf131,
-
-		/// <summary>
-		/// Microscope (microscope)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Microscope = 0xf610,
-
-		/// <summary>
-		/// Minus (minus)
-		/// <para>Terms: collapse, delete, hide, minify, negative, remove, trash</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Minus = 0xf068,
-
-		/// <summary>
-		/// Minus Circle (minus-circle)
-		/// <para>Terms: delete, hide, negative, remove, trash</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		MinusCircle = 0xf056,
-
-		/// <summary>
-		/// Minus Square (minus-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: collapse, delete, hide, minify, negative, remove, trash</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		MinusSquare = 0xf146,
-
-		/// <summary>
-		/// Mitten (mitten)
-		/// <para>Terms: clothing, cold, hands, knitted, seasonal, warmth</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Mitten = 0xf7b5,
-
-		/// <summary>
-		/// Mobile Phone (mobile)
-		/// <para>Terms: apple, call, cell phone, cellphone, device, iphone, number, screen, telephone, text</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Mobile = 0xf10b,
-
-		/// <summary>
-		/// Alternate Mobile (mobile-alt)
-		/// <para>Terms: apple, call, cell phone, cellphone, device, iphone, number, screen, telephone, text</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		MobileAlt = 0xf3cd,
-
-		/// <summary>
-		/// Money Bill (money-bill)
-		/// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		MoneyBill = 0xf0d6,
-
-		/// <summary>
-		/// Alternate Money Bill (money-bill-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
-		/// <para>Added in 5.0.0, updated in 5.0.13.</para>
-		/// </summary>
-		MoneyBillAlt = 0xf3d1,
-
-		/// <summary>
-		/// Wavy Money Bill (money-bill-wave)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		MoneyBillWave = 0xf53a,
-
-		/// <summary>
-		/// Alternate Wavy Money Bill (money-bill-wave-alt)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		MoneyBillWaveAlt = 0xf53b,
-
-		/// <summary>
-		/// Money Check (money-check)
-		/// <para>Terms: bank check, cheque</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		MoneyCheck = 0xf53c,
-
-		/// <summary>
-		/// Alternate Money Check (money-check-alt)
-		/// <para>Terms: bank check, cheque</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		MoneyCheckAlt = 0xf53d,
-
-		/// <summary>
-		/// Monument (monument)
-		/// <para>Terms: building, historic, memoroable</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Monument = 0xf5a6,
-
-		/// <summary>
-		/// Moon (moon)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: contrast, crescent, darker, lunar, night</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Moon = 0xf186,
-
-		/// <summary>
-		/// Mortar Pestle (mortar-pestle)
-		/// <para>Terms: crush, culinary, grind, medical, mix, spices</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MortarPestle = 0xf5a7,
-
-		/// <summary>
-		/// Mosque (mosque)
-		/// <para>Terms: building, islam, muslim</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Mosque = 0xf678,
-
-		/// <summary>
-		/// Motorcycle (motorcycle)
-		/// <para>Terms: bike, machine, transportation, vehicle</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Motorcycle = 0xf21c,
-
-		/// <summary>
-		/// Mountain (mountain)
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Mountain = 0xf6fc,
-
-		/// <summary>
-		/// Mouse Pointer (mouse-pointer)
-		/// <para>Terms: select</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		MousePointer = 0xf245,
-
-		/// <summary>
-		/// Mug Hot (mug-hot)
-		/// <para>Terms: caliente, cocoa, coffee, cup, drink, holiday, steam, tea, warmth</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		MugHot = 0xf7b6,
-
-		/// <summary>
-		/// Music (music)
-		/// <para>Terms: note, sound</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Music = 0xf001,
-
-		/// <summary>
-		/// Wired Network (network-wired)
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		NetworkWired = 0xf6ff,
-
-		/// <summary>
-		/// Neuter (neuter)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Neuter = 0xf22c,
-
-		/// <summary>
-		/// Newspaper (newspaper)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: article, press</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Newspaper = 0xf1ea,
-
-		/// <summary>
-		/// Not Equal (not-equal)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		NotEqual = 0xf53e,
-
-		/// <summary>
-		/// Medical Notes (notes-medical)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		NotesMedical = 0xf481,
-
-		/// <summary>
-		/// Object Group (object-group)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: design</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		ObjectGroup = 0xf247,
-
-		/// <summary>
-		/// Object Ungroup (object-ungroup)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: design</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		ObjectUngroup = 0xf248,
-
-		/// <summary>
-		/// Oil Can (oil-can)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		OilCan = 0xf613,
-
-		/// <summary>
-		/// Om (om)
-		/// <para>Terms: buddhism, hinduism, jainism, mantra</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Om = 0xf679,
-
-		/// <summary>
-		/// Otter (otter)
-		/// <para>Terms: fauna, mammmal</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Otter = 0xf700,
-
-		/// <summary>
-		/// Outdent (outdent)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Outdent = 0xf03b,
-
-		/// <summary>
-		/// Pager (pager)
-		/// <para>Terms: beeper, cellphone, communication</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		Pager = 0xf815,
-
-		/// <summary>
-		/// Paint Brush (paint-brush)
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		PaintBrush = 0xf1fc,
-
-		/// <summary>
-		/// Paint Roller (paint-roller)
-		/// <para>Terms: brush, painting, tool</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PaintRoller = 0xf5aa,
-
-		/// <summary>
-		/// Palette (palette)
-		/// <para>Terms: colors, painting</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Palette = 0xf53f,
-
-		/// <summary>
-		/// Pallet (pallet)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Pallet = 0xf482,
-
-		/// <summary>
-		/// Paper Plane (paper-plane)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PaperPlane = 0xf1d8,
-
-		/// <summary>
-		/// Paperclip (paperclip)
-		/// <para>Terms: attachment</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Paperclip = 0xf0c6,
-
-		/// <summary>
-		/// Parachute Box (parachute-box)
-		/// <para>Terms: aid, assistance, rescue, supplies</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		ParachuteBox = 0xf4cd,
-
-		/// <summary>
-		/// Paragraph (paragraph)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Paragraph = 0xf1dd,
-
-		/// <summary>
-		/// Parking (parking)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Parking = 0xf540,
-
-		/// <summary>
-		/// Passport (passport)
-		/// <para>Terms: document, identification, issued</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Passport = 0xf5ab,
-
-		/// <summary>
-		/// Pastafarianism (pastafarianism)
-		/// <para>Terms: agnosticism, atheism, flying spaghetti monster, fsm</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Pastafarianism = 0xf67b,
-
-		/// <summary>
-		/// Paste (paste)
-		/// <para>Terms: clipboard, copy</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Paste = 0xf0ea,
-
-		/// <summary>
-		/// Pause (pause)
-		/// <para>Terms: wait</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Pause = 0xf04c,
-
-		/// <summary>
-		/// Pause Circle (pause-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		PauseCircle = 0xf28b,
-
-		/// <summary>
-		/// Paw (paw)
-		/// <para>Terms: animal, pet</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Paw = 0xf1b0,
-
-		/// <summary>
-		/// Peace (peace)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Peace = 0xf67c,
-
-		/// <summary>
-		/// Pen (pen)
-		/// <para>Terms: design, edit, update, write</para>
-		/// <para>Added in 5.0.0, updated in 5.1.0.</para>
-		/// </summary>
-		Pen = 0xf304,
-
-		/// <summary>
-		/// Alternate Pen (pen-alt)
-		/// <para>Terms: design, edit, update, write</para>
-		/// <para>Added in 5.0.0, updated in 5.1.0.</para>
-		/// </summary>
-		PenAlt = 0xf305,
-
-		/// <summary>
-		/// Pen Fancy (pen-fancy)
-		/// <para>Terms: design, edit, fountain pen, update, write</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PenFancy = 0xf5ac,
-
-		/// <summary>
-		/// Pen Nib (pen-nib)
-		/// <para>Terms: design, edit, fountain pen, update, write</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PenNib = 0xf5ad,
-
-		/// <summary>
-		/// Pen Square (pen-square)
-		/// <para>Terms: edit, pencil-square, update, write</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PenSquare = 0xf14b,
-
-		/// <summary>
-		/// Alternate Pencil (pencil-alt)
-		/// <para>Terms: design, edit, pencil, update, write</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		PencilAlt = 0xf303,
-
-		/// <summary>
-		/// Pencil Ruler (pencil-ruler)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PencilRuler = 0xf5ae,
-
-		/// <summary>
-		/// People Carry (people-carry)
-		/// <para>Terms: movers</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		PeopleCarry = 0xf4ce,
-
-		/// <summary>
-		/// Hot Pepper (pepper-hot)
-		/// <para>Terms: buffalo wings, capsicum, chili, chilli, habanero, jalapeno, mexican, spicy, tabasco</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		PepperHot = 0xf816,
-
-		/// <summary>
-		/// Percent (percent)
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		Percent = 0xf295,
-
-		/// <summary>
-		/// Percentage (percentage)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Percentage = 0xf541,
-
-		/// <summary>
-		/// Person Entering Booth (person-booth)
-		/// <para>Terms: changing, changing room, election, human, person, vote, voting</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		PersonBooth = 0xf756,
-
-		/// <summary>
-		/// Phone (phone)
-		/// <para>Terms: call, earphone, number, support, telephone, voice</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Phone = 0xf095,
-
-		/// <summary>
-		/// Phone Slash (phone-slash)
-		/// <para>Added in 5.0.0, updated in 5.0.9.</para>
-		/// </summary>
-		PhoneSlash = 0xf3dd,
-
-		/// <summary>
-		/// Phone Square (phone-square)
-		/// <para>Terms: call, number, support, telephone, voice</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		PhoneSquare = 0xf098,
-
-		/// <summary>
-		/// Phone Volume (phone-volume)
-		/// <para>Terms: telephone, volume-control-phone</para>
-		/// <para>Added in 4.6.0, updated in 5.0.0, 5.0.3 and 5.7.0.</para>
-		/// </summary>
-		PhoneVolume = 0xf2a0,
-
-		/// <summary>
-		/// Piggy Bank (piggy-bank)
-		/// <para>Terms: save, savings</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		PiggyBank = 0xf4d3,
-
-		/// <summary>
-		/// Pills (pills)
-		/// <para>Terms: drugs, medicine</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Pills = 0xf484,
-
-		/// <summary>
-		/// Pizza Slice (pizza-slice)
-		/// <para>Terms: cheese, chicago, italian, mozzarella, new york, pepperoni, pie, slice, teenage mutant ninja turtles, tomato</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		PizzaSlice = 0xf818,
-
-		/// <summary>
-		/// Place Of Worship (place-of-worship)
-		/// <para>Terms: building, church, holy, mosque, synagogue</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		PlaceOfWorship = 0xf67f,
-
-		/// <summary>
-		/// Plane (plane)
-		/// <para>Terms: airplane, destination, fly, location, mode, travel, trip</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Plane = 0xf072,
-
-		/// <summary>
-		/// Plane Arrival (plane-arrival)
-		/// <para>Terms: airplane, arriving, destination, fly, land, landing, location, mode, travel, trip</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PlaneArrival = 0xf5af,
-
-		/// <summary>
-		/// Plane Departure (plane-departure)
-		/// <para>Terms: airplane, departing, destination, fly, location, mode, take off, taking off, travel, trip</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		PlaneDeparture = 0xf5b0,
-
-		/// <summary>
-		/// Play (play)
-		/// <para>Terms: music, playing, sound, start</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Play = 0xf04b,
-
-		/// <summary>
-		/// Play Circle (play-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: playing, start</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PlayCircle = 0xf144,
-
-		/// <summary>
-		/// Plug (plug)
-		/// <para>Terms: connect, online, power</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Plug = 0xf1e6,
-
-		/// <summary>
-		/// Plus (plus)
-		/// <para>Terms: add, create, expand, new, positive</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Plus = 0xf067,
-
-		/// <summary>
-		/// Plus Circle (plus-circle)
-		/// <para>Terms: add, create, expand, new, positive</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		PlusCircle = 0xf055,
-
-		/// <summary>
-		/// Plus Square (plus-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: add, create, expand, new, positive</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		PlusSquare = 0xf0fe,
-
-		/// <summary>
-		/// Podcast (podcast)
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		Podcast = 0xf2ce,
-
-		/// <summary>
-		/// Poll (poll)
-		/// <para>Terms: results, survey, vote, voting</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Poll = 0xf681,
-
-		/// <summary>
-		/// Poll H (poll-h)
-		/// <para>Terms: results, survey, vote, voting</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		PollH = 0xf682,
-
-		/// <summary>
-		/// Poo (poo)
-		/// <para>Added in 5.0.0, updated in 5.0.9.</para>
-		/// </summary>
-		Poo = 0xf2fe,
-
-		/// <summary>
-		/// Poo Storm (poo-storm)
-		/// <para>Terms: bolt, cloud, euphemism, lightning, mess, poop, shit</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		PooStorm = 0xf75a,
-
-		/// <summary>
-		/// Poop (poop)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Poop = 0xf619,
-
-		/// <summary>
-		/// Portrait (portrait)
-		/// <para>Added in 5.0.0, updated in 5.0.3.</para>
-		/// </summary>
-		Portrait = 0xf3e0,
-
-		/// <summary>
-		/// Pound Sign (pound-sign)
-		/// <para>Terms: gbp</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		PoundSign = 0xf154,
-
-		/// <summary>
-		/// Power Off (power-off)
-		/// <para>Terms: on, reboot, restart</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		PowerOff = 0xf011,
-
-		/// <summary>
-		/// Pray (pray)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Pray = 0xf683,
-
-		/// <summary>
-		/// Praying Hands (praying-hands)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		PrayingHands = 0xf684,
-
-		/// <summary>
-		/// Prescription (prescription)
-		/// <para>Terms: drugs, medical, medicine, rx</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Prescription = 0xf5b1,
-
-		/// <summary>
-		/// Prescription Bottle (prescription-bottle)
-		/// <para>Terms: drugs, medical, medicine, rx</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		PrescriptionBottle = 0xf485,
-
-		/// <summary>
-		/// Alternate Prescription Bottle (prescription-bottle-alt)
-		/// <para>Terms: drugs, medical, medicine, rx</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		PrescriptionBottleAlt = 0xf486,
-
-		/// <summary>
-		/// Print (print)
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Print = 0xf02f,
-
-		/// <summary>
-		/// Procedures (procedures)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Procedures = 0xf487,
-
-		/// <summary>
-		/// Project Diagram (project-diagram)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		ProjectDiagram = 0xf542,
-
-		/// <summary>
-		/// Puzzle Piece (puzzle-piece)
-		/// <para>Terms: add-on, addon, section</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PuzzlePiece = 0xf12e,
-
-		/// <summary>
-		/// Qrcode (qrcode)
-		/// <para>Terms: scan</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Qrcode = 0xf029,
-
-		/// <summary>
-		/// Question (question)
-		/// <para>Terms: help, information, support, unknown</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Question = 0xf128,
-
-		/// <summary>
-		/// Question Circle (question-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: help, information, support, unknown</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		QuestionCircle = 0xf059,
-
-		/// <summary>
-		/// Quidditch (quidditch)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		Quidditch = 0xf458,
-
-		/// <summary>
-		/// Quote-Left (quote-left)
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		QuoteLeft = 0xf10d,
-
-		/// <summary>
-		/// Quote-Right (quote-right)
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		QuoteRight = 0xf10e,
-
-		/// <summary>
-		/// Quran (quran)
-		/// <para>Terms: book, islam, muslim</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Quran = 0xf687,
-
-		/// <summary>
-		/// Radiation (radiation)
-		/// <para>Terms: danger, dangerous, deadly, hazard, nuclear, radioactive, warning</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Radiation = 0xf7b9,
-
-		/// <summary>
-		/// Alternate Radiation (radiation-alt)
-		/// <para>Terms: danger, dangerous, deadly, hazard, nuclear, radioactive, warning</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		RadiationAlt = 0xf7ba,
-
-		/// <summary>
-		/// Rainbow (rainbow)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Rainbow = 0xf75b,
-
-		/// <summary>
-		/// Random (random)
-		/// <para>Terms: shuffle, sort</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Random = 0xf074,
-
-		/// <summary>
-		/// Receipt (receipt)
-		/// <para>Terms: check, invoice, table</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Receipt = 0xf543,
-
-		/// <summary>
-		/// Recycle (recycle)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Recycle = 0xf1b8,
-
-		/// <summary>
-		/// Redo (redo)
-		/// <para>Terms: forward, refresh, reload, repeat</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Redo = 0xf01e,
-
-		/// <summary>
-		/// Alternate Redo (redo-alt)
-		/// <para>Terms: forward, refresh, reload, repeat</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		RedoAlt = 0xf2f9,
-
-		/// <summary>
-		/// Registered Trademark (registered)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Registered = 0xf25d,
-
-		/// <summary>
-		/// Reply (reply)
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Reply = 0xf3e5,
-
-		/// <summary>
-		/// Reply-All (reply-all)
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ReplyAll = 0xf122,
-
-		/// <summary>
-		/// Republican (republican)
-		/// <para>Terms: american, conservative, election, elephant, politics, republican party, right, right-wing, usa</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Republican = 0xf75e,
-
-		/// <summary>
-		/// Restroom (restroom)
-		/// <para>Terms: bathroom, john, loo, potty, washroom, waste, wc</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Restroom = 0xf7bd,
-
-		/// <summary>
-		/// Retweet (retweet)
-		/// <para>Terms: refresh, reload, share, swap</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Retweet = 0xf079,
-
-		/// <summary>
-		/// Ribbon (ribbon)
-		/// <para>Terms: badge, cause, lapel, pin</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Ribbon = 0xf4d6,
-
-		/// <summary>
-		/// Ring (ring)
-		/// <para>Terms: Dungeons & Dragons, Gollum, band, binding, d&d, dnd, fantasy, jewelry, precious</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Ring = 0xf70b,
-
-		/// <summary>
-		/// Road (road)
-		/// <para>Terms: street</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Road = 0xf018,
-
-		/// <summary>
-		/// Robot (robot)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Robot = 0xf544,
-
-		/// <summary>
-		/// Rocket (rocket)
-		/// <para>Terms: app</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Rocket = 0xf135,
-
-		/// <summary>
-		/// Route (route)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Route = 0xf4d7,
-
-		/// <summary>
-		/// Rss (rss)
-		/// <para>Terms: blog</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Rss = 0xf09e,
-
-		/// <summary>
-		/// RSS Square (rss-square)
-		/// <para>Terms: blog, feed</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		RssSquare = 0xf143,
-
-		/// <summary>
-		/// Ruble Sign (ruble-sign)
-		/// <para>Terms: rub</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		RubleSign = 0xf158,
-
-		/// <summary>
-		/// Ruler (ruler)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Ruler = 0xf545,
-
-		/// <summary>
-		/// Ruler Combined (ruler-combined)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		RulerCombined = 0xf546,
-
-		/// <summary>
-		/// Ruler Horizontal (ruler-horizontal)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		RulerHorizontal = 0xf547,
-
-		/// <summary>
-		/// Ruler Vertical (ruler-vertical)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		RulerVertical = 0xf548,
-
-		/// <summary>
-		/// Running (running)
-		/// <para>Terms: jog, person, sprint</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Running = 0xf70c,
-
-		/// <summary>
-		/// Indian Rupee Sign (rupee-sign)
-		/// <para>Terms: indian, inr</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		RupeeSign = 0xf156,
-
-		/// <summary>
-		/// Crying Face (sad-cry)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, tear, tears</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SadCry = 0xf5b3,
-
-		/// <summary>
-		/// Loudly Crying Face (sad-tear)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, tear, tears</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SadTear = 0xf5b4,
-
-		/// <summary>
-		/// Satellite (satellite)
-		/// <para>Terms: communications, hardware, orbit, space</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Satellite = 0xf7bf,
-
-		/// <summary>
-		/// Satellite Dish (satellite-dish)
-		/// <para>Terms: SETI, communications, hardware, receiver, saucer, signal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		SatelliteDish = 0xf7c0,
-
-		/// <summary>
-		/// Save (save)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: floppy, floppy-o</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Save = 0xf0c7,
-
-		/// <summary>
-		/// School (school)
-		/// <para>Terms: building</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		School = 0xf549,
-
-		/// <summary>
-		/// Screwdriver (screwdriver)
-		/// <para>Terms: admin, fix, repair, settings, tool</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Screwdriver = 0xf54a,
-
-		/// <summary>
-		/// Scroll (scroll)
-		/// <para>Terms: Dungeons & Dragons, announcement, d&d, dnd, fantasy, paper</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Scroll = 0xf70e,
-
-		/// <summary>
-		/// Sd Card (sd-card)
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		SdCard = 0xf7c2,
-
-		/// <summary>
-		/// Search (search)
-		/// <para>Terms: bigger, enlarge, magnify, preview, zoom</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Search = 0xf002,
-
-		/// <summary>
-		/// Search Dollar (search-dollar)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		SearchDollar = 0xf688,
-
-		/// <summary>
-		/// Search Location (search-location)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		SearchLocation = 0xf689,
-
-		/// <summary>
-		/// Search Minus (search-minus)
-		/// <para>Terms: minify, negative, smaller, zoom, zoom out</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		SearchMinus = 0xf010,
-
-		/// <summary>
-		/// Search Plus (search-plus)
-		/// <para>Terms: bigger, enlarge, magnify, positive, zoom, zoom in</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		SearchPlus = 0xf00e,
-
-		/// <summary>
-		/// Seedling (seedling)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Seedling = 0xf4d8,
-
-		/// <summary>
-		/// Server (server)
-		/// <para>Terms: cpu</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Server = 0xf233,
-
-		/// <summary>
-		/// Shapes (shapes)
-		/// <para>Terms: circle, square, triangle</para>
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Shapes = 0xf61f,
-
-		/// <summary>
-		/// Share (share)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Share = 0xf064,
-
-		/// <summary>
-		/// Alternate Share (share-alt)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShareAlt = 0xf1e0,
-
-		/// <summary>
-		/// Alternate Share Square (share-alt-square)
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShareAltSquare = 0xf1e1,
-
-		/// <summary>
-		/// Share Square (share-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: send, social</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShareSquare = 0xf14d,
-
-		/// <summary>
-		/// Shekel Sign (shekel-sign)
-		/// <para>Terms: ils</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShekelSign = 0xf20b,
-
-		/// <summary>
-		/// Alternate Shield (shield-alt)
-		/// <para>Terms: achievement, award, block, defend, security, winner</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ShieldAlt = 0xf3ed,
-
-		/// <summary>
-		/// Ship (ship)
-		/// <para>Terms: boat, sea</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Ship = 0xf21a,
-
-		/// <summary>
-		/// Shipping Fast (shipping-fast)
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		ShippingFast = 0xf48b,
-
-		/// <summary>
-		/// Shoe Prints (shoe-prints)
-		/// <para>Terms: feet, footprints, steps</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		ShoePrints = 0xf54b,
-
-		/// <summary>
-		/// Shopping Bag (shopping-bag)
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShoppingBag = 0xf290,
-
-		/// <summary>
-		/// Shopping Basket (shopping-basket)
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShoppingBasket = 0xf291,
-
-		/// <summary>
-		/// Shopping-Cart (shopping-cart)
-		/// <para>Terms: buy, checkout, payment, purchase</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShoppingCart = 0xf07a,
-
-		/// <summary>
-		/// Shower (shower)
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		Shower = 0xf2cc,
-
-		/// <summary>
-		/// Shuttle Van (shuttle-van)
-		/// <para>Terms: machine, public-transportation, transportation, vehicle</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		ShuttleVan = 0xf5b6,
-
-		/// <summary>
-		/// Sign (sign)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Sign = 0xf4d9,
-
-		/// <summary>
-		/// Alternate Sign In (sign-in-alt)
-		/// <para>Terms: arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		SignInAlt = 0xf2f6,
-
-		/// <summary>
-		/// Sign Language (sign-language)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		SignLanguage = 0xf2a7,
-
-		/// <summary>
-		/// Alternate Sign Out (sign-out-alt)
-		/// <para>Terms: arrow, exit, leave, log out, logout, sign-out</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		SignOutAlt = 0xf2f5,
-
-		/// <summary>
-		/// Signal (signal)
-		/// <para>Terms: bars, graph, online, status</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Signal = 0xf012,
-
-		/// <summary>
-		/// Signature (signature)
-		/// <para>Terms: John Hancock, cursive, name, writing</para>
-		/// <para>Added in 5.1.0, updated in 5.6.0.</para>
-		/// </summary>
-		Signature = 0xf5b7,
-
-		/// <summary>
-		/// SIM Card (sim-card)
-		/// <para>Terms: hard drive, hardware, portable, storage, technology, tiny</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		SimCard = 0xf7c4,
-
-		/// <summary>
-		/// Sitemap (sitemap)
-		/// <para>Terms: directory, hierarchy, ia, information architecture, organization</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Sitemap = 0xf0e8,
-
-		/// <summary>
-		/// Skating (skating)
-		/// <para>Terms: activity, figure skating, fitness, ice, person, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Skating = 0xf7c5,
-
-		/// <summary>
-		/// Skiing (skiing)
-		/// <para>Terms: activity, downhill, fast, fitness, outdoors, person, seasonal, slalom</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Skiing = 0xf7c9,
-
-		/// <summary>
-		/// Skiing Nordic (skiing-nordic)
-		/// <para>Terms: activity, cross country, fitness, outdoors, person, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		SkiingNordic = 0xf7ca,
-
-		/// <summary>
-		/// Skull (skull)
-		/// <para>Terms: bones, skeleton, yorick</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Skull = 0xf54c,
-
-		/// <summary>
-		/// Skull & Crossbones (skull-crossbones)
-		/// <para>Terms: Dungeons & Dragons, alert, bones, d&d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		SkullCrossbones = 0xf714,
-
-		/// <summary>
-		/// Slash (slash)
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Slash = 0xf715,
-
-		/// <summary>
-		/// Sleigh (sleigh)
-		/// <para>Terms: christmas, claus, fly, holiday, santa, sled, xmas</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Sleigh = 0xf7cc,
-
-		/// <summary>
-		/// Horizontal Sliders (sliders-h)
-		/// <para>Terms: settings, sliders</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.0.11.</para>
-		/// </summary>
-		SlidersH = 0xf1de,
-
-		/// <summary>
-		/// Smiling Face (smile)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: approve, emoticon, face, happy, rating, satisfied</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Smile = 0xf118,
-
-		/// <summary>
-		/// Beaming Face With Smiling Eyes (smile-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy, positive</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SmileBeam = 0xf5b8,
-
-		/// <summary>
-		/// Winking Face (smile-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SmileWink = 0xf4da,
-
-		/// <summary>
-		/// Smog (smog)
-		/// <para>Terms: dragon</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Smog = 0xf75f,
-
-		/// <summary>
-		/// Smoking (smoking)
-		/// <para>Terms: cigarette, nicotine, smoking status</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Smoking = 0xf48d,
-
-		/// <summary>
-		/// Smoking Ban (smoking-ban)
-		/// <para>Terms: no smoking, non-smoking</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		SmokingBan = 0xf54d,
-
-		/// <summary>
-		/// SMS (sms)
-		/// <para>Terms: chat, conversation, message, mobile, notification, phone, sms, texting</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Sms = 0xf7cd,
-
-		/// <summary>
-		/// Snowboarding (snowboarding)
-		/// <para>Terms: activity, fitness, outdoors, person, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Snowboarding = 0xf7ce,
-
-		/// <summary>
-		/// Snowflake (snowflake)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: precipitation, seasonal, winter</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.5.0.</para>
-		/// </summary>
-		Snowflake = 0xf2dc,
-
-		/// <summary>
-		/// Snowman (snowman)
-		/// <para>Terms: decoration, frost, holiday</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Snowman = 0xf7d0,
-
-		/// <summary>
-		/// Snowplow (snowplow)
-		/// <para>Terms: clean up, cold, seasonal</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Snowplow = 0xf7d2,
-
-		/// <summary>
-		/// Socks (socks)
-		/// <para>Terms: business socks, business time, clothing, flight of the conchords, wednesday</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Socks = 0xf696,
-
-		/// <summary>
-		/// Solar Panel (solar-panel)
-		/// <para>Terms: clean, eco-friendly, energy, green, sun</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SolarPanel = 0xf5ba,
-
-		/// <summary>
-		/// Sort (sort)
-		/// <para>Terms: order</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Sort = 0xf0dc,
-
-		/// <summary>
-		/// Sort Alpha Down (sort-alpha-down)
-		/// <para>Terms: sort-alpha-asc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortAlphaDown = 0xf15d,
-
-		/// <summary>
-		/// Sort Alpha Up (sort-alpha-up)
-		/// <para>Terms: sort-alpha-desc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortAlphaUp = 0xf15e,
-
-		/// <summary>
-		/// Sort Amount Down (sort-amount-down)
-		/// <para>Terms: sort-amount-asc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortAmountDown = 0xf160,
-
-		/// <summary>
-		/// Sort Amount Up (sort-amount-up)
-		/// <para>Terms: sort-amount-desc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortAmountUp = 0xf161,
-
-		/// <summary>
-		/// Sort Down (Descending) (sort-down)
-		/// <para>Terms: arrow, descending, sort-desc</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortDown = 0xf0dd,
-
-		/// <summary>
-		/// Sort Numeric Down (sort-numeric-down)
-		/// <para>Terms: numbers, sort-numeric-asc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortNumericDown = 0xf162,
-
-		/// <summary>
-		/// Sort Numeric Up (sort-numeric-up)
-		/// <para>Terms: numbers, sort-numeric-desc</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortNumericUp = 0xf163,
-
-		/// <summary>
-		/// Sort Up (Ascending) (sort-up)
-		/// <para>Terms: arrow, ascending, sort-asc</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		SortUp = 0xf0de,
-
-		/// <summary>
-		/// Spa (spa)
-		/// <para>Terms: flora, mindfullness, plant, wellness</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Spa = 0xf5bb,
-
-		/// <summary>
-		/// Space Shuttle (space-shuttle)
-		/// <para>Terms: astronaut, machine, nasa, rocket, transportation</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		SpaceShuttle = 0xf197,
-
-		/// <summary>
-		/// Spider (spider)
-		/// <para>Terms: arachnid, bug, charlotte, crawl, eight, halloween, holiday</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Spider = 0xf717,
-
-		/// <summary>
-		/// Spinner (spinner)
-		/// <para>Terms: loading, progress</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Spinner = 0xf110,
-
-		/// <summary>
-		/// Splotch (splotch)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Splotch = 0xf5bc,
-
-		/// <summary>
-		/// Spray Can (spray-can)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SprayCan = 0xf5bd,
-
-		/// <summary>
-		/// Square (square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: block, box</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Square = 0xf0c8,
-
-		/// <summary>
-		/// Square Full (square-full)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		SquareFull = 0xf45c,
-
-		/// <summary>
-		/// Alternate Square Root (square-root-alt)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		SquareRootAlt = 0xf698,
-
-		/// <summary>
-		/// Stamp (stamp)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Stamp = 0xf5bf,
-
-		/// <summary>
-		/// Star (star)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: achievement, award, favorite, important, night, rating, score</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Star = 0xf005,
-
-		/// <summary>
-		/// Star And Crescent (star-and-crescent)
-		/// <para>Terms: islam, muslim</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		StarAndCrescent = 0xf699,
-
-		/// <summary>
-		/// Star-Half (star-half)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		StarHalf = 0xf089,
-
-		/// <summary>
-		/// Alternate Star Half (star-half-alt)
-		/// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		StarHalfAlt = 0xf5c0,
-
-		/// <summary>
-		/// Star Of David (star-of-david)
-		/// <para>Terms: jewish, judaism</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		StarOfDavid = 0xf69a,
-
-		/// <summary>
-		/// Star Of Life (star-of-life)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		StarOfLife = 0xf621,
-
-		/// <summary>
-		/// Step-Backward (step-backward)
-		/// <para>Terms: beginning, first, previous, rewind, start</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		StepBackward = 0xf048,
-
-		/// <summary>
-		/// Step-Forward (step-forward)
-		/// <para>Terms: end, last, next</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		StepForward = 0xf051,
-
-		/// <summary>
-		/// Stethoscope (stethoscope)
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
-		/// </summary>
-		Stethoscope = 0xf0f1,
-
-		/// <summary>
-		/// Sticky Note (sticky-note)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		StickyNote = 0xf249,
-
-		/// <summary>
-		/// Stop (stop)
-		/// <para>Terms: block, box, square</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Stop = 0xf04d,
-
-		/// <summary>
-		/// Stop Circle (stop-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		StopCircle = 0xf28d,
-
-		/// <summary>
-		/// Stopwatch (stopwatch)
-		/// <para>Terms: time</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Stopwatch = 0xf2f2,
-
-		/// <summary>
-		/// Store (store)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Store = 0xf54e,
-
-		/// <summary>
-		/// Alternate Store (store-alt)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		StoreAlt = 0xf54f,
-
-		/// <summary>
-		/// Stream (stream)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Stream = 0xf550,
-
-		/// <summary>
-		/// Street View (street-view)
-		/// <para>Terms: map</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		StreetView = 0xf21d,
-
-		/// <summary>
-		/// Strikethrough (strikethrough)
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Strikethrough = 0xf0cc,
-
-		/// <summary>
-		/// Stroopwafel (stroopwafel)
-		/// <para>Terms: dessert, sweets, waffle</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Stroopwafel = 0xf551,
-
-		/// <summary>
-		/// Subscript (subscript)
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Subscript = 0xf12c,
-
-		/// <summary>
-		/// Subway (subway)
-		/// <para>Terms: machine, railway, train, transportation, vehicle</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Subway = 0xf239,
-
-		/// <summary>
-		/// Suitcase (suitcase)
-		/// <para>Terms: baggage, luggage, move, suitcase, travel, trip</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Suitcase = 0xf0f2,
-
-		/// <summary>
-		/// Suitcase Rolling (suitcase-rolling)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SuitcaseRolling = 0xf5c1,
-
-		/// <summary>
-		/// Sun (sun)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: brighten, contrast, day, lighter, sol, solar, star, weather</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.5.0.</para>
-		/// </summary>
-		Sun = 0xf185,
-
-		/// <summary>
-		/// Superscript (superscript)
-		/// <para>Terms: exponential</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Superscript = 0xf12b,
-
-		/// <summary>
-		/// Hushed Face (surprise)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, shocked</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Surprise = 0xf5c2,
-
-		/// <summary>
-		/// Swatchbook (swatchbook)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Swatchbook = 0xf5c3,
-
-		/// <summary>
-		/// Swimmer (swimmer)
-		/// <para>Terms: athlete, head, man, person, water</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Swimmer = 0xf5c4,
-
-		/// <summary>
-		/// Swimming Pool (swimming-pool)
-		/// <para>Terms: ladder, recreation, water</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SwimmingPool = 0xf5c5,
-
-		/// <summary>
-		/// Synagogue (synagogue)
-		/// <para>Terms: building, jewish, judaism, star of david, temple</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Synagogue = 0xf69b,
-
-		/// <summary>
-		/// Sync (sync)
-		/// <para>Terms: exchange, refresh, reload, rotate, swap</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Sync = 0xf021,
-
-		/// <summary>
-		/// Alternate Sync (sync-alt)
-		/// <para>Terms: refresh, reload, rotate</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		SyncAlt = 0xf2f1,
-
-		/// <summary>
-		/// Syringe (syringe)
-		/// <para>Terms: immunizations, needle</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Syringe = 0xf48e,
-
-		/// <summary>
-		/// Table (table)
-		/// <para>Terms: data, excel, spreadsheet</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Table = 0xf0ce,
-
-		/// <summary>
-		/// Table Tennis (table-tennis)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		TableTennis = 0xf45d,
-
-		/// <summary>
-		/// Tablet (tablet)
-		/// <para>Terms: apple, device, ipad, kindle, screen</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tablet = 0xf10a,
-
-		/// <summary>
-		/// Alternate Tablet (tablet-alt)
-		/// <para>Terms: apple, device, ipad, kindle, screen</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		TabletAlt = 0xf3fa,
-
-		/// <summary>
-		/// Tablets (tablets)
-		/// <para>Terms: drugs, medicine</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Tablets = 0xf490,
-
-		/// <summary>
-		/// Alternate Tachometer (tachometer-alt)
-		/// <para>Terms: dashboard, tachometer</para>
-		/// <para>Added in 5.0.0, updated in 5.2.0.</para>
-		/// </summary>
-		TachometerAlt = 0xf3fd,
-
-		/// <summary>
-		/// Tag (tag)
-		/// <para>Terms: label</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tag = 0xf02b,
-
-		/// <summary>
-		/// Tags (tags)
-		/// <para>Terms: labels</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tags = 0xf02c,
-
-		/// <summary>
-		/// Tape (tape)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		Tape = 0xf4db,
-
-		/// <summary>
-		/// Tasks (tasks)
-		/// <para>Terms: checklist, downloading, downloads, loading, progress, project management, settings, to do</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tasks = 0xf0ae,
-
-		/// <summary>
-		/// Taxi (taxi)
-		/// <para>Terms: cab, cabbie, car, car service, lyft, machine, transportation, uber, vehicle</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Taxi = 0xf1ba,
-
-		/// <summary>
-		/// Teeth (teeth)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		Teeth = 0xf62e,
-
-		/// <summary>
-		/// Teeth Open (teeth-open)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		TeethOpen = 0xf62f,
-
-		/// <summary>
-		/// High Temperature (temperature-high)
-		/// <para>Terms: mercury, thermometer, warm</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		TemperatureHigh = 0xf769,
-
-		/// <summary>
-		/// Low Temperature (temperature-low)
-		/// <para>Terms: cool, mercury, thermometer</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		TemperatureLow = 0xf76b,
-
-		/// <summary>
-		/// Tenge (tenge)
-		/// <para>Terms: currency, kazakhstan, money, price</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Tenge = 0xf7d7,
-
-		/// <summary>
-		/// Terminal (terminal)
-		/// <para>Terms: code, command, console, prompt</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Terminal = 0xf120,
-
-		/// <summary>
-		/// Text-Height (text-height)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		TextHeight = 0xf034,
-
-		/// <summary>
-		/// Text-Width (text-width)
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		TextWidth = 0xf035,
-
-		/// <summary>
-		/// Th (th)
-		/// <para>Terms: blocks, boxes, grid, squares</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Th = 0xf00a,
-
-		/// <summary>
-		/// Th-Large (th-large)
-		/// <para>Terms: blocks, boxes, grid, squares</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThLarge = 0xf009,
-
-		/// <summary>
-		/// Th-List (th-list)
-		/// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThList = 0xf00b,
-
-		/// <summary>
-		/// Theater Masks (theater-masks)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		TheaterMasks = 0xf630,
-
-		/// <summary>
-		/// Thermometer (thermometer)
-		/// <para>Terms: mercury, status, temperature</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Thermometer = 0xf491,
-
-		/// <summary>
-		/// Thermometer Empty (thermometer-empty)
-		/// <para>Terms: mercury, status, temperature</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThermometerEmpty = 0xf2cb,
-
-		/// <summary>
-		/// Thermometer Full (thermometer-full)
-		/// <para>Terms: fever, mercury, status, temperature</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThermometerFull = 0xf2c7,
-
-		/// <summary>
-		/// Thermometer 1/2 Full (thermometer-half)
-		/// <para>Terms: mercury, status, temperature</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThermometerHalf = 0xf2c9,
-
-		/// <summary>
-		/// Thermometer 1/4 Full (thermometer-quarter)
-		/// <para>Terms: mercury, status, temperature</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThermometerQuarter = 0xf2ca,
-
-		/// <summary>
-		/// Thermometer 3/4 Full (thermometer-three-quarters)
-		/// <para>Terms: mercury, status, temperature</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThermometerThreeQuarters = 0xf2c8,
-
-		/// <summary>
-		/// Thumbs-Down (thumbs-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disagree, disapprove, dislike, hand, thumbs-o-down</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThumbsDown = 0xf165,
-
-		/// <summary>
-		/// Thumbs-Up (thumbs-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: agree, approve, favorite, hand, like, ok, okay, success, thumbs-o-up, yes, you got it dude</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThumbsUp = 0xf164,
-
-		/// <summary>
-		/// Thumbtack (thumbtack)
-		/// <para>Terms: coordinates, location, marker, pin, thumb-tack</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Thumbtack = 0xf08d,
-
-		/// <summary>
-		/// Alternate Ticket (ticket-alt)
-		/// <para>Terms: ticket</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		TicketAlt = 0xf3ff,
-
-		/// <summary>
-		/// Times (times)
-		/// <para>Terms: close, cross, error, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Times = 0xf00d,
-
-		/// <summary>
-		/// Times Circle (times-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		TimesCircle = 0xf057,
-
-		/// <summary>
-		/// Tint (tint)
-		/// <para>Terms: drop, droplet, raindrop, waterdrop</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Tint = 0xf043,
-
-		/// <summary>
-		/// Tint Slash (tint-slash)
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		TintSlash = 0xf5c7,
-
-		/// <summary>
-		/// Tired Face (tired)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, grumpy</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Tired = 0xf5c8,
-
-		/// <summary>
-		/// Toggle Off (toggle-off)
-		/// <para>Terms: switch</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ToggleOff = 0xf204,
-
-		/// <summary>
-		/// Toggle On (toggle-on)
-		/// <para>Terms: switch</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ToggleOn = 0xf205,
-
-		/// <summary>
-		/// Toilet (toilet)
-		/// <para>Terms: bathroom, flush, john, loo, pee, plumbing, poop, porcelain, potty, restroom, throne, washroom, waste, wc</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Toilet = 0xf7d8,
-
-		/// <summary>
-		/// Toilet Paper (toilet-paper)
-		/// <para>Terms: bathroom, halloween, holiday, lavatory, prank, restroom, roll</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		ToiletPaper = 0xf71e,
-
-		/// <summary>
-		/// Toolbox (toolbox)
-		/// <para>Terms: admin, container, fix, repair, settings, tools</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Toolbox = 0xf552,
-
-		/// <summary>
-		/// Tools (tools)
-		/// <para>Terms: admin, fix, repair, screwdriver, settings, tools, wrench</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Tools = 0xf7d9,
-
-		/// <summary>
-		/// Tooth (tooth)
-		/// <para>Terms: bicuspid, dental, molar, mouth, teeth</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Tooth = 0xf5c9,
-
-		/// <summary>
-		/// Torah (torah)
-		/// <para>Terms: book, jewish, judaism</para>
-		/// <para>Added in 5.3.0, updated in 5.7.0.</para>
-		/// </summary>
-		Torah = 0xf6a0,
-
-		/// <summary>
-		/// Torii Gate (torii-gate)
-		/// <para>Terms: building, shintoism</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		ToriiGate = 0xf6a1,
-
-		/// <summary>
-		/// Tractor (tractor)
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		Tractor = 0xf722,
-
-		/// <summary>
-		/// Trademark (trademark)
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Trademark = 0xf25c,
-
-		/// <summary>
-		/// Traffic Light (traffic-light)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		TrafficLight = 0xf637,
-
-		/// <summary>
-		/// Train (train)
-		/// <para>Terms: bullet, locomotive, railway</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Train = 0xf238,
-
-		/// <summary>
-		/// Tram (tram)
-		/// <para>Terms: crossing, machine, mountains, seasonal, transportation</para>
-		/// <para>Added in 5.6.0.</para>
-		/// </summary>
-		Tram = 0xf7da,
-
-		/// <summary>
-		/// Transgender (transgender)
-		/// <para>Terms: intersex</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Transgender = 0xf224,
-
-		/// <summary>
-		/// Alternate Transgender (transgender-alt)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		TransgenderAlt = 0xf225,
-
-		/// <summary>
-		/// Trash (trash)
-		/// <para>Terms: delete, garbage, hide, remove</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Trash = 0xf1f8,
-
-		/// <summary>
-		/// Alternate Trash (trash-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: delete, garbage, hide, remove, trash, trash-o</para>
-		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
-		/// </summary>
-		TrashAlt = 0xf2ed,
-
-		/// <summary>
-		/// Trash Restore (trash-restore)
-		/// <para>Terms: back, control z, oops, undo</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		TrashRestore = 0xf829,
-
-		/// <summary>
-		/// Alternative Trash Restore (trash-restore-alt)
-		/// <para>Terms: back, control z, oops, undo</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		TrashRestoreAlt = 0xf82a,
-
-		/// <summary>
-		/// Tree (tree)
-		/// <para>Terms: bark, fall, flora, forest, nature, plant, seasonal</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tree = 0xf1bb,
-
-		/// <summary>
-		/// Trophy (trophy)
-		/// <para>Terms: achievement, award, cup, game, winner</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Trophy = 0xf091,
-
-		/// <summary>
-		/// Truck (truck)
-		/// <para>Terms: delivery, shipping</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.7.</para>
-		/// </summary>
-		Truck = 0xf0d1,
-
-		/// <summary>
-		/// Truck Loading (truck-loading)
-		/// <para>Terms: inventory, moving, rental</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		TruckLoading = 0xf4de,
-
-		/// <summary>
-		/// Truck Monster (truck-monster)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		TruckMonster = 0xf63b,
-
-		/// <summary>
-		/// Truck Moving (truck-moving)
-		/// <para>Terms: inventory, rental</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		TruckMoving = 0xf4df,
-
-		/// <summary>
-		/// Truck Side (truck-pickup)
-		/// <para>Added in 5.2.0.</para>
-		/// </summary>
-		TruckPickup = 0xf63c,
-
-		/// <summary>
-		/// T-Shirt (tshirt)
-		/// <para>Terms: clothing</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Tshirt = 0xf553,
-
-		/// <summary>
-		/// TTY (tty)
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Tty = 0xf1e4,
-
-		/// <summary>
-		/// Television (tv)
-		/// <para>Terms: computer, display, monitor, television</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Tv = 0xf26c,
-
-		/// <summary>
-		/// Umbrella (umbrella)
-		/// <para>Terms: protection, rain</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Umbrella = 0xf0e9,
-
-		/// <summary>
-		/// Umbrella Beach (umbrella-beach)
-		/// <para>Terms: protection, recreation, sun</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		UmbrellaBeach = 0xf5ca,
-
-		/// <summary>
-		/// Underline (underline)
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Underline = 0xf0cd,
-
-		/// <summary>
-		/// Undo (undo)
-		/// <para>Terms: back, control z, exchange, oops, return, rotate, swap</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Undo = 0xf0e2,
-
-		/// <summary>
-		/// Alternate Undo (undo-alt)
-		/// <para>Terms: back, control z, exchange, oops, return, swap</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		UndoAlt = 0xf2ea,
-
-		/// <summary>
-		/// Universal Access (universal-access)
-		/// <para>Added in 4.6.0, updated in 5.0.0.</para>
-		/// </summary>
-		UniversalAccess = 0xf29a,
-
-		/// <summary>
-		/// University (university)
-		/// <para>Terms: bank, building, college, higher education - students, institution</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		University = 0xf19c,
-
-		/// <summary>
-		/// Unlink (unlink)
-		/// <para>Terms: chain, chain-broken, remove</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Unlink = 0xf127,
-
-		/// <summary>
-		/// Unlock (unlock)
-		/// <para>Terms: admin, lock, password, protect</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Unlock = 0xf09c,
-
-		/// <summary>
-		/// Alternate Unlock (unlock-alt)
-		/// <para>Terms: admin, lock, password, protect</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		UnlockAlt = 0xf13e,
-
-		/// <summary>
-		/// Upload (upload)
-		/// <para>Terms: import, publish</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Upload = 0xf093,
-
-		/// <summary>
-		/// User (user)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		User = 0xf007,
-
-		/// <summary>
-		/// Alternate User (user-alt)
-		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
-		/// <para>Added in 5.0.0, updated in 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserAlt = 0xf406,
-
-		/// <summary>
-		/// Alternate User Slash (user-alt-slash)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserAltSlash = 0xf4fa,
-
-		/// <summary>
-		/// User Astronaut (user-astronaut)
-		/// <para>Terms: avatar, clothing, cosmonaut, space, suit</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserAstronaut = 0xf4fb,
-
-		/// <summary>
-		/// User Check (user-check)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserCheck = 0xf4fc,
-
-		/// <summary>
-		/// User Circle (user-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserCircle = 0xf2bd,
-
-		/// <summary>
-		/// User Clock (user-clock)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserClock = 0xf4fd,
-
-		/// <summary>
-		/// User Cog (user-cog)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserCog = 0xf4fe,
-
-		/// <summary>
-		/// User Edit (user-edit)
-		/// <para>Terms: edit, pen, pencil, update, write</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserEdit = 0xf4ff,
-
-		/// <summary>
-		/// User Friends (user-friends)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserFriends = 0xf500,
-
-		/// <summary>
-		/// User Graduate (user-graduate)
-		/// <para>Terms: cap, clothing, commencement, gown, graduation, student</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserGraduate = 0xf501,
-
-		/// <summary>
-		/// User Injured (user-injured)
-		/// <para>Terms: cast, ouch, sling</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		UserInjured = 0xf728,
-
-		/// <summary>
-		/// User Lock (user-lock)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserLock = 0xf502,
-
-		/// <summary>
-		/// Doctor (user-md)
-		/// <para>Terms: job, medical, nurse, occupation, physician, profile, surgeon</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11, 5.0.3 and 5.0.7.</para>
-		/// </summary>
-		UserMd = 0xf0f0,
-
-		/// <summary>
-		/// User Minus (user-minus)
-		/// <para>Terms: delete, negative, remove</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserMinus = 0xf503,
-
-		/// <summary>
-		/// User Ninja (user-ninja)
-		/// <para>Terms: assassin, avatar, dangerous, deadly, sneaky</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserNinja = 0xf504,
-
-		/// <summary>
-		/// Nurse (user-nurse)
-		/// <para>Terms: doctor, midwife, practitioner, surgeon</para>
-		/// <para>Added in 5.7.0.</para>
-		/// </summary>
-		UserNurse = 0xf82f,
-
-		/// <summary>
-		/// User Plus (user-plus)
-		/// <para>Terms: positive, sign up, signup</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserPlus = 0xf234,
-
-		/// <summary>
-		/// User Secret (user-secret)
-		/// <para>Terms: clothing, coat, hat, incognito, privacy, spy, whisper</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserSecret = 0xf21b,
-
-		/// <summary>
-		/// User Shield (user-shield)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserShield = 0xf505,
-
-		/// <summary>
-		/// User Slash (user-slash)
-		/// <para>Terms: ban, remove</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserSlash = 0xf506,
-
-		/// <summary>
-		/// User Tag (user-tag)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserTag = 0xf507,
-
-		/// <summary>
-		/// User Tie (user-tie)
-		/// <para>Terms: avatar, business, clothing, formal</para>
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UserTie = 0xf508,
-
-		/// <summary>
-		/// Remove User (user-times)
-		/// <para>Terms: archive, delete, remove, x</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserTimes = 0xf235,
-
-		/// <summary>
-		/// Users (users)
-		/// <para>Terms: people, persons, profiles</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		Users = 0xf0c0,
-
-		/// <summary>
-		/// Users Cog (users-cog)
-		/// <para>Added in 5.0.11.</para>
-		/// </summary>
-		UsersCog = 0xf509,
-
-		/// <summary>
-		/// Utensil Spoon (utensil-spoon)
-		/// <para>Terms: spoon</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		UtensilSpoon = 0xf2e5,
-
-		/// <summary>
-		/// Utensils (utensils)
-		/// <para>Terms: cutlery, dinner, eat, food, knife, restaurant, spoon</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Utensils = 0xf2e7,
-
-		/// <summary>
-		/// Vector Square (vector-square)
-		/// <para>Terms: anchors, lines, object</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		VectorSquare = 0xf5cb,
-
-		/// <summary>
-		/// Venus (venus)
-		/// <para>Terms: female</para>
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		Venus = 0xf221,
-
-		/// <summary>
-		/// Venus Double (venus-double)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		VenusDouble = 0xf226,
-
-		/// <summary>
-		/// Venus Mars (venus-mars)
-		/// <para>Added in 4.3.0, updated in 5.0.0.</para>
-		/// </summary>
-		VenusMars = 0xf228,
-
-		/// <summary>
-		/// Vial (vial)
-		/// <para>Terms: test tube</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Vial = 0xf492,
-
-		/// <summary>
-		/// Vials (vials)
-		/// <para>Terms: lab results, test tubes</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Vials = 0xf493,
-
-		/// <summary>
-		/// Video (video)
-		/// <para>Terms: camera, film, movie, record, video-camera</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Video = 0xf03d,
-
-		/// <summary>
-		/// Video Slash (video-slash)
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		VideoSlash = 0xf4e2,
-
-		/// <summary>
-		/// Vihara (vihara)
-		/// <para>Terms: buddhism, buddhist, building, monastery</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		Vihara = 0xf6a7,
-
-		/// <summary>
-		/// Volleyball Ball (volleyball-ball)
-		/// <para>Added in 5.0.5.</para>
-		/// </summary>
-		VolleyballBall = 0xf45f,
-
-		/// <summary>
-		/// Volume Down (volume-down)
-		/// <para>Terms: audio, lower, music, quieter, sound, speaker</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		VolumeDown = 0xf027,
-
-		/// <summary>
-		/// Volume Mute (volume-mute)
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		VolumeMute = 0xf6a9,
-
-		/// <summary>
-		/// Volume Off (volume-off)
-		/// <para>Terms: audio, music, mute, sound</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		VolumeOff = 0xf026,
-
-		/// <summary>
-		/// Volume Up (volume-up)
-		/// <para>Terms: audio, higher, louder, music, sound, speaker</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		VolumeUp = 0xf028,
-
-		/// <summary>
-		/// Vote Yea (vote-yea)
-		/// <para>Terms: accept, cast, election, politics, positive, yes</para>
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		VoteYea = 0xf772,
-
-		/// <summary>
-		/// Cardboard VR (vr-cardboard)
-		/// <para>Terms: google, reality, virtual</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		VrCardboard = 0xf729,
-
-		/// <summary>
-		/// Walking (walking)
-		/// <para>Terms: person</para>
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Walking = 0xf554,
-
-		/// <summary>
-		/// Wallet (wallet)
-		/// <para>Added in 5.0.13.</para>
-		/// </summary>
-		Wallet = 0xf555,
-
-		/// <summary>
-		/// Warehouse (warehouse)
-		/// <para>Terms: building, capacity, garage, inventory, storage</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Warehouse = 0xf494,
-
-		/// <summary>
-		/// Water (water)
-		/// <para>Added in 5.5.0.</para>
-		/// </summary>
-		Water = 0xf773,
-
-		/// <summary>
-		/// Weight (weight)
-		/// <para>Terms: measurement, scale, weight</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		Weight = 0xf496,
-
-		/// <summary>
-		/// Hanging Weight (weight-hanging)
-		/// <para>Terms: anvil, heavy, measurement</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		WeightHanging = 0xf5cd,
-
-		/// <summary>
-		/// Wheelchair (wheelchair)
-		/// <para>Terms: handicap, person</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Wheelchair = 0xf193,
-
-		/// <summary>
-		/// Wifi (wifi)
-		/// <para>Terms: connection, hotspot, internet, network, wireless</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Wifi = 0xf1eb,
-
-		/// <summary>
-		/// Wind (wind)
-		/// <para>Terms: air, blow, breeze, fall, seasonal</para>
-		/// <para>Added in 5.4.0, updated in 5.5.0.</para>
-		/// </summary>
-		Wind = 0xf72e,
-
-		/// <summary>
-		/// Window Close (window-close)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowClose = 0xf410,
-
-		/// <summary>
-		/// Window Maximize (window-maximize)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowMaximize = 0xf2d0,
-
-		/// <summary>
-		/// Window Minimize (window-minimize)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowMinimize = 0xf2d1,
-
-		/// <summary>
-		/// Window Restore (window-restore)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowRestore = 0xf2d2,
-
-		/// <summary>
-		/// Wine Bottle (wine-bottle)
-		/// <para>Terms: alcohol, beverage, drink, glass, grapes</para>
-		/// <para>Added in 5.4.0.</para>
-		/// </summary>
-		WineBottle = 0xf72f,
-
-		/// <summary>
-		/// Wine Glass (wine-glass)
-		/// <para>Terms: alcohol, beverage, drink, grapes</para>
-		/// <para>Added in 5.0.9, updated in 5.1.0.</para>
-		/// </summary>
-		WineGlass = 0xf4e3,
-
-		/// <summary>
-		/// Alternate Wine Glas (wine-glass-alt)
-		/// <para>Terms: alcohol, beverage, drink, grapes</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		WineGlassAlt = 0xf5ce,
-
-		/// <summary>
-		/// Won Sign (won-sign)
-		/// <para>Terms: krw</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		WonSign = 0xf159,
-
-		/// <summary>
-		/// Wrench (wrench)
-		/// <para>Terms: fix, settings, spanner, tool, update</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
-		/// </summary>
-		Wrench = 0xf0ad,
-
-		/// <summary>
-		/// X-Ray (x-ray)
-		/// <para>Terms: radiological images, radiology</para>
-		/// <para>Added in 5.0.7.</para>
-		/// </summary>
-		XRay = 0xf497,
-
-		/// <summary>
-		/// Yen Sign (yen-sign)
-		/// <para>Terms: currency, jpy, money</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		YenSign = 0xf157,
-
-		/// <summary>
-		/// Yin Yang (yin-yang)
-		/// <para>Terms: daoism, opposites, taoism</para>
-		/// <para>Added in 5.3.0.</para>
-		/// </summary>
-		YinYang = 0xf6ad,
-
-	}
+    /// <summary>
+    /// Font Awesome. Version 5.9.0.
+    /// </summary>
+    public enum FontAwesome5Solid
+    {
+        /// <summary>
+        /// Ad (ad)
+        /// <para>Terms: advertisement, media, newspaper, promotion, publicity</para>
+        /// <para>Added in 5.10.2, updated in 5.3.0.</para>
+        /// </summary>
+        Ad = 0xf641,
+
+        /// <summary>
+        /// Address Book (address-book)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contact, directory, index, little black book, rolodex</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        AddressBook = 0xf2b9,
+
+        /// <summary>
+        /// Address Card (address-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: about, contact, id, identification, postcard, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        AddressCard = 0xf2bb,
+
+        /// <summary>
+        /// Adjust (adjust)
+        /// <para>Terms: contrast, dark, light, saturation</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2 and 5.11.0.</para>
+        /// </summary>
+        Adjust = 0xf042,
+
+        /// <summary>
+        /// Air Freshener (air-freshener)
+        /// <para>Terms: car, deodorize, fresh, pine, scent</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        AirFreshener = 0xf5d0,
+
+        /// <summary>
+        /// Align-Center (align-center)
+        /// <para>Terms: format, middle, paragraph, text</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        AlignCenter = 0xf037,
+
+        /// <summary>
+        /// Align-Justify (align-justify)
+        /// <para>Terms: format, paragraph, text</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        AlignJustify = 0xf039,
+
+        /// <summary>
+        /// Align-Left (align-left)
+        /// <para>Terms: format, paragraph, text</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        AlignLeft = 0xf036,
+
+        /// <summary>
+        /// Align-Right (align-right)
+        /// <para>Terms: format, paragraph, text</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        AlignRight = 0xf038,
+
+        /// <summary>
+        /// Allergies (allergies)
+        /// <para>Terms: allergy, freckles, hand, hives, pox, skin, spots</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Allergies = 0xf461,
+
+        /// <summary>
+        /// Ambulance (ambulance)
+        /// <para>Terms: emergency, emt, er, help, hospital, support, vehicle</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
+        /// </summary>
+        Ambulance = 0xf0f9,
+
+        /// <summary>
+        /// American Sign Language Interpreting (american-sign-language-interpreting)
+        /// <para>Terms: asl, deaf, finger, hand, interpret, speak</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0.</para>
+        /// </summary>
+        AmericanSignLanguageInterpreting = 0xf2a3,
+
+        /// <summary>
+        /// Anchor (anchor)
+        /// <para>Terms: berth, boat, dock, embed, link, maritime, moor, secure</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Anchor = 0xf13d,
+
+        /// <summary>
+        /// Angle Double Down (angle-double-down)
+        /// <para>Terms: arrows, caret, download, expand</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleDoubleDown = 0xf103,
+
+        /// <summary>
+        /// Angle Double Left (angle-double-left)
+        /// <para>Terms: arrows, back, caret, laquo, previous, quote</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleDoubleLeft = 0xf100,
+
+        /// <summary>
+        /// Angle Double Right (angle-double-right)
+        /// <para>Terms: arrows, caret, forward, more, next, quote, raquo</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleDoubleRight = 0xf101,
+
+        /// <summary>
+        /// Angle Double Up (angle-double-up)
+        /// <para>Terms: arrows, caret, collapse, upload</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleDoubleUp = 0xf102,
+
+        /// <summary>
+        /// Angle-Down (angle-down)
+        /// <para>Terms: arrow, caret, download, expand</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleDown = 0xf107,
+
+        /// <summary>
+        /// Angle-Left (angle-left)
+        /// <para>Terms: arrow, back, caret, less, previous</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        AngleLeft = 0xf104,
+
+        /// <summary>
+        /// Angle-Right (angle-right)
+        /// <para>Terms: arrow, care, forward, more, next</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        AngleRight = 0xf105,
+
+        /// <summary>
+        /// Angle-Up (angle-up)
+        /// <para>Terms: arrow, caret, collapse, upload</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        AngleUp = 0xf106,
+
+        /// <summary>
+        /// Angry Face (angry)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, mad, upset</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Angry = 0xf556,
+
+        /// <summary>
+        /// Ankh (ankh)
+        /// <para>Terms: amulet, copper, coptic christianity, copts, crux ansata, egypt, venus</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Ankh = 0xf644,
+
+        /// <summary>
+        /// Fruit Apple (apple-alt)
+        /// <para>Terms: fall, fruit, fuji, macintosh, orchard, seasonal, vegan</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        AppleAlt = 0xf5d1,
+
+        /// <summary>
+        /// Archive (archive)
+        /// <para>Terms: box, package, save, storage</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Archive = 0xf187,
+
+        /// <summary>
+        /// Archway (archway)
+        /// <para>Terms: arc, monument, road, street, tunnel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Archway = 0xf557,
+
+        /// <summary>
+        /// Alternate Arrow Circle Down (arrow-alt-circle-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-down, download</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleDown = 0xf358,
+
+        /// <summary>
+        /// Alternate Arrow Circle Left (arrow-alt-circle-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-left, back, previous</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleLeft = 0xf359,
+
+        /// <summary>
+        /// Alternate Arrow Circle Right (arrow-alt-circle-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-right, forward, next</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleRight = 0xf35a,
+
+        /// <summary>
+        /// Alternate Arrow Circle Up (arrow-alt-circle-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-up</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleUp = 0xf35b,
+
+        /// <summary>
+        /// Arrow Circle Down (arrow-circle-down)
+        /// <para>Terms: download</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowCircleDown = 0xf0ab,
+
+        /// <summary>
+        /// Arrow Circle Left (arrow-circle-left)
+        /// <para>Terms: back, previous</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowCircleLeft = 0xf0a8,
+
+        /// <summary>
+        /// Arrow Circle Right (arrow-circle-right)
+        /// <para>Terms: forward, next</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowCircleRight = 0xf0a9,
+
+        /// <summary>
+        /// Arrow Circle Up (arrow-circle-up)
+        /// <para>Terms: upload</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowCircleUp = 0xf0aa,
+
+        /// <summary>
+        /// Arrow-Down (arrow-down)
+        /// <para>Terms: download</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowDown = 0xf063,
+
+        /// <summary>
+        /// Arrow-Left (arrow-left)
+        /// <para>Terms: back, previous</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowLeft = 0xf060,
+
+        /// <summary>
+        /// Arrow-Right (arrow-right)
+        /// <para>Terms: forward, next</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowRight = 0xf061,
+
+        /// <summary>
+        /// Arrow-Up (arrow-up)
+        /// <para>Terms: forward, upload</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowUp = 0xf062,
+
+        /// <summary>
+        /// Alternate Arrows (arrows-alt)
+        /// <para>Terms: arrow, arrows, bigger, enlarge, expand, fullscreen, move, position, reorder, resize</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ArrowsAlt = 0xf0b2,
+
+        /// <summary>
+        /// Alternate Arrows Horizontal (arrows-alt-h)
+        /// <para>Terms: arrows-h, expand, horizontal, landscape, resize, wide</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowsAltH = 0xf337,
+
+        /// <summary>
+        /// Alternate Arrows Vertical (arrows-alt-v)
+        /// <para>Terms: arrows-v, expand, portrait, resize, tall, vertical</para>
+        /// <para>Added in 5.0.0, updated in 5.11.0.</para>
+        /// </summary>
+        ArrowsAltV = 0xf338,
+
+        /// <summary>
+        /// Assistive Listening Systems (assistive-listening-systems)
+        /// <para>Terms: amplify, audio, deaf, ear, headset, hearing, sound</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0.</para>
+        /// </summary>
+        AssistiveListeningSystems = 0xf2a2,
+
+        /// <summary>
+        /// Asterisk (asterisk)
+        /// <para>Terms: annotation, details, reference, star</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Asterisk = 0xf069,
+
+        /// <summary>
+        /// At (at)
+        /// <para>Terms: address, author, e-mail, email, handle</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        At = 0xf1fa,
+
+        /// <summary>
+        /// Atlas (atlas)
+        /// <para>Terms: book, directions, geography, globe, map, travel, wayfinding</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Atlas = 0xf558,
+
+        /// <summary>
+        /// Atom (atom)
+        /// <para>Terms: atheism, chemistry, electron, ion, isotope, neutron, nuclear, proton, science</para>
+        /// <para>Added in 5.12.0, updated in 5.2.0.</para>
+        /// </summary>
+        Atom = 0xf5d2,
+
+        /// <summary>
+        /// Audio Description (audio-description)
+        /// <para>Terms: blind, narration, video, visual</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        AudioDescription = 0xf29e,
+
+        /// <summary>
+        /// Award (award)
+        /// <para>Terms: honor, praise, prize, recognition, ribbon, trophy</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2 and 5.2.0.</para>
+        /// </summary>
+        Award = 0xf559,
+
+        /// <summary>
+        /// Baby (baby)
+        /// <para>Terms: child, diaper, doll, human, infant, kid, offspring, person, sprout</para>
+        /// <para>Added in 5.10.1, updated in 5.6.0.</para>
+        /// </summary>
+        Baby = 0xf77c,
+
+        /// <summary>
+        /// Baby Carriage (baby-carriage)
+        /// <para>Terms: buggy, carrier, infant, push, stroller, transportation, walk, wheels</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        BabyCarriage = 0xf77d,
+
+        /// <summary>
+        /// Backspace (backspace)
+        /// <para>Terms: command, delete, erase, keyboard, undo</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Backspace = 0xf55a,
+
+        /// <summary>
+        /// Backward (backward)
+        /// <para>Terms: previous, rewind</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Backward = 0xf04a,
+
+        /// <summary>
+        /// Bacon (bacon)
+        /// <para>Terms: blt, breakfast, ham, lard, meat, pancetta, pork, rasher</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Bacon = 0xf7e5,
+
+        /// <summary>
+        /// Bahá&apos;í (bahai)
+        /// <para>Terms: bahai, bahá&apos;í, star</para>
+        /// <para>Added in 5.12.0, updated in 5.3.0.</para>
+        /// </summary>
+        Bahai = 0xf666,
+
+        /// <summary>
+        /// Balance Scale (balance-scale)
+        /// <para>Terms: balanced, justice, legal, measure, weight</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        BalanceScale = 0xf24e,
+
+        /// <summary>
+        /// Balance Scale (Left-Weighted) (balance-scale-left)
+        /// <para>Terms: justice, legal, measure, unbalanced, weight</para>
+        /// <para>Added in 5.0.13, updated in 5.12.0 and 5.9.0.</para>
+        /// </summary>
+        BalanceScaleLeft = 0xf515,
+
+        /// <summary>
+        /// Balance Scale (Right-Weighted) (balance-scale-right)
+        /// <para>Terms: justice, legal, measure, unbalanced, weight</para>
+        /// <para>Added in 5.0.13, updated in 5.12.0 and 5.9.0.</para>
+        /// </summary>
+        BalanceScaleRight = 0xf516,
+
+        /// <summary>
+        /// Ban (ban)
+        /// <para>Terms: abort, ban, block, cancel, delete, hide, prohibit, remove, stop, trash</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Ban = 0xf05e,
+
+        /// <summary>
+        /// Band-Aid (band-aid)
+        /// <para>Terms: bandage, boo boo, first aid, ouch</para>
+        /// <para>Added in 5.0.7, updated in 5.10.2.</para>
+        /// </summary>
+        BandAid = 0xf462,
+
+        /// <summary>
+        /// Barcode (barcode)
+        /// <para>Terms: info, laser, price, scan, upc</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Barcode = 0xf02a,
+
+        /// <summary>
+        /// Bars (bars)
+        /// <para>Terms: checklist, drag, hamburger, list, menu, nav, navigation, ol, reorder, settings, todo, ul</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Bars = 0xf0c9,
+
+        /// <summary>
+        /// Baseball Ball (baseball-ball)
+        /// <para>Terms: foul, hardball, league, leather, mlb, softball, sport</para>
+        /// <para>Added in 5.0.5, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        BaseballBall = 0xf433,
+
+        /// <summary>
+        /// Basketball Ball (basketball-ball)
+        /// <para>Terms: dribble, dunk, hoop, nba</para>
+        /// <para>Added in 5.0.5, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        BasketballBall = 0xf434,
+
+        /// <summary>
+        /// Bath (bath)
+        /// <para>Terms: clean, shower, tub, wash</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        Bath = 0xf2cd,
+
+        /// <summary>
+        /// Battery Empty (battery-empty)
+        /// <para>Terms: charge, dead, power, status</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        BatteryEmpty = 0xf244,
+
+        /// <summary>
+        /// Battery Full (battery-full)
+        /// <para>Terms: charge, power, status</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        BatteryFull = 0xf240,
+
+        /// <summary>
+        /// Battery 1/2 Full (battery-half)
+        /// <para>Terms: charge, power, status</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        BatteryHalf = 0xf242,
+
+        /// <summary>
+        /// Battery 1/4 Full (battery-quarter)
+        /// <para>Terms: charge, low, power, status</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        BatteryQuarter = 0xf243,
+
+        /// <summary>
+        /// Battery 3/4 Full (battery-three-quarters)
+        /// <para>Terms: charge, power, status</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        BatteryThreeQuarters = 0xf241,
+
+        /// <summary>
+        /// Bed (bed)
+        /// <para>Terms: lodging, mattress, rest, sleep, travel</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Bed = 0xf236,
+
+        /// <summary>
+        /// Beer (beer)
+        /// <para>Terms: alcohol, ale, bar, beverage, brewery, drink, lager, liquor, mug, stein</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Beer = 0xf0fc,
+
+        /// <summary>
+        /// Bell (bell)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: alarm, alert, chime, notification, reminder</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.11.0 and 5.2.0.</para>
+        /// </summary>
+        Bell = 0xf0f3,
+
+        /// <summary>
+        /// Bell Slash (bell-slash)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: alert, cancel, disabled, notification, off, reminder</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        BellSlash = 0xf1f6,
+
+        /// <summary>
+        /// Bezier Curve (bezier-curve)
+        /// <para>Terms: curves, illustrator, lines, path, vector</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        BezierCurve = 0xf55b,
+
+        /// <summary>
+        /// Bible (bible)
+        /// <para>Terms: book, catholicism, christianity, god, holy</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Bible = 0xf647,
+
+        /// <summary>
+        /// Bicycle (bicycle)
+        /// <para>Terms: bike, gears, pedal, transportation, vehicle</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Bicycle = 0xf206,
+
+        /// <summary>
+        /// Biking (biking)
+        /// <para>Terms: bicycle, bike, cycle, cycling, ride, wheel</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        Biking = 0xf84a,
+
+        /// <summary>
+        /// Binoculars (binoculars)
+        /// <para>Terms: glasses, magnify, scenic, spyglass, view</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        Binoculars = 0xf1e5,
+
+        /// <summary>
+        /// Biohazard (biohazard)
+        /// <para>Terms: danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie</para>
+        /// <para>Added in 5.6.0, updated in 5.7.0.</para>
+        /// </summary>
+        Biohazard = 0xf780,
+
+        /// <summary>
+        /// Birthday Cake (birthday-cake)
+        /// <para>Terms: anniversary, bakery, candles, celebration, dessert, frosting, holiday, party, pastry</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        BirthdayCake = 0xf1fd,
+
+        /// <summary>
+        /// Blender (blender)
+        /// <para>Terms: cocktail, milkshake, mixer, puree, smoothie</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Blender = 0xf517,
+
+        /// <summary>
+        /// Blender Phone (blender-phone)
+        /// <para>Terms: appliance, cocktail, communication, fantasy, milkshake, mixer, puree, silly, smoothie</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        BlenderPhone = 0xf6b6,
+
+        /// <summary>
+        /// Blind (blind)
+        /// <para>Terms: cane, disability, person, sight</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Blind = 0xf29d,
+
+        /// <summary>
+        /// Blog (blog)
+        /// <para>Terms: journal, log, online, personal, post, web 2.0, wordpress, writing</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Blog = 0xf781,
+
+        /// <summary>
+        /// Bold (bold)
+        /// <para>Terms: emphasis, format, text</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Bold = 0xf032,
+
+        /// <summary>
+        /// Lightning Bolt (bolt)
+        /// <para>Terms: electricity, lightning, weather, zap</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.5.0.</para>
+        /// </summary>
+        Bolt = 0xf0e7,
+
+        /// <summary>
+        /// Bomb (bomb)
+        /// <para>Terms: error, explode, fuse, grenade, warning</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Bomb = 0xf1e2,
+
+        /// <summary>
+        /// Bone (bone)
+        /// <para>Terms: calcium, dog, skeletal, skeleton, tibia</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        Bone = 0xf5d7,
+
+        /// <summary>
+        /// Bong (bong)
+        /// <para>Terms: aparatus, cannabis, marijuana, pipe, smoke, smoking</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Bong = 0xf55c,
+
+        /// <summary>
+        /// Book (book)
+        /// <para>Terms: diary, documentation, journal, library, read</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Book = 0xf02d,
+
+        /// <summary>
+        /// Book Of The Dead (book-dead)
+        /// <para>Terms: Dungeons &amp; Dragons, crossbones, d&amp;d, dark arts, death, dnd, documentation, evil, fantasy, halloween, holiday, necronomicon, read, skull, spell</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        BookDead = 0xf6b7,
+
+        /// <summary>
+        /// Medical Book (book-medical)
+        /// <para>Terms: diary, documentation, health, history, journal, library, read, record</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        BookMedical = 0xf7e6,
+
+        /// <summary>
+        /// Book Open (book-open)
+        /// <para>Terms: flyer, library, notebook, open book, pamphlet, reading</para>
+        /// <para>Added in 5.0.13, updated in 5.1.0 and 5.2.0.</para>
+        /// </summary>
+        BookOpen = 0xf518,
+
+        /// <summary>
+        /// Book Reader (book-reader)
+        /// <para>Terms: flyer, library, notebook, open book, pamphlet, reading</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        BookReader = 0xf5da,
+
+        /// <summary>
+        /// Bookmark (bookmark)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: favorite, marker, read, remember, save</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Bookmark = 0xf02e,
+
+        /// <summary>
+        /// Border All (border-all)
+        /// <para>Terms: cell, grid, outline, stroke, table</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        BorderAll = 0xf84c,
+
+        /// <summary>
+        /// Border None (border-none)
+        /// <para>Terms: cell, grid, outline, stroke, table</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        BorderNone = 0xf850,
+
+        /// <summary>
+        /// Border Style (border-style)
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        BorderStyle = 0xf853,
+
+        /// <summary>
+        /// Bowling Ball (bowling-ball)
+        /// <para>Terms: alley, candlepin, gutter, lane, strike, tenpin</para>
+        /// <para>Added in 5.0.5, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        BowlingBall = 0xf436,
+
+        /// <summary>
+        /// Box (box)
+        /// <para>Terms: archive, container, package, storage</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Box = 0xf466,
+
+        /// <summary>
+        /// Box Open (box-open)
+        /// <para>Terms: archive, container, package, storage, unpack</para>
+        /// <para>Added in 5.0.9, updated in 5.7.0.</para>
+        /// </summary>
+        BoxOpen = 0xf49e,
+
+        /// <summary>
+        /// Boxes (boxes)
+        /// <para>Terms: archives, inventory, storage, warehouse</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Boxes = 0xf468,
+
+        /// <summary>
+        /// Braille (braille)
+        /// <para>Terms: alphabet, blind, dots, raised, vision</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0.</para>
+        /// </summary>
+        Braille = 0xf2a1,
+
+        /// <summary>
+        /// Brain (brain)
+        /// <para>Terms: cerebellum, gray matter, intellect, medulla oblongata, mind, noodle, wit</para>
+        /// <para>Added in 5.11.0, updated in 5.2.0 and 5.9.0.</para>
+        /// </summary>
+        Brain = 0xf5dc,
+
+        /// <summary>
+        /// Bread Slice (bread-slice)
+        /// <para>Terms: bake, bakery, baking, dough, flour, gluten, grain, sandwich, sourdough, toast, wheat, yeast</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        BreadSlice = 0xf7ec,
+
+        /// <summary>
+        /// Briefcase (briefcase)
+        /// <para>Terms: bag, business, luggage, office, work</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        Briefcase = 0xf0b1,
+
+        /// <summary>
+        /// Medical Briefcase (briefcase-medical)
+        /// <para>Terms: doctor, emt, first aid, health</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        BriefcaseMedical = 0xf469,
+
+        /// <summary>
+        /// Broadcast Tower (broadcast-tower)
+        /// <para>Terms: airwaves, antenna, radio, reception, waves</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        BroadcastTower = 0xf519,
+
+        /// <summary>
+        /// Broom (broom)
+        /// <para>Terms: clean, firebolt, fly, halloween, nimbus 2000, quidditch, sweep, witch</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Broom = 0xf51a,
+
+        /// <summary>
+        /// Brush (brush)
+        /// <para>Terms: art, bristles, color, handle, paint</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Brush = 0xf55d,
+
+        /// <summary>
+        /// Bug (bug)
+        /// <para>Terms: beetle, error, insect, report</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Bug = 0xf188,
+
+        /// <summary>
+        /// Building (building)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: apartment, business, city, company, office, work</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Building = 0xf1ad,
+
+        /// <summary>
+        /// Bullhorn (bullhorn)
+        /// <para>Terms: announcement, broadcast, louder, megaphone, share</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        Bullhorn = 0xf0a1,
+
+        /// <summary>
+        /// Bullseye (bullseye)
+        /// <para>Terms: archery, goal, objective, target</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.1 and 5.3.0.</para>
+        /// </summary>
+        Bullseye = 0xf140,
+
+        /// <summary>
+        /// Burn (burn)
+        /// <para>Terms: caliente, energy, fire, flame, gas, heat, hot</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Burn = 0xf46a,
+
+        /// <summary>
+        /// Bus (bus)
+        /// <para>Terms: public transportation, transportation, travel, vehicle</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Bus = 0xf207,
+
+        /// <summary>
+        /// Bus Alt (bus-alt)
+        /// <para>Terms: mta, public transportation, transportation, travel, vehicle</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        BusAlt = 0xf55e,
+
+        /// <summary>
+        /// Business Time (business-time)
+        /// <para>Terms: alarm, briefcase, business socks, clock, flight of the conchords, reminder, wednesday</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        BusinessTime = 0xf64a,
+
+        /// <summary>
+        /// Calculator (calculator)
+        /// <para>Terms: abacus, addition, arithmetic, counting, math, multiplication, subtraction</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0, 5.11.0 and 5.3.0.</para>
+        /// </summary>
+        Calculator = 0xf1ec,
+
+        /// <summary>
+        /// Calendar (calendar)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar-o, date, event, schedule, time, when</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Calendar = 0xf133,
+
+        /// <summary>
+        /// Alternate Calendar (calendar-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar, date, event, schedule, time, when</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2, 5.6.0 and 5.7.0.</para>
+        /// </summary>
+        CalendarAlt = 0xf073,
+
+        /// <summary>
+        /// Calendar Check (calendar-check)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarCheck = 0xf274,
+
+        /// <summary>
+        /// Calendar With Day Focus (calendar-day)
+        /// <para>Terms: date, detail, event, focus, schedule, single day, time, today, when</para>
+        /// <para>Added in 5.10.2, updated in 5.6.0.</para>
+        /// </summary>
+        CalendarDay = 0xf783,
+
+        /// <summary>
+        /// Calendar Minus (calendar-minus)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar, date, delete, event, negative, remove, schedule, time, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarMinus = 0xf272,
+
+        /// <summary>
+        /// Calendar Plus (calendar-plus)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: add, calendar, create, date, event, new, positive, schedule, time, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarPlus = 0xf271,
+
+        /// <summary>
+        /// Calendar Times (calendar-times)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, calendar, date, delete, event, remove, schedule, time, when, x</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarTimes = 0xf273,
+
+        /// <summary>
+        /// Calendar With Week Focus (calendar-week)
+        /// <para>Terms: date, detail, event, focus, schedule, single week, time, today, when</para>
+        /// <para>Added in 5.10.2, updated in 5.6.0.</para>
+        /// </summary>
+        CalendarWeek = 0xf784,
+
+        /// <summary>
+        /// Camera (camera)
+        /// <para>Terms: image, lens, photo, picture, record, shutter, video</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Camera = 0xf030,
+
+        /// <summary>
+        /// Retro Camera (camera-retro)
+        /// <para>Terms: image, lens, photo, picture, record, shutter, video</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        CameraRetro = 0xf083,
+
+        /// <summary>
+        /// Campground (campground)
+        /// <para>Terms: camping, fall, outdoors, teepee, tent, tipi</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Campground = 0xf6bb,
+
+        /// <summary>
+        /// Candy Cane (candy-cane)
+        /// <para>Terms: candy, christmas, holiday, mint, peppermint, striped, xmas</para>
+        /// <para>Added in 5.10.1, updated in 5.6.0.</para>
+        /// </summary>
+        CandyCane = 0xf786,
+
+        /// <summary>
+        /// Cannabis (cannabis)
+        /// <para>Terms: bud, chronic, drugs, endica, endo, ganja, marijuana, mary jane, pot, reefer, sativa, spliff, weed, whacky-tabacky</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Cannabis = 0xf55f,
+
+        /// <summary>
+        /// Capsules (capsules)
+        /// <para>Terms: drugs, medicine, pills, prescription</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Capsules = 0xf46b,
+
+        /// <summary>
+        /// Car (car)
+        /// <para>Terms: auto, automobile, sedan, transportation, travel, vehicle</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        Car = 0xf1b9,
+
+        /// <summary>
+        /// Alternate Car (car-alt)
+        /// <para>Terms: auto, automobile, sedan, transportation, travel, vehicle</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.2.0.</para>
+        /// </summary>
+        CarAlt = 0xf5de,
+
+        /// <summary>
+        /// Car Battery (car-battery)
+        /// <para>Terms: auto, electric, mechanic, power</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        CarBattery = 0xf5df,
+
+        /// <summary>
+        /// Car Crash (car-crash)
+        /// <para>Terms: accident, auto, automobile, insurance, sedan, transportation, vehicle, wreck</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        CarCrash = 0xf5e1,
+
+        /// <summary>
+        /// Car Side (car-side)
+        /// <para>Terms: auto, automobile, sedan, transportation, travel, vehicle</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        CarSide = 0xf5e4,
+
+        /// <summary>
+        /// Caravan (caravan)
+        /// <para>Terms: camper, motor home, rv, trailer, travel</para>
+        /// <para>Added in 5.12.0.</para>
+        /// </summary>
+        Caravan = 0xf8ff,
+
+        /// <summary>
+        /// Caret Down (caret-down)
+        /// <para>Terms: arrow, dropdown, expand, menu, more, triangle</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretDown = 0xf0d7,
+
+        /// <summary>
+        /// Caret Left (caret-left)
+        /// <para>Terms: arrow, back, previous, triangle</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretLeft = 0xf0d9,
+
+        /// <summary>
+        /// Caret Right (caret-right)
+        /// <para>Terms: arrow, forward, next, triangle</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretRight = 0xf0da,
+
+        /// <summary>
+        /// Caret Square Down (caret-square-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-down, dropdown, expand, menu, more, triangle</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareDown = 0xf150,
+
+        /// <summary>
+        /// Caret Square Left (caret-square-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, back, caret-square-o-left, previous, triangle</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareLeft = 0xf191,
+
+        /// <summary>
+        /// Caret Square Right (caret-square-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-right, forward, next, triangle</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareRight = 0xf152,
+
+        /// <summary>
+        /// Caret Square Up (caret-square-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-up, collapse, triangle, upload</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareUp = 0xf151,
+
+        /// <summary>
+        /// Caret Up (caret-up)
+        /// <para>Terms: arrow, collapse, triangle</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretUp = 0xf0d8,
+
+        /// <summary>
+        /// Carrot (carrot)
+        /// <para>Terms: bugs bunny, orange, vegan, vegetable</para>
+        /// <para>Added in 5.10.1, updated in 5.6.0.</para>
+        /// </summary>
+        Carrot = 0xf787,
+
+        /// <summary>
+        /// Shopping Cart Arrow Down (cart-arrow-down)
+        /// <para>Terms: download, save, shopping</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        CartArrowDown = 0xf218,
+
+        /// <summary>
+        /// Add To Shopping Cart (cart-plus)
+        /// <para>Terms: add, create, new, positive, shopping</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        CartPlus = 0xf217,
+
+        /// <summary>
+        /// Cash Register (cash-register)
+        /// <para>Terms: buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        CashRegister = 0xf788,
+
+        /// <summary>
+        /// Cat (cat)
+        /// <para>Terms: feline, halloween, holiday, kitten, kitty, meow, pet</para>
+        /// <para>Added in 5.10.1, updated in 5.4.0.</para>
+        /// </summary>
+        Cat = 0xf6be,
+
+        /// <summary>
+        /// Certificate (certificate)
+        /// <para>Terms: badge, star, verified</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Certificate = 0xf0a3,
+
+        /// <summary>
+        /// Chair (chair)
+        /// <para>Terms: furniture, seat, sit</para>
+        /// <para>Added in 5.11.0, updated in 5.4.0.</para>
+        /// </summary>
+        Chair = 0xf6c0,
+
+        /// <summary>
+        /// Chalkboard (chalkboard)
+        /// <para>Terms: blackboard, learning, school, teaching, whiteboard, writing</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Chalkboard = 0xf51b,
+
+        /// <summary>
+        /// Chalkboard Teacher (chalkboard-teacher)
+        /// <para>Terms: blackboard, instructor, learning, professor, school, whiteboard, writing</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        ChalkboardTeacher = 0xf51c,
+
+        /// <summary>
+        /// Charging Station (charging-station)
+        /// <para>Terms: electric, ev, tesla, vehicle</para>
+        /// <para>Added in 5.10.1, updated in 5.2.0.</para>
+        /// </summary>
+        ChargingStation = 0xf5e7,
+
+        /// <summary>
+        /// Area Chart (chart-area)
+        /// <para>Terms: analytics, area, chart, graph</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChartArea = 0xf1fe,
+
+        /// <summary>
+        /// Bar Chart (chart-bar)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: analytics, bar, chart, graph</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        ChartBar = 0xf080,
+
+        /// <summary>
+        /// Line Chart (chart-line)
+        /// <para>Terms: activity, analytics, chart, dashboard, gain, graph, increase, line</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        ChartLine = 0xf201,
+
+        /// <summary>
+        /// Pie Chart (chart-pie)
+        /// <para>Terms: analytics, chart, diagram, graph, pie</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        ChartPie = 0xf200,
+
+        /// <summary>
+        /// Check (check)
+        /// <para>Terms: accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Check = 0xf00c,
+
+        /// <summary>
+        /// Check Circle (check-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CheckCircle = 0xf058,
+
+        /// <summary>
+        /// Double Check (check-double)
+        /// <para>Terms: accept, agree, checkmark, confirm, correct, done, notice, notification, notify, ok, select, success, tick, todo</para>
+        /// <para>Added in 5.1.0, updated in 5.8.2.</para>
+        /// </summary>
+        CheckDouble = 0xf560,
+
+        /// <summary>
+        /// Check Square (check-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        CheckSquare = 0xf14a,
+
+        /// <summary>
+        /// Cheese (cheese)
+        /// <para>Terms: cheddar, curd, gouda, melt, parmesan, sandwich, swiss, wedge</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Cheese = 0xf7ef,
+
+        /// <summary>
+        /// Chess (chess)
+        /// <para>Terms: board, castle, checkmate, game, king, rook, strategy, tournament</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        Chess = 0xf439,
+
+        /// <summary>
+        /// Chess Bishop (chess-bishop)
+        /// <para>Terms: board, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessBishop = 0xf43a,
+
+        /// <summary>
+        /// Chess Board (chess-board)
+        /// <para>Terms: board, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.7.0 and 5.9.0.</para>
+        /// </summary>
+        ChessBoard = 0xf43c,
+
+        /// <summary>
+        /// Chess King (chess-king)
+        /// <para>Terms: board, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessKing = 0xf43f,
+
+        /// <summary>
+        /// Chess Knight (chess-knight)
+        /// <para>Terms: board, checkmate, game, horse, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessKnight = 0xf441,
+
+        /// <summary>
+        /// Chess Pawn (chess-pawn)
+        /// <para>Terms: board, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessPawn = 0xf443,
+
+        /// <summary>
+        /// Chess Queen (chess-queen)
+        /// <para>Terms: board, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessQueen = 0xf445,
+
+        /// <summary>
+        /// Chess Rook (chess-rook)
+        /// <para>Terms: board, castle, checkmate, game, strategy</para>
+        /// <para>Added in 5.0.5, updated in 5.9.0.</para>
+        /// </summary>
+        ChessRook = 0xf447,
+
+        /// <summary>
+        /// Chevron Circle Down (chevron-circle-down)
+        /// <para>Terms: arrow, download, dropdown, menu, more</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronCircleDown = 0xf13a,
+
+        /// <summary>
+        /// Chevron Circle Left (chevron-circle-left)
+        /// <para>Terms: arrow, back, previous</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronCircleLeft = 0xf137,
+
+        /// <summary>
+        /// Chevron Circle Right (chevron-circle-right)
+        /// <para>Terms: arrow, forward, next</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronCircleRight = 0xf138,
+
+        /// <summary>
+        /// Chevron Circle Up (chevron-circle-up)
+        /// <para>Terms: arrow, collapse, upload</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronCircleUp = 0xf139,
+
+        /// <summary>
+        /// Chevron-Down (chevron-down)
+        /// <para>Terms: arrow, download, expand</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronDown = 0xf078,
+
+        /// <summary>
+        /// Chevron-Left (chevron-left)
+        /// <para>Terms: arrow, back, bracket, previous</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronLeft = 0xf053,
+
+        /// <summary>
+        /// Chevron-Right (chevron-right)
+        /// <para>Terms: arrow, bracket, forward, next</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronRight = 0xf054,
+
+        /// <summary>
+        /// Chevron-Up (chevron-up)
+        /// <para>Terms: arrow, collapse, upload</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ChevronUp = 0xf077,
+
+        /// <summary>
+        /// Child (child)
+        /// <para>Terms: boy, girl, kid, toddler, young</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Child = 0xf1ae,
+
+        /// <summary>
+        /// Church (church)
+        /// <para>Terms: building, cathedral, chapel, community, religion</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Church = 0xf51d,
+
+        /// <summary>
+        /// Circle (circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: circle-thin, diameter, dot, ellipse, notification, round</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Circle = 0xf111,
+
+        /// <summary>
+        /// Circle Notched (circle-notch)
+        /// <para>Terms: circle-o-notch, diameter, dot, ellipse, round, spinner</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CircleNotch = 0xf1ce,
+
+        /// <summary>
+        /// City (city)
+        /// <para>Terms: buildings, busy, skyscrapers, urban, windows</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        City = 0xf64f,
+
+        /// <summary>
+        /// Medical Clinic (clinic-medical)
+        /// <para>Terms: doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        ClinicMedical = 0xf7f2,
+
+        /// <summary>
+        /// Clipboard (clipboard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copy, notes, paste, record</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        Clipboard = 0xf328,
+
+        /// <summary>
+        /// Clipboard With Check (clipboard-check)
+        /// <para>Terms: accept, agree, confirm, done, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        ClipboardCheck = 0xf46c,
+
+        /// <summary>
+        /// Clipboard List (clipboard-list)
+        /// <para>Terms: checklist, completed, done, finished, intinerary, ol, schedule, tick, todo, ul</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        ClipboardList = 0xf46d,
+
+        /// <summary>
+        /// Clock (clock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: date, late, schedule, time, timer, timestamp, watch</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.12.1.</para>
+        /// </summary>
+        Clock = 0xf017,
+
+        /// <summary>
+        /// Clone (clone)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrange, copy, duplicate, paste</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Clone = 0xf24d,
+
+        /// <summary>
+        /// Closed Captioning (closed-captioning)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cc, deaf, hearing, subtitle, subtitling, text, video</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ClosedCaptioning = 0xf20a,
+
+        /// <summary>
+        /// Cloud (cloud)
+        /// <para>Terms: atmosphere, fog, overcast, save, upload, weather</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.11.</para>
+        /// </summary>
+        Cloud = 0xf0c2,
+
+        /// <summary>
+        /// Alternate Cloud Download (cloud-download-alt)
+        /// <para>Terms: download, export, save</para>
+        /// <para>Added in 5.0.0, updated in 5.0.11.</para>
+        /// </summary>
+        CloudDownloadAlt = 0xf381,
+
+        /// <summary>
+        /// Cloud With (A Chance Of) Meatball (cloud-meatball)
+        /// <para>Terms: FLDSMDFR, food, spaghetti, storm</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        CloudMeatball = 0xf73b,
+
+        /// <summary>
+        /// Cloud With Moon (cloud-moon)
+        /// <para>Terms: crescent, evening, lunar, night, partly cloudy, sky</para>
+        /// <para>Added in 5.4.0, updated in 5.5.0.</para>
+        /// </summary>
+        CloudMoon = 0xf6c3,
+
+        /// <summary>
+        /// Cloud With Moon And Rain (cloud-moon-rain)
+        /// <para>Terms: crescent, evening, lunar, night, partly cloudy, precipitation, rain, sky, storm</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        CloudMoonRain = 0xf73c,
+
+        /// <summary>
+        /// Cloud With Rain (cloud-rain)
+        /// <para>Terms: precipitation, rain, sky, storm</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        CloudRain = 0xf73d,
+
+        /// <summary>
+        /// Cloud With Heavy Showers (cloud-showers-heavy)
+        /// <para>Terms: precipitation, rain, sky, storm</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        CloudShowersHeavy = 0xf740,
+
+        /// <summary>
+        /// Cloud With Sun (cloud-sun)
+        /// <para>Terms: clear, day, daytime, fall, outdoors, overcast, partly cloudy</para>
+        /// <para>Added in 5.4.0, updated in 5.5.0.</para>
+        /// </summary>
+        CloudSun = 0xf6c4,
+
+        /// <summary>
+        /// Cloud With Sun And Rain (cloud-sun-rain)
+        /// <para>Terms: day, overcast, precipitation, storm, summer, sunshower</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        CloudSunRain = 0xf743,
+
+        /// <summary>
+        /// Alternate Cloud Upload (cloud-upload-alt)
+        /// <para>Terms: cloud-upload, import, save, upload</para>
+        /// <para>Added in 5.0.0, updated in 5.0.11.</para>
+        /// </summary>
+        CloudUploadAlt = 0xf382,
+
+        /// <summary>
+        /// Cocktail (cocktail)
+        /// <para>Terms: alcohol, beverage, drink, gin, glass, margarita, martini, vodka</para>
+        /// <para>Added in 5.1.0, updated in 5.10.1.</para>
+        /// </summary>
+        Cocktail = 0xf561,
+
+        /// <summary>
+        /// Code (code)
+        /// <para>Terms: brackets, code, development, html</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Code = 0xf121,
+
+        /// <summary>
+        /// Code Branch (code-branch)
+        /// <para>Terms: branch, code-fork, fork, git, github, rebase, svn, vcs, version</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        CodeBranch = 0xf126,
+
+        /// <summary>
+        /// Coffee (coffee)
+        /// <para>Terms: beverage, breakfast, cafe, drink, fall, morning, mug, seasonal, tea</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Coffee = 0xf0f4,
+
+        /// <summary>
+        /// Cog (cog)
+        /// <para>Terms: gear, mechanical, settings, sprocket, wheel</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Cog = 0xf013,
+
+        /// <summary>
+        /// Cogs (cogs)
+        /// <para>Terms: gears, mechanical, settings, sprocket, wheel</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Cogs = 0xf085,
+
+        /// <summary>
+        /// Coins (coins)
+        /// <para>Terms: currency, dime, financial, gold, money, penny</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Coins = 0xf51e,
+
+        /// <summary>
+        /// Columns (columns)
+        /// <para>Terms: browser, dashboard, organize, panes, split</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Columns = 0xf0db,
+
+        /// <summary>
+        /// Comment (comment)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9 and 5.10.1.</para>
+        /// </summary>
+        Comment = 0xf075,
+
+        /// <summary>
+        /// Alternate Comment (comment-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        CommentAlt = 0xf27a,
+
+        /// <summary>
+        /// Comment Dollar (comment-dollar)
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        CommentDollar = 0xf651,
+
+        /// <summary>
+        /// Comment Dots (comment-dots)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, more, note, notification, reply, sms, speech, texting</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        CommentDots = 0xf4ad,
+
+        /// <summary>
+        /// Alternate Medical Chat (comment-medical)
+        /// <para>Terms: advice, bubble, chat, commenting, conversation, diagnose, feedback, message, note, notification, prescription, sms, speech, texting</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        CommentMedical = 0xf7f5,
+
+        /// <summary>
+        /// Comment Slash (comment-slash)
+        /// <para>Terms: bubble, cancel, chat, commenting, conversation, feedback, message, mute, note, notification, quiet, sms, speech, texting</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        CommentSlash = 0xf4b3,
+
+        /// <summary>
+        /// Comments (comments)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Comments = 0xf086,
+
+        /// <summary>
+        /// Comments Dollar (comments-dollar)
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        CommentsDollar = 0xf653,
+
+        /// <summary>
+        /// Compact Disc (compact-disc)
+        /// <para>Terms: album, bluray, cd, disc, dvd, media, movie, music, record, video, vinyl</para>
+        /// <para>Added in 5.0.13, updated in 5.10.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        CompactDisc = 0xf51f,
+
+        /// <summary>
+        /// Compass (compass)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: directions, directory, location, menu, navigation, safari, travel</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.11.0, 5.11.1 and 5.2.0.</para>
+        /// </summary>
+        Compass = 0xf14e,
+
+        /// <summary>
+        /// Compress (compress)
+        /// <para>Terms: collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        Compress = 0xf066,
+
+        /// <summary>
+        /// Alternate Compress (compress-alt)
+        /// <para>Terms: collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        CompressAlt = 0xf422,
+
+        /// <summary>
+        /// Alternate Compress Arrows (compress-arrows-alt)
+        /// <para>Terms: collapse, fullscreen, minimize, move, resize, shrink, smaller</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        CompressArrowsAlt = 0xf78c,
+
+        /// <summary>
+        /// Concierge Bell (concierge-bell)
+        /// <para>Terms: attention, hotel, receptionist, service, support</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        ConciergeBell = 0xf562,
+
+        /// <summary>
+        /// Cookie (cookie)
+        /// <para>Terms: baked good, chips, chocolate, eat, snack, sweet, treat</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Cookie = 0xf563,
+
+        /// <summary>
+        /// Cookie Bite (cookie-bite)
+        /// <para>Terms: baked good, bitten, chips, chocolate, eat, snack, sweet, treat</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        CookieBite = 0xf564,
+
+        /// <summary>
+        /// Copy (copy)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: clone, duplicate, file, files-o, paper, paste</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Copy = 0xf0c5,
+
+        /// <summary>
+        /// Copyright (copyright)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: brand, mark, register, trademark</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Copyright = 0xf1f9,
+
+        /// <summary>
+        /// Couch (couch)
+        /// <para>Terms: chair, cushion, furniture, relax, sofa</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Couch = 0xf4b8,
+
+        /// <summary>
+        /// Credit Card (credit-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: buy, checkout, credit-card-alt, debit, money, payment, purchase</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CreditCard = 0xf09d,
+
+        /// <summary>
+        /// Crop (crop)
+        /// <para>Terms: design, frame, mask, resize, shrink</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Crop = 0xf125,
+
+        /// <summary>
+        /// Alternate Crop (crop-alt)
+        /// <para>Terms: design, frame, mask, resize, shrink</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        CropAlt = 0xf565,
+
+        /// <summary>
+        /// Cross (cross)
+        /// <para>Terms: catholicism, christianity, church, jesus</para>
+        /// <para>Added in 5.10.1, updated in 5.3.0.</para>
+        /// </summary>
+        Cross = 0xf654,
+
+        /// <summary>
+        /// Crosshairs (crosshairs)
+        /// <para>Terms: aim, bullseye, gpd, picker, position</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Crosshairs = 0xf05b,
+
+        /// <summary>
+        /// Crow (crow)
+        /// <para>Terms: bird, bullfrog, fauna, halloween, holiday, toad</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Crow = 0xf520,
+
+        /// <summary>
+        /// Crown (crown)
+        /// <para>Terms: award, favorite, king, queen, royal, tiara</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Crown = 0xf521,
+
+        /// <summary>
+        /// Crutch (crutch)
+        /// <para>Terms: cane, injury, mobility, wheelchair</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Crutch = 0xf7f7,
+
+        /// <summary>
+        /// Cube (cube)
+        /// <para>Terms: 3d, block, dice, package, square, tesseract</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Cube = 0xf1b2,
+
+        /// <summary>
+        /// Cubes (cubes)
+        /// <para>Terms: 3d, block, dice, package, pyramid, square, stack, tesseract</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Cubes = 0xf1b3,
+
+        /// <summary>
+        /// Cut (cut)
+        /// <para>Terms: clip, scissors, snip</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Cut = 0xf0c4,
+
+        /// <summary>
+        /// Database (database)
+        /// <para>Terms: computer, development, directory, memory, storage</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Database = 0xf1c0,
+
+        /// <summary>
+        /// Deaf (deaf)
+        /// <para>Terms: ear, hearing, sign language</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0.</para>
+        /// </summary>
+        Deaf = 0xf2a4,
+
+        /// <summary>
+        /// Democrat (democrat)
+        /// <para>Terms: american, democratic party, donkey, election, left, left-wing, liberal, politics, usa</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        Democrat = 0xf747,
+
+        /// <summary>
+        /// Desktop (desktop)
+        /// <para>Terms: computer, cpu, demo, desktop, device, imac, machine, monitor, pc, screen</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Desktop = 0xf108,
+
+        /// <summary>
+        /// Dharmachakra (dharmachakra)
+        /// <para>Terms: buddhism, buddhist, wheel of dharma</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Dharmachakra = 0xf655,
+
+        /// <summary>
+        /// Diagnoses (diagnoses)
+        /// <para>Terms: analyze, detect, diagnosis, examine, medicine</para>
+        /// <para>Added in 5.0.7, updated in 5.7.0.</para>
+        /// </summary>
+        Diagnoses = 0xf470,
+
+        /// <summary>
+        /// Dice (dice)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Dice = 0xf522,
+
+        /// <summary>
+        /// Dice D20 (dice-d20)
+        /// <para>Terms: Dungeons &amp; Dragons, chance, d&amp;d, dnd, fantasy, gambling, game, roll</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        DiceD20 = 0xf6cf,
+
+        /// <summary>
+        /// Dice D6 (dice-d6)
+        /// <para>Terms: Dungeons &amp; Dragons, chance, d&amp;d, dnd, fantasy, gambling, game, roll</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        DiceD6 = 0xf6d1,
+
+        /// <summary>
+        /// Dice Five (dice-five)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceFive = 0xf523,
+
+        /// <summary>
+        /// Dice Four (dice-four)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceFour = 0xf524,
+
+        /// <summary>
+        /// Dice One (dice-one)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceOne = 0xf525,
+
+        /// <summary>
+        /// Dice Six (dice-six)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceSix = 0xf526,
+
+        /// <summary>
+        /// Dice Three (dice-three)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceThree = 0xf527,
+
+        /// <summary>
+        /// Dice Two (dice-two)
+        /// <para>Terms: chance, gambling, game, roll</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DiceTwo = 0xf528,
+
+        /// <summary>
+        /// Digital Tachograph (digital-tachograph)
+        /// <para>Terms: data, distance, speed, tachometer</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        DigitalTachograph = 0xf566,
+
+        /// <summary>
+        /// Directions (directions)
+        /// <para>Terms: map, navigation, sign, turn</para>
+        /// <para>Added in 5.11.0, updated in 5.2.0.</para>
+        /// </summary>
+        Directions = 0xf5eb,
+
+        /// <summary>
+        /// Divide (divide)
+        /// <para>Terms: arithmetic, calculus, division, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Divide = 0xf529,
+
+        /// <summary>
+        /// Dizzy Face (dizzy)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: dazed, dead, disapprove, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Dizzy = 0xf567,
+
+        /// <summary>
+        /// DNA (dna)
+        /// <para>Terms: double helix, genetic, helix, molecule, protein</para>
+        /// <para>Added in 5.0.10, updated in 5.0.7.</para>
+        /// </summary>
+        Dna = 0xf471,
+
+        /// <summary>
+        /// Dog (dog)
+        /// <para>Terms: animal, canine, fauna, mammal, pet, pooch, puppy, woof</para>
+        /// <para>Added in 5.12.0, updated in 5.4.0.</para>
+        /// </summary>
+        Dog = 0xf6d3,
+
+        /// <summary>
+        /// Dollar Sign (dollar-sign)
+        /// <para>Terms: $, cost, dollar-sign, money, price, usd</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.0.9, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        DollarSign = 0xf155,
+
+        /// <summary>
+        /// Dolly (dolly)
+        /// <para>Terms: carry, shipping, transport</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Dolly = 0xf472,
+
+        /// <summary>
+        /// Dolly Flatbed (dolly-flatbed)
+        /// <para>Terms: carry, inventory, shipping, transport</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        DollyFlatbed = 0xf474,
+
+        /// <summary>
+        /// Donate (donate)
+        /// <para>Terms: contribute, generosity, gift, give</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Donate = 0xf4b9,
+
+        /// <summary>
+        /// Door Closed (door-closed)
+        /// <para>Terms: enter, exit, locked</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DoorClosed = 0xf52a,
+
+        /// <summary>
+        /// Door Open (door-open)
+        /// <para>Terms: enter, exit, welcome</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        DoorOpen = 0xf52b,
+
+        /// <summary>
+        /// Dot Circle (dot-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bullseye, notification, target</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        DotCircle = 0xf192,
+
+        /// <summary>
+        /// Dove (dove)
+        /// <para>Terms: bird, fauna, flying, peace, war</para>
+        /// <para>Added in 5.0.9, updated in 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Dove = 0xf4ba,
+
+        /// <summary>
+        /// Download (download)
+        /// <para>Terms: export, hard drive, save, transfer</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Download = 0xf019,
+
+        /// <summary>
+        /// Drafting Compass (drafting-compass)
+        /// <para>Terms: design, map, mechanical drawing, plot, plotting</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        DraftingCompass = 0xf568,
+
+        /// <summary>
+        /// Dragon (dragon)
+        /// <para>Terms: Dungeons &amp; Dragons, d&amp;d, dnd, fantasy, fire, lizard, serpent</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Dragon = 0xf6d5,
+
+        /// <summary>
+        /// Draw Polygon (draw-polygon)
+        /// <para>Terms: anchors, lines, object, render, shape</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        DrawPolygon = 0xf5ee,
+
+        /// <summary>
+        /// Drum (drum)
+        /// <para>Terms: instrument, music, percussion, snare, sound</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0.</para>
+        /// </summary>
+        Drum = 0xf569,
+
+        /// <summary>
+        /// Drum Steelpan (drum-steelpan)
+        /// <para>Terms: calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        DrumSteelpan = 0xf56a,
+
+        /// <summary>
+        /// Drumstick With Bite Taken Out (drumstick-bite)
+        /// <para>Terms: bone, chicken, leg, meat, poultry, turkey</para>
+        /// <para>Added in 5.4.0, updated in 5.7.0.</para>
+        /// </summary>
+        DrumstickBite = 0xf6d7,
+
+        /// <summary>
+        /// Dumbbell (dumbbell)
+        /// <para>Terms: exercise, gym, strength, weight, weight-lifting</para>
+        /// <para>Added in 5.0.5.</para>
+        /// </summary>
+        Dumbbell = 0xf44b,
+
+        /// <summary>
+        /// Dumpster (dumpster)
+        /// <para>Terms: alley, bin, commercial, trash, waste</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Dumpster = 0xf793,
+
+        /// <summary>
+        /// Dumpster Fire (dumpster-fire)
+        /// <para>Terms: alley, bin, commercial, danger, dangerous, euphemism, flame, heat, hot, trash, waste</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        DumpsterFire = 0xf794,
+
+        /// <summary>
+        /// Dungeon (dungeon)
+        /// <para>Terms: Dungeons &amp; Dragons, building, d&amp;d, dnd, door, entrance, fantasy, gate</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Dungeon = 0xf6d9,
+
+        /// <summary>
+        /// Edit (edit)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: edit, pen, pencil, update, write</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Edit = 0xf044,
+
+        /// <summary>
+        /// Egg (egg)
+        /// <para>Terms: breakfast, chicken, easter, shell, yolk</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Egg = 0xf7fb,
+
+        /// <summary>
+        /// Eject (eject)
+        /// <para>Terms: abort, cancel, cd, discharge</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Eject = 0xf052,
+
+        /// <summary>
+        /// Horizontal Ellipsis (ellipsis-h)
+        /// <para>Terms: dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        EllipsisH = 0xf141,
+
+        /// <summary>
+        /// Vertical Ellipsis (ellipsis-v)
+        /// <para>Terms: dots, drag, kebab, list, menu, nav, navigation, ol, reorder, settings, ul</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        EllipsisV = 0xf142,
+
+        /// <summary>
+        /// Envelope (envelope)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Envelope = 0xf0e0,
+
+        /// <summary>
+        /// Envelope Open (envelope-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        EnvelopeOpen = 0xf2b6,
+
+        /// <summary>
+        /// Envelope Open-Text (envelope-open-text)
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 5.10.1, updated in 5.12.0 and 5.3.0.</para>
+        /// </summary>
+        EnvelopeOpenText = 0xf658,
+
+        /// <summary>
+        /// Envelope Square (envelope-square)
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        EnvelopeSquare = 0xf199,
+
+        /// <summary>
+        /// Equals (equals)
+        /// <para>Terms: arithmetic, even, match, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Equals = 0xf52c,
+
+        /// <summary>
+        /// Eraser (eraser)
+        /// <para>Terms: art, delete, remove, rubber</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.8.0.</para>
+        /// </summary>
+        Eraser = 0xf12d,
+
+        /// <summary>
+        /// Ethernet (ethernet)
+        /// <para>Terms: cable, cat 5, cat 6, connection, hardware, internet, network, wired</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Ethernet = 0xf796,
+
+        /// <summary>
+        /// Euro Sign (euro-sign)
+        /// <para>Terms: currency, dollar, exchange, money</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        EuroSign = 0xf153,
+
+        /// <summary>
+        /// Alternate Exchange (exchange-alt)
+        /// <para>Terms: arrow, arrows, exchange, reciprocate, return, swap, transfer</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ExchangeAlt = 0xf362,
+
+        /// <summary>
+        /// Exclamation (exclamation)
+        /// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Exclamation = 0xf12a,
+
+        /// <summary>
+        /// Exclamation Circle (exclamation-circle)
+        /// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ExclamationCircle = 0xf06a,
+
+        /// <summary>
+        /// Exclamation Triangle (exclamation-triangle)
+        /// <para>Terms: alert, danger, error, important, notice, notification, notify, problem, warning</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.6.1.</para>
+        /// </summary>
+        ExclamationTriangle = 0xf071,
+
+        /// <summary>
+        /// Expand (expand)
+        /// <para>Terms: arrow, bigger, enlarge, resize</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        Expand = 0xf065,
+
+        /// <summary>
+        /// Alternate Expand (expand-alt)
+        /// <para>Terms: arrow, bigger, enlarge, resize</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        ExpandAlt = 0xf424,
+
+        /// <summary>
+        /// Alternate Expand Arrows (expand-arrows-alt)
+        /// <para>Terms: arrows-alt, bigger, enlarge, move, resize</para>
+        /// <para>Added in 5.0.0, updated in 5.8.0.</para>
+        /// </summary>
+        ExpandArrowsAlt = 0xf31e,
+
+        /// <summary>
+        /// Alternate External Link (external-link-alt)
+        /// <para>Terms: external-link, new, open, share</para>
+        /// <para>Added in 5.0.0, updated in 5.11.0.</para>
+        /// </summary>
+        ExternalLinkAlt = 0xf35d,
+
+        /// <summary>
+        /// Alternate External Link Square (external-link-square-alt)
+        /// <para>Terms: external-link-square, new, open, share</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ExternalLinkSquareAlt = 0xf360,
+
+        /// <summary>
+        /// Eye (eye)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: look, optic, see, seen, show, sight, views, visible</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        Eye = 0xf06e,
+
+        /// <summary>
+        /// Eye Dropper (eye-dropper)
+        /// <para>Terms: beaker, clone, color, copy, eyedropper, pipette</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        EyeDropper = 0xf1fb,
+
+        /// <summary>
+        /// Eye Slash (eye-slash)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        EyeSlash = 0xf070,
+
+        /// <summary>
+        /// Fan (fan)
+        /// <para>Terms: ac, air conditioning, blade, blower, cool, hot</para>
+        /// <para>Added in 5.10.1, updated in 5.9.0.</para>
+        /// </summary>
+        Fan = 0xf863,
+
+        /// <summary>
+        /// Fast-Backward (fast-backward)
+        /// <para>Terms: beginning, first, previous, rewind, start</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        FastBackward = 0xf049,
+
+        /// <summary>
+        /// Fast-Forward (fast-forward)
+        /// <para>Terms: end, last, next</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        FastForward = 0xf050,
+
+        /// <summary>
+        /// Fax (fax)
+        /// <para>Terms: business, communicate, copy, facsimile, send</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.11.0 and 5.3.0.</para>
+        /// </summary>
+        Fax = 0xf1ac,
+
+        /// <summary>
+        /// Feather (feather)
+        /// <para>Terms: bird, light, plucked, quill, write</para>
+        /// <para>Added in 5.0.13, updated in 5.1.0.</para>
+        /// </summary>
+        Feather = 0xf52d,
+
+        /// <summary>
+        /// Alternate Feather (feather-alt)
+        /// <para>Terms: bird, light, plucked, quill, write</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        FeatherAlt = 0xf56b,
+
+        /// <summary>
+        /// Female (female)
+        /// <para>Terms: human, person, profile, user, woman</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Female = 0xf182,
+
+        /// <summary>
+        /// Fighter-Jet (fighter-jet)
+        /// <para>Terms: airplane, fast, fly, goose, maverick, plane, quick, top gun, transportation, travel</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        FighterJet = 0xf0fb,
+
+        /// <summary>
+        /// File (file)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, new, page, pdf, resume</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        File = 0xf15b,
+
+        /// <summary>
+        /// Alternate File (file-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, file-text, invoice, new, page, pdf</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileAlt = 0xf15c,
+
+        /// <summary>
+        /// Archive File (file-archive)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        FileArchive = 0xf1c6,
+
+        /// <summary>
+        /// Audio File (file-audio)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, mp3, music, page, play, sound</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileAudio = 0xf1c7,
+
+        /// <summary>
+        /// Code File (file-code)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: css, development, document, html</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileCode = 0xf1c9,
+
+        /// <summary>
+        /// File Contract (file-contract)
+        /// <para>Terms: agreement, binding, document, legal, signature</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileContract = 0xf56c,
+
+        /// <summary>
+        /// File CSV (file-csv)
+        /// <para>Terms: document, excel, numbers, spreadsheets, table</para>
+        /// <para>Added in 5.10.2, updated in 5.4.0.</para>
+        /// </summary>
+        FileCsv = 0xf6dd,
+
+        /// <summary>
+        /// File Download (file-download)
+        /// <para>Terms: document, export, save</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileDownload = 0xf56d,
+
+        /// <summary>
+        /// Excel File (file-excel)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: csv, document, numbers, spreadsheets, table</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileExcel = 0xf1c3,
+
+        /// <summary>
+        /// File Export (file-export)
+        /// <para>Terms: download, save</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        FileExport = 0xf56e,
+
+        /// <summary>
+        /// Image File (file-image)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, image, jpg, photo, png</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileImage = 0xf1c5,
+
+        /// <summary>
+        /// File Import (file-import)
+        /// <para>Terms: copy, document, send, upload</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        FileImport = 0xf56f,
+
+        /// <summary>
+        /// File Invoice (file-invoice)
+        /// <para>Terms: account, bill, charge, document, payment, receipt</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileInvoice = 0xf570,
+
+        /// <summary>
+        /// File Invoice With US Dollar (file-invoice-dollar)
+        /// <para>Terms: $, account, bill, charge, document, dollar-sign, money, payment, receipt, usd</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileInvoiceDollar = 0xf571,
+
+        /// <summary>
+        /// Medical File (file-medical)
+        /// <para>Terms: document, health, history, prescription, record</para>
+        /// <para>Added in 5.0.7, updated in 5.10.2.</para>
+        /// </summary>
+        FileMedical = 0xf477,
+
+        /// <summary>
+        /// Alternate Medical File (file-medical-alt)
+        /// <para>Terms: document, health, history, prescription, record</para>
+        /// <para>Added in 5.0.7, updated in 5.10.2.</para>
+        /// </summary>
+        FileMedicalAlt = 0xf478,
+
+        /// <summary>
+        /// PDF File (file-pdf)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: acrobat, document, preview, save</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FilePdf = 0xf1c1,
+
+        /// <summary>
+        /// Powerpoint File (file-powerpoint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: display, document, keynote, presentation</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FilePowerpoint = 0xf1c4,
+
+        /// <summary>
+        /// File Prescription (file-prescription)
+        /// <para>Terms: document, drugs, medical, medicine, rx</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FilePrescription = 0xf572,
+
+        /// <summary>
+        /// File Signature (file-signature)
+        /// <para>Terms: John Hancock, contract, document, name</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileSignature = 0xf573,
+
+        /// <summary>
+        /// File Upload (file-upload)
+        /// <para>Terms: document, import, page, save</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        FileUpload = 0xf574,
+
+        /// <summary>
+        /// Video File (file-video)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, m4v, movie, mp4, play</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileVideo = 0xf1c8,
+
+        /// <summary>
+        /// Word File (file-word)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, edit, page, text, writing</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileWord = 0xf1c2,
+
+        /// <summary>
+        /// Fill (fill)
+        /// <para>Terms: bucket, color, paint, paint bucket</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Fill = 0xf575,
+
+        /// <summary>
+        /// Fill Drip (fill-drip)
+        /// <para>Terms: bucket, color, drop, paint, paint bucket, spill</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        FillDrip = 0xf576,
+
+        /// <summary>
+        /// Film (film)
+        /// <para>Terms: cinema, movie, strip, video</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Film = 0xf008,
+
+        /// <summary>
+        /// Filter (filter)
+        /// <para>Terms: funnel, options, separate, sort</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Filter = 0xf0b0,
+
+        /// <summary>
+        /// Fingerprint (fingerprint)
+        /// <para>Terms: human, id, identification, lock, smudge, touch, unique, unlock</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Fingerprint = 0xf577,
+
+        /// <summary>
+        /// Fire (fire)
+        /// <para>Terms: burn, caliente, flame, heat, hot, popular</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.1, 5.6.0 and 5.6.3.</para>
+        /// </summary>
+        Fire = 0xf06d,
+
+        /// <summary>
+        /// Alternate Fire (fire-alt)
+        /// <para>Terms: burn, caliente, flame, heat, hot, popular</para>
+        /// <para>Added in 5.6.3.</para>
+        /// </summary>
+        FireAlt = 0xf7e4,
+
+        /// <summary>
+        /// Fire-Extinguisher (fire-extinguisher)
+        /// <para>Terms: burn, caliente, fire fighter, flame, heat, hot, rescue</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        FireExtinguisher = 0xf134,
+
+        /// <summary>
+        /// First Aid (first-aid)
+        /// <para>Terms: emergency, emt, health, medical, rescue</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        FirstAid = 0xf479,
+
+        /// <summary>
+        /// Fish (fish)
+        /// <para>Terms: fauna, gold, seafood, swimming</para>
+        /// <para>Added in 5.1.0, updated in 5.10.1.</para>
+        /// </summary>
+        Fish = 0xf578,
+
+        /// <summary>
+        /// Raised Fist (fist-raised)
+        /// <para>Terms: Dungeons &amp; Dragons, d&amp;d, dnd, fantasy, hand, ki, monk, resist, strength, unarmed combat</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        FistRaised = 0xf6de,
+
+        /// <summary>
+        /// Flag (flag)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: country, notice, notification, notify, pole, report, symbol</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Flag = 0xf024,
+
+        /// <summary>
+        /// Flag-Checkered (flag-checkered)
+        /// <para>Terms: notice, notification, notify, pole, racing, report, symbol</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.1 and 5.7.0.</para>
+        /// </summary>
+        FlagCheckered = 0xf11e,
+
+        /// <summary>
+        /// United States Of America Flag (flag-usa)
+        /// <para>Terms: betsy ross, country, old glory, stars, stripes, symbol</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        FlagUsa = 0xf74d,
+
+        /// <summary>
+        /// Flask (flask)
+        /// <para>Terms: beaker, experimental, labs, science</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Flask = 0xf0c3,
+
+        /// <summary>
+        /// Flushed Face (flushed)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: embarrassed, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Flushed = 0xf579,
+
+        /// <summary>
+        /// Folder (folder)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, directory, document, file</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.1 and 5.3.0.</para>
+        /// </summary>
+        Folder = 0xf07b,
+
+        /// <summary>
+        /// Folder Minus (folder-minus)
+        /// <para>Terms: archive, delete, directory, document, file, negative, remove</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        FolderMinus = 0xf65d,
+
+        /// <summary>
+        /// Folder Open (folder-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, directory, document, empty, file, new</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        FolderOpen = 0xf07c,
+
+        /// <summary>
+        /// Folder Plus (folder-plus)
+        /// <para>Terms: add, archive, create, directory, document, file, new, positive</para>
+        /// <para>Added in 5.11.0, updated in 5.12.1 and 5.3.0.</para>
+        /// </summary>
+        FolderPlus = 0xf65e,
+
+        /// <summary>
+        /// Font (font)
+        /// <para>Terms: alphabet, glyph, text, type, typeface</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Font = 0xf031,
+
+        /// <summary>
+        /// Football Ball (football-ball)
+        /// <para>Terms: ball, fall, nfl, pigskin, seasonal</para>
+        /// <para>Added in 5.0.5, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        FootballBall = 0xf44e,
+
+        /// <summary>
+        /// Forward (forward)
+        /// <para>Terms: forward, next, skip</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Forward = 0xf04e,
+
+        /// <summary>
+        /// Frog (frog)
+        /// <para>Terms: amphibian, bullfrog, fauna, hop, kermit, kiss, prince, ribbit, toad, wart</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Frog = 0xf52e,
+
+        /// <summary>
+        /// Frowning Face (frown)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, rating, sad</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Frown = 0xf119,
+
+        /// <summary>
+        /// Frowning Face With Open Mouth (frown-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, rating, sad</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        FrownOpen = 0xf57a,
+
+        /// <summary>
+        /// Funnel Dollar (funnel-dollar)
+        /// <para>Terms: filter, money, options, separate, sort</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        FunnelDollar = 0xf662,
+
+        /// <summary>
+        /// Futbol (futbol)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: ball, football, mls, soccer</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.0.5.</para>
+        /// </summary>
+        Futbol = 0xf1e3,
+
+        /// <summary>
+        /// Gamepad (gamepad)
+        /// <para>Terms: arcade, controller, d-pad, joystick, video, video game</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Gamepad = 0xf11b,
+
+        /// <summary>
+        /// Gas Pump (gas-pump)
+        /// <para>Terms: car, fuel, gasoline, petrol</para>
+        /// <para>Added in 5.0.13, updated in 5.10.1.</para>
+        /// </summary>
+        GasPump = 0xf52f,
+
+        /// <summary>
+        /// Gavel (gavel)
+        /// <para>Terms: hammer, judge, law, lawyer, opinion</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Gavel = 0xf0e3,
+
+        /// <summary>
+        /// Gem (gem)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: diamond, jewelry, sapphire, stone, treasure</para>
+        /// <para>Added in 5.0.0, updated in 5.10.1.</para>
+        /// </summary>
+        Gem = 0xf3a5,
+
+        /// <summary>
+        /// Genderless (genderless)
+        /// <para>Terms: androgynous, asexual, sexless</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Genderless = 0xf22d,
+
+        /// <summary>
+        /// Ghost (ghost)
+        /// <para>Terms: apparition, blinky, clyde, floating, halloween, holiday, inky, pinky, spirit</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Ghost = 0xf6e2,
+
+        /// <summary>
+        /// Gift (gift)
+        /// <para>Terms: christmas, generosity, giving, holiday, party, present, wrapped, xmas</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9 and 5.6.0.</para>
+        /// </summary>
+        Gift = 0xf06b,
+
+        /// <summary>
+        /// Gifts (gifts)
+        /// <para>Terms: christmas, generosity, giving, holiday, party, present, wrapped, xmas</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Gifts = 0xf79c,
+
+        /// <summary>
+        /// Glass Cheers (glass-cheers)
+        /// <para>Terms: alcohol, bar, beverage, celebration, champagne, clink, drink, holiday, new year&apos;s eve, party, toast</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        GlassCheers = 0xf79f,
+
+        /// <summary>
+        /// Martini Glass (glass-martini)
+        /// <para>Terms: alcohol, bar, beverage, drink, liquor</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.1.0 and 5.10.1.</para>
+        /// </summary>
+        GlassMartini = 0xf000,
+
+        /// <summary>
+        /// Alternate Glass Martini (glass-martini-alt)
+        /// <para>Terms: alcohol, bar, beverage, drink, liquor</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GlassMartiniAlt = 0xf57b,
+
+        /// <summary>
+        /// Glass Whiskey (glass-whiskey)
+        /// <para>Terms: alcohol, bar, beverage, bourbon, drink, liquor, neat, rye, scotch, whisky</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        GlassWhiskey = 0xf7a0,
+
+        /// <summary>
+        /// Glasses (glasses)
+        /// <para>Terms: hipster, nerd, reading, sight, spectacles, vision</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Glasses = 0xf530,
+
+        /// <summary>
+        /// Globe (globe)
+        /// <para>Terms: all, coordinates, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.0.9, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Globe = 0xf0ac,
+
+        /// <summary>
+        /// Globe With Africa Shown (globe-africa)
+        /// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GlobeAfrica = 0xf57c,
+
+        /// <summary>
+        /// Globe With Americas Shown (globe-americas)
+        /// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GlobeAmericas = 0xf57d,
+
+        /// <summary>
+        /// Globe With Asia Shown (globe-asia)
+        /// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GlobeAsia = 0xf57e,
+
+        /// <summary>
+        /// Globe With Europe Shown (globe-europe)
+        /// <para>Terms: all, country, earth, global, gps, language, localize, location, map, online, place, planet, translate, travel, world</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.6.0.</para>
+        /// </summary>
+        GlobeEurope = 0xf7a2,
+
+        /// <summary>
+        /// Golf Ball (golf-ball)
+        /// <para>Terms: caddy, eagle, putt, tee</para>
+        /// <para>Added in 5.0.5.</para>
+        /// </summary>
+        GolfBall = 0xf450,
+
+        /// <summary>
+        /// Gopuram (gopuram)
+        /// <para>Terms: building, entrance, hinduism, temple, tower</para>
+        /// <para>Added in 5.11.0, updated in 5.3.0 and 5.7.0.</para>
+        /// </summary>
+        Gopuram = 0xf664,
+
+        /// <summary>
+        /// Graduation Cap (graduation-cap)
+        /// <para>Terms: ceremony, college, graduate, learning, school, student</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.10.1 and 5.2.0.</para>
+        /// </summary>
+        GraduationCap = 0xf19d,
+
+        /// <summary>
+        /// Greater Than (greater-than)
+        /// <para>Terms: arithmetic, compare, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        GreaterThan = 0xf531,
+
+        /// <summary>
+        /// Greater Than Equal To (greater-than-equal)
+        /// <para>Terms: arithmetic, compare, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        GreaterThanEqual = 0xf532,
+
+        /// <summary>
+        /// Grimacing Face (grimace)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cringe, emoticon, face, teeth</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Grimace = 0xf57f,
+
+        /// <summary>
+        /// Grinning Face (grin)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Grin = 0xf580,
+
+        /// <summary>
+        /// Alternate Grinning Face (grin-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinAlt = 0xf581,
+
+        /// <summary>
+        /// Grinning Face With Smiling Eyes (grin-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinBeam = 0xf582,
+
+        /// <summary>
+        /// Grinning Face With Sweat (grin-beam-sweat)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: embarass, emoticon, face, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinBeamSweat = 0xf583,
+
+        /// <summary>
+        /// Smiling Face With Heart-Eyes (grin-hearts)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, love, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinHearts = 0xf584,
+
+        /// <summary>
+        /// Grinning Squinting Face (grin-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinSquint = 0xf585,
+
+        /// <summary>
+        /// Rolling On The Floor Laughing (grin-squint-tears)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GrinSquintTears = 0xf586,
+
+        /// <summary>
+        /// Star-Struck (grin-stars)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, star-struck</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinStars = 0xf587,
+
+        /// <summary>
+        /// Face With Tears Of Joy (grin-tears)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GrinTears = 0xf588,
+
+        /// <summary>
+        /// Face With Tongue (grin-tongue)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinTongue = 0xf589,
+
+        /// <summary>
+        /// Squinting Face With Tongue (grin-tongue-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinTongueSquint = 0xf58a,
+
+        /// <summary>
+        /// Winking Face With Tongue (grin-tongue-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0, 5.11.1 and 5.12.0.</para>
+        /// </summary>
+        GrinTongueWink = 0xf58b,
+
+        /// <summary>
+        /// Grinning Winking Face (grin-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, flirt, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.1.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinWink = 0xf58c,
+
+        /// <summary>
+        /// Grip Horizontal (grip-horizontal)
+        /// <para>Terms: affordance, drag, drop, grab, handle</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GripHorizontal = 0xf58d,
+
+        /// <summary>
+        /// Grip Lines (grip-lines)
+        /// <para>Terms: affordance, drag, drop, grab, handle</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        GripLines = 0xf7a4,
+
+        /// <summary>
+        /// Grip Lines Vertical (grip-lines-vertical)
+        /// <para>Terms: affordance, drag, drop, grab, handle</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.6.0.</para>
+        /// </summary>
+        GripLinesVertical = 0xf7a5,
+
+        /// <summary>
+        /// Grip Vertical (grip-vertical)
+        /// <para>Terms: affordance, drag, drop, grab, handle</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GripVertical = 0xf58e,
+
+        /// <summary>
+        /// Guitar (guitar)
+        /// <para>Terms: acoustic, instrument, music, rock, rock and roll, song, strings</para>
+        /// <para>Added in 5.11.0, updated in 5.6.0.</para>
+        /// </summary>
+        Guitar = 0xf7a6,
+
+        /// <summary>
+        /// H Square (h-square)
+        /// <para>Terms: directions, emergency, hospital, hotel, map</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HSquare = 0xf0fd,
+
+        /// <summary>
+        /// Hamburger (hamburger)
+        /// <para>Terms: bacon, beef, burger, burger king, cheeseburger, fast food, grill, ground beef, mcdonalds, sandwich</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Hamburger = 0xf805,
+
+        /// <summary>
+        /// Hammer (hammer)
+        /// <para>Terms: admin, fix, repair, settings, tool</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Hammer = 0xf6e3,
+
+        /// <summary>
+        /// Hamsa (hamsa)
+        /// <para>Terms: amulet, christianity, islam, jewish, judaism, muslim, protection</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Hamsa = 0xf665,
+
+        /// <summary>
+        /// Hand Holding (hand-holding)
+        /// <para>Terms: carry, lift</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        HandHolding = 0xf4bd,
+
+        /// <summary>
+        /// Hand Holding Heart (hand-holding-heart)
+        /// <para>Terms: carry, charity, gift, lift, package</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        HandHoldingHeart = 0xf4be,
+
+        /// <summary>
+        /// Hand Holding US Dollar (hand-holding-usd)
+        /// <para>Terms: $, carry, dollar sign, donation, giving, lift, money, price</para>
+        /// <para>Added in 5.0.9, updated in 5.11.0.</para>
+        /// </summary>
+        HandHoldingUsd = 0xf4c0,
+
+        /// <summary>
+        /// Lizard (Hand) (hand-lizard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandLizard = 0xf258,
+
+        /// <summary>
+        /// Hand With Middle Finger Raised (hand-middle-finger)
+        /// <para>Terms: flip the bird, gesture, hate, rude</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.7.0.</para>
+        /// </summary>
+        HandMiddleFinger = 0xf806,
+
+        /// <summary>
+        /// Paper (Hand) (hand-paper)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: game, halt, roshambo, stop</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPaper = 0xf256,
+
+        /// <summary>
+        /// Peace (Hand) (hand-peace)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: rest, truce</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPeace = 0xf25b,
+
+        /// <summary>
+        /// Hand Pointing Down (hand-point-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, hand-o-down, point</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointDown = 0xf0a7,
+
+        /// <summary>
+        /// Hand Pointing Left (hand-point-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: back, finger, hand-o-left, left, point, previous</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointLeft = 0xf0a5,
+
+        /// <summary>
+        /// Hand Pointing Right (hand-point-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, forward, hand-o-right, next, point, right</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointRight = 0xf0a4,
+
+        /// <summary>
+        /// Hand Pointing Up (hand-point-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, hand-o-up, point</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointUp = 0xf0a6,
+
+        /// <summary>
+        /// Pointer (Hand) (hand-pointer)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, cursor, select</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointer = 0xf25a,
+
+        /// <summary>
+        /// Rock (Hand) (hand-rock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: fist, game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandRock = 0xf255,
+
+        /// <summary>
+        /// Scissors (Hand) (hand-scissors)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cut, game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandScissors = 0xf257,
+
+        /// <summary>
+        /// Spock (Hand) (hand-spock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: live long, prosper, salute, star trek, vulcan</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        HandSpock = 0xf259,
+
+        /// <summary>
+        /// Hands (hands)
+        /// <para>Terms: carry, hold, lift</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Hands = 0xf4c2,
+
+        /// <summary>
+        /// Helping Hands (hands-helping)
+        /// <para>Terms: aid, assistance, handshake, partnership, volunteering</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        HandsHelping = 0xf4c4,
+
+        /// <summary>
+        /// Handshake (handshake)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: agreement, greeting, meeting, partnership</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Handshake = 0xf2b5,
+
+        /// <summary>
+        /// Hanukiah (hanukiah)
+        /// <para>Terms: candle, hanukkah, jewish, judaism, light</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Hanukiah = 0xf6e6,
+
+        /// <summary>
+        /// Hard Hat (hard-hat)
+        /// <para>Terms: construction, hardhat, helmet, safety</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        HardHat = 0xf807,
+
+        /// <summary>
+        /// Hashtag (hashtag)
+        /// <para>Terms: Twitter, instagram, pound, social media, tag</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        Hashtag = 0xf292,
+
+        /// <summary>
+        /// Cowboy Hat (hat-cowboy)
+        /// <para>Terms: buckaroo, horse, jackeroo, john b., old west, pardner, ranch, rancher, rodeo, western, wrangler</para>
+        /// <para>Added in 5.11.0.</para>
+        /// </summary>
+        HatCowboy = 0xf8c0,
+
+        /// <summary>
+        /// Cowboy Hat Side (hat-cowboy-side)
+        /// <para>Terms: buckaroo, horse, jackeroo, john b., old west, pardner, ranch, rancher, rodeo, western, wrangler</para>
+        /// <para>Added in 5.11.0.</para>
+        /// </summary>
+        HatCowboySide = 0xf8c1,
+
+        /// <summary>
+        /// Wizard&apos;s Hat (hat-wizard)
+        /// <para>Terms: Dungeons &amp; Dragons, accessory, buckle, clothing, d&amp;d, dnd, fantasy, halloween, head, holiday, mage, magic, pointy, witch</para>
+        /// <para>Added in 5.11.0, updated in 5.4.0.</para>
+        /// </summary>
+        HatWizard = 0xf6e8,
+
+        /// <summary>
+        /// HDD (hdd)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cpu, hard drive, harddrive, machine, save, storage</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Hdd = 0xf0a0,
+
+        /// <summary>
+        /// Heading (heading)
+        /// <para>Terms: format, header, text, title</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.10.1, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Heading = 0xf1dc,
+
+        /// <summary>
+        /// Headphones (headphones)
+        /// <para>Terms: audio, listen, music, sound, speaker</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Headphones = 0xf025,
+
+        /// <summary>
+        /// Alternate Headphones (headphones-alt)
+        /// <para>Terms: audio, listen, music, sound, speaker</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        HeadphonesAlt = 0xf58f,
+
+        /// <summary>
+        /// Headset (headset)
+        /// <para>Terms: audio, gamer, gaming, listen, live chat, microphone, shot caller, sound, support, telemarketer</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Headset = 0xf590,
+
+        /// <summary>
+        /// Heart (heart)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: favorite, like, love, relationship, valentine</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Heart = 0xf004,
+
+        /// <summary>
+        /// Heart Broken (heart-broken)
+        /// <para>Terms: breakup, crushed, dislike, dumped, grief, love, lovesick, relationship, sad</para>
+        /// <para>Added in 5.10.2, updated in 5.6.0.</para>
+        /// </summary>
+        HeartBroken = 0xf7a9,
+
+        /// <summary>
+        /// Heartbeat (heartbeat)
+        /// <para>Terms: ekg, electrocardiogram, health, lifeline, vital signs</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.0.7.</para>
+        /// </summary>
+        Heartbeat = 0xf21e,
+
+        /// <summary>
+        /// Helicopter (helicopter)
+        /// <para>Terms: airwolf, apache, chopper, flight, fly, travel</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Helicopter = 0xf533,
+
+        /// <summary>
+        /// Highlighter (highlighter)
+        /// <para>Terms: edit, marker, sharpie, update, write</para>
+        /// <para>Added in 5.1.0, updated in 5.10.1.</para>
+        /// </summary>
+        Highlighter = 0xf591,
+
+        /// <summary>
+        /// Hiking (hiking)
+        /// <para>Terms: activity, backpack, fall, fitness, outdoors, person, seasonal, walking</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Hiking = 0xf6ec,
+
+        /// <summary>
+        /// Hippo (hippo)
+        /// <para>Terms: animal, fauna, hippopotamus, hungry, mammal</para>
+        /// <para>Added in 5.10.1, updated in 5.4.0.</para>
+        /// </summary>
+        Hippo = 0xf6ed,
+
+        /// <summary>
+        /// History (history)
+        /// <para>Terms: Rewind, clock, reverse, time, time machine</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        History = 0xf1da,
+
+        /// <summary>
+        /// Hockey Puck (hockey-puck)
+        /// <para>Terms: ice, nhl, sport</para>
+        /// <para>Added in 5.0.5.</para>
+        /// </summary>
+        HockeyPuck = 0xf453,
+
+        /// <summary>
+        /// Holly Berry (holly-berry)
+        /// <para>Terms: catwoman, christmas, decoration, flora, halle, holiday, ororo munroe, plant, storm, xmas</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        HollyBerry = 0xf7aa,
+
+        /// <summary>
+        /// Home (home)
+        /// <para>Terms: abode, building, house, main</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        Home = 0xf015,
+
+        /// <summary>
+        /// Horse (horse)
+        /// <para>Terms: equus, fauna, mammmal, mare, neigh, pony</para>
+        /// <para>Added in 5.10.1, updated in 5.4.0.</para>
+        /// </summary>
+        Horse = 0xf6f0,
+
+        /// <summary>
+        /// Horse Head (horse-head)
+        /// <para>Terms: equus, fauna, mammmal, mare, neigh, pony</para>
+        /// <para>Added in 5.10.1, updated in 5.6.0.</para>
+        /// </summary>
+        HorseHead = 0xf7ab,
+
+        /// <summary>
+        /// Hospital (hospital)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Hospital = 0xf0f8,
+
+        /// <summary>
+        /// Alternate Hospital (hospital-alt)
+        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        HospitalAlt = 0xf47d,
+
+        /// <summary>
+        /// Hospital Symbol (hospital-symbol)
+        /// <para>Terms: clinic, emergency, map</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        HospitalSymbol = 0xf47e,
+
+        /// <summary>
+        /// Hot Tub (hot-tub)
+        /// <para>Terms: bath, jacuzzi, massage, sauna, spa</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        HotTub = 0xf593,
+
+        /// <summary>
+        /// Hot Dog (hotdog)
+        /// <para>Terms: bun, chili, frankfurt, frankfurter, kosher, polish, sandwich, sausage, vienna, weiner</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Hotdog = 0xf80f,
+
+        /// <summary>
+        /// Hotel (hotel)
+        /// <para>Terms: building, inn, lodging, motel, resort, travel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Hotel = 0xf594,
+
+        /// <summary>
+        /// Hourglass (hourglass)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: hour, minute, sand, stopwatch, time</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Hourglass = 0xf254,
+
+        /// <summary>
+        /// Hourglass End (hourglass-end)
+        /// <para>Terms: hour, minute, sand, stopwatch, time</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        HourglassEnd = 0xf253,
+
+        /// <summary>
+        /// Hourglass Half (hourglass-half)
+        /// <para>Terms: hour, minute, sand, stopwatch, time</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        HourglassHalf = 0xf252,
+
+        /// <summary>
+        /// Hourglass Start (hourglass-start)
+        /// <para>Terms: hour, minute, sand, stopwatch, time</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        HourglassStart = 0xf251,
+
+        /// <summary>
+        /// Damaged House (house-damage)
+        /// <para>Terms: building, devastation, disaster, home, insurance</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        HouseDamage = 0xf6f1,
+
+        /// <summary>
+        /// Hryvnia (hryvnia)
+        /// <para>Terms: currency, money, ukraine, ukrainian</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Hryvnia = 0xf6f2,
+
+        /// <summary>
+        /// I Beam Cursor (i-cursor)
+        /// <para>Terms: editing, i-beam, type, writing</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        ICursor = 0xf246,
+
+        /// <summary>
+        /// Ice Cream (ice-cream)
+        /// <para>Terms: chocolate, cone, dessert, frozen, scoop, sorbet, vanilla, yogurt</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.7.0.</para>
+        /// </summary>
+        IceCream = 0xf810,
+
+        /// <summary>
+        /// Icicles (icicles)
+        /// <para>Terms: cold, frozen, hanging, ice, seasonal, sharp</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Icicles = 0xf7ad,
+
+        /// <summary>
+        /// Icons (icons)
+        /// <para>Terms: bolt, emoji, heart, image, music, photo, symbols</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        Icons = 0xf86d,
+
+        /// <summary>
+        /// Identification Badge (id-badge)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: address, contact, identification, license, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        IdBadge = 0xf2c1,
+
+        /// <summary>
+        /// Identification Card (id-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contact, demographics, document, identification, issued, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.0.3, 5.10.1 and 5.8.0.</para>
+        /// </summary>
+        IdCard = 0xf2c2,
+
+        /// <summary>
+        /// Alternate Identification Card (id-card-alt)
+        /// <para>Terms: contact, demographics, document, identification, issued, profile</para>
+        /// <para>Added in 5.0.7, updated in 5.10.1.</para>
+        /// </summary>
+        IdCardAlt = 0xf47f,
+
+        /// <summary>
+        /// Igloo (igloo)
+        /// <para>Terms: dome, dwelling, eskimo, home, house, ice, snow</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Igloo = 0xf7ae,
+
+        /// <summary>
+        /// Image (image)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: album, landscape, photo, picture</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Image = 0xf03e,
+
+        /// <summary>
+        /// Images (images)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: album, landscape, photo, picture</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Images = 0xf302,
+
+        /// <summary>
+        /// Inbox (inbox)
+        /// <para>Terms: archive, desk, email, mail, message</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Inbox = 0xf01c,
+
+        /// <summary>
+        /// Indent (indent)
+        /// <para>Terms: align, justify, paragraph, tab</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Indent = 0xf03c,
+
+        /// <summary>
+        /// Industry (industry)
+        /// <para>Terms: building, factory, industrial, manufacturing, mill, warehouse</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Industry = 0xf275,
+
+        /// <summary>
+        /// Infinity (infinity)
+        /// <para>Terms: eternity, forever, math</para>
+        /// <para>Added in 5.0.13, updated in 5.10.1 and 5.3.0.</para>
+        /// </summary>
+        Infinity = 0xf534,
+
+        /// <summary>
+        /// Info (info)
+        /// <para>Terms: details, help, information, more, support</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Info = 0xf129,
+
+        /// <summary>
+        /// Info Circle (info-circle)
+        /// <para>Terms: details, help, information, more, support</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        InfoCircle = 0xf05a,
+
+        /// <summary>
+        /// Italic (italic)
+        /// <para>Terms: edit, emphasis, font, format, text, type</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.1, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Italic = 0xf033,
+
+        /// <summary>
+        /// Jedi (jedi)
+        /// <para>Terms: crest, force, sith, skywalker, star wars, yoda</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Jedi = 0xf669,
+
+        /// <summary>
+        /// Joint (joint)
+        /// <para>Terms: blunt, cannabis, doobie, drugs, marijuana, roach, smoke, smoking, spliff</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Joint = 0xf595,
+
+        /// <summary>
+        /// Journal Of The Whills (journal-whills)
+        /// <para>Terms: book, force, jedi, sith, star wars, yoda</para>
+        /// <para>Added in 5.11.0, updated in 5.3.0.</para>
+        /// </summary>
+        JournalWhills = 0xf66a,
+
+        /// <summary>
+        /// Kaaba (kaaba)
+        /// <para>Terms: building, cube, islam, muslim</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Kaaba = 0xf66b,
+
+        /// <summary>
+        /// Key (key)
+        /// <para>Terms: lock, password, private, secret, unlock</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Key = 0xf084,
+
+        /// <summary>
+        /// Keyboard (keyboard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accessory, edit, input, text, type, write</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Keyboard = 0xf11c,
+
+        /// <summary>
+        /// Khanda (khanda)
+        /// <para>Terms: chakkar, sikh, sikhism, sword</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Khanda = 0xf66d,
+
+        /// <summary>
+        /// Kissing Face (kiss)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.1.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Kiss = 0xf596,
+
+        /// <summary>
+        /// Kissing Face With Smiling Eyes (kiss-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        KissBeam = 0xf597,
+
+        /// <summary>
+        /// Face Blowing A Kiss (kiss-wink-heart)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        KissWinkHeart = 0xf598,
+
+        /// <summary>
+        /// Kiwi Bird (kiwi-bird)
+        /// <para>Terms: bird, fauna, new zealand</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        KiwiBird = 0xf535,
+
+        /// <summary>
+        /// Landmark (landmark)
+        /// <para>Terms: building, historic, memorable, monument, politics</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Landmark = 0xf66f,
+
+        /// <summary>
+        /// Language (language)
+        /// <para>Terms: dialect, idiom, localize, speech, translate, vernacular</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Language = 0xf1ab,
+
+        /// <summary>
+        /// Laptop (laptop)
+        /// <para>Terms: computer, cpu, dell, demo, device, mac, macbook, machine, pc</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        Laptop = 0xf109,
+
+        /// <summary>
+        /// Laptop Code (laptop-code)
+        /// <para>Terms: computer, cpu, dell, demo, develop, device, mac, macbook, machine, pc</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        LaptopCode = 0xf5fc,
+
+        /// <summary>
+        /// Laptop Medical (laptop-medical)
+        /// <para>Terms: computer, device, ehr, electronic health records, history</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        LaptopMedical = 0xf812,
+
+        /// <summary>
+        /// Grinning Face With Big Eyes (laugh)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Laugh = 0xf599,
+
+        /// <summary>
+        /// Laugh Face With Beaming Eyes (laugh-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughBeam = 0xf59a,
+
+        /// <summary>
+        /// Laughing Squinting Face (laugh-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughSquint = 0xf59b,
+
+        /// <summary>
+        /// Laughing Winking Face (laugh-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughWink = 0xf59c,
+
+        /// <summary>
+        /// Layer Group (layer-group)
+        /// <para>Terms: arrange, develop, layers, map, stack</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        LayerGroup = 0xf5fd,
+
+        /// <summary>
+        /// Leaf (leaf)
+        /// <para>Terms: eco, flora, nature, plant, vegan</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Leaf = 0xf06c,
+
+        /// <summary>
+        /// Lemon (lemon)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: citrus, lemonade, lime, tart</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Lemon = 0xf094,
+
+        /// <summary>
+        /// Less Than (less-than)
+        /// <para>Terms: arithmetic, compare, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        LessThan = 0xf536,
+
+        /// <summary>
+        /// Less Than Equal To (less-than-equal)
+        /// <para>Terms: arithmetic, compare, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        LessThanEqual = 0xf537,
+
+        /// <summary>
+        /// Alternate Level Down (level-down-alt)
+        /// <para>Terms: arrow, level-down</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LevelDownAlt = 0xf3be,
+
+        /// <summary>
+        /// Alternate Level Up (level-up-alt)
+        /// <para>Terms: arrow, level-up</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LevelUpAlt = 0xf3bf,
+
+        /// <summary>
+        /// Life Ring (life-ring)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: coast guard, help, overboard, save, support</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        LifeRing = 0xf1cd,
+
+        /// <summary>
+        /// Lightbulb (lightbulb)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: energy, idea, inspiration, light</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        Lightbulb = 0xf0eb,
+
+        /// <summary>
+        /// Link (link)
+        /// <para>Terms: attach, attachment, chain, connect</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Link = 0xf0c1,
+
+        /// <summary>
+        /// Turkish Lira Sign (lira-sign)
+        /// <para>Terms: currency, money, try, turkish</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        LiraSign = 0xf195,
+
+        /// <summary>
+        /// List (list)
+        /// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        List = 0xf03a,
+
+        /// <summary>
+        /// Alternate List (list-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ListAlt = 0xf022,
+
+        /// <summary>
+        /// List-Ol (list-ol)
+        /// <para>Terms: checklist, completed, done, finished, numbers, ol, todo, ul</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        ListOl = 0xf0cb,
+
+        /// <summary>
+        /// List-Ul (list-ul)
+        /// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        ListUl = 0xf0ca,
+
+        /// <summary>
+        /// Location-Arrow (location-arrow)
+        /// <para>Terms: address, compass, coordinate, direction, gps, map, navigation, place</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        LocationArrow = 0xf124,
+
+        /// <summary>
+        /// Lock (lock)
+        /// <para>Terms: admin, lock, open, password, private, protect, security</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Lock = 0xf023,
+
+        /// <summary>
+        /// Lock Open (lock-open)
+        /// <para>Terms: admin, lock, open, password, private, protect, security</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.1.</para>
+        /// </summary>
+        LockOpen = 0xf3c1,
+
+        /// <summary>
+        /// Alternate Long Arrow Down (long-arrow-alt-down)
+        /// <para>Terms: download, long-arrow-down</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LongArrowAltDown = 0xf309,
+
+        /// <summary>
+        /// Alternate Long Arrow Left (long-arrow-alt-left)
+        /// <para>Terms: back, long-arrow-left, previous</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LongArrowAltLeft = 0xf30a,
+
+        /// <summary>
+        /// Alternate Long Arrow Right (long-arrow-alt-right)
+        /// <para>Terms: forward, long-arrow-right, next</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LongArrowAltRight = 0xf30b,
+
+        /// <summary>
+        /// Alternate Long Arrow Up (long-arrow-alt-up)
+        /// <para>Terms: long-arrow-up, upload</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        LongArrowAltUp = 0xf30c,
+
+        /// <summary>
+        /// Low Vision (low-vision)
+        /// <para>Terms: blind, eye, sight</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0.</para>
+        /// </summary>
+        LowVision = 0xf2a8,
+
+        /// <summary>
+        /// Luggage Cart (luggage-cart)
+        /// <para>Terms: bag, baggage, suitcase, travel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        LuggageCart = 0xf59d,
+
+        /// <summary>
+        /// Magic (magic)
+        /// <para>Terms: autocomplete, automatic, mage, magic, spell, wand, witch, wizard</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Magic = 0xf0d0,
+
+        /// <summary>
+        /// Magnet (magnet)
+        /// <para>Terms: Attract, lodestone, tool</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.8.0.</para>
+        /// </summary>
+        Magnet = 0xf076,
+
+        /// <summary>
+        /// Mail Bulk (mail-bulk)
+        /// <para>Terms: archive, envelope, letter, post office, postal, postcard, send, stamp, usps</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        MailBulk = 0xf674,
+
+        /// <summary>
+        /// Male (male)
+        /// <para>Terms: human, man, person, profile, user</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Male = 0xf183,
+
+        /// <summary>
+        /// Map (map)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Map = 0xf279,
+
+        /// <summary>
+        /// Map Marked (map-marked)
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        MapMarked = 0xf59f,
+
+        /// <summary>
+        /// Alternate Map Marked (map-marked-alt)
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        MapMarkedAlt = 0xf5a0,
+
+        /// <summary>
+        /// Map-Marker (map-marker)
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        MapMarker = 0xf041,
+
+        /// <summary>
+        /// Alternate Map Marker (map-marker-alt)
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        MapMarkerAlt = 0xf3c5,
+
+        /// <summary>
+        /// Map Pin (map-pin)
+        /// <para>Terms: address, agree, coordinates, destination, gps, localize, location, map, marker, navigation, pin, place, position, travel</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        MapPin = 0xf276,
+
+        /// <summary>
+        /// Map Signs (map-signs)
+        /// <para>Terms: directions, directory, map, signage, wayfinding</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        MapSigns = 0xf277,
+
+        /// <summary>
+        /// Marker (marker)
+        /// <para>Terms: design, edit, sharpie, update, write</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Marker = 0xf5a1,
+
+        /// <summary>
+        /// Mars (mars)
+        /// <para>Terms: male</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Mars = 0xf222,
+
+        /// <summary>
+        /// Mars Double (mars-double)
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        MarsDouble = 0xf227,
+
+        /// <summary>
+        /// Mars Stroke (mars-stroke)
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        MarsStroke = 0xf229,
+
+        /// <summary>
+        /// Mars Stroke Horizontal (mars-stroke-h)
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        MarsStrokeH = 0xf22b,
+
+        /// <summary>
+        /// Mars Stroke Vertical (mars-stroke-v)
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        MarsStrokeV = 0xf22a,
+
+        /// <summary>
+        /// Mask (mask)
+        /// <para>Terms: carnivale, costume, disguise, halloween, secret, super hero</para>
+        /// <para>Added in 5.10.1, updated in 5.4.0.</para>
+        /// </summary>
+        Mask = 0xf6fa,
+
+        /// <summary>
+        /// Medal (medal)
+        /// <para>Terms: award, ribbon, star, trophy</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Medal = 0xf5a2,
+
+        /// <summary>
+        /// Medkit (medkit)
+        /// <para>Terms: first aid, firstaid, health, help, support</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Medkit = 0xf0fa,
+
+        /// <summary>
+        /// Neutral Face (meh)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Meh = 0xf11a,
+
+        /// <summary>
+        /// Face Without Mouth (meh-blank)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        MehBlank = 0xf5a4,
+
+        /// <summary>
+        /// Face With Rolling Eyes (meh-rolling-eyes)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        MehRollingEyes = 0xf5a5,
+
+        /// <summary>
+        /// Memory (memory)
+        /// <para>Terms: DIMM, RAM, hardware, storage, technology</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Memory = 0xf538,
+
+        /// <summary>
+        /// Menorah (menorah)
+        /// <para>Terms: candle, hanukkah, jewish, judaism, light</para>
+        /// <para>Added in 5.3.0, updated in 5.4.0.</para>
+        /// </summary>
+        Menorah = 0xf676,
+
+        /// <summary>
+        /// Mercury (mercury)
+        /// <para>Terms: transgender</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Mercury = 0xf223,
+
+        /// <summary>
+        /// Meteor (meteor)
+        /// <para>Terms: armageddon, asteroid, comet, shooting star, space</para>
+        /// <para>Added in 5.12.0, updated in 5.5.0.</para>
+        /// </summary>
+        Meteor = 0xf753,
+
+        /// <summary>
+        /// Microchip (microchip)
+        /// <para>Terms: cpu, hardware, processor, technology</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        Microchip = 0xf2db,
+
+        /// <summary>
+        /// Microphone (microphone)
+        /// <para>Terms: audio, podcast, record, sing, sound, voice</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        Microphone = 0xf130,
+
+        /// <summary>
+        /// Alternate Microphone (microphone-alt)
+        /// <para>Terms: audio, podcast, record, sing, sound, voice</para>
+        /// <para>Added in 5.0.0, updated in 5.0.13.</para>
+        /// </summary>
+        MicrophoneAlt = 0xf3c9,
+
+        /// <summary>
+        /// Alternate Microphone Slash (microphone-alt-slash)
+        /// <para>Terms: audio, disable, mute, podcast, record, sing, sound, voice</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        MicrophoneAltSlash = 0xf539,
+
+        /// <summary>
+        /// Microphone Slash (microphone-slash)
+        /// <para>Terms: audio, disable, mute, podcast, record, sing, sound, voice</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        MicrophoneSlash = 0xf131,
+
+        /// <summary>
+        /// Microscope (microscope)
+        /// <para>Terms: electron, lens, optics, science, shrink</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        Microscope = 0xf610,
+
+        /// <summary>
+        /// Minus (minus)
+        /// <para>Terms: collapse, delete, hide, minify, negative, remove, trash</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Minus = 0xf068,
+
+        /// <summary>
+        /// Minus Circle (minus-circle)
+        /// <para>Terms: delete, hide, negative, remove, shape, trash</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        MinusCircle = 0xf056,
+
+        /// <summary>
+        /// Minus Square (minus-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: collapse, delete, hide, minify, negative, remove, shape, trash</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        MinusSquare = 0xf146,
+
+        /// <summary>
+        /// Mitten (mitten)
+        /// <para>Terms: clothing, cold, glove, hands, knitted, seasonal, warmth</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Mitten = 0xf7b5,
+
+        /// <summary>
+        /// Mobile Phone (mobile)
+        /// <para>Terms: apple, call, cell phone, cellphone, device, iphone, number, screen, telephone</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Mobile = 0xf10b,
+
+        /// <summary>
+        /// Alternate Mobile (mobile-alt)
+        /// <para>Terms: apple, call, cell phone, cellphone, device, iphone, number, screen, telephone</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        MobileAlt = 0xf3cd,
+
+        /// <summary>
+        /// Money Bill (money-bill)
+        /// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        MoneyBill = 0xf0d6,
+
+        /// <summary>
+        /// Alternate Money Bill (money-bill-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.0, updated in 5.0.13.</para>
+        /// </summary>
+        MoneyBillAlt = 0xf3d1,
+
+        /// <summary>
+        /// Wavy Money Bill (money-bill-wave)
+        /// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        MoneyBillWave = 0xf53a,
+
+        /// <summary>
+        /// Alternate Wavy Money Bill (money-bill-wave-alt)
+        /// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        MoneyBillWaveAlt = 0xf53b,
+
+        /// <summary>
+        /// Money Check (money-check)
+        /// <para>Terms: bank check, buy, checkout, cheque, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        MoneyCheck = 0xf53c,
+
+        /// <summary>
+        /// Alternate Money Check (money-check-alt)
+        /// <para>Terms: bank check, buy, checkout, cheque, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        MoneyCheckAlt = 0xf53d,
+
+        /// <summary>
+        /// Monument (monument)
+        /// <para>Terms: building, historic, landmark, memorable</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Monument = 0xf5a6,
+
+        /// <summary>
+        /// Moon (moon)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contrast, crescent, dark, lunar, night</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Moon = 0xf186,
+
+        /// <summary>
+        /// Mortar Pestle (mortar-pestle)
+        /// <para>Terms: crush, culinary, grind, medical, mix, pharmacy, prescription, spices</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        MortarPestle = 0xf5a7,
+
+        /// <summary>
+        /// Mosque (mosque)
+        /// <para>Terms: building, islam, landmark, muslim</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Mosque = 0xf678,
+
+        /// <summary>
+        /// Motorcycle (motorcycle)
+        /// <para>Terms: bike, machine, transportation, vehicle</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Motorcycle = 0xf21c,
+
+        /// <summary>
+        /// Mountain (mountain)
+        /// <para>Terms: glacier, hiking, hill, landscape, travel, view</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Mountain = 0xf6fc,
+
+        /// <summary>
+        /// Mouse (mouse)
+        /// <para>Terms: click, computer, cursor, input, peripheral</para>
+        /// <para>Added in 5.11.0.</para>
+        /// </summary>
+        Mouse = 0xf8cc,
+
+        /// <summary>
+        /// Mouse Pointer (mouse-pointer)
+        /// <para>Terms: arrow, cursor, select</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        MousePointer = 0xf245,
+
+        /// <summary>
+        /// Mug Hot (mug-hot)
+        /// <para>Terms: caliente, cocoa, coffee, cup, drink, holiday, hot chocolate, steam, tea, warmth</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        MugHot = 0xf7b6,
+
+        /// <summary>
+        /// Music (music)
+        /// <para>Terms: lyrics, melody, note, sing, sound</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.11.0 and 5.2.0.</para>
+        /// </summary>
+        Music = 0xf001,
+
+        /// <summary>
+        /// Wired Network (network-wired)
+        /// <para>Terms: computer, connect, ethernet, internet, intranet</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        NetworkWired = 0xf6ff,
+
+        /// <summary>
+        /// Neuter (neuter)
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Neuter = 0xf22c,
+
+        /// <summary>
+        /// Newspaper (newspaper)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: article, editorial, headline, journal, journalism, news, press</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Newspaper = 0xf1ea,
+
+        /// <summary>
+        /// Not Equal (not-equal)
+        /// <para>Terms: arithmetic, compare, math</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        NotEqual = 0xf53e,
+
+        /// <summary>
+        /// Medical Notes (notes-medical)
+        /// <para>Terms: clipboard, doctor, ehr, health, history, records</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        NotesMedical = 0xf481,
+
+        /// <summary>
+        /// Object Group (object-group)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: combine, copy, design, merge, select</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ObjectGroup = 0xf247,
+
+        /// <summary>
+        /// Object Ungroup (object-ungroup)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copy, design, merge, select, separate</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ObjectUngroup = 0xf248,
+
+        /// <summary>
+        /// Oil Can (oil-can)
+        /// <para>Terms: auto, crude, gasoline, grease, lubricate, petroleum</para>
+        /// <para>Added in 5.10.1, updated in 5.2.0.</para>
+        /// </summary>
+        OilCan = 0xf613,
+
+        /// <summary>
+        /// Om (om)
+        /// <para>Terms: buddhism, hinduism, jainism, mantra</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Om = 0xf679,
+
+        /// <summary>
+        /// Otter (otter)
+        /// <para>Terms: animal, badger, fauna, fur, mammal, marten</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Otter = 0xf700,
+
+        /// <summary>
+        /// Outdent (outdent)
+        /// <para>Terms: align, justify, paragraph, tab</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Outdent = 0xf03b,
+
+        /// <summary>
+        /// Pager (pager)
+        /// <para>Terms: beeper, cellphone, communication</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Pager = 0xf815,
+
+        /// <summary>
+        /// Paint Brush (paint-brush)
+        /// <para>Terms: acrylic, art, brush, color, fill, paint, pigment, watercolor</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        PaintBrush = 0xf1fc,
+
+        /// <summary>
+        /// Paint Roller (paint-roller)
+        /// <para>Terms: acrylic, art, brush, color, fill, paint, pigment, watercolor</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        PaintRoller = 0xf5aa,
+
+        /// <summary>
+        /// Palette (palette)
+        /// <para>Terms: acrylic, art, brush, color, fill, paint, pigment, watercolor</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Palette = 0xf53f,
+
+        /// <summary>
+        /// Pallet (pallet)
+        /// <para>Terms: archive, box, inventory, shipping, warehouse</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Pallet = 0xf482,
+
+        /// <summary>
+        /// Paper Plane (paper-plane)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: air, float, fold, mail, paper, send</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        PaperPlane = 0xf1d8,
+
+        /// <summary>
+        /// Paperclip (paperclip)
+        /// <para>Terms: attach, attachment, connect, link</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Paperclip = 0xf0c6,
+
+        /// <summary>
+        /// Parachute Box (parachute-box)
+        /// <para>Terms: aid, assistance, rescue, supplies</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        ParachuteBox = 0xf4cd,
+
+        /// <summary>
+        /// Paragraph (paragraph)
+        /// <para>Terms: edit, format, text, writing</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Paragraph = 0xf1dd,
+
+        /// <summary>
+        /// Parking (parking)
+        /// <para>Terms: auto, car, garage, meter</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Parking = 0xf540,
+
+        /// <summary>
+        /// Passport (passport)
+        /// <para>Terms: document, id, identification, issued, travel</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Passport = 0xf5ab,
+
+        /// <summary>
+        /// Pastafarianism (pastafarianism)
+        /// <para>Terms: agnosticism, atheism, flying spaghetti monster, fsm</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Pastafarianism = 0xf67b,
+
+        /// <summary>
+        /// Paste (paste)
+        /// <para>Terms: clipboard, copy, document, paper</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Paste = 0xf0ea,
+
+        /// <summary>
+        /// Pause (pause)
+        /// <para>Terms: hold, wait</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Pause = 0xf04c,
+
+        /// <summary>
+        /// Pause Circle (pause-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: hold, wait</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        PauseCircle = 0xf28b,
+
+        /// <summary>
+        /// Paw (paw)
+        /// <para>Terms: animal, cat, dog, pet, print</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Paw = 0xf1b0,
+
+        /// <summary>
+        /// Peace (peace)
+        /// <para>Terms: serenity, tranquility, truce, war</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.3.0.</para>
+        /// </summary>
+        Peace = 0xf67c,
+
+        /// <summary>
+        /// Pen (pen)
+        /// <para>Terms: design, edit, update, write</para>
+        /// <para>Added in 5.0.0, updated in 5.1.0.</para>
+        /// </summary>
+        Pen = 0xf304,
+
+        /// <summary>
+        /// Alternate Pen (pen-alt)
+        /// <para>Terms: design, edit, update, write</para>
+        /// <para>Added in 5.0.0, updated in 5.1.0.</para>
+        /// </summary>
+        PenAlt = 0xf305,
+
+        /// <summary>
+        /// Pen Fancy (pen-fancy)
+        /// <para>Terms: design, edit, fountain pen, update, write</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        PenFancy = 0xf5ac,
+
+        /// <summary>
+        /// Pen Nib (pen-nib)
+        /// <para>Terms: design, edit, fountain pen, update, write</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        PenNib = 0xf5ad,
+
+        /// <summary>
+        /// Pen Square (pen-square)
+        /// <para>Terms: edit, pencil-square, update, write</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        PenSquare = 0xf14b,
+
+        /// <summary>
+        /// Alternate Pencil (pencil-alt)
+        /// <para>Terms: design, edit, pencil, update, write</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        PencilAlt = 0xf303,
+
+        /// <summary>
+        /// Pencil Ruler (pencil-ruler)
+        /// <para>Terms: design, draft, draw, pencil</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        PencilRuler = 0xf5ae,
+
+        /// <summary>
+        /// People Carry (people-carry)
+        /// <para>Terms: box, carry, fragile, help, movers, package</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        PeopleCarry = 0xf4ce,
+
+        /// <summary>
+        /// Hot Pepper (pepper-hot)
+        /// <para>Terms: buffalo wings, capsicum, chili, chilli, habanero, jalapeno, mexican, spicy, tabasco, vegetable</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        PepperHot = 0xf816,
+
+        /// <summary>
+        /// Percent (percent)
+        /// <para>Terms: discount, fraction, proportion, rate, ratio</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        Percent = 0xf295,
+
+        /// <summary>
+        /// Percentage (percentage)
+        /// <para>Terms: discount, fraction, proportion, rate, ratio</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Percentage = 0xf541,
+
+        /// <summary>
+        /// Person Entering Booth (person-booth)
+        /// <para>Terms: changing, changing room, election, human, person, vote, voting</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        PersonBooth = 0xf756,
+
+        /// <summary>
+        /// Phone (phone)
+        /// <para>Terms: call, earphone, number, support, telephone, voice</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Phone = 0xf095,
+
+        /// <summary>
+        /// Alternate Phone (phone-alt)
+        /// <para>Terms: call, earphone, number, support, telephone, voice</para>
+        /// <para>Added in 5.10.1, updated in 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        PhoneAlt = 0xf879,
+
+        /// <summary>
+        /// Phone Slash (phone-slash)
+        /// <para>Terms: call, cancel, earphone, mute, number, support, telephone, voice</para>
+        /// <para>Added in 5.0.0, updated in 5.0.9.</para>
+        /// </summary>
+        PhoneSlash = 0xf3dd,
+
+        /// <summary>
+        /// Phone Square (phone-square)
+        /// <para>Terms: call, earphone, number, support, telephone, voice</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        PhoneSquare = 0xf098,
+
+        /// <summary>
+        /// Alternate Phone Square (phone-square-alt)
+        /// <para>Terms: call, earphone, number, support, telephone, voice</para>
+        /// <para>Added in 5.10.1, updated in 5.9.0.</para>
+        /// </summary>
+        PhoneSquareAlt = 0xf87b,
+
+        /// <summary>
+        /// Phone Volume (phone-volume)
+        /// <para>Terms: call, earphone, number, sound, support, telephone, voice, volume-control-phone</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0, 5.0.3 and 5.7.0.</para>
+        /// </summary>
+        PhoneVolume = 0xf2a0,
+
+        /// <summary>
+        /// Photo Video (photo-video)
+        /// <para>Terms: av, film, image, library, media</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        PhotoVideo = 0xf87c,
+
+        /// <summary>
+        /// Piggy Bank (piggy-bank)
+        /// <para>Terms: bank, save, savings</para>
+        /// <para>Added in 5.0.9, updated in 5.10.2.</para>
+        /// </summary>
+        PiggyBank = 0xf4d3,
+
+        /// <summary>
+        /// Pills (pills)
+        /// <para>Terms: drugs, medicine, prescription, tablets</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Pills = 0xf484,
+
+        /// <summary>
+        /// Pizza Slice (pizza-slice)
+        /// <para>Terms: cheese, chicago, italian, mozzarella, new york, pepperoni, pie, slice, teenage mutant ninja turtles, tomato</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        PizzaSlice = 0xf818,
+
+        /// <summary>
+        /// Place Of Worship (place-of-worship)
+        /// <para>Terms: building, church, holy, mosque, synagogue</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        PlaceOfWorship = 0xf67f,
+
+        /// <summary>
+        /// Plane (plane)
+        /// <para>Terms: airplane, destination, fly, location, mode, travel, trip</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        Plane = 0xf072,
+
+        /// <summary>
+        /// Plane Arrival (plane-arrival)
+        /// <para>Terms: airplane, arriving, destination, fly, land, landing, location, mode, travel, trip</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        PlaneArrival = 0xf5af,
+
+        /// <summary>
+        /// Plane Departure (plane-departure)
+        /// <para>Terms: airplane, departing, destination, fly, location, mode, take off, taking off, travel, trip</para>
+        /// <para>Added in 5.1.0, updated in 5.8.0.</para>
+        /// </summary>
+        PlaneDeparture = 0xf5b0,
+
+        /// <summary>
+        /// Play (play)
+        /// <para>Terms: audio, music, playing, sound, start, video</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Play = 0xf04b,
+
+        /// <summary>
+        /// Play Circle (play-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: audio, music, playing, sound, start, video</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        PlayCircle = 0xf144,
+
+        /// <summary>
+        /// Plug (plug)
+        /// <para>Terms: connect, electric, online, power</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        Plug = 0xf1e6,
+
+        /// <summary>
+        /// Plus (plus)
+        /// <para>Terms: add, create, expand, new, positive, shape</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        Plus = 0xf067,
+
+        /// <summary>
+        /// Plus Circle (plus-circle)
+        /// <para>Terms: add, create, expand, new, positive, shape</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        PlusCircle = 0xf055,
+
+        /// <summary>
+        /// Plus Square (plus-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: add, create, expand, new, positive, shape</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        PlusSquare = 0xf0fe,
+
+        /// <summary>
+        /// Podcast (podcast)
+        /// <para>Terms: audio, broadcast, music, sound</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        Podcast = 0xf2ce,
+
+        /// <summary>
+        /// Poll (poll)
+        /// <para>Terms: results, survey, trend, vote, voting</para>
+        /// <para>Added in 5.10.1, updated in 5.3.0.</para>
+        /// </summary>
+        Poll = 0xf681,
+
+        /// <summary>
+        /// Poll H (poll-h)
+        /// <para>Terms: results, survey, trend, vote, voting</para>
+        /// <para>Added in 5.10.1, updated in 5.3.0.</para>
+        /// </summary>
+        PollH = 0xf682,
+
+        /// <summary>
+        /// Poo (poo)
+        /// <para>Terms: crap, poop, shit, smile, turd</para>
+        /// <para>Added in 5.0.0, updated in 5.0.9.</para>
+        /// </summary>
+        Poo = 0xf2fe,
+
+        /// <summary>
+        /// Poo Storm (poo-storm)
+        /// <para>Terms: bolt, cloud, euphemism, lightning, mess, poop, shit, turd</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        PooStorm = 0xf75a,
+
+        /// <summary>
+        /// Poop (poop)
+        /// <para>Terms: crap, poop, shit, smile, turd</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        Poop = 0xf619,
+
+        /// <summary>
+        /// Portrait (portrait)
+        /// <para>Terms: id, image, photo, picture, selfie</para>
+        /// <para>Added in 5.0.0, updated in 5.0.3.</para>
+        /// </summary>
+        Portrait = 0xf3e0,
+
+        /// <summary>
+        /// Pound Sign (pound-sign)
+        /// <para>Terms: currency, gbp, money</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        PoundSign = 0xf154,
+
+        /// <summary>
+        /// Power Off (power-off)
+        /// <para>Terms: cancel, computer, on, reboot, restart</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        PowerOff = 0xf011,
+
+        /// <summary>
+        /// Pray (pray)
+        /// <para>Terms: kneel, preach, religion, worship</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Pray = 0xf683,
+
+        /// <summary>
+        /// Praying Hands (praying-hands)
+        /// <para>Terms: kneel, preach, religion, worship</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        PrayingHands = 0xf684,
+
+        /// <summary>
+        /// Prescription (prescription)
+        /// <para>Terms: drugs, medical, medicine, pharmacy, rx</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Prescription = 0xf5b1,
+
+        /// <summary>
+        /// Prescription Bottle (prescription-bottle)
+        /// <para>Terms: drugs, medical, medicine, pharmacy, rx</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        PrescriptionBottle = 0xf485,
+
+        /// <summary>
+        /// Alternate Prescription Bottle (prescription-bottle-alt)
+        /// <para>Terms: drugs, medical, medicine, pharmacy, rx</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        PrescriptionBottleAlt = 0xf486,
+
+        /// <summary>
+        /// Print (print)
+        /// <para>Terms: business, copy, document, office, paper</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.11.0 and 5.3.0.</para>
+        /// </summary>
+        Print = 0xf02f,
+
+        /// <summary>
+        /// Procedures (procedures)
+        /// <para>Terms: EKG, bed, electrocardiogram, health, hospital, life, patient, vital</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Procedures = 0xf487,
+
+        /// <summary>
+        /// Project Diagram (project-diagram)
+        /// <para>Terms: chart, graph, network, pert</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        ProjectDiagram = 0xf542,
+
+        /// <summary>
+        /// Puzzle Piece (puzzle-piece)
+        /// <para>Terms: add-on, addon, game, section</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        PuzzlePiece = 0xf12e,
+
+        /// <summary>
+        /// Qrcode (qrcode)
+        /// <para>Terms: barcode, info, information, scan</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Qrcode = 0xf029,
+
+        /// <summary>
+        /// Question (question)
+        /// <para>Terms: help, information, support, unknown</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Question = 0xf128,
+
+        /// <summary>
+        /// Question Circle (question-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: help, information, support, unknown</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        QuestionCircle = 0xf059,
+
+        /// <summary>
+        /// Quidditch (quidditch)
+        /// <para>Terms: ball, bludger, broom, golden snitch, harry potter, hogwarts, quaffle, sport, wizard</para>
+        /// <para>Added in 5.0.5.</para>
+        /// </summary>
+        Quidditch = 0xf458,
+
+        /// <summary>
+        /// Quote-Left (quote-left)
+        /// <para>Terms: mention, note, phrase, text, type</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        QuoteLeft = 0xf10d,
+
+        /// <summary>
+        /// Quote-Right (quote-right)
+        /// <para>Terms: mention, note, phrase, text, type</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        QuoteRight = 0xf10e,
+
+        /// <summary>
+        /// Quran (quran)
+        /// <para>Terms: book, islam, muslim, religion</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Quran = 0xf687,
+
+        /// <summary>
+        /// Radiation (radiation)
+        /// <para>Terms: danger, dangerous, deadly, hazard, nuclear, radioactive, warning</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1, 5.6.0 and 5.8.2.</para>
+        /// </summary>
+        Radiation = 0xf7b9,
+
+        /// <summary>
+        /// Alternate Radiation (radiation-alt)
+        /// <para>Terms: danger, dangerous, deadly, hazard, nuclear, radioactive, warning</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1, 5.6.0 and 5.8.2.</para>
+        /// </summary>
+        RadiationAlt = 0xf7ba,
+
+        /// <summary>
+        /// Rainbow (rainbow)
+        /// <para>Terms: gold, leprechaun, prism, rain, sky</para>
+        /// <para>Added in 5.10.1, updated in 5.5.0.</para>
+        /// </summary>
+        Rainbow = 0xf75b,
+
+        /// <summary>
+        /// Random (random)
+        /// <para>Terms: arrows, shuffle, sort, swap, switch, transfer</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Random = 0xf074,
+
+        /// <summary>
+        /// Receipt (receipt)
+        /// <para>Terms: check, invoice, money, pay, table</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Receipt = 0xf543,
+
+        /// <summary>
+        /// Record Vinyl (record-vinyl)
+        /// <para>Terms: LP, album, analog, music, phonograph, sound</para>
+        /// <para>Added in 5.11.0.</para>
+        /// </summary>
+        RecordVinyl = 0xf8d9,
+
+        /// <summary>
+        /// Recycle (recycle)
+        /// <para>Terms: Waste, compost, garbage, reuse, trash</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Recycle = 0xf1b8,
+
+        /// <summary>
+        /// Redo (redo)
+        /// <para>Terms: forward, refresh, reload, repeat</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.8.0.</para>
+        /// </summary>
+        Redo = 0xf01e,
+
+        /// <summary>
+        /// Alternate Redo (redo-alt)
+        /// <para>Terms: forward, refresh, reload, repeat</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        RedoAlt = 0xf2f9,
+
+        /// <summary>
+        /// Registered Trademark (registered)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copyright, mark, trademark</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Registered = 0xf25d,
+
+        /// <summary>
+        /// Remove Format (remove-format)
+        /// <para>Terms: cancel, font, format, remove, style, text</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        RemoveFormat = 0xf87d,
+
+        /// <summary>
+        /// Reply (reply)
+        /// <para>Terms: mail, message, respond</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Reply = 0xf3e5,
+
+        /// <summary>
+        /// Reply-All (reply-all)
+        /// <para>Terms: mail, message, respond</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ReplyAll = 0xf122,
+
+        /// <summary>
+        /// Republican (republican)
+        /// <para>Terms: american, conservative, election, elephant, politics, republican party, right, right-wing, usa</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        Republican = 0xf75e,
+
+        /// <summary>
+        /// Restroom (restroom)
+        /// <para>Terms: bathroom, john, loo, potty, washroom, waste, wc</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Restroom = 0xf7bd,
+
+        /// <summary>
+        /// Retweet (retweet)
+        /// <para>Terms: refresh, reload, share, swap</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Retweet = 0xf079,
+
+        /// <summary>
+        /// Ribbon (ribbon)
+        /// <para>Terms: badge, cause, lapel, pin</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Ribbon = 0xf4d6,
+
+        /// <summary>
+        /// Ring (ring)
+        /// <para>Terms: Dungeons &amp; Dragons, Gollum, band, binding, d&amp;d, dnd, engagement, fantasy, gold, jewelry, marriage, precious</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Ring = 0xf70b,
+
+        /// <summary>
+        /// Road (road)
+        /// <para>Terms: highway, map, pavement, route, street, travel</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        Road = 0xf018,
+
+        /// <summary>
+        /// Robot (robot)
+        /// <para>Terms: android, automate, computer, cyborg</para>
+        /// <para>Added in 5.0.13, updated in 5.12.0.</para>
+        /// </summary>
+        Robot = 0xf544,
+
+        /// <summary>
+        /// Rocket (rocket)
+        /// <para>Terms: aircraft, app, jet, launch, nasa, space</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.12.0 and 5.7.0.</para>
+        /// </summary>
+        Rocket = 0xf135,
+
+        /// <summary>
+        /// Route (route)
+        /// <para>Terms: directions, navigation, travel</para>
+        /// <para>Added in 5.0.9, updated in 5.2.0.</para>
+        /// </summary>
+        Route = 0xf4d7,
+
+        /// <summary>
+        /// Rss (rss)
+        /// <para>Terms: blog, feed, journal, news, writing</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Rss = 0xf09e,
+
+        /// <summary>
+        /// RSS Square (rss-square)
+        /// <para>Terms: blog, feed, journal, news, writing</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        RssSquare = 0xf143,
+
+        /// <summary>
+        /// Ruble Sign (ruble-sign)
+        /// <para>Terms: currency, money, rub</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        RubleSign = 0xf158,
+
+        /// <summary>
+        /// Ruler (ruler)
+        /// <para>Terms: design, draft, length, measure, planning</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Ruler = 0xf545,
+
+        /// <summary>
+        /// Ruler Combined (ruler-combined)
+        /// <para>Terms: design, draft, length, measure, planning</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        RulerCombined = 0xf546,
+
+        /// <summary>
+        /// Ruler Horizontal (ruler-horizontal)
+        /// <para>Terms: design, draft, length, measure, planning</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        RulerHorizontal = 0xf547,
+
+        /// <summary>
+        /// Ruler Vertical (ruler-vertical)
+        /// <para>Terms: design, draft, length, measure, planning</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        RulerVertical = 0xf548,
+
+        /// <summary>
+        /// Running (running)
+        /// <para>Terms: exercise, health, jog, person, run, sport, sprint</para>
+        /// <para>Added in 5.11.0, updated in 5.4.0.</para>
+        /// </summary>
+        Running = 0xf70c,
+
+        /// <summary>
+        /// Indian Rupee Sign (rupee-sign)
+        /// <para>Terms: currency, indian, inr, money</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        RupeeSign = 0xf156,
+
+        /// <summary>
+        /// Crying Face (sad-cry)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, tear, tears</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SadCry = 0xf5b3,
+
+        /// <summary>
+        /// Loudly Crying Face (sad-tear)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, tear, tears</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SadTear = 0xf5b4,
+
+        /// <summary>
+        /// Satellite (satellite)
+        /// <para>Terms: communications, hardware, orbit, space</para>
+        /// <para>Added in 5.10.1, updated in 5.12.0 and 5.6.0.</para>
+        /// </summary>
+        Satellite = 0xf7bf,
+
+        /// <summary>
+        /// Satellite Dish (satellite-dish)
+        /// <para>Terms: SETI, communications, hardware, receiver, saucer, signal, space</para>
+        /// <para>Added in 5.12.0, updated in 5.6.0.</para>
+        /// </summary>
+        SatelliteDish = 0xf7c0,
+
+        /// <summary>
+        /// Save (save)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disk, download, floppy, floppy-o</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Save = 0xf0c7,
+
+        /// <summary>
+        /// School (school)
+        /// <para>Terms: building, education, learn, student, teacher</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        School = 0xf549,
+
+        /// <summary>
+        /// Screwdriver (screwdriver)
+        /// <para>Terms: admin, fix, mechanic, repair, settings, tool</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Screwdriver = 0xf54a,
+
+        /// <summary>
+        /// Scroll (scroll)
+        /// <para>Terms: Dungeons &amp; Dragons, announcement, d&amp;d, dnd, fantasy, paper, script</para>
+        /// <para>Added in 5.10.2, updated in 5.4.0.</para>
+        /// </summary>
+        Scroll = 0xf70e,
+
+        /// <summary>
+        /// Sd Card (sd-card)
+        /// <para>Terms: image, memory, photo, save</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        SdCard = 0xf7c2,
+
+        /// <summary>
+        /// Search (search)
+        /// <para>Terms: bigger, enlarge, find, magnify, preview, zoom</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Search = 0xf002,
+
+        /// <summary>
+        /// Search Dollar (search-dollar)
+        /// <para>Terms: bigger, enlarge, find, magnify, money, preview, zoom</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        SearchDollar = 0xf688,
+
+        /// <summary>
+        /// Search Location (search-location)
+        /// <para>Terms: bigger, enlarge, find, magnify, preview, zoom</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        SearchLocation = 0xf689,
+
+        /// <summary>
+        /// Search Minus (search-minus)
+        /// <para>Terms: minify, negative, smaller, zoom, zoom out</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        SearchMinus = 0xf010,
+
+        /// <summary>
+        /// Search Plus (search-plus)
+        /// <para>Terms: bigger, enlarge, magnify, positive, zoom, zoom in</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        SearchPlus = 0xf00e,
+
+        /// <summary>
+        /// Seedling (seedling)
+        /// <para>Terms: flora, grow, plant, vegan</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Seedling = 0xf4d8,
+
+        /// <summary>
+        /// Server (server)
+        /// <para>Terms: computer, cpu, database, hardware, network</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Server = 0xf233,
+
+        /// <summary>
+        /// Shapes (shapes)
+        /// <para>Terms: blocks, build, circle, square, triangle</para>
+        /// <para>Added in 5.12.0, updated in 5.2.0.</para>
+        /// </summary>
+        Shapes = 0xf61f,
+
+        /// <summary>
+        /// Share (share)
+        /// <para>Terms: forward, save, send, social</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Share = 0xf064,
+
+        /// <summary>
+        /// Alternate Share (share-alt)
+        /// <para>Terms: forward, save, send, social</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShareAlt = 0xf1e0,
+
+        /// <summary>
+        /// Alternate Share Square (share-alt-square)
+        /// <para>Terms: forward, save, send, social</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShareAltSquare = 0xf1e1,
+
+        /// <summary>
+        /// Share Square (share-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: forward, save, send, social</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShareSquare = 0xf14d,
+
+        /// <summary>
+        /// Shekel Sign (shekel-sign)
+        /// <para>Terms: currency, ils, money</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShekelSign = 0xf20b,
+
+        /// <summary>
+        /// Alternate Shield (shield-alt)
+        /// <para>Terms: achievement, award, block, defend, security, winner</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ShieldAlt = 0xf3ed,
+
+        /// <summary>
+        /// Ship (ship)
+        /// <para>Terms: boat, sea, water</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0, 5.10.2, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Ship = 0xf21a,
+
+        /// <summary>
+        /// Shipping Fast (shipping-fast)
+        /// <para>Terms: express, fedex, mail, overnight, package, ups</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        ShippingFast = 0xf48b,
+
+        /// <summary>
+        /// Shoe Prints (shoe-prints)
+        /// <para>Terms: feet, footprints, steps, walk</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        ShoePrints = 0xf54b,
+
+        /// <summary>
+        /// Shopping Bag (shopping-bag)
+        /// <para>Terms: buy, checkout, grocery, payment, purchase</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShoppingBag = 0xf290,
+
+        /// <summary>
+        /// Shopping Basket (shopping-basket)
+        /// <para>Terms: buy, checkout, grocery, payment, purchase</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShoppingBasket = 0xf291,
+
+        /// <summary>
+        /// Shopping-Cart (shopping-cart)
+        /// <para>Terms: buy, checkout, grocery, payment, purchase</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShoppingCart = 0xf07a,
+
+        /// <summary>
+        /// Shower (shower)
+        /// <para>Terms: bath, clean, faucet, water</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        Shower = 0xf2cc,
+
+        /// <summary>
+        /// Shuttle Van (shuttle-van)
+        /// <para>Terms: airport, machine, public-transportation, transportation, travel, vehicle</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        ShuttleVan = 0xf5b6,
+
+        /// <summary>
+        /// Sign (sign)
+        /// <para>Terms: directions, real estate, signage, wayfinding</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Sign = 0xf4d9,
+
+        /// <summary>
+        /// Alternate Sign In (sign-in-alt)
+        /// <para>Terms: arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        SignInAlt = 0xf2f6,
+
+        /// <summary>
+        /// Sign Language (sign-language)
+        /// <para>Terms: Translate, asl, deaf, hands</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        SignLanguage = 0xf2a7,
+
+        /// <summary>
+        /// Alternate Sign Out (sign-out-alt)
+        /// <para>Terms: arrow, exit, leave, log out, logout, sign-out</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        SignOutAlt = 0xf2f5,
+
+        /// <summary>
+        /// Signal (signal)
+        /// <para>Terms: bars, graph, online, reception, status</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.1 and 5.3.0.</para>
+        /// </summary>
+        Signal = 0xf012,
+
+        /// <summary>
+        /// Signature (signature)
+        /// <para>Terms: John Hancock, cursive, name, writing</para>
+        /// <para>Added in 5.1.0, updated in 5.6.0.</para>
+        /// </summary>
+        Signature = 0xf5b7,
+
+        /// <summary>
+        /// SIM Card (sim-card)
+        /// <para>Terms: hard drive, hardware, portable, storage, technology, tiny</para>
+        /// <para>Added in 5.10.2, updated in 5.6.0 and 5.8.2.</para>
+        /// </summary>
+        SimCard = 0xf7c4,
+
+        /// <summary>
+        /// Sitemap (sitemap)
+        /// <para>Terms: directory, hierarchy, ia, information architecture, organization</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        Sitemap = 0xf0e8,
+
+        /// <summary>
+        /// Skating (skating)
+        /// <para>Terms: activity, figure skating, fitness, ice, person, winter</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Skating = 0xf7c5,
+
+        /// <summary>
+        /// Skiing (skiing)
+        /// <para>Terms: activity, downhill, fast, fitness, olympics, outdoors, person, seasonal, slalom</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Skiing = 0xf7c9,
+
+        /// <summary>
+        /// Skiing Nordic (skiing-nordic)
+        /// <para>Terms: activity, cross country, fitness, outdoors, person, seasonal</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        SkiingNordic = 0xf7ca,
+
+        /// <summary>
+        /// Skull (skull)
+        /// <para>Terms: bones, skeleton, x-ray, yorick</para>
+        /// <para>Added in 5.0.13, updated in 5.10.2.</para>
+        /// </summary>
+        Skull = 0xf54c,
+
+        /// <summary>
+        /// Skull &amp; Crossbones (skull-crossbones)
+        /// <para>Terms: Dungeons &amp; Dragons, alert, bones, d&amp;d, danger, dead, deadly, death, dnd, fantasy, halloween, holiday, jolly-roger, pirate, poison, skeleton, warning</para>
+        /// <para>Added in 5.10.2, updated in 5.4.0.</para>
+        /// </summary>
+        SkullCrossbones = 0xf714,
+
+        /// <summary>
+        /// Slash (slash)
+        /// <para>Terms: cancel, close, mute, off, stop, x</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Slash = 0xf715,
+
+        /// <summary>
+        /// Sleigh (sleigh)
+        /// <para>Terms: christmas, claus, fly, holiday, santa, sled, snow, xmas</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Sleigh = 0xf7cc,
+
+        /// <summary>
+        /// Horizontal Sliders (sliders-h)
+        /// <para>Terms: adjust, settings, sliders, toggle</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.0.11.</para>
+        /// </summary>
+        SlidersH = 0xf1de,
+
+        /// <summary>
+        /// Smiling Face (smile)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: approve, emoticon, face, happy, rating, satisfied</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Smile = 0xf118,
+
+        /// <summary>
+        /// Beaming Face With Smiling Eyes (smile-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, positive</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SmileBeam = 0xf5b8,
+
+        /// <summary>
+        /// Winking Face (smile-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, hint, joke</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SmileWink = 0xf4da,
+
+        /// <summary>
+        /// Smog (smog)
+        /// <para>Terms: dragon, fog, haze, pollution, smoke, weather</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        Smog = 0xf75f,
+
+        /// <summary>
+        /// Smoking (smoking)
+        /// <para>Terms: cancer, cigarette, nicotine, smoking status, tobacco</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Smoking = 0xf48d,
+
+        /// <summary>
+        /// Smoking Ban (smoking-ban)
+        /// <para>Terms: ban, cancel, no smoking, non-smoking</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        SmokingBan = 0xf54d,
+
+        /// <summary>
+        /// SMS (sms)
+        /// <para>Terms: chat, conversation, message, mobile, notification, phone, sms, texting</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Sms = 0xf7cd,
+
+        /// <summary>
+        /// Snowboarding (snowboarding)
+        /// <para>Terms: activity, fitness, olympics, outdoors, person</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Snowboarding = 0xf7ce,
+
+        /// <summary>
+        /// Snowflake (snowflake)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: precipitation, rain, winter</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.5.0.</para>
+        /// </summary>
+        Snowflake = 0xf2dc,
+
+        /// <summary>
+        /// Snowman (snowman)
+        /// <para>Terms: decoration, frost, frosty, holiday</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Snowman = 0xf7d0,
+
+        /// <summary>
+        /// Snowplow (snowplow)
+        /// <para>Terms: clean up, cold, road, storm, winter</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Snowplow = 0xf7d2,
+
+        /// <summary>
+        /// Socks (socks)
+        /// <para>Terms: business socks, business time, clothing, feet, flight of the conchords, wednesday</para>
+        /// <para>Added in 5.10.2, updated in 5.3.0.</para>
+        /// </summary>
+        Socks = 0xf696,
+
+        /// <summary>
+        /// Solar Panel (solar-panel)
+        /// <para>Terms: clean, eco-friendly, energy, green, sun</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        SolarPanel = 0xf5ba,
+
+        /// <summary>
+        /// Sort (sort)
+        /// <para>Terms: filter, order</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Sort = 0xf0dc,
+
+        /// <summary>
+        /// Sort Alphabetical Down (sort-alpha-down)
+        /// <para>Terms: alphabetical, arrange, filter, order, sort-alpha-asc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortAlphaDown = 0xf15d,
+
+        /// <summary>
+        /// Alternate Sort Alphabetical Down (sort-alpha-down-alt)
+        /// <para>Terms: alphabetical, arrange, filter, order, sort-alpha-asc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortAlphaDownAlt = 0xf881,
+
+        /// <summary>
+        /// Sort Alphabetical Up (sort-alpha-up)
+        /// <para>Terms: alphabetical, arrange, filter, order, sort-alpha-desc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortAlphaUp = 0xf15e,
+
+        /// <summary>
+        /// Alternate Sort Alphabetical Up (sort-alpha-up-alt)
+        /// <para>Terms: alphabetical, arrange, filter, order, sort-alpha-desc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortAlphaUpAlt = 0xf882,
+
+        /// <summary>
+        /// Sort Amount Down (sort-amount-down)
+        /// <para>Terms: arrange, filter, number, order, sort-amount-asc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortAmountDown = 0xf160,
+
+        /// <summary>
+        /// Alternate Sort Amount Down (sort-amount-down-alt)
+        /// <para>Terms: arrange, filter, order, sort-amount-asc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortAmountDownAlt = 0xf884,
+
+        /// <summary>
+        /// Sort Amount Up (sort-amount-up)
+        /// <para>Terms: arrange, filter, order, sort-amount-desc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortAmountUp = 0xf161,
+
+        /// <summary>
+        /// Alternate Sort Amount Up (sort-amount-up-alt)
+        /// <para>Terms: arrange, filter, order, sort-amount-desc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortAmountUpAlt = 0xf885,
+
+        /// <summary>
+        /// Sort Down (Descending) (sort-down)
+        /// <para>Terms: arrow, descending, filter, order, sort-desc</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        SortDown = 0xf0dd,
+
+        /// <summary>
+        /// Sort Numeric Down (sort-numeric-down)
+        /// <para>Terms: arrange, filter, numbers, order, sort-numeric-asc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortNumericDown = 0xf162,
+
+        /// <summary>
+        /// Alternate Sort Numeric Down (sort-numeric-down-alt)
+        /// <para>Terms: arrange, filter, numbers, order, sort-numeric-asc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortNumericDownAlt = 0xf886,
+
+        /// <summary>
+        /// Sort Numeric Up (sort-numeric-up)
+        /// <para>Terms: arrange, filter, numbers, order, sort-numeric-desc</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        SortNumericUp = 0xf163,
+
+        /// <summary>
+        /// Alternate Sort Numeric Up (sort-numeric-up-alt)
+        /// <para>Terms: arrange, filter, numbers, order, sort-numeric-desc</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SortNumericUpAlt = 0xf887,
+
+        /// <summary>
+        /// Sort Up (Ascending) (sort-up)
+        /// <para>Terms: arrow, ascending, filter, order, sort-asc</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        SortUp = 0xf0de,
+
+        /// <summary>
+        /// Spa (spa)
+        /// <para>Terms: flora, massage, mindfulness, plant, wellness</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Spa = 0xf5bb,
+
+        /// <summary>
+        /// Space Shuttle (space-shuttle)
+        /// <para>Terms: astronaut, machine, nasa, rocket, space, transportation</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        SpaceShuttle = 0xf197,
+
+        /// <summary>
+        /// Spell Check (spell-check)
+        /// <para>Terms: dictionary, edit, editor, grammar, text</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        SpellCheck = 0xf891,
+
+        /// <summary>
+        /// Spider (spider)
+        /// <para>Terms: arachnid, bug, charlotte, crawl, eight, halloween</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Spider = 0xf717,
+
+        /// <summary>
+        /// Spinner (spinner)
+        /// <para>Terms: circle, loading, progress</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Spinner = 0xf110,
+
+        /// <summary>
+        /// Splotch (splotch)
+        /// <para>Terms: Ink, blob, blotch, glob, stain</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Splotch = 0xf5bc,
+
+        /// <summary>
+        /// Spray Can (spray-can)
+        /// <para>Terms: Paint, aerosol, design, graffiti, tag</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        SprayCan = 0xf5bd,
+
+        /// <summary>
+        /// Square (square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: block, box, shape</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Square = 0xf0c8,
+
+        /// <summary>
+        /// Square Full (square-full)
+        /// <para>Terms: block, box, shape</para>
+        /// <para>Added in 5.0.5, updated in 5.10.2.</para>
+        /// </summary>
+        SquareFull = 0xf45c,
+
+        /// <summary>
+        /// Alternate Square Root (square-root-alt)
+        /// <para>Terms: arithmetic, calculus, division, math</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        SquareRootAlt = 0xf698,
+
+        /// <summary>
+        /// Stamp (stamp)
+        /// <para>Terms: art, certificate, imprint, rubber, seal</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        Stamp = 0xf5bf,
+
+        /// <summary>
+        /// Star (star)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: achievement, award, favorite, important, night, rating, score</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Star = 0xf005,
+
+        /// <summary>
+        /// Star And Crescent (star-and-crescent)
+        /// <para>Terms: islam, muslim, religion</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        StarAndCrescent = 0xf699,
+
+        /// <summary>
+        /// Star-Half (star-half)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        StarHalf = 0xf089,
+
+        /// <summary>
+        /// Alternate Star Half (star-half-alt)
+        /// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        StarHalfAlt = 0xf5c0,
+
+        /// <summary>
+        /// Star Of David (star-of-david)
+        /// <para>Terms: jewish, judaism, religion</para>
+        /// <para>Added in 5.11.0, updated in 5.11.1 and 5.3.0.</para>
+        /// </summary>
+        StarOfDavid = 0xf69a,
+
+        /// <summary>
+        /// Star Of Life (star-of-life)
+        /// <para>Terms: doctor, emt, first aid, health, medical</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        StarOfLife = 0xf621,
+
+        /// <summary>
+        /// Step-Backward (step-backward)
+        /// <para>Terms: beginning, first, previous, rewind, start</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        StepBackward = 0xf048,
+
+        /// <summary>
+        /// Step-Forward (step-forward)
+        /// <para>Terms: end, last, next</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        StepForward = 0xf051,
+
+        /// <summary>
+        /// Stethoscope (stethoscope)
+        /// <para>Terms: diagnosis, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
+        /// </summary>
+        Stethoscope = 0xf0f1,
+
+        /// <summary>
+        /// Sticky Note (sticky-note)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: message, note, paper, reminder, sticker</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        StickyNote = 0xf249,
+
+        /// <summary>
+        /// Stop (stop)
+        /// <para>Terms: block, box, square</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Stop = 0xf04d,
+
+        /// <summary>
+        /// Stop Circle (stop-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: block, box, circle, square</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        StopCircle = 0xf28d,
+
+        /// <summary>
+        /// Stopwatch (stopwatch)
+        /// <para>Terms: clock, reminder, time</para>
+        /// <para>Added in 5.0.0, updated in 5.10.2.</para>
+        /// </summary>
+        Stopwatch = 0xf2f2,
+
+        /// <summary>
+        /// Store (store)
+        /// <para>Terms: building, buy, purchase, shopping</para>
+        /// <para>Added in 5.0.13, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Store = 0xf54e,
+
+        /// <summary>
+        /// Alternate Store (store-alt)
+        /// <para>Terms: building, buy, purchase, shopping</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        StoreAlt = 0xf54f,
+
+        /// <summary>
+        /// Stream (stream)
+        /// <para>Terms: flow, list, timeline</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Stream = 0xf550,
+
+        /// <summary>
+        /// Street View (street-view)
+        /// <para>Terms: directions, location, map, navigation</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        StreetView = 0xf21d,
+
+        /// <summary>
+        /// Strikethrough (strikethrough)
+        /// <para>Terms: cancel, edit, font, format, text, type</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Strikethrough = 0xf0cc,
+
+        /// <summary>
+        /// Stroopwafel (stroopwafel)
+        /// <para>Terms: caramel, cookie, dessert, sweets, waffle</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Stroopwafel = 0xf551,
+
+        /// <summary>
+        /// Subscript (subscript)
+        /// <para>Terms: edit, font, format, text, type</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Subscript = 0xf12c,
+
+        /// <summary>
+        /// Subway (subway)
+        /// <para>Terms: machine, railway, train, transportation, vehicle</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Subway = 0xf239,
+
+        /// <summary>
+        /// Suitcase (suitcase)
+        /// <para>Terms: baggage, luggage, move, suitcase, travel, trip</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Suitcase = 0xf0f2,
+
+        /// <summary>
+        /// Suitcase Rolling (suitcase-rolling)
+        /// <para>Terms: baggage, luggage, move, suitcase, travel, trip</para>
+        /// <para>Added in 5.1.0, updated in 5.10.2.</para>
+        /// </summary>
+        SuitcaseRolling = 0xf5c1,
+
+        /// <summary>
+        /// Sun (sun)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: brighten, contrast, day, lighter, sol, solar, star, weather</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.5.0.</para>
+        /// </summary>
+        Sun = 0xf185,
+
+        /// <summary>
+        /// Superscript (superscript)
+        /// <para>Terms: edit, exponential, font, format, text, type</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        Superscript = 0xf12b,
+
+        /// <summary>
+        /// Hushed Face (surprise)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, shocked</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Surprise = 0xf5c2,
+
+        /// <summary>
+        /// Swatchbook (swatchbook)
+        /// <para>Terms: Pantone, color, design, hue, palette</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Swatchbook = 0xf5c3,
+
+        /// <summary>
+        /// Swimmer (swimmer)
+        /// <para>Terms: athlete, head, man, olympics, person, pool, water</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Swimmer = 0xf5c4,
+
+        /// <summary>
+        /// Swimming Pool (swimming-pool)
+        /// <para>Terms: ladder, recreation, swim, water</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        SwimmingPool = 0xf5c5,
+
+        /// <summary>
+        /// Synagogue (synagogue)
+        /// <para>Terms: building, jewish, judaism, religion, star of david, temple</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Synagogue = 0xf69b,
+
+        /// <summary>
+        /// Sync (sync)
+        /// <para>Terms: exchange, refresh, reload, rotate, swap</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.8.0.</para>
+        /// </summary>
+        Sync = 0xf021,
+
+        /// <summary>
+        /// Alternate Sync (sync-alt)
+        /// <para>Terms: exchange, refresh, reload, rotate, swap</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        SyncAlt = 0xf2f1,
+
+        /// <summary>
+        /// Syringe (syringe)
+        /// <para>Terms: doctor, immunizations, medical, needle</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Syringe = 0xf48e,
+
+        /// <summary>
+        /// Table (table)
+        /// <para>Terms: data, excel, spreadsheet</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Table = 0xf0ce,
+
+        /// <summary>
+        /// Table Tennis (table-tennis)
+        /// <para>Terms: ball, paddle, ping pong</para>
+        /// <para>Added in 5.0.5.</para>
+        /// </summary>
+        TableTennis = 0xf45d,
+
+        /// <summary>
+        /// Tablet (tablet)
+        /// <para>Terms: apple, device, ipad, kindle, screen</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Tablet = 0xf10a,
+
+        /// <summary>
+        /// Alternate Tablet (tablet-alt)
+        /// <para>Terms: apple, device, ipad, kindle, screen</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        TabletAlt = 0xf3fa,
+
+        /// <summary>
+        /// Tablets (tablets)
+        /// <para>Terms: drugs, medicine, pills, prescription</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Tablets = 0xf490,
+
+        /// <summary>
+        /// Alternate Tachometer (tachometer-alt)
+        /// <para>Terms: dashboard, fast, odometer, speed, speedometer</para>
+        /// <para>Added in 5.0.0, updated in 5.2.0.</para>
+        /// </summary>
+        TachometerAlt = 0xf3fd,
+
+        /// <summary>
+        /// Tag (tag)
+        /// <para>Terms: discount, label, price, shopping</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Tag = 0xf02b,
+
+        /// <summary>
+        /// Tags (tags)
+        /// <para>Terms: discount, label, price, shopping</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Tags = 0xf02c,
+
+        /// <summary>
+        /// Tape (tape)
+        /// <para>Terms: design, package, sticky</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        Tape = 0xf4db,
+
+        /// <summary>
+        /// Tasks (tasks)
+        /// <para>Terms: checklist, downloading, downloads, loading, progress, project management, settings, to do</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Tasks = 0xf0ae,
+
+        /// <summary>
+        /// Taxi (taxi)
+        /// <para>Terms: cab, cabbie, car, car service, lyft, machine, transportation, travel, uber, vehicle</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Taxi = 0xf1ba,
+
+        /// <summary>
+        /// Teeth (teeth)
+        /// <para>Terms: bite, dental, dentist, gums, mouth, smile, tooth</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        Teeth = 0xf62e,
+
+        /// <summary>
+        /// Teeth Open (teeth-open)
+        /// <para>Terms: dental, dentist, gums bite, mouth, smile, tooth</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        TeethOpen = 0xf62f,
+
+        /// <summary>
+        /// High Temperature (temperature-high)
+        /// <para>Terms: cook, mercury, summer, thermometer, warm</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        TemperatureHigh = 0xf769,
+
+        /// <summary>
+        /// Low Temperature (temperature-low)
+        /// <para>Terms: cold, cool, mercury, thermometer, winter</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        TemperatureLow = 0xf76b,
+
+        /// <summary>
+        /// Tenge (tenge)
+        /// <para>Terms: currency, kazakhstan, money, price</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Tenge = 0xf7d7,
+
+        /// <summary>
+        /// Terminal (terminal)
+        /// <para>Terms: code, command, console, development, prompt</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Terminal = 0xf120,
+
+        /// <summary>
+        /// Text-Height (text-height)
+        /// <para>Terms: edit, font, format, text, type</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        TextHeight = 0xf034,
+
+        /// <summary>
+        /// Text Width (text-width)
+        /// <para>Terms: edit, font, format, text, type</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2 and 5.9.0.</para>
+        /// </summary>
+        TextWidth = 0xf035,
+
+        /// <summary>
+        /// Th (th)
+        /// <para>Terms: blocks, boxes, grid, squares</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        Th = 0xf00a,
+
+        /// <summary>
+        /// Th-Large (th-large)
+        /// <para>Terms: blocks, boxes, grid, squares</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThLarge = 0xf009,
+
+        /// <summary>
+        /// Th-List (th-list)
+        /// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThList = 0xf00b,
+
+        /// <summary>
+        /// Theater Masks (theater-masks)
+        /// <para>Terms: comedy, perform, theatre, tragedy</para>
+        /// <para>Added in 5.10.2, updated in 5.2.0.</para>
+        /// </summary>
+        TheaterMasks = 0xf630,
+
+        /// <summary>
+        /// Thermometer (thermometer)
+        /// <para>Terms: mercury, status, temperature</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Thermometer = 0xf491,
+
+        /// <summary>
+        /// Thermometer Empty (thermometer-empty)
+        /// <para>Terms: cold, mercury, status, temperature</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThermometerEmpty = 0xf2cb,
+
+        /// <summary>
+        /// Thermometer Full (thermometer-full)
+        /// <para>Terms: fever, hot, mercury, status, temperature</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThermometerFull = 0xf2c7,
+
+        /// <summary>
+        /// Thermometer 1/2 Full (thermometer-half)
+        /// <para>Terms: mercury, status, temperature</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThermometerHalf = 0xf2c9,
+
+        /// <summary>
+        /// Thermometer 1/4 Full (thermometer-quarter)
+        /// <para>Terms: mercury, status, temperature</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThermometerQuarter = 0xf2ca,
+
+        /// <summary>
+        /// Thermometer 3/4 Full (thermometer-three-quarters)
+        /// <para>Terms: mercury, status, temperature</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        ThermometerThreeQuarters = 0xf2c8,
+
+        /// <summary>
+        /// Thumbs-Down (thumbs-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disagree, disapprove, dislike, hand, social, thumbs-o-down</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        ThumbsDown = 0xf165,
+
+        /// <summary>
+        /// Thumbs-Up (thumbs-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        ThumbsUp = 0xf164,
+
+        /// <summary>
+        /// Thumbtack (thumbtack)
+        /// <para>Terms: coordinates, location, marker, pin, thumb-tack</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Thumbtack = 0xf08d,
+
+        /// <summary>
+        /// Alternate Ticket (ticket-alt)
+        /// <para>Terms: movie, pass, support, ticket</para>
+        /// <para>Added in 5.0.0, updated in 5.10.2.</para>
+        /// </summary>
+        TicketAlt = 0xf3ff,
+
+        /// <summary>
+        /// Times (times)
+        /// <para>Terms: close, cross, error, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.13, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Times = 0xf00d,
+
+        /// <summary>
+        /// Times Circle (times-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        TimesCircle = 0xf057,
+
+        /// <summary>
+        /// Tint (tint)
+        /// <para>Terms: color, drop, droplet, raindrop, waterdrop</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Tint = 0xf043,
+
+        /// <summary>
+        /// Tint Slash (tint-slash)
+        /// <para>Terms: color, drop, droplet, raindrop, waterdrop</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        TintSlash = 0xf5c7,
+
+        /// <summary>
+        /// Tired Face (tired)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: angry, emoticon, face, grumpy, upset</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Tired = 0xf5c8,
+
+        /// <summary>
+        /// Toggle Off (toggle-off)
+        /// <para>Terms: switch</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        ToggleOff = 0xf204,
+
+        /// <summary>
+        /// Toggle On (toggle-on)
+        /// <para>Terms: switch</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        ToggleOn = 0xf205,
+
+        /// <summary>
+        /// Toilet (toilet)
+        /// <para>Terms: bathroom, flush, john, loo, pee, plumbing, poop, porcelain, potty, restroom, throne, washroom, waste, wc</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Toilet = 0xf7d8,
+
+        /// <summary>
+        /// Toilet Paper (toilet-paper)
+        /// <para>Terms: bathroom, halloween, holiday, lavatory, prank, restroom, roll</para>
+        /// <para>Added in 5.10.2, updated in 5.4.0.</para>
+        /// </summary>
+        ToiletPaper = 0xf71e,
+
+        /// <summary>
+        /// Toolbox (toolbox)
+        /// <para>Terms: admin, container, fix, repair, settings, tools</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Toolbox = 0xf552,
+
+        /// <summary>
+        /// Tools (tools)
+        /// <para>Terms: admin, fix, repair, screwdriver, settings, tools, wrench</para>
+        /// <para>Added in 5.10.2, updated in 5.6.0.</para>
+        /// </summary>
+        Tools = 0xf7d9,
+
+        /// <summary>
+        /// Tooth (tooth)
+        /// <para>Terms: bicuspid, dental, dentist, molar, mouth, teeth</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        Tooth = 0xf5c9,
+
+        /// <summary>
+        /// Torah (torah)
+        /// <para>Terms: book, jewish, judaism, religion, scroll</para>
+        /// <para>Added in 5.10.2, updated in 5.3.0, 5.7.0 and 5.9.0.</para>
+        /// </summary>
+        Torah = 0xf6a0,
+
+        /// <summary>
+        /// Torii Gate (torii-gate)
+        /// <para>Terms: building, shintoism</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        ToriiGate = 0xf6a1,
+
+        /// <summary>
+        /// Tractor (tractor)
+        /// <para>Terms: agriculture, farm, vehicle</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        Tractor = 0xf722,
+
+        /// <summary>
+        /// Trademark (trademark)
+        /// <para>Terms: copyright, register, symbol</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        Trademark = 0xf25c,
+
+        /// <summary>
+        /// Traffic Light (traffic-light)
+        /// <para>Terms: direction, road, signal, travel</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        TrafficLight = 0xf637,
+
+        /// <summary>
+        /// Trailer (trailer)
+        /// <para>Terms: carry, haul, moving, travel</para>
+        /// <para>Added in 5.12.0.</para>
+        /// </summary>
+        Trailer = 0xf941,
+
+        /// <summary>
+        /// Train (train)
+        /// <para>Terms: bullet, commute, locomotive, railway, subway</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Train = 0xf238,
+
+        /// <summary>
+        /// Tram (tram)
+        /// <para>Terms: crossing, machine, mountains, seasonal, transportation</para>
+        /// <para>Added in 5.6.0.</para>
+        /// </summary>
+        Tram = 0xf7da,
+
+        /// <summary>
+        /// Transgender (transgender)
+        /// <para>Terms: intersex</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        Transgender = 0xf224,
+
+        /// <summary>
+        /// Alternate Transgender (transgender-alt)
+        /// <para>Terms: intersex</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        TransgenderAlt = 0xf225,
+
+        /// <summary>
+        /// Trash (trash)
+        /// <para>Terms: delete, garbage, hide, remove</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0, 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        Trash = 0xf1f8,
+
+        /// <summary>
+        /// Alternate Trash (trash-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: delete, garbage, hide, remove, trash-o</para>
+        /// <para>Added in 5.0.0, updated in 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        TrashAlt = 0xf2ed,
+
+        /// <summary>
+        /// Trash Restore (trash-restore)
+        /// <para>Terms: back, control z, oops, undo</para>
+        /// <para>Added in 5.10.2, updated in 5.7.0.</para>
+        /// </summary>
+        TrashRestore = 0xf829,
+
+        /// <summary>
+        /// Alternative Trash Restore (trash-restore-alt)
+        /// <para>Terms: back, control z, oops, undo</para>
+        /// <para>Added in 5.10.2, updated in 5.7.0.</para>
+        /// </summary>
+        TrashRestoreAlt = 0xf82a,
+
+        /// <summary>
+        /// Tree (tree)
+        /// <para>Terms: bark, fall, flora, forest, nature, plant, seasonal</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Tree = 0xf1bb,
+
+        /// <summary>
+        /// Trophy (trophy)
+        /// <para>Terms: achievement, award, cup, game, winner</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Trophy = 0xf091,
+
+        /// <summary>
+        /// Truck (truck)
+        /// <para>Terms: cargo, delivery, shipping, vehicle</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.7.</para>
+        /// </summary>
+        Truck = 0xf0d1,
+
+        /// <summary>
+        /// Truck Loading (truck-loading)
+        /// <para>Terms: box, cargo, delivery, inventory, moving, rental, vehicle</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        TruckLoading = 0xf4de,
+
+        /// <summary>
+        /// Truck Monster (truck-monster)
+        /// <para>Terms: offroad, vehicle, wheel</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        TruckMonster = 0xf63b,
+
+        /// <summary>
+        /// Truck Moving (truck-moving)
+        /// <para>Terms: cargo, inventory, rental, vehicle</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        TruckMoving = 0xf4df,
+
+        /// <summary>
+        /// Truck Side (truck-pickup)
+        /// <para>Terms: cargo, vehicle</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        TruckPickup = 0xf63c,
+
+        /// <summary>
+        /// T-Shirt (tshirt)
+        /// <para>Terms: clothing, fashion, garment, shirt</para>
+        /// <para>Added in 5.0.13, updated in 5.10.2.</para>
+        /// </summary>
+        Tshirt = 0xf553,
+
+        /// <summary>
+        /// TTY (tty)
+        /// <para>Terms: communication, deaf, telephone, teletypewriter, text</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        Tty = 0xf1e4,
+
+        /// <summary>
+        /// Television (tv)
+        /// <para>Terms: computer, display, monitor, television</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Tv = 0xf26c,
+
+        /// <summary>
+        /// Umbrella (umbrella)
+        /// <para>Terms: protection, rain, storm, wet</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Umbrella = 0xf0e9,
+
+        /// <summary>
+        /// Umbrella Beach (umbrella-beach)
+        /// <para>Terms: protection, recreation, sand, shade, summer, sun</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        UmbrellaBeach = 0xf5ca,
+
+        /// <summary>
+        /// Underline (underline)
+        /// <para>Terms: edit, emphasis, format, text, writing</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.9.0.</para>
+        /// </summary>
+        Underline = 0xf0cd,
+
+        /// <summary>
+        /// Undo (undo)
+        /// <para>Terms: back, control z, exchange, oops, return, rotate, swap</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Undo = 0xf0e2,
+
+        /// <summary>
+        /// Alternate Undo (undo-alt)
+        /// <para>Terms: back, control z, exchange, oops, return, swap</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        UndoAlt = 0xf2ea,
+
+        /// <summary>
+        /// Universal Access (universal-access)
+        /// <para>Terms: accessibility, hearing, person, seeing, visual impairment</para>
+        /// <para>Added in 4.6.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        UniversalAccess = 0xf29a,
+
+        /// <summary>
+        /// University (university)
+        /// <para>Terms: bank, building, college, higher education - students, institution</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.0.3, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        University = 0xf19c,
+
+        /// <summary>
+        /// Unlink (unlink)
+        /// <para>Terms: attachment, chain, chain-broken, remove</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Unlink = 0xf127,
+
+        /// <summary>
+        /// Unlock (unlock)
+        /// <para>Terms: admin, lock, password, private, protect</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Unlock = 0xf09c,
+
+        /// <summary>
+        /// Alternate Unlock (unlock-alt)
+        /// <para>Terms: admin, lock, password, private, protect</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        UnlockAlt = 0xf13e,
+
+        /// <summary>
+        /// Upload (upload)
+        /// <para>Terms: hard drive, import, publish</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Upload = 0xf093,
+
+        /// <summary>
+        /// User (user)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        User = 0xf007,
+
+        /// <summary>
+        /// Alternate User (user-alt)
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 5.0.0, updated in 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        UserAlt = 0xf406,
+
+        /// <summary>
+        /// Alternate User Slash (user-alt-slash)
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserAltSlash = 0xf4fa,
+
+        /// <summary>
+        /// User Astronaut (user-astronaut)
+        /// <para>Terms: avatar, clothing, cosmonaut, nasa, space, suit</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserAstronaut = 0xf4fb,
+
+        /// <summary>
+        /// User Check (user-check)
+        /// <para>Terms: accept, check, person, verified</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserCheck = 0xf4fc,
+
+        /// <summary>
+        /// User Circle (user-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.0.11, 5.0.3, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        UserCircle = 0xf2bd,
+
+        /// <summary>
+        /// User Clock (user-clock)
+        /// <para>Terms: alert, person, remind, time</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserClock = 0xf4fd,
+
+        /// <summary>
+        /// User Cog (user-cog)
+        /// <para>Terms: admin, cog, person, settings</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserCog = 0xf4fe,
+
+        /// <summary>
+        /// User Edit (user-edit)
+        /// <para>Terms: edit, pen, pencil, person, update, write</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserEdit = 0xf4ff,
+
+        /// <summary>
+        /// User Friends (user-friends)
+        /// <para>Terms: group, people, person, team, users</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserFriends = 0xf500,
+
+        /// <summary>
+        /// User Graduate (user-graduate)
+        /// <para>Terms: cap, clothing, commencement, gown, graduation, person, student</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserGraduate = 0xf501,
+
+        /// <summary>
+        /// User Injured (user-injured)
+        /// <para>Terms: cast, injury, ouch, patient, person, sling</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        UserInjured = 0xf728,
+
+        /// <summary>
+        /// User Lock (user-lock)
+        /// <para>Terms: admin, lock, person, private, unlock</para>
+        /// <para>Added in 5.0.11, updated in 5.9.0.</para>
+        /// </summary>
+        UserLock = 0xf502,
+
+        /// <summary>
+        /// Doctor (user-md)
+        /// <para>Terms: job, medical, nurse, occupation, physician, profile, surgeon</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11, 5.0.3 and 5.0.7.</para>
+        /// </summary>
+        UserMd = 0xf0f0,
+
+        /// <summary>
+        /// User Minus (user-minus)
+        /// <para>Terms: delete, negative, remove</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserMinus = 0xf503,
+
+        /// <summary>
+        /// User Ninja (user-ninja)
+        /// <para>Terms: assassin, avatar, dangerous, deadly, sneaky</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserNinja = 0xf504,
+
+        /// <summary>
+        /// Nurse (user-nurse)
+        /// <para>Terms: doctor, midwife, practitioner, surgeon</para>
+        /// <para>Added in 5.12.0, updated in 5.7.0.</para>
+        /// </summary>
+        UserNurse = 0xf82f,
+
+        /// <summary>
+        /// User Plus (user-plus)
+        /// <para>Terms: add, avatar, positive, sign up, signup, team</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        UserPlus = 0xf234,
+
+        /// <summary>
+        /// User Secret (user-secret)
+        /// <para>Terms: clothing, coat, hat, incognito, person, privacy, spy, whisper</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        UserSecret = 0xf21b,
+
+        /// <summary>
+        /// User Shield (user-shield)
+        /// <para>Terms: admin, person, private, protect, safe</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserShield = 0xf505,
+
+        /// <summary>
+        /// User Slash (user-slash)
+        /// <para>Terms: ban, delete, remove</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserSlash = 0xf506,
+
+        /// <summary>
+        /// User Tag (user-tag)
+        /// <para>Terms: avatar, discount, label, person, role, special</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserTag = 0xf507,
+
+        /// <summary>
+        /// User Tie (user-tie)
+        /// <para>Terms: avatar, business, clothing, formal, professional, suit</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UserTie = 0xf508,
+
+        /// <summary>
+        /// Remove User (user-times)
+        /// <para>Terms: archive, delete, remove, x</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        UserTimes = 0xf235,
+
+        /// <summary>
+        /// Users (users)
+        /// <para>Terms: friends, group, people, persons, profiles, team</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        Users = 0xf0c0,
+
+        /// <summary>
+        /// Users Cog (users-cog)
+        /// <para>Terms: admin, cog, group, person, settings, team</para>
+        /// <para>Added in 5.0.11.</para>
+        /// </summary>
+        UsersCog = 0xf509,
+
+        /// <summary>
+        /// Utensil Spoon (utensil-spoon)
+        /// <para>Terms: cutlery, dining, scoop, silverware, spoon</para>
+        /// <para>Added in 5.0.0, updated in 5.10.2.</para>
+        /// </summary>
+        UtensilSpoon = 0xf2e5,
+
+        /// <summary>
+        /// Utensils (utensils)
+        /// <para>Terms: cutlery, dining, dinner, eat, food, fork, knife, restaurant</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        Utensils = 0xf2e7,
+
+        /// <summary>
+        /// Vector Square (vector-square)
+        /// <para>Terms: anchors, lines, object, render, shape</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        VectorSquare = 0xf5cb,
+
+        /// <summary>
+        /// Venus (venus)
+        /// <para>Terms: female</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Venus = 0xf221,
+
+        /// <summary>
+        /// Venus Double (venus-double)
+        /// <para>Terms: female</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        VenusDouble = 0xf226,
+
+        /// <summary>
+        /// Venus Mars (venus-mars)
+        /// <para>Terms: Gender</para>
+        /// <para>Added in 4.3.0, updated in 5.0.0.</para>
+        /// </summary>
+        VenusMars = 0xf228,
+
+        /// <summary>
+        /// Vial (vial)
+        /// <para>Terms: experiment, lab, sample, science, test, test tube</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Vial = 0xf492,
+
+        /// <summary>
+        /// Vials (vials)
+        /// <para>Terms: experiment, lab, sample, science, test, test tube</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Vials = 0xf493,
+
+        /// <summary>
+        /// Video (video)
+        /// <para>Terms: camera, film, movie, record, video-camera</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Video = 0xf03d,
+
+        /// <summary>
+        /// Video Slash (video-slash)
+        /// <para>Terms: add, create, film, new, positive, record, video</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        VideoSlash = 0xf4e2,
+
+        /// <summary>
+        /// Vihara (vihara)
+        /// <para>Terms: buddhism, buddhist, building, monastery</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        Vihara = 0xf6a7,
+
+        /// <summary>
+        /// Voicemail (voicemail)
+        /// <para>Terms: answer, inbox, message, phone</para>
+        /// <para>Added in 5.9.0.</para>
+        /// </summary>
+        Voicemail = 0xf897,
+
+        /// <summary>
+        /// Volleyball Ball (volleyball-ball)
+        /// <para>Terms: beach, olympics, sport</para>
+        /// <para>Added in 5.0.5, updated in 5.8.0.</para>
+        /// </summary>
+        VolleyballBall = 0xf45f,
+
+        /// <summary>
+        /// Volume Down (volume-down)
+        /// <para>Terms: audio, lower, music, quieter, sound, speaker</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        VolumeDown = 0xf027,
+
+        /// <summary>
+        /// Volume Mute (volume-mute)
+        /// <para>Terms: audio, music, quiet, sound, speaker</para>
+        /// <para>Added in 5.3.0.</para>
+        /// </summary>
+        VolumeMute = 0xf6a9,
+
+        /// <summary>
+        /// Volume Off (volume-off)
+        /// <para>Terms: audio, ban, music, mute, quiet, silent, sound</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.3.0 and 5.8.0.</para>
+        /// </summary>
+        VolumeOff = 0xf026,
+
+        /// <summary>
+        /// Volume Up (volume-up)
+        /// <para>Terms: audio, higher, louder, music, sound, speaker</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        VolumeUp = 0xf028,
+
+        /// <summary>
+        /// Vote Yea (vote-yea)
+        /// <para>Terms: accept, cast, election, politics, positive, yes</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        VoteYea = 0xf772,
+
+        /// <summary>
+        /// Cardboard VR (vr-cardboard)
+        /// <para>Terms: 3d, augment, google, reality, virtual</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        VrCardboard = 0xf729,
+
+        /// <summary>
+        /// Walking (walking)
+        /// <para>Terms: exercise, health, pedometer, person, steps</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Walking = 0xf554,
+
+        /// <summary>
+        /// Wallet (wallet)
+        /// <para>Terms: billfold, cash, currency, money</para>
+        /// <para>Added in 5.0.13.</para>
+        /// </summary>
+        Wallet = 0xf555,
+
+        /// <summary>
+        /// Warehouse (warehouse)
+        /// <para>Terms: building, capacity, garage, inventory, storage</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Warehouse = 0xf494,
+
+        /// <summary>
+        /// Water (water)
+        /// <para>Terms: lake, liquid, ocean, sea, swim, wet</para>
+        /// <para>Added in 5.5.0.</para>
+        /// </summary>
+        Water = 0xf773,
+
+        /// <summary>
+        /// Square Wave (wave-square)
+        /// <para>Terms: frequency, pulse, signal</para>
+        /// <para>Added in 5.8.0.</para>
+        /// </summary>
+        WaveSquare = 0xf83e,
+
+        /// <summary>
+        /// Weight (weight)
+        /// <para>Terms: health, measurement, scale, weight</para>
+        /// <para>Added in 5.0.7.</para>
+        /// </summary>
+        Weight = 0xf496,
+
+        /// <summary>
+        /// Hanging Weight (weight-hanging)
+        /// <para>Terms: anvil, heavy, measurement</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        WeightHanging = 0xf5cd,
+
+        /// <summary>
+        /// Wheelchair (wheelchair)
+        /// <para>Terms: accessible, handicap, person</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Wheelchair = 0xf193,
+
+        /// <summary>
+        /// Wifi (wifi)
+        /// <para>Terms: connection, hotspot, internet, network, wireless</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0, 5.10.1, 5.11.1 and 5.3.0.</para>
+        /// </summary>
+        Wifi = 0xf1eb,
+
+        /// <summary>
+        /// Wind (wind)
+        /// <para>Terms: air, blow, breeze, fall, seasonal, weather</para>
+        /// <para>Added in 5.4.0, updated in 5.5.0.</para>
+        /// </summary>
+        Wind = 0xf72e,
+
+        /// <summary>
+        /// Window Close (window-close)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, cancel, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowClose = 0xf410,
+
+        /// <summary>
+        /// Window Maximize (window-maximize)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, computer, development, expand</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowMaximize = 0xf2d0,
+
+        /// <summary>
+        /// Window Minimize (window-minimize)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, collapse, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        WindowMinimize = 0xf2d1,
+
+        /// <summary>
+        /// Window Restore (window-restore)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowRestore = 0xf2d2,
+
+        /// <summary>
+        /// Wine Bottle (wine-bottle)
+        /// <para>Terms: alcohol, beverage, cabernet, drink, glass, grapes, merlot, sauvignon</para>
+        /// <para>Added in 5.4.0.</para>
+        /// </summary>
+        WineBottle = 0xf72f,
+
+        /// <summary>
+        /// Wine Glass (wine-glass)
+        /// <para>Terms: alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon</para>
+        /// <para>Added in 5.0.9, updated in 5.1.0, 5.10.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        WineGlass = 0xf4e3,
+
+        /// <summary>
+        /// Alternate Wine Glas (wine-glass-alt)
+        /// <para>Terms: alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon</para>
+        /// <para>Added in 5.1.0, updated in 5.10.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        WineGlassAlt = 0xf5ce,
+
+        /// <summary>
+        /// Won Sign (won-sign)
+        /// <para>Terms: currency, krw, money</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        WonSign = 0xf159,
+
+        /// <summary>
+        /// Wrench (wrench)
+        /// <para>Terms: construction, fix, mechanic, plumbing, settings, spanner, tool, update</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.0.13.</para>
+        /// </summary>
+        Wrench = 0xf0ad,
+
+        /// <summary>
+        /// X-Ray (x-ray)
+        /// <para>Terms: health, medical, radiological images, radiology, skeleton</para>
+        /// <para>Added in 5.0.7, updated in 5.10.2.</para>
+        /// </summary>
+        XRay = 0xf497,
+
+        /// <summary>
+        /// Yen Sign (yen-sign)
+        /// <para>Terms: currency, jpy, money</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        YenSign = 0xf157,
+
+        /// <summary>
+        /// Yin Yang (yin-yang)
+        /// <para>Terms: daoism, opposites, taoism</para>
+        /// <para>Added in 5.10.2, updated in 5.11.0, 5.11.1 and 5.3.0.</para>
+        /// </summary>
+        YinYang = 0xf6ad,
+
+    }
 }

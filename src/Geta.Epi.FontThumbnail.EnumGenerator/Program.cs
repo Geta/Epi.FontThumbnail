@@ -53,6 +53,9 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
                 }
 
                 CopyFontFiles(archive, enumBasePath);
+                CopyCssFiles(archive, enumBasePath);
+
+                CopyTestFontFiles(archive, $@"{sourcePath}\Geta.Epi.FontThumbnail.Tests\App_Data\fonts\");
             }
 
             Console.WriteLine("\nDone generating Enums. Press enter to exit.");
@@ -61,15 +64,36 @@ namespace Geta.Epi.FontThumbnail.EnumGenerator
 
         private static void CopyFontFiles(ZipArchive archive, string enumBasePath)
         {
-            var destination = $@"{enumBasePath}\Fonts\";
+            var destination = $@"{enumBasePath}\ClientResources\fa5\webfonts\";
+            var rootEntry = archive.Entries[0];
+            var fontEntries = archive.Entries.Where(x => x.FullName.StartsWith(rootEntry + "webfonts") && x.FullName.Contains("."));
 
+            foreach (var fileToCopy in fontEntries)
+            {
+                Console.WriteLine("\nCopying {0} to {1}...", fileToCopy.Name, destination);
+                fileToCopy.ExtractToFile(destination + Path.GetFileName(fileToCopy.Name), true);
+            }
+        }
+
+        private static void CopyCssFiles(ZipArchive archive, string enumBasePath)
+        {
+            var destination = $@"{enumBasePath}\ClientResources\fa5\css\";
+            var rootEntry = archive.Entries[0];
+            var cssFile = archive.Entries.Single(x => x.FullName.Contains(rootEntry + "css/all.min.css"));
+
+            Console.WriteLine("\nCopying {0} to {1}...", cssFile.Name, destination);
+            cssFile.ExtractToFile(destination + Path.GetFileName(cssFile.Name), true);
+        }
+
+        private static void CopyTestFontFiles(ZipArchive archive, string destination)
+        {
             var rootEntry = archive.Entries[0];
             var fontEntries = archive.Entries.Where(x => x.FullName.StartsWith(rootEntry + "webfonts") && x.FullName.EndsWith(".ttf"));
 
             foreach (var fileToCopy in fontEntries)
             {
                 Console.WriteLine("\nCopying {0} to {1}...", fileToCopy.Name, destination);
-                fileToCopy.ExtractToFile(destination + Path.GetFileName(fileToCopy.Name), true);
+                fileToCopy.ExtractToFile(Path.Combine(destination, Path.GetFileName(fileToCopy.Name)), true);
             }
         }
 

@@ -9,1188 +9,1218 @@
 
 namespace Geta.Epi.FontThumbnail
 {
-	/// <summary>
-	/// Font Awesome. Version 5.7.0.
-	/// </summary>
-	public enum FontAwesome5Regular
-	{
-		/// <summary>
-		/// Address Book (address-book)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		AddressBook = 0xf2b9,
-
-		/// <summary>
-		/// Address Card (address-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		AddressCard = 0xf2bb,
-
-		/// <summary>
-		/// Angry Face (angry)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, mad, upset</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Angry = 0xf556,
-
-		/// <summary>
-		/// Alternate Arrow Circle Down (arrow-alt-circle-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-down, download</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleDown = 0xf358,
-
-		/// <summary>
-		/// Alternate Arrow Circle Left (arrow-alt-circle-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-left, back, previous</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleLeft = 0xf359,
-
-		/// <summary>
-		/// Alternate Arrow Circle Right (arrow-alt-circle-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-right, forward, next</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleRight = 0xf35a,
-
-		/// <summary>
-		/// Alternate Arrow Circle Up (arrow-alt-circle-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: arrow-circle-o-up</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		ArrowAltCircleUp = 0xf35b,
-
-		/// <summary>
-		/// Bell (bell)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: alert, notification, reminder</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Bell = 0xf0f3,
-
-		/// <summary>
-		/// Bell Slash (bell-slash)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: alert, cancel, disabled, notification, off, reminder</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		BellSlash = 0xf1f6,
-
-		/// <summary>
-		/// Bookmark (bookmark)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: save</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Bookmark = 0xf02e,
-
-		/// <summary>
-		/// Building (building)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: apartment, business, company, office, work</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Building = 0xf1ad,
-
-		/// <summary>
-		/// Calendar (calendar)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: calendar-o, date, event, schedule, time, when</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Calendar = 0xf133,
-
-		/// <summary>
-		/// Alternate Calendar (calendar-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: calendar, date, event, schedule, time, when</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.6.0 and 5.7.0.</para>
-		/// </summary>
-		CalendarAlt = 0xf073,
-
-		/// <summary>
-		/// Calendar Check (calendar-check)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarCheck = 0xf274,
-
-		/// <summary>
-		/// Calendar Minus (calendar-minus)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: delete, negative, remove</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarMinus = 0xf272,
-
-		/// <summary>
-		/// Calendar Plus (calendar-plus)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: add, create, new, positive</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarPlus = 0xf271,
-
-		/// <summary>
-		/// Calendar Times (calendar-times)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: archive, delete, remove, x</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CalendarTimes = 0xf273,
-
-		/// <summary>
-		/// Caret Square Down (caret-square-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-down, dropdown, menu, more</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareDown = 0xf150,
-
-		/// <summary>
-		/// Caret Square Left (caret-square-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: back, caret-square-o-left, previous</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareLeft = 0xf191,
-
-		/// <summary>
-		/// Caret Square Right (caret-square-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-right, forward, next</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareRight = 0xf152,
-
-		/// <summary>
-		/// Caret Square Up (caret-square-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: caret-square-o-up</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		CaretSquareUp = 0xf151,
-
-		/// <summary>
-		/// Bar Chart (chart-bar)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: analytics, bar-chart, graph</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		ChartBar = 0xf080,
-
-		/// <summary>
-		/// Check Circle (check-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CheckCircle = 0xf058,
-
-		/// <summary>
-		/// Check Square (check-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		CheckSquare = 0xf14a,
-
-		/// <summary>
-		/// Circle (circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: circle-thin, dot, notification</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Circle = 0xf111,
-
-		/// <summary>
-		/// Clipboard (clipboard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: paste</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Clipboard = 0xf328,
-
-		/// <summary>
-		/// Clock (clock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: date, late, schedule, timer, timestamp, watch</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Clock = 0xf017,
-
-		/// <summary>
-		/// Clone (clone)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: copy, duplicate</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Clone = 0xf24d,
-
-		/// <summary>
-		/// Closed Captioning (closed-captioning)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cc</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ClosedCaptioning = 0xf20a,
-
-		/// <summary>
-		/// Comment (comment)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Comment = 0xf075,
-
-		/// <summary>
-		/// Alternate Comment (comment-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		CommentAlt = 0xf27a,
-
-		/// <summary>
-		/// Comment Dots (comment-dots)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 5.0.9.</para>
-		/// </summary>
-		CommentDots = 0xf4ad,
-
-		/// <summary>
-		/// Comments (comments)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bubble, chat, conversation, feedback, message, note, notification, sms, speech, texting</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Comments = 0xf086,
-
-		/// <summary>
-		/// Compass (compass)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: directory, location, menu, safari</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.2.0.</para>
-		/// </summary>
-		Compass = 0xf14e,
-
-		/// <summary>
-		/// Copy (copy)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: clone, duplicate, file, files-o</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Copy = 0xf0c5,
-
-		/// <summary>
-		/// Copyright (copyright)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Copyright = 0xf1f9,
-
-		/// <summary>
-		/// Credit Card (credit-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: buy, checkout, credit-card-alt, debit, money, payment, purchase</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		CreditCard = 0xf09d,
-
-		/// <summary>
-		/// Dizzy Face (dizzy)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: dazed, disapprove, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Dizzy = 0xf567,
-
-		/// <summary>
-		/// Dot Circle (dot-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: bullseye, notification, target</para>
-		/// <para>Added in 4.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		DotCircle = 0xf192,
-
-		/// <summary>
-		/// Edit (edit)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: edit, pen, pencil, update, write</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Edit = 0xf044,
-
-		/// <summary>
-		/// Envelope (envelope)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Envelope = 0xf0e0,
-
-		/// <summary>
-		/// Envelope Open (envelope-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		EnvelopeOpen = 0xf2b6,
-
-		/// <summary>
-		/// Eye (eye)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: optic, see, seen, show, sight, views, visible</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		Eye = 0xf06e,
-
-		/// <summary>
-		/// Eye Slash (eye-slash)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		EyeSlash = 0xf070,
-
-		/// <summary>
-		/// File (file)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, new, page, pdf, resume</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		File = 0xf15b,
-
-		/// <summary>
-		/// Alternate File (file-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, file-text, invoice, new, page, pdf</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileAlt = 0xf15c,
-
-		/// <summary>
-		/// Archive File (file-archive)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0 and 5.7.0.</para>
-		/// </summary>
-		FileArchive = 0xf1c6,
-
-		/// <summary>
-		/// Audio File (file-audio)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileAudio = 0xf1c7,
-
-		/// <summary>
-		/// Code File (file-code)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileCode = 0xf1c9,
-
-		/// <summary>
-		/// Excel File (file-excel)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileExcel = 0xf1c3,
-
-		/// <summary>
-		/// Image File (file-image)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileImage = 0xf1c5,
-
-		/// <summary>
-		/// PDF File (file-pdf)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FilePdf = 0xf1c1,
-
-		/// <summary>
-		/// Powerpoint File (file-powerpoint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FilePowerpoint = 0xf1c4,
-
-		/// <summary>
-		/// Video File (file-video)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileVideo = 0xf1c8,
-
-		/// <summary>
-		/// Word File (file-word)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		FileWord = 0xf1c2,
-
-		/// <summary>
-		/// Flag (flag)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: country, notice, notification, notify, pole, report, symbol</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Flag = 0xf024,
-
-		/// <summary>
-		/// Flushed Face (flushed)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: embarrassed, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Flushed = 0xf579,
-
-		/// <summary>
-		/// Folder (folder)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Folder = 0xf07b,
-
-		/// <summary>
-		/// Folder Open (folder-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		FolderOpen = 0xf07c,
-
-		/// <summary>
-		/// Frowning Face (frown)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Frown = 0xf119,
-
-		/// <summary>
-		/// Frowning Face With Open Mouth (frown-open)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disapprove, emoticon, face, rating, sad</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		FrownOpen = 0xf57a,
-
-		/// <summary>
-		/// Futbol (futbol)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: ball, football, soccer</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0 and 5.0.5.</para>
-		/// </summary>
-		Futbol = 0xf1e3,
-
-		/// <summary>
-		/// Gem (gem)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: diamond</para>
-		/// <para>Added in 5.0.0.</para>
-		/// </summary>
-		Gem = 0xf3a5,
-
-		/// <summary>
-		/// Grimacing Face (grimace)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cringe, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Grimace = 0xf57f,
-
-		/// <summary>
-		/// Grinning Face (grin)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Grin = 0xf580,
-
-		/// <summary>
-		/// Alternate Grinning Face (grin-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinAlt = 0xf581,
-
-		/// <summary>
-		/// Grinning Face With Smiling Eyes (grin-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinBeam = 0xf582,
-
-		/// <summary>
-		/// Grinning Face With Sweat (grin-beam-sweat)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinBeamSweat = 0xf583,
-
-		/// <summary>
-		/// Smiling Face With Heart-Eyes (grin-hearts)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, love, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinHearts = 0xf584,
-
-		/// <summary>
-		/// Grinning Squinting Face (grin-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, laugh, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinSquint = 0xf585,
-
-		/// <summary>
-		/// Rolling On The Floor Laughing (grin-squint-tears)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy, smile</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinSquintTears = 0xf586,
-
-		/// <summary>
-		/// Star-Struck (grin-stars)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, star-struck</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinStars = 0xf587,
-
-		/// <summary>
-		/// Face With Tears Of Joy (grin-tears)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTears = 0xf588,
-
-		/// <summary>
-		/// Face With Tongue (grin-tongue)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongue = 0xf589,
-
-		/// <summary>
-		/// Squinting Face With Tongue (grin-tongue-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongueSquint = 0xf58a,
-
-		/// <summary>
-		/// Winking Face With Tongue (grin-tongue-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		GrinTongueWink = 0xf58b,
-
-		/// <summary>
-		/// Grinning Winking Face (grin-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, flirt, laugh, smile</para>
-		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
-		/// </summary>
-		GrinWink = 0xf58c,
-
-		/// <summary>
-		/// Lizard (Hand) (hand-lizard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandLizard = 0xf258,
-
-		/// <summary>
-		/// Paper (Hand) (hand-paper)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: stop</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPaper = 0xf256,
-
-		/// <summary>
-		/// Peace (Hand) (hand-peace)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPeace = 0xf25b,
-
-		/// <summary>
-		/// Hand Pointing Down (hand-point-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, hand-o-down, point</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointDown = 0xf0a7,
-
-		/// <summary>
-		/// Hand Pointing Left (hand-point-left)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: back, finger, hand-o-left, left, point, previous</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointLeft = 0xf0a5,
-
-		/// <summary>
-		/// Hand Pointing Right (hand-point-right)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, forward, hand-o-right, next, point, right</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointRight = 0xf0a4,
-
-		/// <summary>
-		/// Hand Pointing Up (hand-point-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: finger, hand-o-up, point</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointUp = 0xf0a6,
-
-		/// <summary>
-		/// Pointer (Hand) (hand-pointer)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: select</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandPointer = 0xf25a,
-
-		/// <summary>
-		/// Rock (Hand) (hand-rock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandRock = 0xf255,
-
-		/// <summary>
-		/// Scissors (Hand) (hand-scissors)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandScissors = 0xf257,
-
-		/// <summary>
-		/// Spock (Hand) (hand-spock)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		HandSpock = 0xf259,
-
-		/// <summary>
-		/// Handshake (handshake)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: greeting, partnership</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Handshake = 0xf2b5,
-
-		/// <summary>
-		/// HDD (hdd)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: cpu, hard drive, harddrive, machine, save, storage</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hdd = 0xf0a0,
-
-		/// <summary>
-		/// Heart (heart)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: favorite, like, love, relationship</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
-		/// </summary>
-		Heart = 0xf004,
-
-		/// <summary>
-		/// Hospital (hospital)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: building, emergency room, medical center</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hospital = 0xf0f8,
-
-		/// <summary>
-		/// Hourglass (hourglass)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Hourglass = 0xf254,
-
-		/// <summary>
-		/// Identification Badge (id-badge)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		IdBadge = 0xf2c1,
-
-		/// <summary>
-		/// Identification Card (id-card)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: document, identification, issued</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
-		/// </summary>
-		IdCard = 0xf2c2,
-
-		/// <summary>
-		/// Image (image)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: album, photo, picture</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Image = 0xf03e,
-
-		/// <summary>
-		/// Images (images)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: album, photo, picture</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Images = 0xf302,
-
-		/// <summary>
-		/// Keyboard (keyboard)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: input, type</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		Keyboard = 0xf11c,
-
-		/// <summary>
-		/// Kissing Face (kiss)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0, updated in 5.1.1.</para>
-		/// </summary>
-		Kiss = 0xf596,
-
-		/// <summary>
-		/// Kissing Face With Smiling Eyes (kiss-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		KissBeam = 0xf597,
-
-		/// <summary>
-		/// Face Blowing A Kiss (kiss-wink-heart)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: beso, emoticon, face, love, smooch</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		KissWinkHeart = 0xf598,
-
-		/// <summary>
-		/// Grinning Face With Big Eyes (laugh)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face, laugh</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Laugh = 0xf599,
-
-		/// <summary>
-		/// Laugh Face With Beaming Eyes (laugh-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughBeam = 0xf59a,
-
-		/// <summary>
-		/// Laughing Squinting Face (laugh-squint)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughSquint = 0xf59b,
-
-		/// <summary>
-		/// Laughing Winking Face (laugh-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: LOL, emoticon, face</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		LaughWink = 0xf59c,
-
-		/// <summary>
-		/// Lemon (lemon)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: citrus, lemonade, lime, tart</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Lemon = 0xf094,
-
-		/// <summary>
-		/// Life Ring (life-ring)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: support</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		LifeRing = 0xf1cd,
-
-		/// <summary>
-		/// Lightbulb (lightbulb)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: idea, inspiration</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0 and 5.3.0.</para>
-		/// </summary>
-		Lightbulb = 0xf0eb,
-
-		/// <summary>
-		/// Alternate List (list-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		ListAlt = 0xf022,
-
-		/// <summary>
-		/// Map (map)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: coordinates, location, paper, place, travel</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0 and 5.1.0.</para>
-		/// </summary>
-		Map = 0xf279,
-
-		/// <summary>
-		/// Neutral Face (meh)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Meh = 0xf11a,
-
-		/// <summary>
-		/// Face Without Mouth (meh-blank)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MehBlank = 0xf5a4,
-
-		/// <summary>
-		/// Face With Rolling Eyes (meh-rolling-eyes)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, neutral, rating</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		MehRollingEyes = 0xf5a5,
-
-		/// <summary>
-		/// Minus Square (minus-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: collapse, delete, hide, minify, negative, remove, trash</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		MinusSquare = 0xf146,
-
-		/// <summary>
-		/// Alternate Money Bill (money-bill-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
-		/// <para>Added in 5.0.0, updated in 5.0.13.</para>
-		/// </summary>
-		MoneyBillAlt = 0xf3d1,
-
-		/// <summary>
-		/// Moon (moon)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: contrast, crescent, darker, lunar, night</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Moon = 0xf186,
-
-		/// <summary>
-		/// Newspaper (newspaper)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: article, press</para>
-		/// <para>Added in 4.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		Newspaper = 0xf1ea,
-
-		/// <summary>
-		/// Object Group (object-group)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: design</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		ObjectGroup = 0xf247,
-
-		/// <summary>
-		/// Object Ungroup (object-ungroup)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: design</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		ObjectUngroup = 0xf248,
-
-		/// <summary>
-		/// Paper Plane (paper-plane)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PaperPlane = 0xf1d8,
-
-		/// <summary>
-		/// Pause Circle (pause-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		PauseCircle = 0xf28b,
-
-		/// <summary>
-		/// Play Circle (play-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: playing, start</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		PlayCircle = 0xf144,
-
-		/// <summary>
-		/// Plus Square (plus-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: add, create, expand, new, positive</para>
-		/// <para>Added in 3.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		PlusSquare = 0xf0fe,
-
-		/// <summary>
-		/// Question Circle (question-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: help, information, support, unknown</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		QuestionCircle = 0xf059,
-
-		/// <summary>
-		/// Registered Trademark (registered)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		Registered = 0xf25d,
-
-		/// <summary>
-		/// Crying Face (sad-cry)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, tear, tears</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SadCry = 0xf5b3,
-
-		/// <summary>
-		/// Loudly Crying Face (sad-tear)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, tear, tears</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SadTear = 0xf5b4,
-
-		/// <summary>
-		/// Save (save)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: floppy, floppy-o</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Save = 0xf0c7,
-
-		/// <summary>
-		/// Share Square (share-square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: send, social</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0.</para>
-		/// </summary>
-		ShareSquare = 0xf14d,
-
-		/// <summary>
-		/// Smiling Face (smile)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: approve, emoticon, face, happy, rating, satisfied</para>
-		/// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9 and 5.1.0.</para>
-		/// </summary>
-		Smile = 0xf118,
-
-		/// <summary>
-		/// Beaming Face With Smiling Eyes (smile-beam)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy, positive</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SmileBeam = 0xf5b8,
-
-		/// <summary>
-		/// Winking Face (smile-wink)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, happy</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		SmileWink = 0xf4da,
-
-		/// <summary>
-		/// Snowflake (snowflake)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: precipitation, seasonal, winter</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0 and 5.5.0.</para>
-		/// </summary>
-		Snowflake = 0xf2dc,
-
-		/// <summary>
-		/// Square (square)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: block, box</para>
-		/// <para>Added in 2.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Square = 0xf0c8,
-
-		/// <summary>
-		/// Star (star)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: achievement, award, favorite, important, night, rating, score</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		Star = 0xf005,
-
-		/// <summary>
-		/// Star-Half (star-half)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		StarHalf = 0xf089,
-
-		/// <summary>
-		/// Sticky Note (sticky-note)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.4.0, updated in 5.0.0.</para>
-		/// </summary>
-		StickyNote = 0xf249,
-
-		/// <summary>
-		/// Stop Circle (stop-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.5.0, updated in 5.0.0.</para>
-		/// </summary>
-		StopCircle = 0xf28d,
-
-		/// <summary>
-		/// Sun (sun)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: brighten, contrast, day, lighter, sol, solar, star, weather</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0 and 5.5.0.</para>
-		/// </summary>
-		Sun = 0xf185,
-
-		/// <summary>
-		/// Hushed Face (surprise)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, shocked</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Surprise = 0xf5c2,
-
-		/// <summary>
-		/// Thumbs-Down (thumbs-down)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: disagree, disapprove, dislike, hand, thumbs-o-down</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThumbsDown = 0xf165,
-
-		/// <summary>
-		/// Thumbs-Up (thumbs-up)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: agree, approve, favorite, hand, like, ok, okay, success, thumbs-o-up, yes, you got it dude</para>
-		/// <para>Added in 3.2.0, updated in 5.0.0.</para>
-		/// </summary>
-		ThumbsUp = 0xf164,
-
-		/// <summary>
-		/// Times Circle (times-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0.</para>
-		/// </summary>
-		TimesCircle = 0xf057,
-
-		/// <summary>
-		/// Tired Face (tired)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: emoticon, face, grumpy</para>
-		/// <para>Added in 5.1.0.</para>
-		/// </summary>
-		Tired = 0xf5c8,
-
-		/// <summary>
-		/// Alternate Trash (trash-alt)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: delete, garbage, hide, remove, trash, trash-o</para>
-		/// <para>Added in 5.0.0, updated in 5.7.0.</para>
-		/// </summary>
-		TrashAlt = 0xf2ed,
-
-		/// <summary>
-		/// User (user)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
-		/// <para>Added in 1.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		User = 0xf007,
-
-		/// <summary>
-		/// User Circle (user-circle)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Terms: account, avatar, head, human, man, person, profile</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
-		/// </summary>
-		UserCircle = 0xf2bd,
-
-		/// <summary>
-		/// Window Close (window-close)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowClose = 0xf410,
-
-		/// <summary>
-		/// Window Maximize (window-maximize)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowMaximize = 0xf2d0,
-
-		/// <summary>
-		/// Window Minimize (window-minimize)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowMinimize = 0xf2d1,
-
-		/// <summary>
-		/// Window Restore (window-restore)
-		/// <para>Styles: solid, regular</para>
-		/// <para>Added in 4.7.0, updated in 5.0.0.</para>
-		/// </summary>
-		WindowRestore = 0xf2d2,
-
-	}
+    /// <summary>
+    /// Font Awesome. Version 5.8.0.
+    /// </summary>
+    public enum FontAwesome5Regular
+    {
+        /// <summary>
+        /// Address Book (address-book)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contact, directory, index, little black book, rolodex</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        AddressBook = 0xf2b9,
+
+        /// <summary>
+        /// Address Card (address-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: about, contact, id, identification, postcard, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        AddressCard = 0xf2bb,
+
+        /// <summary>
+        /// Angry Face (angry)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, mad, upset</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Angry = 0xf556,
+
+        /// <summary>
+        /// Alternate Arrow Circle Down (arrow-alt-circle-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-down, download</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleDown = 0xf358,
+
+        /// <summary>
+        /// Alternate Arrow Circle Left (arrow-alt-circle-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-left, back, previous</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleLeft = 0xf359,
+
+        /// <summary>
+        /// Alternate Arrow Circle Right (arrow-alt-circle-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-right, forward, next</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleRight = 0xf35a,
+
+        /// <summary>
+        /// Alternate Arrow Circle Up (arrow-alt-circle-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow-circle-o-up</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        ArrowAltCircleUp = 0xf35b,
+
+        /// <summary>
+        /// Bell (bell)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: alarm, alert, chime, notification, reminder</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.11.0 and 5.2.0.</para>
+        /// </summary>
+        Bell = 0xf0f3,
+
+        /// <summary>
+        /// Bell Slash (bell-slash)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: alert, cancel, disabled, notification, off, reminder</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.2.0.</para>
+        /// </summary>
+        BellSlash = 0xf1f6,
+
+        /// <summary>
+        /// Bookmark (bookmark)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: favorite, marker, read, remember, save</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Bookmark = 0xf02e,
+
+        /// <summary>
+        /// Building (building)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: apartment, business, city, company, office, work</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Building = 0xf1ad,
+
+        /// <summary>
+        /// Calendar (calendar)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar-o, date, event, schedule, time, when</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Calendar = 0xf133,
+
+        /// <summary>
+        /// Alternate Calendar (calendar-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar, date, event, schedule, time, when</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.2, 5.6.0 and 5.7.0.</para>
+        /// </summary>
+        CalendarAlt = 0xf073,
+
+        /// <summary>
+        /// Calendar Check (calendar-check)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, appointment, confirm, correct, date, done, event, ok, schedule, select, success, tick, time, todo, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarCheck = 0xf274,
+
+        /// <summary>
+        /// Calendar Minus (calendar-minus)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: calendar, date, delete, event, negative, remove, schedule, time, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarMinus = 0xf272,
+
+        /// <summary>
+        /// Calendar Plus (calendar-plus)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: add, calendar, create, date, event, new, positive, schedule, time, when</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarPlus = 0xf271,
+
+        /// <summary>
+        /// Calendar Times (calendar-times)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, calendar, date, delete, event, remove, schedule, time, when, x</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        CalendarTimes = 0xf273,
+
+        /// <summary>
+        /// Caret Square Down (caret-square-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-down, dropdown, expand, menu, more, triangle</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareDown = 0xf150,
+
+        /// <summary>
+        /// Caret Square Left (caret-square-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, back, caret-square-o-left, previous, triangle</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareLeft = 0xf191,
+
+        /// <summary>
+        /// Caret Square Right (caret-square-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-right, forward, next, triangle</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareRight = 0xf152,
+
+        /// <summary>
+        /// Caret Square Up (caret-square-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, caret-square-o-up, collapse, triangle, upload</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        CaretSquareUp = 0xf151,
+
+        /// <summary>
+        /// Bar Chart (chart-bar)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: analytics, bar, chart, graph</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        ChartBar = 0xf080,
+
+        /// <summary>
+        /// Check Circle (check-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, confirm, correct, done, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CheckCircle = 0xf058,
+
+        /// <summary>
+        /// Check Square (check-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accept, agree, checkmark, confirm, correct, done, ok, select, success, tick, todo, yes</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        CheckSquare = 0xf14a,
+
+        /// <summary>
+        /// Circle (circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: circle-thin, diameter, dot, ellipse, notification, round</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Circle = 0xf111,
+
+        /// <summary>
+        /// Clipboard (clipboard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copy, notes, paste, record</para>
+        /// <para>Added in 5.0.0.</para>
+        /// </summary>
+        Clipboard = 0xf328,
+
+        /// <summary>
+        /// Clock (clock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: date, late, schedule, time, timer, timestamp, watch</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.12.1.</para>
+        /// </summary>
+        Clock = 0xf017,
+
+        /// <summary>
+        /// Clone (clone)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrange, copy, duplicate, paste</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.11.0.</para>
+        /// </summary>
+        Clone = 0xf24d,
+
+        /// <summary>
+        /// Closed Captioning (closed-captioning)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cc, deaf, hearing, subtitle, subtitling, text, video</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ClosedCaptioning = 0xf20a,
+
+        /// <summary>
+        /// Comment (comment)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9 and 5.10.1.</para>
+        /// </summary>
+        Comment = 0xf075,
+
+        /// <summary>
+        /// Alternate Comment (comment-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        CommentAlt = 0xf27a,
+
+        /// <summary>
+        /// Comment Dots (comment-dots)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, more, note, notification, reply, sms, speech, texting</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        CommentDots = 0xf4ad,
+
+        /// <summary>
+        /// Comments (comments)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bubble, chat, commenting, conversation, feedback, message, note, notification, sms, speech, texting</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Comments = 0xf086,
+
+        /// <summary>
+        /// Compass (compass)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: directions, directory, location, menu, navigation, safari, travel</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.11.0, 5.11.1 and 5.2.0.</para>
+        /// </summary>
+        Compass = 0xf14e,
+
+        /// <summary>
+        /// Copy (copy)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: clone, duplicate, file, files-o, paper, paste</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Copy = 0xf0c5,
+
+        /// <summary>
+        /// Copyright (copyright)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: brand, mark, register, trademark</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Copyright = 0xf1f9,
+
+        /// <summary>
+        /// Credit Card (credit-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: buy, checkout, credit-card-alt, debit, money, payment, purchase</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        CreditCard = 0xf09d,
+
+        /// <summary>
+        /// Dizzy Face (dizzy)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: dazed, dead, disapprove, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Dizzy = 0xf567,
+
+        /// <summary>
+        /// Dot Circle (dot-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: bullseye, notification, target</para>
+        /// <para>Added in 4.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        DotCircle = 0xf192,
+
+        /// <summary>
+        /// Edit (edit)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: edit, pen, pencil, update, write</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Edit = 0xf044,
+
+        /// <summary>
+        /// Envelope (envelope)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Envelope = 0xf0e0,
+
+        /// <summary>
+        /// Envelope Open (envelope-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: e-mail, email, letter, mail, message, notification, support</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        EnvelopeOpen = 0xf2b6,
+
+        /// <summary>
+        /// Eye (eye)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: look, optic, see, seen, show, sight, views, visible</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        Eye = 0xf06e,
+
+        /// <summary>
+        /// Eye Slash (eye-slash)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: blind, hide, show, toggle, unseen, views, visible, visiblity</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.7.0.</para>
+        /// </summary>
+        EyeSlash = 0xf070,
+
+        /// <summary>
+        /// File (file)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, new, page, pdf, resume</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        File = 0xf15b,
+
+        /// <summary>
+        /// Alternate File (file-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, file-text, invoice, new, page, pdf</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileAlt = 0xf15c,
+
+        /// <summary>
+        /// Archive File (file-archive)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: .zip, bundle, compress, compression, download, zip</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0, 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        FileArchive = 0xf1c6,
+
+        /// <summary>
+        /// Audio File (file-audio)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, mp3, music, page, play, sound</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileAudio = 0xf1c7,
+
+        /// <summary>
+        /// Code File (file-code)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: css, development, document, html</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileCode = 0xf1c9,
+
+        /// <summary>
+        /// Excel File (file-excel)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: csv, document, numbers, spreadsheets, table</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileExcel = 0xf1c3,
+
+        /// <summary>
+        /// Image File (file-image)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, image, jpg, photo, png</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileImage = 0xf1c5,
+
+        /// <summary>
+        /// PDF File (file-pdf)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: acrobat, document, preview, save</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FilePdf = 0xf1c1,
+
+        /// <summary>
+        /// Powerpoint File (file-powerpoint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: display, document, keynote, presentation</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FilePowerpoint = 0xf1c4,
+
+        /// <summary>
+        /// Video File (file-video)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, m4v, movie, mp4, play</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileVideo = 0xf1c8,
+
+        /// <summary>
+        /// Word File (file-word)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: document, edit, page, text, writing</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        FileWord = 0xf1c2,
+
+        /// <summary>
+        /// Flag (flag)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: country, notice, notification, notify, pole, report, symbol</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Flag = 0xf024,
+
+        /// <summary>
+        /// Flushed Face (flushed)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: embarrassed, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Flushed = 0xf579,
+
+        /// <summary>
+        /// Folder (folder)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, directory, document, file</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.10.1 and 5.3.0.</para>
+        /// </summary>
+        Folder = 0xf07b,
+
+        /// <summary>
+        /// Folder Open (folder-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: archive, directory, document, empty, file, new</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        FolderOpen = 0xf07c,
+
+        /// <summary>
+        /// Frowning Face (frown)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, rating, sad</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Frown = 0xf119,
+
+        /// <summary>
+        /// Frowning Face With Open Mouth (frown-open)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disapprove, emoticon, face, rating, sad</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        FrownOpen = 0xf57a,
+
+        /// <summary>
+        /// Futbol (futbol)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: ball, football, mls, soccer</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0 and 5.0.5.</para>
+        /// </summary>
+        Futbol = 0xf1e3,
+
+        /// <summary>
+        /// Gem (gem)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: diamond, jewelry, sapphire, stone, treasure</para>
+        /// <para>Added in 5.0.0, updated in 5.10.1.</para>
+        /// </summary>
+        Gem = 0xf3a5,
+
+        /// <summary>
+        /// Grimacing Face (grimace)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cringe, emoticon, face, teeth</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Grimace = 0xf57f,
+
+        /// <summary>
+        /// Grinning Face (grin)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Grin = 0xf580,
+
+        /// <summary>
+        /// Alternate Grinning Face (grin-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinAlt = 0xf581,
+
+        /// <summary>
+        /// Grinning Face With Smiling Eyes (grin-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinBeam = 0xf582,
+
+        /// <summary>
+        /// Grinning Face With Sweat (grin-beam-sweat)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: embarass, emoticon, face, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinBeamSweat = 0xf583,
+
+        /// <summary>
+        /// Smiling Face With Heart-Eyes (grin-hearts)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, love, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinHearts = 0xf584,
+
+        /// <summary>
+        /// Grinning Squinting Face (grin-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinSquint = 0xf585,
+
+        /// <summary>
+        /// Rolling On The Floor Laughing (grin-squint-tears)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GrinSquintTears = 0xf586,
+
+        /// <summary>
+        /// Star-Struck (grin-stars)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, star-struck</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinStars = 0xf587,
+
+        /// <summary>
+        /// Face With Tears Of Joy (grin-tears)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0.</para>
+        /// </summary>
+        GrinTears = 0xf588,
+
+        /// <summary>
+        /// Face With Tongue (grin-tongue)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinTongue = 0xf589,
+
+        /// <summary>
+        /// Squinting Face With Tongue (grin-tongue-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinTongueSquint = 0xf58a,
+
+        /// <summary>
+        /// Winking Face With Tongue (grin-tongue-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0, 5.11.1 and 5.12.0.</para>
+        /// </summary>
+        GrinTongueWink = 0xf58b,
+
+        /// <summary>
+        /// Grinning Winking Face (grin-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, flirt, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.1.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        GrinWink = 0xf58c,
+
+        /// <summary>
+        /// Lizard (Hand) (hand-lizard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandLizard = 0xf258,
+
+        /// <summary>
+        /// Paper (Hand) (hand-paper)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: game, halt, roshambo, stop</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPaper = 0xf256,
+
+        /// <summary>
+        /// Peace (Hand) (hand-peace)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: rest, truce</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPeace = 0xf25b,
+
+        /// <summary>
+        /// Hand Pointing Down (hand-point-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, hand-o-down, point</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointDown = 0xf0a7,
+
+        /// <summary>
+        /// Hand Pointing Left (hand-point-left)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: back, finger, hand-o-left, left, point, previous</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointLeft = 0xf0a5,
+
+        /// <summary>
+        /// Hand Pointing Right (hand-point-right)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, forward, hand-o-right, next, point, right</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointRight = 0xf0a4,
+
+        /// <summary>
+        /// Hand Pointing Up (hand-point-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: finger, hand-o-up, point</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointUp = 0xf0a6,
+
+        /// <summary>
+        /// Pointer (Hand) (hand-pointer)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: arrow, cursor, select</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandPointer = 0xf25a,
+
+        /// <summary>
+        /// Rock (Hand) (hand-rock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: fist, game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandRock = 0xf255,
+
+        /// <summary>
+        /// Scissors (Hand) (hand-scissors)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cut, game, roshambo</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0.</para>
+        /// </summary>
+        HandScissors = 0xf257,
+
+        /// <summary>
+        /// Spock (Hand) (hand-spock)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: live long, prosper, salute, star trek, vulcan</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.12.0.</para>
+        /// </summary>
+        HandSpock = 0xf259,
+
+        /// <summary>
+        /// Handshake (handshake)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: agreement, greeting, meeting, partnership</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
+        /// </summary>
+        Handshake = 0xf2b5,
+
+        /// <summary>
+        /// HDD (hdd)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: cpu, hard drive, harddrive, machine, save, storage</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Hdd = 0xf0a0,
+
+        /// <summary>
+        /// Heart (heart)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: favorite, like, love, relationship, valentine</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.9, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Heart = 0xf004,
+
+        /// <summary>
+        /// Hospital (hospital)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Hospital = 0xf0f8,
+
+        /// <summary>
+        /// Hourglass (hourglass)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: hour, minute, sand, stopwatch, time</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Hourglass = 0xf254,
+
+        /// <summary>
+        /// Identification Badge (id-badge)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: address, contact, identification, license, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.3.</para>
+        /// </summary>
+        IdBadge = 0xf2c1,
+
+        /// <summary>
+        /// Identification Card (id-card)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contact, demographics, document, identification, issued, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.0.3, 5.10.1 and 5.8.0.</para>
+        /// </summary>
+        IdCard = 0xf2c2,
+
+        /// <summary>
+        /// Image (image)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: album, landscape, photo, picture</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Image = 0xf03e,
+
+        /// <summary>
+        /// Images (images)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: album, landscape, photo, picture</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Images = 0xf302,
+
+        /// <summary>
+        /// Keyboard (keyboard)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: accessory, edit, input, text, type, write</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        Keyboard = 0xf11c,
+
+        /// <summary>
+        /// Kissing Face (kiss)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.1.1, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Kiss = 0xf596,
+
+        /// <summary>
+        /// Kissing Face With Smiling Eyes (kiss-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        KissBeam = 0xf597,
+
+        /// <summary>
+        /// Face Blowing A Kiss (kiss-wink-heart)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: beso, emoticon, face, love, smooch</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        KissWinkHeart = 0xf598,
+
+        /// <summary>
+        /// Grinning Face With Big Eyes (laugh)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, laugh, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Laugh = 0xf599,
+
+        /// <summary>
+        /// Laugh Face With Beaming Eyes (laugh-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughBeam = 0xf59a,
+
+        /// <summary>
+        /// Laughing Squinting Face (laugh-squint)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughSquint = 0xf59b,
+
+        /// <summary>
+        /// Laughing Winking Face (laugh-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: LOL, emoticon, face, happy, smile</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        LaughWink = 0xf59c,
+
+        /// <summary>
+        /// Lemon (lemon)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: citrus, lemonade, lime, tart</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        Lemon = 0xf094,
+
+        /// <summary>
+        /// Life Ring (life-ring)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: coast guard, help, overboard, save, support</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        LifeRing = 0xf1cd,
+
+        /// <summary>
+        /// Lightbulb (lightbulb)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: energy, idea, inspiration, light</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0 and 5.3.0.</para>
+        /// </summary>
+        Lightbulb = 0xf0eb,
+
+        /// <summary>
+        /// Alternate List (list-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: checklist, completed, done, finished, ol, todo, ul</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        ListAlt = 0xf022,
+
+        /// <summary>
+        /// Map (map)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: address, coordinates, destination, gps, localize, location, map, navigation, paper, pin, place, point of interest, position, route, travel</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.1.0.</para>
+        /// </summary>
+        Map = 0xf279,
+
+        /// <summary>
+        /// Neutral Face (meh)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Meh = 0xf11a,
+
+        /// <summary>
+        /// Face Without Mouth (meh-blank)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        MehBlank = 0xf5a4,
+
+        /// <summary>
+        /// Face With Rolling Eyes (meh-rolling-eyes)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, neutral, rating</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        MehRollingEyes = 0xf5a5,
+
+        /// <summary>
+        /// Minus Square (minus-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: collapse, delete, hide, minify, negative, remove, shape, trash</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        MinusSquare = 0xf146,
+
+        /// <summary>
+        /// Alternate Money Bill (money-bill-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: buy, cash, checkout, money, payment, price, purchase</para>
+        /// <para>Added in 5.0.0, updated in 5.0.13.</para>
+        /// </summary>
+        MoneyBillAlt = 0xf3d1,
+
+        /// <summary>
+        /// Moon (moon)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: contrast, crescent, dark, lunar, night</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Moon = 0xf186,
+
+        /// <summary>
+        /// Newspaper (newspaper)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: article, editorial, headline, journal, journalism, news, press</para>
+        /// <para>Added in 4.2.0, updated in 5.0.0.</para>
+        /// </summary>
+        Newspaper = 0xf1ea,
+
+        /// <summary>
+        /// Object Group (object-group)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: combine, copy, design, merge, select</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ObjectGroup = 0xf247,
+
+        /// <summary>
+        /// Object Ungroup (object-ungroup)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copy, design, merge, select, separate</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        ObjectUngroup = 0xf248,
+
+        /// <summary>
+        /// Paper Plane (paper-plane)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: air, float, fold, mail, paper, send</para>
+        /// <para>Added in 4.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        PaperPlane = 0xf1d8,
+
+        /// <summary>
+        /// Pause Circle (pause-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: hold, wait</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        PauseCircle = 0xf28b,
+
+        /// <summary>
+        /// Play Circle (play-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: audio, music, playing, sound, start, video</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        PlayCircle = 0xf144,
+
+        /// <summary>
+        /// Plus Square (plus-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: add, create, expand, new, positive, shape</para>
+        /// <para>Added in 3.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        PlusSquare = 0xf0fe,
+
+        /// <summary>
+        /// Question Circle (question-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: help, information, support, unknown</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        QuestionCircle = 0xf059,
+
+        /// <summary>
+        /// Registered Trademark (registered)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: copyright, mark, trademark</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        Registered = 0xf25d,
+
+        /// <summary>
+        /// Crying Face (sad-cry)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, tear, tears</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SadCry = 0xf5b3,
+
+        /// <summary>
+        /// Loudly Crying Face (sad-tear)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, tear, tears</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SadTear = 0xf5b4,
+
+        /// <summary>
+        /// Save (save)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disk, download, floppy, floppy-o</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Save = 0xf0c7,
+
+        /// <summary>
+        /// Share Square (share-square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: forward, save, send, social</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0.</para>
+        /// </summary>
+        ShareSquare = 0xf14d,
+
+        /// <summary>
+        /// Smiling Face (smile)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: approve, emoticon, face, happy, rating, satisfied</para>
+        /// <para>Added in 3.1.0, updated in 5.0.0, 5.0.9, 5.1.0, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Smile = 0xf118,
+
+        /// <summary>
+        /// Beaming Face With Smiling Eyes (smile-beam)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, positive</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SmileBeam = 0xf5b8,
+
+        /// <summary>
+        /// Winking Face (smile-wink)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, happy, hint, joke</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        SmileWink = 0xf4da,
+
+        /// <summary>
+        /// Snowflake (snowflake)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: precipitation, rain, winter</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.5.0.</para>
+        /// </summary>
+        Snowflake = 0xf2dc,
+
+        /// <summary>
+        /// Square (square)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: block, box, shape</para>
+        /// <para>Added in 2.0.0, updated in 5.0.0, 5.10.1 and 5.10.2.</para>
+        /// </summary>
+        Square = 0xf0c8,
+
+        /// <summary>
+        /// Star (star)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: achievement, award, favorite, important, night, rating, score</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        Star = 0xf005,
+
+        /// <summary>
+        /// Star-Half (star-half)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: achievement, award, rating, score, star-half-empty, star-half-full</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        StarHalf = 0xf089,
+
+        /// <summary>
+        /// Sticky Note (sticky-note)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: message, note, paper, reminder, sticker</para>
+        /// <para>Added in 4.4.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        StickyNote = 0xf249,
+
+        /// <summary>
+        /// Stop Circle (stop-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: block, box, circle, square</para>
+        /// <para>Added in 4.5.0, updated in 5.0.0.</para>
+        /// </summary>
+        StopCircle = 0xf28d,
+
+        /// <summary>
+        /// Sun (sun)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: brighten, contrast, day, lighter, sol, solar, star, weather</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.5.0.</para>
+        /// </summary>
+        Sun = 0xf185,
+
+        /// <summary>
+        /// Hushed Face (surprise)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: emoticon, face, shocked</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Surprise = 0xf5c2,
+
+        /// <summary>
+        /// Thumbs-Down (thumbs-down)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: disagree, disapprove, dislike, hand, social, thumbs-o-down</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        ThumbsDown = 0xf165,
+
+        /// <summary>
+        /// Thumbs-Up (thumbs-up)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: agree, approve, favorite, hand, like, ok, okay, social, success, thumbs-o-up, yes, you got it dude</para>
+        /// <para>Added in 3.2.0, updated in 5.0.0 and 5.10.2.</para>
+        /// </summary>
+        ThumbsUp = 0xf164,
+
+        /// <summary>
+        /// Times Circle (times-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: close, cross, exit, incorrect, notice, notification, notify, problem, wrong, x</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0.</para>
+        /// </summary>
+        TimesCircle = 0xf057,
+
+        /// <summary>
+        /// Tired Face (tired)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: angry, emoticon, face, grumpy, upset</para>
+        /// <para>Added in 5.1.0, updated in 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        Tired = 0xf5c8,
+
+        /// <summary>
+        /// Alternate Trash (trash-alt)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: delete, garbage, hide, remove, trash-o</para>
+        /// <para>Added in 5.0.0, updated in 5.10.2 and 5.7.0.</para>
+        /// </summary>
+        TrashAlt = 0xf2ed,
+
+        /// <summary>
+        /// User (user)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 1.0.0, updated in 5.0.0, 5.0.11 and 5.0.3.</para>
+        /// </summary>
+        User = 0xf007,
+
+        /// <summary>
+        /// User Circle (user-circle)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: account, avatar, head, human, man, person, profile</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0, 5.0.11, 5.0.3, 5.11.0 and 5.11.1.</para>
+        /// </summary>
+        UserCircle = 0xf2bd,
+
+        /// <summary>
+        /// Window Close (window-close)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, cancel, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowClose = 0xf410,
+
+        /// <summary>
+        /// Window Maximize (window-maximize)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, computer, development, expand</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowMaximize = 0xf2d0,
+
+        /// <summary>
+        /// Window Minimize (window-minimize)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, collapse, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0 and 5.10.1.</para>
+        /// </summary>
+        WindowMinimize = 0xf2d1,
+
+        /// <summary>
+        /// Window Restore (window-restore)
+        /// <para>Styles: solid, regular</para>
+        /// <para>Terms: browser, computer, development</para>
+        /// <para>Added in 4.7.0, updated in 5.0.0.</para>
+        /// </summary>
+        WindowRestore = 0xf2d2,
+
+    }
 }
