@@ -102,6 +102,11 @@ or with the optional rotation (FlipVertical, FlipHorizontal, Rotate90, Rotate180
 [TreeIcon(FontAwesome5Solid.CheckDouble, Rotations.Rotate90)]
 ```
 
+## Changelog
+
+[Changelog](CHANGELOG.md)
+
+
 ## More info
 https://getadigital.com/blog/contenttype-preview-images-w.-icons/
 
