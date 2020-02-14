@@ -5,8 +5,6 @@ This package basically consists of an override to the built in "ImageUrlAttribut
 
 ![Screenshot of package](/docs/fontthumbnail_overview.jpg)
 
-![Screenshot of package](/docs/treeicon_overview.jpg)
-
 ## Features
 * Generates preview images for the different contenttypes in your Episerver project
 * Replace tree icons with custom icons for content types
@@ -62,7 +60,7 @@ Then specify the font and the character to use in the ThumbnailIcon constructor 
 
 ## Tree icon feature
 
-
+![Screenshot of package](/docs/treeicon_overview.jpg)
 
 To enable the feature to use custom icons in the content tree you have to add this configuration:
 ```xml
