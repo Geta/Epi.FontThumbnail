@@ -16,6 +16,7 @@ This package basically consists of an override to the built in "ImageUrlAttribut
 * Install NuGet package (use [EPiServer Nuget](http://nuget.episerver.com))
 * ``Install-Package Geta.Epi.FontThumbnail``
 
+_Please notice that this attribute cannot be used in conjunction with any other attributes inheriting from ImageUrlAttribute (for example SiteImageUrl or basic ImageUrl-attributes) on the same contenttype. All existing ImageUrl-attributes on the contenttype where you want to use this, needs to be removed._
 
 ## Details
 Using the built in ImageUrlAttribute, you specify the images to be presented like this:
