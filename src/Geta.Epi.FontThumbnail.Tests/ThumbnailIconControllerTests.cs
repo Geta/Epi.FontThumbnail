@@ -55,6 +55,26 @@ namespace Geta.Epi.FontThumbnail.Tests
             Assert.NotNull(result?.Image);
             Assert.True(GetUniqueImageColors(result.Image).Count() > 1, "Image is blank.");
         }
+        
+        [Theory]
+        [InlineData(0xe897, "icofont.ttf")]
+        [InlineData(0xe898, "icofont.ttf")]
+        [InlineData(0xe89a, "icofont.ttf")]
+        [InlineData(0xe89b, "icofont.ttf")]
+        [InlineData(0xf2b9, "fontawesome.ttf")]
+        public void GenerateThumbnail_FromDisk_IcoFont(int icon, string customFont)
+        {
+            // Arrange
+            _fixture.Settings.Character = icon;
+            _fixture.Settings.CustomFontName = customFont;
+
+            // Act
+            var result = _fixture.Controller.GenerateThumbnail(_fixture.Settings) as ImageResult;
+
+            // Assert
+            Assert.NotNull(result?.Image);
+            Assert.True(GetUniqueImageColors(result.Image).Count() > 1, "Image is blank.");
+        }
 
         [Theory]
         [InlineData("#FFF")]
