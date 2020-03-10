@@ -17,6 +17,11 @@ namespace Geta.Epi.FontThumbnail
     [ServiceConfiguration(typeof(IFontThumbnailService))]
     public class FontThumbnailService : IFontThumbnailService
     {
+        /// <summary>
+        /// Loads or creates a thumbnail using the given settings
+        /// </summary>
+        /// <param name="settings">The ThumbnailSettings parameter</param>
+        /// <returns></returns>
         public virtual Image LoadThumbnailImage(ThumbnailSettings settings)
         {
             var fileName = settings.GetFileName(".png");
