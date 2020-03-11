@@ -1,6 +1,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [1.2.3]
+
+### Changed
+- Added some more tests for using custom fonts
+- Added XML docs, mainly for the attributes (ThumbnailAttribute and TreeIconAttribute)
 
 ## [1.2.0]
 

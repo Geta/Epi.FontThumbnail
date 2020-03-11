@@ -47,16 +47,36 @@ Using the following configuration you can change the default colors:
 </appSettings>
 ```
 
-Loading custom fonts
+**Loading custom fonts**
+
 To load custom icon fonts you can place the font you want to use in the default folder [appDataPath]\fonts\ (this can also be customized using appSettings.
 ```xml
 <appSettings>
-    <add key="FontThumbnail.CustomFontPath" value="" />
+    <add key="FontThumbnail.CustomFontPath" value="App_Data\fonts\" />
 </appSettings>
 ```
-Then specify the font and the character to use in the ThumbnailIcon constructor like this.
+_The above example shows how you should configure the path if you want to add the specific font to your solution in a folder in your project, for example the App_Data folder. You also have to make sure to set the properties of the font to "Copy to output directory"_
+
+Then specify the font and the character reference from the specific font to use in the ThumbnailIcon constructor like this.
+
 ```cs
 [ThumbnailIcon("fontello.ttf",0xe801)]
+```
+
+**If you are unsure about what value to enter as a character reference** 
+
+Usually when you download an icon font, you also get an accompanying css file for with character references, which can look like this:
+```css
+.icofont-brand-adidas:before
+{
+  content: "\e897";
+}
+```
+
+Take the content reference from the css (\e897) and replace the \ with 0x so the end result is 0xe897 instead of "\e897" and use that value for referencing the correct character in the attribute like this:
+
+```cs
+[ThumbnailIcon("customfont.ttf",0xe897)]
 ```
 
 ## Tree icon feature
