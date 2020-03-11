@@ -104,7 +104,7 @@ namespace Geta.Epi.FontThumbnail.Settings
         /// <returns></returns>
         public override string ToString()
         {
-            return string.Concat(EmbeddedFont, CustomFontName, Character, BackgroundColor, ForegroundColor, FontSize, Width, Height, Rotate);
+            return string.Concat(EmbeddedFont ?? string.Empty, CustomFontName, Character, BackgroundColor, ForegroundColor, FontSize, Width, Height, Rotate);
         }
     }
 }
