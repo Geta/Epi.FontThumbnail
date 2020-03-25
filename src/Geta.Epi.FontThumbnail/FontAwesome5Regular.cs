@@ -745,7 +745,7 @@ namespace Geta.Epi.FontThumbnail
         /// <summary>
         /// Hospital (hospital)
         /// <para>Styles: solid, regular</para>
-        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Terms: building, covid-19, emergency room, medical center</para>
         /// <para>Added in 3.0.0, updated in 5.0.0.</para>
         /// </summary>
         Hospital = 0xf0f8,

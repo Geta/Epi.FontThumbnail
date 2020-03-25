@@ -1,6 +1,12 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+
+## [1.2.4]
+
+### Changed
+- Updated Font Awesome to release 5.13.0
+
 ## [1.2.3]
 
 ### Changed
