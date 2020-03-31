@@ -88,7 +88,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Ambulance (ambulance)
-        /// <para>Terms: emergency, emt, er, help, hospital, support, vehicle</para>
+        /// <para>Terms: covid-19, emergency, emt, er, help, hospital, support, vehicle</para>
         /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
         /// </summary>
         Ambulance = 0xf0f9,
@@ -571,7 +571,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Biohazard (biohazard)
-        /// <para>Terms: danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie</para>
+        /// <para>Terms: covid-19, danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie</para>
         /// <para>Added in 5.6.0, updated in 5.7.0.</para>
         /// </summary>
         Biohazard = 0xf780,
@@ -729,6 +729,13 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.0.9, updated in 5.7.0.</para>
         /// </summary>
         BoxOpen = 0xf49e,
+
+        /// <summary>
+        /// Tissue Box (box-tissue)
+        /// <para>Terms: cough, covid-19, kleenex, mucus, nose, sneeze, snot</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        BoxTissue = 0xf95b,
 
         /// <summary>
         /// Boxes (boxes)
@@ -1349,7 +1356,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Medical Clinic (clinic-medical)
-        /// <para>Terms: doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
+        /// <para>Terms: covid-19, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
         /// <para>Added in 5.7.0.</para>
         /// </summary>
         ClinicMedical = 0xf7f2,
@@ -1864,6 +1871,13 @@ namespace Geta.Epi.FontThumbnail
         Directions = 0xf5eb,
 
         /// <summary>
+        /// Disease (disease)
+        /// <para>Terms: bacteria, cancer, covid-19, illness, infection, sickness, virus</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        Disease = 0xf7fa,
+
+        /// <summary>
         /// Divide (divide)
         /// <para>Terms: arithmetic, calculus, division, math</para>
         /// <para>Added in 5.0.13.</para>
@@ -2226,6 +2240,13 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 1.0.0, updated in 5.0.0.</para>
         /// </summary>
         FastForward = 0xf050,
+
+        /// <summary>
+        /// Faucet (faucet)
+        /// <para>Terms: covid-19, drip, house, hygiene, kitchen, sink, water</para>
+        /// <para>Added in 5.12.0.</para>
+        /// </summary>
+        Faucet = 0xf905,
 
         /// <summary>
         /// Fax (fax)
@@ -2989,11 +3010,25 @@ namespace Geta.Epi.FontThumbnail
         HandHoldingHeart = 0xf4be,
 
         /// <summary>
+        /// Hand Holding Medical Cross (hand-holding-medical)
+        /// <para>Terms: care, covid-19, donate, help</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HandHoldingMedical = 0xf95c,
+
+        /// <summary>
         /// Hand Holding US Dollar (hand-holding-usd)
         /// <para>Terms: $, carry, dollar sign, donation, giving, lift, money, price</para>
         /// <para>Added in 5.0.9, updated in 5.11.0.</para>
         /// </summary>
         HandHoldingUsd = 0xf4c0,
+
+        /// <summary>
+        /// Hand Holding Water (hand-holding-water)
+        /// <para>Terms: carry, covid-19, drought, grow, lift</para>
+        /// <para>Added in 5.0.9.</para>
+        /// </summary>
+        HandHoldingWater = 0xf4c1,
 
         /// <summary>
         /// Lizard (Hand) (hand-lizard)
@@ -3083,6 +3118,13 @@ namespace Geta.Epi.FontThumbnail
         HandScissors = 0xf257,
 
         /// <summary>
+        /// Hand Sparkles (hand-sparkles)
+        /// <para>Terms: clean, covid-19, hygiene, magic, soap, wash</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HandSparkles = 0xf95d,
+
+        /// <summary>
         /// Spock (Hand) (hand-spock)
         /// <para>Styles: solid, regular</para>
         /// <para>Terms: live long, prosper, salute, star trek, vulcan</para>
@@ -3105,12 +3147,33 @@ namespace Geta.Epi.FontThumbnail
         HandsHelping = 0xf4c4,
 
         /// <summary>
+        /// Hands Wash (hands-wash)
+        /// <para>Terms: covid-19, hygiene, soap, wash</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HandsWash = 0xf95e,
+
+        /// <summary>
         /// Handshake (handshake)
         /// <para>Styles: solid, regular</para>
         /// <para>Terms: agreement, greeting, meeting, partnership</para>
         /// <para>Added in 4.7.0, updated in 5.0.0 and 5.0.9.</para>
         /// </summary>
         Handshake = 0xf2b5,
+
+        /// <summary>
+        /// Handshake Alternate Slash (handshake-alt-slash)
+        /// <para>Terms: broken, covid-19, social distance</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HandshakeAltSlash = 0xf95f,
+
+        /// <summary>
+        /// Handshake Slash (handshake-slash)
+        /// <para>Terms: broken, covid-19, social distance</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HandshakeSlash = 0xf960,
 
         /// <summary>
         /// Hanukiah (hanukiah)
@@ -3161,6 +3224,34 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 2.0.0, updated in 5.0.0 and 5.10.1.</para>
         /// </summary>
         Hdd = 0xf0a0,
+
+        /// <summary>
+        /// Head Side Cough (head-side-cough)
+        /// <para>Terms: cough, covid-19, germs, lungs, respiratory, sick</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HeadSideCough = 0xf961,
+
+        /// <summary>
+        /// Head Side-Cough-Slash (head-side-cough-slash)
+        /// <para>Terms: cough, covid-19, germs, lungs, respiratory, sick</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HeadSideCoughSlash = 0xf962,
+
+        /// <summary>
+        /// Head Side Mask (head-side-mask)
+        /// <para>Terms: breath, covid-19, filter, respirator, virus</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HeadSideMask = 0xf963,
+
+        /// <summary>
+        /// Head Side Virus (head-side-virus)
+        /// <para>Terms: cold, covid-19, flu, sick</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HeadSideVirus = 0xf964,
 
         /// <summary>
         /// Heading (heading)
@@ -3285,24 +3376,31 @@ namespace Geta.Epi.FontThumbnail
         /// <summary>
         /// Hospital (hospital)
         /// <para>Styles: solid, regular</para>
-        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Terms: building, covid-19, emergency room, medical center</para>
         /// <para>Added in 3.0.0, updated in 5.0.0.</para>
         /// </summary>
         Hospital = 0xf0f8,
 
         /// <summary>
         /// Alternate Hospital (hospital-alt)
-        /// <para>Terms: building, emergency room, medical center</para>
+        /// <para>Terms: building, covid-19, emergency room, medical center</para>
         /// <para>Added in 5.0.7.</para>
         /// </summary>
         HospitalAlt = 0xf47d,
 
         /// <summary>
         /// Hospital Symbol (hospital-symbol)
-        /// <para>Terms: clinic, emergency, map</para>
+        /// <para>Terms: clinic, covid-19, emergency, map</para>
         /// <para>Added in 5.0.7.</para>
         /// </summary>
         HospitalSymbol = 0xf47e,
+
+        /// <summary>
+        /// Hospital With User (hospital-user)
+        /// <para>Terms: covid-19, doctor, network, patient, primary care</para>
+        /// <para>Added in 5.7.0.</para>
+        /// </summary>
+        HospitalUser = 0xf80d,
 
         /// <summary>
         /// Hot Tub (hot-tub)
@@ -3360,6 +3458,13 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.4.0.</para>
         /// </summary>
         HouseDamage = 0xf6f1,
+
+        /// <summary>
+        /// House User (house-user)
+        /// <para>Terms: covid-19, home, isolation, quarantine</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        HouseUser = 0xf965,
 
         /// <summary>
         /// Hryvnia (hryvnia)
@@ -3601,6 +3706,13 @@ namespace Geta.Epi.FontThumbnail
         LaptopCode = 0xf5fc,
 
         /// <summary>
+        /// Laptop House (laptop-house)
+        /// <para>Terms: computer, covid-19, device, office, remote, work from home</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        LaptopHouse = 0xf966,
+
+        /// <summary>
         /// Laptop Medical (laptop-medical)
         /// <para>Terms: computer, device, ehr, electronic health records, history</para>
         /// <para>Added in 5.7.0.</para>
@@ -3810,6 +3922,20 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.1.0.</para>
         /// </summary>
         LuggageCart = 0xf59d,
+
+        /// <summary>
+        /// Lungs (lungs)
+        /// <para>Terms: air, breath, covid-19, organ, respiratory</para>
+        /// <para>Added in 5.2.0.</para>
+        /// </summary>
+        Lungs = 0xf604,
+
+        /// <summary>
+        /// Lungs Virus (lungs-virus)
+        /// <para>Terms: breath, covid-19, respiratory, sick</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        LungsVirus = 0xf967,
 
         /// <summary>
         /// Magic (magic)
@@ -4037,7 +4163,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Microscope (microscope)
-        /// <para>Terms: electron, lens, optics, science, shrink</para>
+        /// <para>Terms: covid-19, electron, lens, optics, science, shrink</para>
         /// <para>Added in 5.2.0.</para>
         /// </summary>
         Microscope = 0xf610,
@@ -4449,6 +4575,13 @@ namespace Geta.Epi.FontThumbnail
         PencilRuler = 0xf5ae,
 
         /// <summary>
+        /// People Arrows (people-arrows)
+        /// <para>Terms: covid-19, personal space, social distance, space, spread, users</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        PeopleArrows = 0xf968,
+
+        /// <summary>
         /// People Carry (people-carry)
         /// <para>Terms: box, carry, fragile, help, movers, package</para>
         /// <para>Added in 5.0.9.</para>
@@ -4580,6 +4713,13 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.1.0, updated in 5.8.0.</para>
         /// </summary>
         PlaneDeparture = 0xf5b0,
+
+        /// <summary>
+        /// Plane Slash (plane-slash)
+        /// <para>Terms: airplane mode, canceled, covid-19, delayed, grounded, travel</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        PlaneSlash = 0xf969,
 
         /// <summary>
         /// Play (play)
@@ -4743,6 +4883,20 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.0.13.</para>
         /// </summary>
         ProjectDiagram = 0xf542,
+
+        /// <summary>
+        /// Pump Medical (pump-medical)
+        /// <para>Terms: anti-bacterial, clean, covid-19, disinfect, hygiene, medical grade, sanitizer, soap</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        PumpMedical = 0xf96a,
+
+        /// <summary>
+        /// Pump Soap (pump-soap)
+        /// <para>Terms: anti-bacterial, clean, covid-19, disinfect, hygiene, sanitizer, soap</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        PumpSoap = 0xf96b,
 
         /// <summary>
         /// Puzzle Piece (puzzle-piece)
@@ -5185,6 +5339,13 @@ namespace Geta.Epi.FontThumbnail
         ShieldAlt = 0xf3ed,
 
         /// <summary>
+        /// Shield Virus (shield-virus)
+        /// <para>Terms: antibodies, barrier, covid-19, health, protect</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        ShieldVirus = 0xf96c,
+
+        /// <summary>
         /// Ship (ship)
         /// <para>Terms: boat, sea, water</para>
         /// <para>Added in 4.3.0, updated in 5.0.0, 5.10.2, 5.11.0 and 5.11.1.</para>
@@ -5432,6 +5593,13 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.6.0.</para>
         /// </summary>
         Snowplow = 0xf7d2,
+
+        /// <summary>
+        /// Soap (soap)
+        /// <para>Terms: bubbles, clean, covid-19, hygiene, wash</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        Soap = 0xf96e,
 
         /// <summary>
         /// Socks (socks)
@@ -5690,7 +5858,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Stethoscope (stethoscope)
-        /// <para>Terms: diagnosis, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
+        /// <para>Terms: covid-19, diagnosis, doctor, general practitioner, hospital, infirmary, medicine, office, outpatient</para>
         /// <para>Added in 3.0.0, updated in 5.0.0 and 5.0.7.</para>
         /// </summary>
         Stethoscope = 0xf0f1,
@@ -5726,6 +5894,13 @@ namespace Geta.Epi.FontThumbnail
         Stopwatch = 0xf2f2,
 
         /// <summary>
+        /// Stopwatch 20 (stopwatch-20)
+        /// <para>Terms: ABCs, countdown, covid-19, happy birthday, i will survive, reminder, seconds, time, timer</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        Stopwatch20 = 0xf96f,
+
+        /// <summary>
         /// Store (store)
         /// <para>Terms: building, buy, purchase, shopping</para>
         /// <para>Added in 5.0.13, updated in 5.11.0 and 5.11.1.</para>
@@ -5738,6 +5913,20 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.0.13.</para>
         /// </summary>
         StoreAlt = 0xf54f,
+
+        /// <summary>
+        /// Alternate Store Slash (store-alt-slash)
+        /// <para>Terms: building, buy, closed, covid-19, purchase, shopping</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        StoreAltSlash = 0xf970,
+
+        /// <summary>
+        /// Store Slash (store-slash)
+        /// <para>Terms: building, buy, closed, covid-19, purchase, shopping</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        StoreSlash = 0xf971,
 
         /// <summary>
         /// Stream (stream)
@@ -5862,7 +6051,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Syringe (syringe)
-        /// <para>Terms: doctor, immunizations, medical, needle</para>
+        /// <para>Terms: covid-19, doctor, immunizations, medical, needle</para>
         /// <para>Added in 5.0.7.</para>
         /// </summary>
         Syringe = 0xf48e,
@@ -5960,14 +6149,14 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// High Temperature (temperature-high)
-        /// <para>Terms: cook, mercury, summer, thermometer, warm</para>
+        /// <para>Terms: cook, covid-19, mercury, summer, thermometer, warm</para>
         /// <para>Added in 5.5.0.</para>
         /// </summary>
         TemperatureHigh = 0xf769,
 
         /// <summary>
         /// Low Temperature (temperature-low)
-        /// <para>Terms: cold, cool, mercury, thermometer, winter</para>
+        /// <para>Terms: cold, cool, covid-19, mercury, thermometer, winter</para>
         /// <para>Added in 5.5.0.</para>
         /// </summary>
         TemperatureLow = 0xf76b,
@@ -6030,7 +6219,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Thermometer (thermometer)
-        /// <para>Terms: mercury, status, temperature</para>
+        /// <para>Terms: covid-19, mercury, status, temperature</para>
         /// <para>Added in 5.0.7.</para>
         /// </summary>
         Thermometer = 0xf491,
@@ -6160,10 +6349,17 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Toilet Paper (toilet-paper)
-        /// <para>Terms: bathroom, halloween, holiday, lavatory, prank, restroom, roll</para>
+        /// <para>Terms: bathroom, covid-19, halloween, holiday, lavatory, prank, restroom, roll</para>
         /// <para>Added in 5.10.2, updated in 5.4.0.</para>
         /// </summary>
         ToiletPaper = 0xf71e,
+
+        /// <summary>
+        /// Toilet Paper Slash (toilet-paper-slash)
+        /// <para>Terms: bathroom, covid-19, halloween, holiday, lavatory, leaves, prank, restroom, roll, trouble, ut oh</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        ToiletPaperSlash = 0xf972,
 
         /// <summary>
         /// Toolbox (toolbox)
@@ -6527,7 +6723,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Doctor (user-md)
-        /// <para>Terms: job, medical, nurse, occupation, physician, profile, surgeon</para>
+        /// <para>Terms: covid-19, job, medical, nurse, occupation, physician, profile, surgeon</para>
         /// <para>Added in 2.0.0, updated in 5.0.0, 5.0.11, 5.0.3 and 5.0.7.</para>
         /// </summary>
         UserMd = 0xf0f0,
@@ -6548,7 +6744,7 @@ namespace Geta.Epi.FontThumbnail
 
         /// <summary>
         /// Nurse (user-nurse)
-        /// <para>Terms: doctor, midwife, practitioner, surgeon</para>
+        /// <para>Terms: covid-19, doctor, midwife, practitioner, surgeon</para>
         /// <para>Added in 5.12.0, updated in 5.7.0.</para>
         /// </summary>
         UserNurse = 0xf82f,
@@ -6692,6 +6888,27 @@ namespace Geta.Epi.FontThumbnail
         /// <para>Added in 5.3.0.</para>
         /// </summary>
         Vihara = 0xf6a7,
+
+        /// <summary>
+        /// Virus (virus)
+        /// <para>Terms: bug, covid-19, flu, health, sick, viral</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        Virus = 0xf974,
+
+        /// <summary>
+        /// Virus Slash (virus-slash)
+        /// <para>Terms: bug, covid-19, cure, eliminate, flu, health, sick, viral</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        VirusSlash = 0xf975,
+
+        /// <summary>
+        /// Viruses (viruses)
+        /// <para>Terms: bugs, covid-19, flu, health, multiply, sick, spread, viral</para>
+        /// <para>Added in 5.13.0.</para>
+        /// </summary>
+        Viruses = 0xf976,
 
         /// <summary>
         /// Voicemail (voicemail)
