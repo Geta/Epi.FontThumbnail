@@ -12,6 +12,7 @@
     <description>Generates images based on FontAwesome (4 and 5) or custom icon font, to be shown when creating new content in Episerver.</description>
     <copyright>Copyright 2019 Geta</copyright>
     <tags>Episerver</tags>
+    <repository type="git" url="URL" branch="BRANCH_NAME" commit="COMMIT" />
     <dependencies>
       <dependency id="EPiServer.CMS.UI" version="[11.1.0, 12.0)" />
     </dependencies>
