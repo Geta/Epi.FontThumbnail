@@ -1,9 +1,10 @@
 # Geta.Epi.FontThumbnail
 
-* Master<br>
 ![](http://tc.geta.no/app/rest/builds/buildType:(id:GetaPackages_EPiFontThumbnail_00ci),branch:master/statusIcon)
 
 ## Description
+**For Episerver/Optimizely 12+ see: https://github.com/Geta/geta-optimizely-contenttypeicons**
+
 This package basically consists of an override to the built in "ImageUrlAttribute" that is used to specify preview images for the different contenttypes in your Episerver project. The only difference is that with this attribute the images are generated using a configured background color, foreground color and a reference to a FontAwesome icon. Since version [1.1.5] another feature was introduced where the same configured icon will also replace the treeicon in the page tree (feature needs to be explicitly turned on using configuration). Supports Episerver 11.x
 
 ![Screenshot of package](/docs/fontthumbnail_overview.jpg)
