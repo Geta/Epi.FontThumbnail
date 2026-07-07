@@ -1,6 +1,6 @@
 # Geta.Epi.FontThumbnail
 
-![](http://tc.geta.no/app/rest/builds/buildType:(id:GetaPackages_EPiFontThumbnail_00ci),branch:master/statusIcon)
+![](http://teamcity.getatools.ai/app/rest/builds/buildType:(id:GetaPackages_EPiFontThumbnail_00ci),branch:master/statusIcon)
 
 ## Description
 **For Episerver/Optimizely 12+ see: https://github.com/Geta/geta-optimizely-contenttypeicons**
